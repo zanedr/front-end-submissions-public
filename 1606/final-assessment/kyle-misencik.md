@@ -1,4 +1,4 @@
-Developer: Casey Cross
+Developer: Kyle Misencik
 
 Instructor: Brenna
 
@@ -8,7 +8,7 @@ JavaScript Style
 
 Progression/Completion
 
-    3: Developer to implement solutions at the speed of a junior developer.
+    3: Developer is able to implement solutions at the speed of a junior developer.
 
 Workflow
 
