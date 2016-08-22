@@ -5,13 +5,14 @@
 
 <!-- 3 - The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use. -->
 
+
 ## User Interface
 
 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
 
 ## HTML Style
 
-4: Developer is able to craft HTML that is semantically correct and clearly organized. There are zero instances where an instructor would recommend taking a different approach. Developer writes markup that is exceptionally clear and well-factored. Application is expertly organized and logically structured with with a clear, thoughtful use of tags and selectors.
+3: Developer solves structural problems with a balance between conciseness and clarity. Developer can speak to choices made in the code and knows what every line of code and every tag and selector is doing.
 
 ## CSS/Sass Style
 
