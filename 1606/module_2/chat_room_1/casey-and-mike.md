@@ -1,8 +1,9 @@
 ## Specification Adherence
 <!-- Waiting on edit-message fix - currently concats a bunch of messages on refresh. -->
-<!-- 4 - The application meets all of the requirements listed above and implements one or more of the extensions. -->
+<!-- Delete and Edit functionality fixed. Changing to a 4.  -->
+4 - The application meets all of the requirements listed above and implements one or more of the extensions.
 
-3 - The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+<!-- 3 - The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use. -->
 
 
 ## User Interface
