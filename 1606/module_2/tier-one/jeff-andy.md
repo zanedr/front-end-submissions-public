@@ -17,10 +17,7 @@ Brenna's Notes:
 
 ## User Interface  
 
-4 - The application is pleasant, logical, and easy to use. The application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-1 - The application is confusing or difficult to use.  
 
 ## HTML Style
 
