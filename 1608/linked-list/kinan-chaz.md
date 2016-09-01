@@ -1,5 +1,5 @@
-Evaluator: Bree
-Kinan Whyte & Chaz Gormley
+### Evaluator: Bree
+### Kinan Whyte & Chaz Gormley
 
 ## Functional Expectations
 
