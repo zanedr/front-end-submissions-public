@@ -41,4 +41,3 @@
 - 2: The developer makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application.
 - 1: The developer committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
 - 0: The application was not checked into version control.
-
