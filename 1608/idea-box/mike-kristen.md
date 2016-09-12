@@ -1,3 +1,6 @@
+Evaluator: Bree
+Notes: Kristen did the lion's share of the work.
+
 ## Specification Adherence
 3 - The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
 
