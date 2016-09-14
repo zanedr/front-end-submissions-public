@@ -1,7 +1,8 @@
 # Wish List
 ## Instructor: Brenna
 ## Student: Alex Pilewski
-## Notes: Really quick to pull out logic into small methods. Can justify decisions and takes feedback for redirection really well. Opportunities to refactor and consolidate repetitive methods but starts pulling out obvious functionality into smaller chunks.
+## Notes:
+Really quick to pull out logic into small methods. Can justify decisions and takes feedback for redirection really well. Opportunities to refactor and consolidate repetitive methods but starts pulling out obvious functionality into smaller chunks.
 
 ### JavaScript Style
 

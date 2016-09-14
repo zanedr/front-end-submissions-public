@@ -1,7 +1,8 @@
 # Wish List
 ## Instructor: Brenna
 ## Student: Matt
-## Notes: Solid grasp of logical concepts and can quickly implement code functionality. Limited communication when making code decisions, even when prompted. Minimal to non-existent use of shortcuts. Speed of typing/implementation leads to smaller syntax errors that are easily overlooked. Strong forethought to refactoring and how to split code out into small chunks.
+## Notes:
+Solid grasp of logical concepts and can quickly implement code functionality. Limited communication when making code decisions, even when prompted. Minimal to non-existent use of shortcuts. Speed of typing/implementation leads to smaller syntax errors that are easily overlooked. Strong forethought to refactoring and how to split code out into small chunks.
 
 ### JavaScript Style
 

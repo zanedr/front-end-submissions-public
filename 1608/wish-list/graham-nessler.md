@@ -1,7 +1,8 @@
 # Wish List
 ## Instructor: Brenna
 ## Student: Graham
-## Notes: Awesome! Super solid at working through a problem and seeing obstacles in advance. Great work explaining where he's going in his code and why he's making decisions. Immediately grasps how to refactor or how to go in a different direction if nudged. 
+## Notes:
+Awesome! Super solid at working through a problem and seeing obstacles in advance. Great work explaining where he's going in his code and why he's making decisions and quick to redirect when going down the wrong path. Immediately grasps how to refactor or how to go in a different direction if nudged. Makes some basic syntax errors but immediately can recognize them when prompted.
 
 ### JavaScript Style
 

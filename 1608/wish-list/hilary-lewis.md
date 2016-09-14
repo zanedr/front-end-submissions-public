@@ -1,7 +1,8 @@
 # Wish List
 ## Instructor: Brenna
 ## Student: Hilary Lewis
-## Notes: Great attention to detail, has no trouble writing out functions and interpolating HTML syntax and writing event listeners. Hesitant to use shortcuts. Doesn't pull logic into separate components yet or consolidate logic but understands how and why when discussed. Having some trouble with LocalStorage but that should ease up with a bit more exposure.
+## Notes:
+Great attention to detail, has no trouble writing out functions and interpolating HTML syntax and writing event listeners. Hesitant to use shortcuts. Doesn't pull logic into separate components yet or consolidate repetitive code but understands how and why when discussed. Having some trouble with LocalStorage but that should ease up with a bit more exposure.
 
 ### JavaScript Style
 
