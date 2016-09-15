@@ -1,6 +1,6 @@
 ## Wish List
-# Instructor: Jhun de Andres  
-# Student: Chris
+# Instructor: 
+# Student:
 # notes:
 
 ## Specification Adherence
