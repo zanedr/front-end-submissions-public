@@ -1,12 +1,10 @@
-## Tier-two
-# Instructor: Jhun
-# Student: Brett Hevia, Peter Springer, Casey Metz, Kris Foss.
-# notes:
+## Networking
+# Instructor: Brenna
+# Student: Jeff, Kirsten, Kyle
+# Notes:
+  - Networking app that holds contact information. User can filter by "follow up". Initially designed for mobile. Gravatar is pulled in from email you use to create account.
 
-- spec adherence was kind of soft but they delivered a working application! (i'd use it)
-- tests checked for existence and thats about it.
-- pumped group took risks
-
+  - Need to follow up on testing expectations with firebase and eslint numbers
 
 ## Specification Adherence
 
@@ -14,8 +12,7 @@
 
 ## Risk Taking and Creativity
 
-3.5 - The project shows that the developers carefully considered their approach and were able to implement concepts taught over the last two weeks. The application shows evidence that developers dug deep into documentation for the technologies they used and experimented with different approaches.
-
+3 - The project shows that the developers carefully considered their approach and were able to implement concepts taught over the last two weeks. The application shows evidence that developers dug deep into documentation for the technologies they used and experimented with different approaches.
 
 ## Design
 
@@ -51,8 +48,8 @@
 
 ## Testing
 
+4 - Project has a running test suite that exercises the application at multiple levels (feature and unit). The test suite covers almost all aspects of the application. The testing in this project shows that the students dedicated themselves to overcoming obstacles and figure out how to test parts of the application that were otherwise “hard to test.”
 3 - Project has a running test suite that tests and multiple levels but fails to cover some features. All functionality is covered by tests. The application has robust unit tests and makes some use of feature testing where appropriate and applicable.
-
 
 ## Workflow
 
@@ -63,3 +60,6 @@
 The output from a code sanitizer (either JSHint or ESLint) shows…
 
 4 - Zero complaints
+3 - Five or fewer complaints
+2 - Six to ten complaints
+1 - More than ten complaints
