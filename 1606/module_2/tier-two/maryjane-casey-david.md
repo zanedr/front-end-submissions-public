@@ -4,6 +4,8 @@
 # Student: Casey Cross, David, MaryJane
 # notes:
 
+Had blueberries, wanted to share.
+
 ## Specification Adherence
 
 3 - No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
@@ -14,17 +16,11 @@
 
 ## Design
 
-4 - The application is visually appealing and shows thoughtful and effective use of typography, color, and layout. The application looks professional, with visuals enhancing the user’s experience. The evaluator has very few recommended changes.
 3 - The application has a strong approach to layout and content hierarchy, but typography and color choices are lacking. The evaluator has several recommended changes to improvement.
-2 - Layout, content hierarchy, typography, and color choices show effort, but the result is not effective. The evaluator recommends significant changes.
-1 - Layout, content hierarchy, typography, and color choices actively detract from the user’s ability to use the application.
 
 ## User Interface
 
-4 - The application is pleasant, logical, and easy to use. The application is fully responsive, and has clearly had special consideration around usability on devices. There are no holes in functionality and the application stands on its own to be used by the instructor without guidance from the developer.
 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-1 - The application is confusing or difficult to use.
 
 ## HTML Style
 
