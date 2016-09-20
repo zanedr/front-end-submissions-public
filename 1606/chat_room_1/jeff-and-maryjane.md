@@ -9,10 +9,8 @@
 
 ## User Interface
 
-2.5 - good treatment of chat sections, buggy behaviour around show older, fixed screen width is too wide for small mobile screens
+2.5 - good treatment of chat sections, buggy behavior around show older, fixed screen width is too wide for small mobile screens
 
-3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
 
 ## HTML Style
 
