@@ -14,7 +14,7 @@
 
 3: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of CSS/Sass is doing.
 
-Note: good job investigating ways to use CSS, dove into :before and :after and animations. needs some tiding.
+Note: good job investigating ways to use CSS, dove into :before and :after and animations. needs some tidying.
 
 # JavaScript Style
 

@@ -20,7 +20,7 @@ Notes:
 
 ## JavaScript Style
 
-3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.  
+3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 ## Testing
 

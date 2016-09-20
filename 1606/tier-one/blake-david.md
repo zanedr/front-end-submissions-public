@@ -23,7 +23,7 @@ Group: Blake and David
 
 ## Testing
 
-3 - Project has a running test suite that tests and multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of feature testing.  
+3 - Project has a running test suite that tests and multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of feature testing.
 
 ## Workflow
 

@@ -2,7 +2,7 @@ Evaluator(s): Brenna & Bree
 
 Group:  Jeff & Andy
 
-Brenna's Notes:  
+Brenna's Notes:
   Really great use of modular functions and breaking out functionality into tiny components. Opportunities to refactor large files, but arguments against why they chose not to speak to design decisions.
 
   Missing the visual cue for when the timer is almost up, but will refactor and finish by end of day for a 4.

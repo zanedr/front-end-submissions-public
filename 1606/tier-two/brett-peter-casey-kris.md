@@ -8,7 +8,7 @@
 - pumped group took risks
 
 Design
-- Enjoyed the design choices for landing page, team worked hard to write mobile-friendly markup. Good use of limited fancy-styles ($ amount) and streamline white font. Color scheme on landing page is well thought out. Criticisms fall only on index page where the box size hinders user's view of pas purchases. Also red color button is out of place. Would like to see a simplified/easier to view display box (roped into UI score).
+- Enjoyed the design choices for landing page, team worked hard to write mobile-friendly markup. Good use of limited fancy-styles ($ amount) and streamline white font. Color scheme on landing page is well thought out. Criticisms fall only on index page where the box size hinders user's view of past purchases. Also red color button is out of place. Would like to see a simplified/easier to view display box (roped into UI score).
 
 - User interface could use some clarification. Does it take dollars with or without decimal? When it says "date" can I say "today" or do I need to put in numbers and in what order?
 
