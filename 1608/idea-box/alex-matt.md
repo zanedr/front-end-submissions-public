@@ -20,9 +20,3 @@
 ## Workflow
 
 4 - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
-
-<button disabled>
-
-toggleDisable(){
-  var setDisable = ($('.this').val() === '' || $(''))
-}
