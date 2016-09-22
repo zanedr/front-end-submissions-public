@@ -15,7 +15,7 @@ Gave feedback to further emphasize and clarify what needed to be done out-loud b
 
 ### Workflow
 
-3: Developer demonstrates comfort with their tools and makes some use of keyboard shortcuts
+4: Developer is a master of their tools, efficiently moving between phases of development
 
 ### Collaboration
 
