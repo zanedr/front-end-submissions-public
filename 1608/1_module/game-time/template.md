@@ -5,7 +5,7 @@
 
 # Functional Expectations
 
-4 - Application is fully playable and exceeds the expecations set by instructors
+4 - Application is fully playable and exceeds the expectations set by instructors
 3 - Application is fully playable without crashes or bugs
 2 - Application has some missing functionality but no crashes
 1 - Application crashes during normal usage
