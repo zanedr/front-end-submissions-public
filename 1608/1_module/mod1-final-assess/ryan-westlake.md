@@ -1,8 +1,8 @@
 ## Rubric
 ### Evaluator: Louisa
-### Student: Kristen Burgess
+### Student: Ryan Westlake
 ### Notes:
-Kristen is not afraid to try things out and experiment, but needs to work on fully and deeply understanding exactly what the code she is writing is doing and why it’s doing what it is. She knows how to get things to work, but when pressed can’t always explain what is going on under the hood. She absorbs information, direction, and explanations very well, is an absolute pleasure to work with, and I expect that she will quickly improve on deeper understanding. Good job!
+Solid understanding of Javascript, a pleasure to pair with. Picks up on very slight suggestions and runs with it, takes direction and collaborates very well, and understands what each line of his code is doing. He is harder on himself than he needs to be, and I encouraged him to be kind to himself. Well done!
 
 ### Progression/Completion
 
@@ -18,4 +18,4 @@ Kristen is not afraid to try things out and experiment, but needs to work on ful
 
 ### Collaboration
 
-* 3: Developer lays out their thinking before attacking a problem and integrates feedback through the process
+* 4: Developer actively seeks collaboration both before implementing, while in motion, and when stuck
