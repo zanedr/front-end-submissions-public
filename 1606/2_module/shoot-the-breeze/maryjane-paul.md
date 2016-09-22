@@ -1,6 +1,6 @@
 Project:  Shoot The Breeze
 Instructor: Louisa & Brenna
-Students: MaryJane & Paul
+Students: MaryJane &a Paul
 Notes:
 
 Rubric
