@@ -1,6 +1,5 @@
-### Reviewer: 
-Bree
-### Optional Notes: 
+### Reviewer: Bree
+### Notes: 
 Students may take the weekend and resubmit project for review on Monday for revised scores.
 
 ### Functional Expectations
