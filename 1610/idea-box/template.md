@@ -1,5 +1,5 @@
 ## Instructor Evaluation Points
-### Evaluator
+### Evaluator:
 
 ### Specification Adherence
 
