@@ -20,6 +20,7 @@
 ## Fundamental JavaScript/React Style
 
 * 3: Application shows strong effort towards organization, content, and refactoring
-* 2: Application runs but the code has long functions, unnecessary or poorly named variables, and needs significant refactoring
 
 Note: Currently at a 2 for not having real components split out - will be bumped to a 3 when a broken out component is demonstrated (will be in budget app)
+
+Note: Bumped to a 3 with [demonstration of broken out component](https://github.com/maiastone/budget-app/blob/ms-refactor-card/components/budgetCard.jsx)
