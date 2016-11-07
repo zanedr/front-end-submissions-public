@@ -6,7 +6,7 @@
 
 4 - The application meets all of the requirements listed above and implements one or more of the extensions.
 
-wrote tests
+well done, included some test coverage
 
 ### HTML Style
 

@@ -24,7 +24,7 @@
 
 ### Collaboration
 
-2.5 - paired in person, didn't communicate through GH because you were pairing together
+2.5 - paired in person, didn't communicate through GH because they were pairing together. Missed opportunity to practice GH workflow.
 
 <!-- 3 - Team members employ PRs and issues to both manage their work and communication/collaboration around executing the tasks.
 2 - Team members shared equitably in the workload, however there are only a few pull requests, which are not labeled or documented very well. -->

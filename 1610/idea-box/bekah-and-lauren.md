@@ -12,10 +12,7 @@
 
 ### CSS Style
 
-3.5 -- needs a some minimal refactor/organizing pass, overall well organized
-
-<!-- 4: Application has exceptionally well-factored CSS with little or no duplication and all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
-3: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of CSS is doing. -->
+3.5 -- needs a pass to refactor/organizing, overall well organized
 
 ### JavaScript Style
 
