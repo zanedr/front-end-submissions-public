@@ -4,9 +4,7 @@
 
 # Specification Adherence
 
-If zero values acceptable - then bump up to a 4
-
-* 3 - No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+* 4 - Bumped to a 4 with the zero value fix!
 
 # Risk Taking and Creativity
 
