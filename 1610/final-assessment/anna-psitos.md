@@ -3,6 +3,8 @@ Anna has progressed quite a bit in her grasp of javascript. I would like to see 
 
 Use of pseudo code is good, but could use some improvement in breaking down into even smaller steps.
 
+Anna will retake the assessment.
+
 ### Progression/Completion
 
 * 2.5: Developer is able to implement solutions at the speed of an apprentice.
