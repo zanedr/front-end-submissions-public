@@ -1,5 +1,6 @@
 ### Evaluator: Bree
 
+Breana has shown quite a bit of progess from the mock assessment. We've discussed, and it would be worthwhile for her to repeat mod-1 to solidify some fundamentals before moving forward in the program.
 
 ### Progression/Completion
 
