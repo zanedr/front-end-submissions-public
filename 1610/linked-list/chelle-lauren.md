@@ -4,7 +4,7 @@
 ### Specification Adherence
 
 ### Functional Expectations
-* 3: Application shows strong effort towards organization, content, and refactoring.
+*  3: Application shows strong effort towards organization, content, and refactoring.
 	<!-- 2.5 - will fix responsive and wrap up feature.  -->
 
 ### Fundamental JavaScript Style
