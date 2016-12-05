@@ -4,7 +4,8 @@
 ### Specification Adherence
 
 ### Functional Expectations
-	2.5 - will fix responsive and wrap up feature. 
+*  3: Application shows strong effort towards organization, content, and refactoring.
+	<!-- 2.5 - will fix responsive and wrap up feature.  -->
 
 ### Fundamental JavaScript Style
 * 3: Application shows strong effort towards organization, content, and refactoring.

@@ -9,7 +9,7 @@
 
 # Specification Adherence
 
-* 2 - The application is in a usable state, but is missing * 1 or more of the features outline in the specification above.
+* 3 - The application is in a usable state, but is missing * 1 or more of the features outline in the specification above.
 
 
 # Accessibility
