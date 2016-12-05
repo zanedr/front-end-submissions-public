@@ -2,7 +2,6 @@
 ## Student: Andrew
 ## Notes: Work on Codewars or Exercism problems. Quit drawing the owl. Stop more often and just poke the code to see what it is and confirm that it's working. Liberally use debugger, wrapper.debug(), console.log(), if('something'){ console.log() }, eval(locus)
 
-
 ### Progression/Completion
 
 * 3: Developer is able to implement solutions at the speed of a junior developer.
