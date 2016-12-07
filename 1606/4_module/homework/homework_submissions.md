@@ -13,9 +13,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 *
 
 ### Jeff Duke
-*
-*
-*
+* [Intermission week hw](https://github.com/Jeff-Duke/skill-sharing-website)
+* [SQL fundamentals](https://gist.github.com/Jeff-Duke/096ef12154f312b91812d788a2a810fa)
+* [Electron Bookmarker](https://github.com/Jeff-Duke/bookmarker)
+
 
 ### Ben Godfrey
 *
