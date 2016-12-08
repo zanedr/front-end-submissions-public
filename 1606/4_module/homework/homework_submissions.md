@@ -64,9 +64,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [SQL Homework](https://gist.github.com/swanie21/c215cb7afeae62c38a1c1620977e9d88)
 
 ### MaryJane Valade
-*
-*
-*
+* [Prework Skillsharing](https://github.com/mjvalade/skillsharing-prework)
+* [SQL Homework](https://gist.github.com/mjvalade/1aea05c6c562366f66f628c4b2458583)
+* [Electron Bookmarker](https://github.com/mjvalade/electron-bookmarker-lesson)
 
 ### Blake Worsley
 *
