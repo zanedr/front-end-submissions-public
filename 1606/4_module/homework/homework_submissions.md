@@ -54,9 +54,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 *
 
 ### Peter Springer
-*
-*
-*
+* [Intermission week hw](https://github.com/Peter-Springer/skill-sharing)
+* [SQL fundamentals](https://github.com/Peter-Springer/fundamental_sql)
+* [Electron Bookmarker](https://github.com/Peter-Springer/electron-hw)
 
 ### Kirsten Swanson
 *
