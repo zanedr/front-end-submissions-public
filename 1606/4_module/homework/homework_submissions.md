@@ -59,9 +59,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 *
 
 ### Kirsten Swanson
-*
-*
-*
+* [Eloquent JavaScript Intermission Homework](https://github.com/swanie21/eloquent-javascript-chap21-project)
+* [Electron Bookmarker](https://github.com/swanie21/electron-bookmarker)
+* [SQL Homework](https://gist.github.com/swanie21/c215cb7afeae62c38a1c1620977e9d88)
 
 ### MaryJane Valade
 *
