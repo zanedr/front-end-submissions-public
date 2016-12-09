@@ -34,9 +34,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 *
 
 ### David Kerr
-*
-*
-*
+* [Intermission week hw](https://github.com/kerrd89/dk-mod4-hw)
+* [SQL fundamentals](https://gist.github.com/kerrd89/6e91622dcdeb54e8dbb21d09e979de5c)
+* [Electron Bookmarker](https://github.com/kerrd89/bookmarker)
 
 ### Kyle Misencik
 * Intermission hw: https://github.com/kylem038/mod-4-intermission
