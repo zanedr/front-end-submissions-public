@@ -29,9 +29,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 *
 
 ### Madison Kerndt
-*
-*
-*
+* [Intermission homework](https://github.com/madison-kerndt/mod4-prework)
+* [SQL](https://gist.github.com/madison-kerndt/0913d5eeecbaac900d4ce1afeb08ea45)
+* [Electron Bookmarker (add local storage to in class repo)](https://github.com/madison-kerndt/mark_the_bookmarker)
 
 ### David Kerr
 *
