@@ -49,9 +49,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 *
 
 ### Mike Sausa
-*
-*
-*
+* InTeRmIsSiOn HoMeWoRk: https://github.com/sikemausa/skillsharing
+* The not mandatory not optional SQL thang: https://github.com/sikemausa/fundamental-SQL
+* Electrarker - https://github.com/sikemausa/bookmarker
 
 ### Peter Springer
 * [Intermission week hw](https://github.com/Peter-Springer/skill-sharing)
