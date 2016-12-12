@@ -34,9 +34,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 *
 
 ### David Kerr
-*
-*
-*
+* [Intermission week hw](https://github.com/kerrd89/dk-mod4-hw)
+* [SQL fundamentals](https://gist.github.com/kerrd89/6e91622dcdeb54e8dbb21d09e979de5c)
+* [Electron Bookmarker](https://github.com/kerrd89/bookmarker)
 
 ### Kyle Misencik
 * Intermission hw: https://github.com/kylem038/mod-4-intermission
@@ -69,6 +69,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Electron Bookmarker](https://github.com/mjvalade/electron-bookmarker-lesson)
 
 ### Blake Worsley
-*
-*
-*
+* [Eloquent JavaScript Intermission Homework](https://github.com/blakeworsley/intermission-skillsharing)
+* [SQL Homework](https://gist.github.com/blakeworsley/537e0e1dedd4cfa33d83d572b81f4c53)
+* [Electron Bookmarker](https://github.com/blakeworsley/bookmarker)
