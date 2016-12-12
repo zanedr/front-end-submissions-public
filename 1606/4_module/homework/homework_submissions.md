@@ -69,6 +69,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Electron Bookmarker](https://github.com/mjvalade/electron-bookmarker-lesson)
 
 ### Blake Worsley
-*
-*
-*
+* [Eloquent JavaScript Intermission Homework](https://github.com/blakeworsley/intermission-skillsharing)
+* [SQL Homework](https://gist.github.com/blakeworsley/537e0e1dedd4cfa33d83d572b81f4c53)
+* [Electron Bookmarker](https://github.com/blakeworsley/bookmarker)
