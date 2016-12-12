@@ -29,9 +29,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 *
 
 ### Madison Kerndt
-*
-*
-*
+* [Intermission homework](https://github.com/madison-kerndt/mod4-prework)
+* [SQL fundamentals](https://gist.github.com/madison-kerndt/0913d5eeecbaac900d4ce1afeb08ea45)
+* [Electron Bookmarker](https://github.com/madison-kerndt/mark_the_bookmarker)
 
 ### David Kerr
 * [Intermission week hw](https://github.com/kerrd89/dk-mod4-hw)
