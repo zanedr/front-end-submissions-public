@@ -1,8 +1,12 @@
 ### Name
+Andrew Crist
 
 ### Project Name and Concept
+Movie Database
 
 ### Framework & Technologies Used
+API: omdbapi
+React, maybe React Native, Redux
 
 ### [Rubric](http://frontend.turing.io/projects/self-directed-project.html)
 
@@ -14,9 +18,15 @@
 
   - Framework and Technologies
   - Wireframes of all pages + navigational flow
-  - Fake Data
+
+  - Fake Data / Real Data
+    e.g. MovieList: [{ title, description, list of actors... }]
+
   - Research Spike: Links to at least 5 resources where you have done research on similar projects, potential data sources, UI inspiration
+
   - Project specific requirements
+    - List of movies
+    - Movie Detail View
 
 ### Week 2
 
