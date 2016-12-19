@@ -18,6 +18,12 @@ React, maybe React Native, Redux
 
   - Framework and Technologies
   - Wireframes of all pages + navigational flow
+  -- Movie List view
+  -- Movie Detail view
+  -- Person view (director, actor...)
+  -- My Movies List
+  -- Filters/Search
+  -- Trailers
 
   - Fake Data / Real Data
     e.g. MovieList: [{ title, description, list of actors... }]
