@@ -16,8 +16,8 @@
   - Wireframes of all pages + navigational flow
   - Fake Data
   - Research Spike: Links to at least 5 resources where you have done research on similar projects, potential data sources, UI inspiration
-  - Project specific requirements
-
+  - D3 tutorial.
+  - Waffle with user stories. Map of what issues to tackle.
 ### Week 2
 
 #### Notes
