@@ -1,4 +1,5 @@
 ### Maia Stone
+Mentor: Justin Gitlin
 
 ### Project Name
 Photo Site - Keith Roberts with Zenman
