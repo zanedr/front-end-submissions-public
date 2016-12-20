@@ -37,6 +37,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Intermission week hw](https://github.com/kerrd89/dk-mod4-hw)
 * [SQL fundamentals](https://gist.github.com/kerrd89/6e91622dcdeb54e8dbb21d09e979de5c)
 * [Electron Bookmarker](https://github.com/kerrd89/bookmarker)
+* [Vue vs. React](https://hackernoon.com/vue-vs-react-254a874d74ab#.53v744h1s)
+* [Electron Packager File Path Issue](https://medium.com/@dkerrious/electron-packager-file-path-issue-24f4bcbfc970#.1p4piurpf)
+* [Progressive Web Apps and Why They Matter](https://medium.com/@dkerrious/progressive-web-apps-and-why-they-matter-24dcbd12eb98#.r0d9awv20)
+* [Questions after Learning React Native](https://medium.com/@dkerrious/questions-for-the-creators-of-react-native-702770c48e94#.612jdvwfz)
 
 ### Kyle Misencik
 * Intermission hw: https://github.com/kylem038/mod-4-intermission
