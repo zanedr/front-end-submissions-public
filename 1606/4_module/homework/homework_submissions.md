@@ -68,11 +68,15 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Eloquent JavaScript Intermission Homework](https://github.com/swanie21/eloquent-javascript-chap21-project)
 * [Electron Bookmarker](https://github.com/swanie21/electron-bookmarker)
 * [SQL Homework](https://gist.github.com/swanie21/c215cb7afeae62c38a1c1620977e9d88)
+* [Electron Blog Post](https://medium.com/@kswanie21/electron-vue-js-f6c40abeb625#.krpa79729)
+* [React Native Blog Post](https://medium.com/@kswanie21/react-vs-react-native-fa86b35b1961#.robmrwsxg)
+* [Curiously Native Gist Addressing Blog Post #2 & #3 Questions](https://gist.github.com/swanie21/9f3c44388a064631eb0982327d57964f)
 
 ### MaryJane Valade
 * [Prework Skillsharing](https://github.com/mjvalade/skillsharing-prework)
 * [SQL Homework](https://gist.github.com/mjvalade/1aea05c6c562366f66f628c4b2458583)
 * [Electron Bookmarker](https://github.com/mjvalade/electron-bookmarker-lesson)
+* [Electron Misadventures](https://medium.com/@mjvalade/electron-misadventures-initial-thoughts-3cad2b66c437#.ja04txydn)
 
 ### Blake Worsley
 * [Eloquent JavaScript Intermission Homework](https://github.com/blakeworsley/intermission-skillsharing)
