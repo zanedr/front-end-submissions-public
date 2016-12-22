@@ -14,11 +14,7 @@
 
 # Specification Adherence
 
-Provisional 2 - will bump to a 3 if a test is added and the 10 on page reload is fixed.
-
 * 3 - The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
-
-* 2 - The application is in a usable state, but is missing 1 or more of the features outline in the specification above.
 
 # Accessibility
 
@@ -42,7 +38,7 @@ Provisional 2 - will bump to a 3 if a test is added and the 10 on page reload is
 
 # Testing
 
-Provisional - need one piece broken out and unit tested
+Provisional - need one piece broken out and unit tested (DONE!)
 
 * 3 - Project has a running test suite that tests and multiple levels but fails to cover some features. The application makes some use of feature testing.
 

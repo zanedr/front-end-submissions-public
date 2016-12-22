@@ -3,12 +3,10 @@ Rubric
 # Instructor: Meeka
 # Comments:
 
-Make it so it is atleast usable in responsive
+Make it so it is atleast usable in responsive (FIXED DAY OF)
 
 
 ## Specification Adherence
-
-Pending responsive usability.
 
 * 3 - The application consists of one page with all of the major functionality being provided by React. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
 

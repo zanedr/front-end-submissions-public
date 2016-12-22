@@ -48,6 +48,8 @@ Web
 
 The output from a code sanitizer (either JSHint or ESLint) shows…
 
+[Bumped to a 3!]
+
 * 2 - Six to ten complaints
 
 ## Design
