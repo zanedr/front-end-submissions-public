@@ -5,4 +5,10 @@ Rounds are:
   2. Dynamic Parallax
   3. No-JS Parallax
   4. Background Video
- 
+  
+  
+  
+Christine Gamble:
+[Fixed Parallax](https://github.com/ccgamble/parallax/tree/cg-fixed-background)
+[Dynamic Parallax](https://github.com/ccgamble/parallax/tree/cg-dynamic-parallax)
+
