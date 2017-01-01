@@ -64,6 +64,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Intermission week hw](https://github.com/Peter-Springer/skill-sharing)
 * [SQL fundamentals](https://github.com/Peter-Springer/fundamental_sql)
 * [Electron Bookmarker](https://github.com/Peter-Springer/electron-hw)
+* [Vue Blog Post](https://medium.com/@peterspringer829/using-vue-js-for-the-first-time-45ff7fa94833#.q80jf0yu7)
 
 ### Kirsten Swanson
 * [Eloquent JavaScript Intermission Homework](https://github.com/swanie21/eloquent-javascript-chap21-project)
