@@ -78,6 +78,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [SQL Homework](https://gist.github.com/mjvalade/1aea05c6c562366f66f628c4b2458583)
 * [Electron Bookmarker](https://github.com/mjvalade/electron-bookmarker-lesson)
 * [Electron Misadventures](https://medium.com/@mjvalade/electron-misadventures-initial-thoughts-3cad2b66c437#.ja04txydn)
+* [React Native for the first time](https://medium.com/@mjvalade/react-native-for-the-first-time-673d58e4e13a#.n012gc70u)
 
 ### Blake Worsley
 * [Eloquent JavaScript Intermission Homework](https://github.com/blakeworsley/intermission-skillsharing)
