@@ -14,6 +14,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Electron Bookmarker App ](https://github.com/kccrs/bookmarker)
 * [Electron Blog Post 2](https://medium.com/@hellocaseycross/building-an-electron-app-with-ember-and-then-burning-it-down-dbdf70c579e1#.av1ai7wo5)
 * [React-Native Blog Post](https://medium.com/@hellocaseycross/diving-in-to-react-native-7d5191601d7d#.x87qoac3p)
+* [Ask the Audience - Websocket Workshop Deployed Site](https://ask-audience.herokuapp.com/)
+* [Ask the Audience - Websocket Workshop Repo](https://github.com/kccrs/ask-the-audience)
 
 ### Jeff Duke
 * [Intermission week hw](https://github.com/Jeff-Duke/skill-sharing-website)
