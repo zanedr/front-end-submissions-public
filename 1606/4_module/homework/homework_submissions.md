@@ -26,9 +26,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [React-Native Blog Post](https://medium.com/@Jeff_Duke_io/react-vs-react-native-805e4283e8ee#.pjqv4dzig)
 
 ### Ben Godfrey
-*
-*
-*
+* [Intermission Week Homework ](https://github.com/bcgodfrey91/module-4-prework)
+* [SQL Homework](https://github.com/bcgodfrey91/sql-example) -- Can I retroactively access the info to create a gist instead?
+* [Electron Bookmarker App ](https://github.com/bcgodfrey91/electron-bookmarker)
 
 ### Brett Hevia
 *
