@@ -65,6 +65,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Electron Blog Post](https://medium.com/@kswanie21/electron-vue-js-f6c40abeb625#.krpa79729)
 * [React Native Blog Post](https://medium.com/@kswanie21/react-vs-react-native-fa86b35b1961#.robmrwsxg)
 * [Curiously Native Gist Addressing Blog Post #2 & #3 Questions](https://gist.github.com/swanie21/9f3c44388a064631eb0982327d57964f)
+* [Ask the Audience Github](https://github.com/swanie21/ask-the-audience)
+* [Ask the Audience App](https://ask-the-peeps.herokuapp.com/)
 
 ### MaryJane Valade
 *
