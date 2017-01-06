@@ -32,7 +32,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [SQL Homework](https://github.com/bcgodfrey91/sql-example) -- Can I retroactively access the info to create a gist instead?
 * [Electron Bookmarker App ](https://github.com/bcgodfrey91/electron-bookmarker)
 
-### Brett Hevia
+### ~~Brett Hevia~~
 *
 *
 *
