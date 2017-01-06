@@ -21,9 +21,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Intermission week hw](https://github.com/Jeff-Duke/skill-sharing-website)
 * [SQL fundamentals](https://gist.github.com/Jeff-Duke/096ef12154f312b91812d788a2a810fa)
 * [Electron Bookmarker](https://github.com/Jeff-Duke/bookmarker)
-* [Electron Blog Post 1](https://medium.com/@Jeff_Duke_io/working-with-html5-audio-in-electron-645b2d2202bd#.ve0filbxv)
-* [Electron Blog Post 2](https://medium.com/@Jeff_Duke_io/reflections-on-creating-an-electron-vue-app-bbc0b4c2c0ff#.uzxtpig56)
-* [React-Native Blog Post](https://medium.com/@Jeff_Duke_io/react-vs-react-native-805e4283e8ee#.pjqv4dzig)
+* [Blog Post: Electron 1](https://medium.com/@Jeff_Duke_io/working-with-html5-audio-in-electron-645b2d2202bd#.ve0filbxv)
+* [Blog Post: Electron 2](https://medium.com/@Jeff_Duke_io/reflections-on-creating-an-electron-vue-app-bbc0b4c2c0ff#.uzxtpig56)
+* [Blog Post: React-Native](https://medium.com/@Jeff_Duke_io/react-vs-react-native-805e4283e8ee#.pjqv4dzig)
+* [Ask The Audience -- Github](https://github.com/Jeff-Duke/ask-the-audience)
+* [Ask The Audience -- Deployed](https://morning-bastion-53600.herokuapp.com/)
 
 ### Ben Godfrey
 * [Intermission Week Homework ](https://github.com/bcgodfrey91/module-4-prework)
