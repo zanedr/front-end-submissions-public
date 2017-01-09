@@ -51,6 +51,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Progressive Web Apps and Why They Matter](https://medium.com/@dkerrious/progressive-web-apps-and-why-they-matter-24dcbd12eb98#.r0d9awv20)
 * [Questions after Learning React Native](https://medium.com/@dkerrious/questions-for-the-creators-of-react-native-702770c48e94#.612jdvwfz)
 
+### Casey Metz
+* [Intermission week hw](https://github.com/Casey1449/EloquentJS-ch21)
+* [SQL hw](https://gist.github.com/Casey1449/6c9488dc6e36651f54614cb8fcd1991b)
+* [Ask the Audience websockets repo](https://github.com/Casey1449/ask-the-audience)
+* [Ask the Audience deployed](https://secret-spire-84030.herokuapp.com/)
+
 ### Kyle Misencik
 * Intermission hw: https://github.com/kylem038/mod-4-intermission
 * SQL hw: https://github.com/kylem038/sql-intro
