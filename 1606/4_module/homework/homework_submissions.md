@@ -52,6 +52,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * InTeRmIsSiOn HoMeWoRk: https://github.com/sikemausa/skillsharing
 * The not mandatory not optional SQL thang: https://github.com/sikemausa/fundamental-SQL
 * Electrarker - https://github.com/sikemausa/bookmarker
+* Electron blog posts - {
+    [https://medium.com/@sike.mausa/the-highs-and-lows-of-building-a-reminders-app-with-electron-and-vue-sj-913b506161c0#.2w63rtjij],
+    [https://medium.com/@sike.mausa/the-dreaded-offset-of-local-timezones-in-javascript-203abfe1f094#.x13u09vyb],
+    [https://medium.com/@sike.mausa/introduction-to-using-vue-and-electron-6eec08ec2f00#.alhhhergi],
+}
+* Ask the Audience: https://ask-the-audience-websocket.herokuapp.com/
 
 ### Peter Springer
 * [Intermission week hw](https://github.com/Peter-Springer/skill-sharing)
