@@ -41,8 +41,6 @@ Rubric
 
 * 4 - Zero complaints
 
-
-
 ## Design
 
 * 3 - The application has a strong approach to layout and content hierarchy, but typography and color choices are lacking. The evaluator has several recommended changes to improvement.
