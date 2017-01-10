@@ -13,9 +13,8 @@ Rubric
 
 ## Component Architecture
 
-<!-- * 3 - Application is broken in out into at least 6 components that properly encapsulate functionality. There is no more than one component that could be broken down into composite parts.
- -->
-* 2 - Application contains multiple components that could be broken down into composite parts.
+* 3 - Application is broken in out into at least 6 components that properly encapsulate functionality. There is no more than one component that could be broken down into composite parts.
+
 
 ## User Interface
 
