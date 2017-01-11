@@ -2,10 +2,11 @@ Rubric
 # Instructor Evaluation Points: shoot-the-breeze
 # Instructor: yung-jhun
 # Comments:
+ - solid components
+ - developers understand where state needs to go
+ - would like to see more pure functions and helpers
+ - that would also step up your testing game.
 
- - Application knows a lot. Lets move some stuff around
- - Appreciate not loading lo-dash.
- - Once we decouple application we should see testing go up.
 
 ## Specification Adherence
 
@@ -13,16 +14,15 @@ Rubric
 
 ## Component Architecture
 
-* 3 - Application is broken in out into at least 6 components that properly encapsulate functionality. There is no more than one component that could be broken down into composite parts.
-
+* 3.5 - Application is broken in out into at least 6 components that properly encapsulate functionality. There is no more than one component that could be broken down into composite parts.
 
 ## User Interface
 
-* 4 - The application is pleasant, logical, and easy to use. The application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
+* 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
 
 ## CSS/Sass Style
 
-* 4: Application has exceptionally well-factored CSS/Sass with little or no duplication and all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
+* 3: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of CSS/Sass is doing.
 
 ## JavaScript Style
 

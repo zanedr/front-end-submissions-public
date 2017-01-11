@@ -3,9 +3,11 @@ Rubric
 # Instructor: yung-jhun
 # Comments:
 
- - Application knows a lot. Lets move some stuff around
- - Appreciate not loading lo-dash.
- - Once we decouple application we should see testing go up.
+- this project has been setup really well. 
+  - great opportunites to pull functions out into helpers
+  - great opportunites to test those helpers
+  - loved the component's would like to see state moved out of app
+
 
 ## Specification Adherence
 
@@ -13,8 +15,7 @@ Rubric
 
 ## Component Architecture
 
-* 3 - Application is broken in out into at least 6 components that properly encapsulate functionality. There is no more than one component that could be broken down into composite parts.
-
+* 3.5 - Application is broken in out into at least 6 components that properly encapsulate functionality. There is no more than one component that could be broken down into composite parts.
 
 ## User Interface
 
@@ -26,7 +27,8 @@ Rubric
 
 ## JavaScript Style
 
-* 3- Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+* 3.5- Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
 
 ## Testing
 
