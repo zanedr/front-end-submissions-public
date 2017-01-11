@@ -21,7 +21,7 @@
 ### Week 2
 
 #### Notes
-
+  Planning
 #### Deliverables
 
 ### Week 3 Deliverables
@@ -29,3 +29,8 @@
 #### Notes
 
 #### Deliverables
+  TESTS
+  Infinite scroll
+  - Auth
+  Follow bills - Extension
+  Search functionality - Extension

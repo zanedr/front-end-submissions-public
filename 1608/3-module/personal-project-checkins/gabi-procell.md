@@ -14,7 +14,7 @@
     Steps:
   - Login: Firebase? // Not apart of MVPs
     Real time updates of timestamp.
-  - React/Redux?
+  - React/Redux
 
 #### Deliverables
 
@@ -28,8 +28,19 @@
 ### Week 2
 
 #### Notes
+  Can create new forms
+  Redux set up and storing in redux store.
+  Redux store isn't attached to firebase
 
 #### Deliverables
+  1. Firebase setup with Redux
+  2. Css styling, for the form.
+    - 5 forms done by Monday
+  3. Testing application, fake data comes in.
+    - TDD form
+    - Feature tests / unit tests
+  4. Login?
+  5. Routing?
 
 ### Week 3 Deliverables
 
