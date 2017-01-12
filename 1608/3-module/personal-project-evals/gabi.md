@@ -7,46 +7,28 @@
 
 ### 1. Completion
 
-4: Developer completed all the user stories and requirements set in check-ins in timely manner.
-3: Developer completed all the user stories and requirements set during check-ins.
-2: Developer completed most of the user stories and requirements set during check-ins.
-1: Developer completed the user stories and requirements partially.
+The amount of functionality that was actually put in place was limited, but there was good prioritization of what should be focused on first. Getting the base functionality of adding a new anesthesia reading was a great place to start and can be more easily built upon in future iterations.
 
 ### 2. Organization
 
-4: Developer used a project management tool and updated their progress in real-time.
-3: Developer used a project management tool to keep their project organized.
-2: Developer used a project management tool but didn’t update the progress frequently.
-1: Developer failed to use a project management tool to track its progress.
+Made use of github issues, though none of them were ever marked as completed or closed. The pull request we worked on together was easily readable and understandable, and the commits were small and easy to digest.
 
 ## Technical Quality
 
 ### 1. Test-Driven Development
 
-4: Project shows exceptional use of testing at different layers (above 95% coverage).
-3: Project shows adequate testing (90% - 95% coverage).
-2: Project shows gaps in test usage/coverage/design (85 - 90% coverage).
-1: Project lacks sufficient testing (under 85% coverage).
+Testing files were stubbed in, which is always half the battle. Though there wasn't significant code coverage with tests, I would recommend in the future just stubbing out everything you might think you'll want to test. Having a written test file that outlines all of the functionality will make it much easier to go back and flesh out the tests later on.
 
 ### 2. Code Quality
 
-4: Project demonstrates exceptionally well factored code.
-3: Project demonstrates solid code quality, proper abstractions, and reduced duplication.
-2: Project demonstrates some gaps in code quality..
-1: Project demonstrates poor factoring.
+There were some misunderstandings around setting up the redux store and integrating data storage with firebase. While there was significant refactoring that could be done, it was demonstrated that there is a solid understanding of how react should interact with redux and the flow of calling actions from components to actions to reducers.
 
 ## Product Experience
 
 ### 1. User Experience
 
-4: Project exhibits a production-ready and polished UX.
-3: Project exhibits a production-ready user experience.
-2: Project exhibits some gaps in the UX.
-1: Project exhibits inattention to the user experience.
+The app in its current state was understandable and easy to use, though there was little time for styling. Again, I think it was a good job prioritizing the more difficult aspects of functionality because a polished UX means nothing if the app doesn't work. With an extra week of time I think we could polish up the UI and focus on styling what functionality does exist. 
 
 ### 2. Performance
 
-4: Project pages load on average under 300 milliseconds.
-3: Project pages load on average under 400 milliseconds.
-2: Project pages load on average under 500 milliseconds.
-1: Project pages load on average over 500 milliseconds.
+The application is acceptable performance-wise, there were no instances where the code could have been written in a more performant way and the responsiveness and load times were fast. There was no significant lag or delay when using the application.
