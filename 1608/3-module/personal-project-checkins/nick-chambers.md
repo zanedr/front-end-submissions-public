@@ -9,6 +9,9 @@
 ### Week 1
 
 #### Notes
+  Climb Mapper.
+  Converting jquery/js to React/Redux
+  Using his API
 
 #### Deliverables
 
@@ -16,7 +19,9 @@
   - Wireframes of all pages + navigational flow
   - Fake Data
   - Research Spike: Links to at least 5 resources where you have done research on similar projects, potential data sources, UI inspiration
-  - Project specific requirements
+  - Use Waffle. Have 15 user stories
+  - Create one page in React.
+  - Be able to grab data. 
 
 ### Week 2
 

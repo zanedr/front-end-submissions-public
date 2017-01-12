@@ -21,11 +21,26 @@
 ### Week 2
 
 #### Notes
+  React / Router / Firebase /APIS
+  - Index, search Both done
+  - Show brings data from wiki. still displays index
+  - Login
 
 #### Deliverables
+  - displaying this in a meaningful way.
+  - Correct routing.
+  - 2 api's and display information for show in meaningful way.
+  - CSS
+  - Feature tests, unit tests
+  - Favorites and complete - based on firebase.
 
 ### Week 3 Deliverables
 
 #### Notes
 
 #### Deliverables
+  CSS
+  Correct routing for show page
+  Favorite / Complete
+  TESTS
+  Extension - sorting by Diff, and Elevation.

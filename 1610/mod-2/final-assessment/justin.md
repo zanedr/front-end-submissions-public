@@ -13,8 +13,6 @@
 
 ## Workflow
 
-- work on increasing your speed - but your eval coding style is 'slow but steady' - so work on your speed with the tools to offset that. Shouldn't be fighting window management, random eslint pop ups, coming into an eval without your windows where they need to be
-
 * 3: Developer demonstrates comfort with their tools and makes some use of keyboard shortcuts
 
 ## Collaboration

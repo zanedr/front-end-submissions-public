@@ -9,7 +9,8 @@
 ### Week 1
 
 #### Notes
-
+  Rodeo Website
+  React / Firebase / Mocha-Chai / Router 4
 #### Deliverables
 
   - Framework and Technologies
@@ -27,5 +28,9 @@
 ### Week 3 Deliverables
 
 #### Notes
-
+  Filter not working
+  CSS is okay, affects the UX
 #### Deliverables
+  All of waffle done and complete.
+  Better Styling
+  Extension - mapping

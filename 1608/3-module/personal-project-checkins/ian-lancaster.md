@@ -40,7 +40,7 @@ Map out UI and break into iterations
 ### Week 2
 
 #### Notes
-
+  Planning
 #### Deliverables
 
 ### Week 3 Deliverables
@@ -48,3 +48,8 @@ Map out UI and break into iterations
 #### Notes
 
 #### Deliverables
+  TESTS
+  Infinite scroll
+  - Auth
+  Follow bills - Extension
+  Search functionality - Extension
