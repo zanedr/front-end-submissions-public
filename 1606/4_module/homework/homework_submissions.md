@@ -79,6 +79,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
     [https://medium.com/@sike.mausa/introduction-to-using-vue-and-electron-6eec08ec2f00#.alhhhergi],
 }
 * Ask the Audience: https://ask-the-audience-websocket.herokuapp.com/
+* React native bloggies:
+    https://medium.com/@sike.mausa/navigating-spotifys-api-search-authorization-fdde32e65f24#.r99jyi4pe
+    https://medium.com/@sike.mausa/hit-the-spotify-api-like-bonds-barry-bonds-9957840819f2#.r00wonq1r
+    https://medium.com/@sike.mausa/mobile-development-with-react-native-488609023c13#.qeocypt4v
 
 ### Peter Springer
 * [Intermission week hw](https://github.com/Peter-Springer/skill-sharing)
