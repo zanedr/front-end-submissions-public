@@ -30,7 +30,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Ben Godfrey
 * [Intermission Week Homework ](https://github.com/bcgodfrey91/module-4-prework)
 * [SQL Homework](https://github.com/bcgodfrey91/sql-example) -- Can I retroactively access the info to create a gist instead?
-* [Electron Bookmarker App ](https://github.com/bcgodfrey91/electron-bookmarker)
+* [Electron Bookmarker App](https://github.com/bcgodfrey91/electron-bookmarker)
+* [Terra Incognita: An App Using Vue.js and Electron](https://medium.com/@bcgodfrey91/terra-incognita-an-app-using-vue-js-and-electron-beb5372c573b#.164o4ei1w)
 
 ### ~~Brett Hevia~~
 *
