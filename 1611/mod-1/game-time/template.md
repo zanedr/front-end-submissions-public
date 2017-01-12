@@ -1,4 +1,5 @@
-## Evaluator: 
+## Evaluator:
+
 ## Notes:
 
 ### Functional Expectations
