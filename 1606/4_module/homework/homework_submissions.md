@@ -74,3 +74,4 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Electron Bookmarker](https://github.com/blakeworsley/bookmarker)
 * [Font Family React Native](https://medium.com/@blakeworsley/fontfamily-in-react-native-bd933b6cbb20#.d6acojijd)
 * [Jquery in Electron](https://medium.com/@blakeworsley/getting-jquery-set-up-with-electron-in-3-simple-steps-bca97c909b31#.huwr7t3dp)
+* [What would I change about React Native](https://medium.com/@blakeworsley/what-i-change-about-react-native-6d16d1d27ce#.vvdh9ajqb)
