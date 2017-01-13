@@ -30,7 +30,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Ben Godfrey
 * [Intermission Week Homework ](https://github.com/bcgodfrey91/module-4-prework)
 * [SQL Homework](https://github.com/bcgodfrey91/sql-example) -- Can I retroactively access the info to create a gist instead?
-* [Electron Bookmarker App ](https://github.com/bcgodfrey91/electron-bookmarker)
+* [Electron Bookmarker App](https://github.com/bcgodfrey91/electron-bookmarker)
+* [Terra Incognita: An App Using Vue.js and Electron](https://medium.com/@bcgodfrey91/terra-incognita-an-app-using-vue-js-and-electron-beb5372c573b#.164o4ei1w)
 
 ### ~~Brett Hevia~~
 *
@@ -72,6 +73,16 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * InTeRmIsSiOn HoMeWoRk: https://github.com/sikemausa/skillsharing
 * The not mandatory not optional SQL thang: https://github.com/sikemausa/fundamental-SQL
 * Electrarker - https://github.com/sikemausa/bookmarker
+* Electron blog posts - {
+    [https://medium.com/@sike.mausa/the-highs-and-lows-of-building-a-reminders-app-with-electron-and-vue-sj-913b506161c0#.2w63rtjij],
+    [https://medium.com/@sike.mausa/the-dreaded-offset-of-local-timezones-in-javascript-203abfe1f094#.x13u09vyb],
+    [https://medium.com/@sike.mausa/introduction-to-using-vue-and-electron-6eec08ec2f00#.alhhhergi],
+}
+* Ask the Audience: https://ask-the-audience-websocket.herokuapp.com/
+* React native bloggies:
+    https://medium.com/@sike.mausa/navigating-spotifys-api-search-authorization-fdde32e65f24#.r99jyi4pe
+    https://medium.com/@sike.mausa/hit-the-spotify-api-like-bonds-barry-bonds-9957840819f2#.r00wonq1r
+    https://medium.com/@sike.mausa/mobile-development-with-react-native-488609023c13#.qeocypt4v
 
 ### Peter Springer
 * [Intermission week hw](https://github.com/Peter-Springer/skill-sharing)
@@ -102,3 +113,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Eloquent JavaScript Intermission Homework](https://github.com/blakeworsley/intermission-skillsharing)
 * [SQL Homework](https://gist.github.com/blakeworsley/537e0e1dedd4cfa33d83d572b81f4c53)
 * [Electron Bookmarker](https://github.com/blakeworsley/bookmarker)
+* [Font Family React Native](https://medium.com/@blakeworsley/fontfamily-in-react-native-bd933b6cbb20#.d6acojijd)
+* [Jquery in Electron](https://medium.com/@blakeworsley/getting-jquery-set-up-with-electron-in-3-simple-steps-bca97c909b31#.huwr7t3dp)
+* [What would I change about React Native](https://medium.com/@blakeworsley/what-i-change-about-react-native-6d16d1d27ce#.vvdh9ajqb)
