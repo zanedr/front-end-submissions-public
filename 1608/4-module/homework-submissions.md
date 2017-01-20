@@ -27,6 +27,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Chelsea Skovgaard
 
 ## Maia Stone
+[Skill Sharing Site](https://github.com/maiastone/skill-sharing-site)
 
 ## Ryan Westlake
 
