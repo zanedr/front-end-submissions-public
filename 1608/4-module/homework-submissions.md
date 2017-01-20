@@ -28,6 +28,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 Node.JS Homework: https://github.com/ChelseaSkovgaard/skillsharing-nodejs
 
 ## Maia Stone
+[Skill Sharing Site](https://github.com/maiastone/skill-sharing-site)
 
 ## Ryan Westlake
 
