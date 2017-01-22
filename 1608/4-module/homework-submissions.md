@@ -15,6 +15,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Matt Kaufman
 
 ## Graham Nessler
+[Skill Sharing Program](https://github.com/gness1804/mini-project-ejs)
 
 ## Lacey Knaff
 
