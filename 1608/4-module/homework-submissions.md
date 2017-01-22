@@ -23,6 +23,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Hilary Lewis
 
 ## Alex Pilewski
+[Skills](https://www.youtube.com/watch?v=8KgtGs1ny0k)
+Intermission Repo: https://github.com/Pilewski/skill-sharing
 
 ## Chelsea Skovgaard
 Node.JS Homework: https://github.com/ChelseaSkovgaard/skillsharing-nodejs
