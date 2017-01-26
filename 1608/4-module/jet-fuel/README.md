@@ -25,7 +25,7 @@
 -[TeamMate 2](http://45.media.tumblr.com/96975bc08e24a9876e62311fdd0c4a34/tumblr_ne4ehpSJ5z1qa747mo1_500.gif)
 
 ### Provide a Screenshot of your Application
-![spacejam](images/spacejam.jpg)
+![spacejam](http://img.wennermedia.com/article-leads-horizontal/rs-206607-Screen-Shot-2015-08-19-at-12.43.08-PM.jpg)
 
 ## Completion
 
