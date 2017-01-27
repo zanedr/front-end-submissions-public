@@ -10,7 +10,7 @@
 [Repo](https://github.com/MilkMan90/JetFuel)
 
 #### Link to the Deployed Application
-[Application]
+[Application](https://jetfuelz.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
@@ -35,7 +35,7 @@
 
 #### Link to a specific block of your code on Github that you are proud of
 * Why were you proud of this piece of code?
-
+This was our own extension of generating a random string for the shorturl of our application.
 ```
 function generateRandomString() {
   let characterArray = []
@@ -63,7 +63,7 @@ app.post('/api/urls', (request, response) => {
 #### Link to a specific block of your code on Github that you feel not great about
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-
+We feel good about most of our code. One of our challenges was when we had to change how the ids of our urls were being created and had to drop and replace a column using migrations.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
   GET /api/folders
