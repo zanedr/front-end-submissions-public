@@ -14,42 +14,52 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[Your Repo](http://giantbatfarts.com/)
+[Repo for Lacey and Dale's Jet Fuel](https://github.com/lrknaff/jet-fuel)
 
 #### Link to the Deployed Application
-[Your Application](http://burymewithmymoney.com/)
+[Lacey and Dale's Jet Fuel](https://jet-fuel-lk.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
--[TeamMate1](http://ericsteinborn.com/github-for-cats/img/typing.gif)
+-[Lacey Knaff](https://github.com/lrknaff/jet-fuel/commits?author=lrknaff)
 
--[TeamMate 2](http://45.media.tumblr.com/96975bc08e24a9876e62311fdd0c4a34/tumblr_ne4ehpSJ5z1qa747mo1_500.gif)
+-[Dale Hendrickson](http://45.media.tumblr.com/96975bc08e24a9876e62311fdd0c4a34/tumblr_ne4ehpSJ5z1qa747mo1_500.gif)
 
 #### Provide a Screenshot of your Application
-![spacejam](http://img.wennermedia.com/article-leads-horizontal/rs-206607-Screen-Shot-2015-08-19-at-12.43.08-PM.jpg)
+
+![Jet Fuel](https://drive.google.com/open?id=0B9Va2UnLFcUONmhfTklIYU12LW8)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-* If not, list what functionality is missing.
+
+All base user stories and functionality has been completed.
 
 #### Which extensions, if any, did you complete?
 
-- Per Extension:
-  - Describe the extension
-  - Provide a .gif of the extension or a link to the relevant code
+The ability to search for urls in the url list.
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-* Why were you proud of this piece of code?
+
+* Passing the data between the [DOM and the database](https://github.com/lrknaff/jet-fuel/blob/master/public/index.js#L170-L202)
+* Loading seed data with foreign key for [child tables](https://github.com/lrknaff/jet-fuel/blob/master/db/seeds/dev/folders.js#L1-L30)
 
 #### Link to a specific block of your code on Github that you feel not great about
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+
+There are two examples of redundant code that could use significant refactoring related to the sorting functionality.
+* [jQuery Events](https://github.com/lrknaff/jet-fuel/blob/master/public/index.js#L130-L172)
+* [knex Queries](https://github.com/lrknaff/jet-fuel/blob/master/server.js#L52-L70)
+
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
+* [Jet Fuel Tests](https://drive.google.com/open?id=0B9Va2UnLFcUONFVWS1l6X0hVZ1U)
+
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
+
+No edge cases were tested.
 
 -----
 
