@@ -70,3 +70,75 @@ No edge cases were tested.
 # Instructor Feedback
 
 - Points: (base 150)
+
+**x/150** - so entire project is a x!
+
+Notes from Brittany
+
+## Spec Adherance
+
+TBD
+
+## User Interface
+
+**15 points** - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
+
+It could use a little more love around the list of folders and urls. At an initial glance, I have a hard time parsing the grouping/heirarchy of all the information on the page. Better use of margins, paddings and headings could alleviate this a bit.
+
+Also, form elements look so much friendlier when they've been styled. They are notoriously difficult to style, so I admit it didn't need to be a top priority, but it makes a huge difference when trying to indicate/denote the available interactions on the page.
+
+## Data Persistance with SQL Database
+
+**20 points** - The application persists data in a SQL database with correct relationships between folders and URLs.
+
+Great job reworking the database seeding to handle your dependent folder/url relationships!
+
+
+## Testing
+
+TBD
+
+
+## JavaScript Style
+
+**15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+Some duplicitous code that could use refactoring, but overall well-thought out and structured codebase that was easy to follow and read through.
+
+Some inconsistencies with the use of double vs. single quotes throughout the codebase and other minor stylistic things, such as spacing. Create and agree on a linting configuration ahead of time to clean these things up a bit.
+
+When appending elements to the DOM, especially in a loop ([like here](https://github.com/lrknaff/jet-fuel/blob/master/public/index.js#L108-L120)), you'll want to take advantage of [DocumentFragments](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment). DOM Manipulation is the most expensive part of client-side code, and document fragments allow you to build up all the HTML you need before adding it to directly to the DOM.
+
+No points off for this, but I noticed the use of ES5 and lack of semi-colons. These are fine decisions as long as you are consistent with them, but make sure you are still comfortable writing ES6 and make sure you can defend your decision to not use semi-colons. (If I had seen code like this in a technical interview, I would ask the candidate about both of those choices. It is very rare that you'll join a team that would be ok with not using semi-colons.)
+
+### Dom to Database Code
+* Remember we discussed not needing to [preventDefault](https://github.com/lrknaff/jet-fuel/blob/master/public/index.js#L175) if you were no longer using the form element directly.
+
+### Database Seeding
+* Good work refactoring this from our last check-in! Just styling nit-pick, be consistent with your use of [single quotes](https://github.com/lrknaff/jet-fuel/blob/master/db/seeds/dev/folders.js#L9) vs. [double quotes](https://github.com/lrknaff/jet-fuel/blob/master/db/seeds/dev/folders.js#L16)
+
+
+### jQuery Events
+Besides duplication already noted, some additional ways to clean this up:
+
+* Use jQuery's [.hasClass()](https://api.jquery.com/hasclass/) method to check if the `ascend` class exists rather than doing a strict equal check against the entire class attribute [here](https://github.com/lrknaff/jet-fuel/blob/master/public/index.js#L135). This will allow you to add other classes in the future to that element without having your JavaScript break.
+* Move that conditional logic to the place where the code is actually differing: `returnDescendingList()` vs. `returnAscendingList()`. We are making that get request no matter what, the conditional has no effect on whether or not we do that, so let's move it down to the single line that actually differs.
+
+### knex Queries
+Agreed this could be refactored for less duplication. Other notes I'd suggest:
+
+* Actually log the error message that is given to you in your `.catch(error)`. 'something wrong with db' is not super informative
+* You can likely store the urls table as a variable to break this [line](https://github.com/lrknaff/jet-fuel/blob/master/server.js#L63) up a bit. 
+
+
+## Workflow
+
+**17 points** - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
+
+Lots of nice tiny, readable commits, and consistent commit message formatting -- though not synchronized! (Lacey uses all lowercase, Dale starts with an uppercase). Very much a nitpick, but it's something a lot of teams try to standardize on.
+
+Be sure not to commit commented out code or `console.logs()`. This clutters up the diffs when looking at PRs or history. Instead, use `git stash create` to temporarily stash these changes before you commit. Then you can `git stash pop` to pull them back in on your local copy! More info [here](https://git-scm.com/docs/git-stash)
+
+Made use of many branches, it's a good idea to [delete them after they've been merged](https://github.com/lrknaff/jet-fuel/).
+
+Good use of PRs and easy to review the diffs.
