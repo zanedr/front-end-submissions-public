@@ -63,28 +63,36 @@ app.post('/api/urls', (request, response) => {
 #### Link to a specific block of your code on Github that you feel not great about
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-We feel good about most of our code. One of our challenges was when we had to change how the ids of our urls were being created and had to drop and replace a column using migrations.
+  We feel good about most of our code. One of our challenges was when we had to change how the ids of our urls were being created and had to drop and replace a column using migrations.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
   GET /api/folders
-  test
-      ✓ should return all folders (44ms)
+    ✓ should return all folders (48ms)
 
-    POST /api/folders
-      ✓ should create a new folder (46ms)
+  POST /api/folders
+    ✓ should create a new folder (38ms)
 
-    GET /api/urls/:folder_id
-      ✓ should return urls associated with a folder
+  GET /api/urls/:folder_id
+    ✓ should return urls associated with a folder
 
-    POST /api/urls
+  POST /api/urls
   [ anonymous { shorturl: '2' },
-    anonymous { shorturl: '3' },
-    anonymous { shorturl: '1' },
-    anonymous { shorturl: 'lbisbm' } ]
-      ✓ should add a url
+  anonymous { shorturl: '3' },
+  anonymous { shorturl: '1' },
+  anonymous { shorturl: 'lbisbm' },
+  anonymous { shorturl: 'zxfhvv' },
+  anonymous { shorturl: 'hwlboe' } ]
+    ✓ should add a url
+
+  DELETE /api/urls/:id
+    ✓ should return urls associated with a folder
+
+  GET /api/urls
+    ✓ should return all the urls
 
 
-    4 passing (131ms)
+  6 passing (146ms)
+
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
 
 -----
