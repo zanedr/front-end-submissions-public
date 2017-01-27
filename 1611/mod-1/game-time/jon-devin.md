@@ -17,6 +17,9 @@
 
 ### Testing
 
+Completed testing and broke out functions to new class after evaluation in order to pass portfolio.
+
+* **3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing.**
 * 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 ### JavaScript Style
