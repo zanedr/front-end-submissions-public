@@ -24,6 +24,7 @@
 ## Completion
 
 #### Were you able to complete the base functionality?
+
 * Yes
 
 #### Which extensions, if any, did you complete?
@@ -35,8 +36,34 @@
 #### Link to a specific block of your code on Github that you are proud of
 * Why were you proud of this piece of code?
 
+```
+function generateRandomString() {
+  let characterArray = []
+  for(var i = 0; i < 6; i++){
+    characterArray.push(String.fromCharCode(97 + Math.floor(Math.random()*25) +1 ))
+  }
+  return characterArray.join('')
+}
+
+app.post('/api/urls', (request, response) => {
+  const { actualurl, clickCount, folder_id} = request.body;
+  let string = generateRandomString();
+
+  database('urls').select('shorturl').then(function(res){
+    console.log(res);
+    let array = res.map((item)=>{
+      return item.shorturl
+    })
+    while(array.includes(string)){
+        string = generateRandomString();
+        console.log(string);
+    }
+```
+
 #### Link to a specific block of your code on Github that you feel not great about
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+
+
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
   GET /api/folders
