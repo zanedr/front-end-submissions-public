@@ -70,13 +70,69 @@ This project was SWEET! It was awesome to use node/Express and get to use knex a
 
 - Points: (base 150)
 
-**x/150** - so entire project is a x
+**97/150**
 
 Notes from Brittany
 
 ## Spec Adherance
+
+**50 points**
+
+Succeeded in implementing the evaluation criteria, though some of the more granular user stories were missing. (i.e. being able to sort in an ascending **and** descending order)
+
 ## User Interface
+
+**7 points**
+
+Seems to have run out of time for styling. One particularly weird thing I noticed is when you enter a new folder, the font size of the folder names changes from large to small. The smaller font makes it difficult to differentiate grouping and heirarchy.
+
+Difficult to tell where you've added a new link, as you're only displaying the shortened hash rather than the original URL entered and the full shortened URL.
+
+I would expect to be able to 'toggle' the sorting buttons for an ascending and descending list, but it appears both buttons are only a one-time deal.
+
 ## Data Persistance with SQL Database
+
+**20 points**
+
+The server-side logic looks very nicely organized; I like the strategy of breaking out the database queries into a different file, but perhaps 'helperfriends' isn't the best name for this file. Additionally, I think it would be best to leave the actual response-specific code in the server logic. It mentally makes more sense to see that 'when I do a get request for folders, this is what I'm sending back'. That also eliminates the need to pass around that response object to make it available in your helpers file. Something along these lines:
+
+```javascript
+app.get('/urls/:id', (request, response) => {
+  const { id } = request.params;
+  helpers.getUrlsById(id)
+    .then(urls => {
+      response.status(200).send(retrievedUrls);
+    })
+    .catch(error => {
+      response.status(500).send(error);
+    });
+});
+```
+
 ## Testing
+
+**0 points**
+
+Though a test file is present with the appropriate vendor imports, there are no tests.
+
 ## JavaScript Style
+
+**15 points** - There is definitely room for improvement with refactoring duplicitous code, but it is clear there is a demonstrated understanding of how to work with the given technologies in an appropriate manner. 
+
+### Sweet dynamic sorting code
+Agreed, this is a nice function that does a good job of handling multiple situations and reduces potential repeat code. One thing I would suggest is fixing up your `catch()` method to actually log something useful like the error message. Otherwise good job on this piece!
+
+### Lame/Weak Sauce Code
+Agreed, this is lame/weak sauce. For starters, you don't necessarily need to wait for `document.ready()` to make API calls. That check could be moved down to an area where you actually need the document object (e.g. when you are appending elements to the DOM.)
+
+Additionally, when appending elements to the DOM, especially in a loop, you'll want to take advantage of [DocumentFragments](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment). DOM Manipulation is the most expensive part of client-side code, and document fragments allow you to build up all the HTML you need first so that you can just make one call to append to the DOM.
+
 ## Workflow
+
+**5 points**
+
+It looks like Nick did the majority of the work on this project based on the commit history. Whether or not that's true, I would have liked to see equal commits from both members so that I could more easily track who was responsible for which portions of the application.
+
+The commit messages are uninformative: "trying again", "please please please", "Great", "this will work". It's important to clean these up before pushing to master so that you have an accurate and useful history to reference later on when you need to look back to previous versions of your application.
+
+There are instances of commented out code pushed into master. This clutters up the diffs when looking at PRs or history. If you really can't let go of that code because you're afraid it will be lost into the abyss forever, use `git stash create` to temporarily stash these changes before you commit. Then you can `git stash pop` to pull them back in on your local copy! More info [here](https://git-scm.com/docs/git-stash)
