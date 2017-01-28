@@ -52,6 +52,18 @@
  
  -----
  
+
 # Instructor Feedback
- 
- - Points: (base 150)
+
+- Points: (base 150)
+
+**x/150** - so entire project is a x
+
+Notes from Brittany
+
+## Spec Adherance
+## User Interface
+## Data Persistance with SQL Database
+## Testing
+## JavaScript Style
+## Workflow
