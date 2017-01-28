@@ -77,7 +77,11 @@ Notes from Brittany
 
 ## Spec Adherance
 
-TBD
+**50 points** - No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+
+All of the base functionality is implemented, however there is a single bug when adding a new URL. As a user, if I enter a url such as `http://github.com`, then click on the shortened URL it generated, it tries to redirect me to `http://http//github.com` which can't be found. I would suggest putting a check in the code [here](https://github.com/lrknaff/jet-fuel/blob/master/public/index.js#L62) to ensure the original URL wasn't entered with `http://` by the user. (Subtracting 5 points here)
+
+Adding 5 points for implementation of the search field in the URLs, which evens you back out to the full 50 points.
 
 ## User Interface
 
@@ -96,7 +100,7 @@ Great job reworking the database seeding to handle your dependent folder/url rel
 
 ## Testing
 
-TBD
+**15 points** - Project has a running test suite that tests and multiple levels but fails to cover some features. All controller actions are covered by tests. The application makes some use of integration testing.
 
 
 ## JavaScript Style
