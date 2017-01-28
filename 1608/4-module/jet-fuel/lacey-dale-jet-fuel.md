@@ -71,7 +71,7 @@ No edge cases were tested.
 
 - Points: (base 150)
 
-**x/150** - so entire project is a x!
+**129/150** - so entire project is a 3
 
 Notes from Brittany
 
@@ -100,7 +100,9 @@ Great job reworking the database seeding to handle your dependent folder/url rel
 
 ## Testing
 
-**15 points** - Project has a running test suite that tests and multiple levels but fails to cover some features. All controller actions are covered by tests. The application makes some use of integration testing.
+**12 points** - Project has a running test suite that tests and multiple levels but fails to cover some features. All controller actions are covered by tests. The application makes some use of integration testing.
+
+We're skipping some important integration tests on the server-side, and lacking client-side tests.
 
 
 ## JavaScript Style
