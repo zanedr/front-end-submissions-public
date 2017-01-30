@@ -35,6 +35,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Mike Ziccardi
 
 ## Noah Peden
+https://github.com/noahpeden/swipeable-cards
 
 ## Rebekah Lundy
 
