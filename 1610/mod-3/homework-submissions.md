@@ -39,5 +39,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Rebekah Lundy
 
 ## Samuel Johnson
+[UX/UI Week 1: Swipeable Cards](https://github.com/sljohnson32/swipeable-cards)
 
 ## Stephanie Andrews
