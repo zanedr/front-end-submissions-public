@@ -9,6 +9,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Adam Rice
 
 ## Annastasia Psitos
+[UI/UX Week 1](https://github.com/apsitos/UI-UXpractice)
 
 ## Chelle Tuerk
 
