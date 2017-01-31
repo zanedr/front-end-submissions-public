@@ -13,6 +13,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [UI/UX Week 1](https://github.com/apsitos/UI-UXpractice)
 
 ## Chelle Tuerk
+[UX/UI Week 1: Swipeable Cards](https://github.com/chelletuerk/swipeable_cards)
 
 ## Dan Grund
 [Swipeable Cards](https://github.com/DanGrund/Swipeable-Cards)  
