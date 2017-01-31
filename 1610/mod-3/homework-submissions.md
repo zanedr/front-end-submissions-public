@@ -48,3 +48,4 @@ https://github.com/noahpeden/swipeable-cards
 [UX/UI Week 1: Swipeable Cards](https://github.com/sljohnson32/swipeable-cards)
 
 ## Stephanie Andrews
+[UX/UI Week 1: Swipeable Cards](https://github.com/StephanieEA/ui-element-samples/tree/gh-pages/swipeable-cards)
