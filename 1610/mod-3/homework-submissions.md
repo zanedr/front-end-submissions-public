@@ -25,6 +25,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Jeff Buss
 
+[UX/UI Week 1: Swipe-able Cards](https://github.com/JeffBuss/ui-elements)
+
 ## Joshua Small
 
 ## Justin Wood
