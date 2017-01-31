@@ -18,6 +18,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Matt Kaufman
 
+[Skill Sharing] (https://github.com/MilkMan90/skill-sharing)
+
 ## Graham Nessler
 [Skill Sharing Program](https://github.com/gness1804/mini-project-ejs)
 [Swipeable card repo](https://github.com/gness1804/swipeable-cards)
