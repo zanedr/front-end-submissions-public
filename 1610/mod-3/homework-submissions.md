@@ -15,7 +15,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Chelle Tuerk
 
 ## Dan Grund
-[Swipeable Cards](https://github.com/DanGrund/Swipeable-Cards)
+[Swipeable Cards](https://github.com/DanGrund/Swipeable-Cards)  
+
 ## Devin Marie Beliveau
 [UX/UI Week 1: Swipeable Cards](https://github.com/devinmarieb/UX-UI-1-Swipeable-Cards)  
 
@@ -27,12 +28,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Eric Sayler
 
 ## Jeff Buss
-
 [UX/UI Week 1: Swipe-able Cards](https://github.com/JeffBuss/ui-elements)
 
 ## Joshua Small
 
-## Justin Wood - [UX/UI Week 1: Swipeable Cards](https://github.com/jwood11atx/UX-UI---Swipeable-Cards)
+## Justin Wood
+[UX/UI Week 1: Swipeable Cards](https://github.com/jwood11atx/UX-UI---Swipeable-Cards)
 
 ## Lauren Pesce
 
@@ -41,6 +42,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Mike Ziccardi
 [UX/UI Week 1: Swipeable Cards](https://github.com/mziccardi/swipe-cards)
+
 ## Noah Peden
 https://github.com/noahpeden/swipeable-cards
 
