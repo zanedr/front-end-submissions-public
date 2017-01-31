@@ -34,6 +34,7 @@ Intermission Repo: https://github.com/Pilewski/skill-sharing
 
 ## Maia Stone
 [Skill Sharing Site](https://github.com/maiastone/skill-sharing-site)
+[Dismissible Cards](https://github.com/maiastone/dismissible-cards)
 
 ## Ryan Westlake
 [Skill Sharing Site](https://github.com/rcwestlake/skill-sharing-site)
