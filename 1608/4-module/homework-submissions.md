@@ -9,7 +9,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Andrew Crist
 
 ## Christine Gamble
-
+[Swipeable Cards Assignment](https://github.com/ccgamble/Swipeable-Cards)
 ## Dale Hendrickson
 
 ## Matt Kaufman
