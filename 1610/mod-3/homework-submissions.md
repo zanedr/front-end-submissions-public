@@ -21,6 +21,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [UX/UI Week 1: Swipeable Cards](https://github.com/devinmarieb/UX-UI-1-Swipeable-Cards)  
 
 ## Dylan Avery
+[UX/UI Week 1: Swipeable Cards](https://github.com/dylanavery720/swipeable-cards)
 
 ## Elijah Williams
 [UX/UI Week 1: Swipeable Cards](https://github.com/ejwill04/Swipeable-cards)
