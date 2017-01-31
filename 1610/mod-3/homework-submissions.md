@@ -43,5 +43,6 @@ https://github.com/noahpeden/swipeable-cards
 ## Rebekah Lundy
 
 ## Samuel Johnson
+[UX/UI Week 1: Swipeable Cards](https://github.com/sljohnson32/swipeable-cards)
 
 ## Stephanie Andrews
