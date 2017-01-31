@@ -7,10 +7,13 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Nick Chambers
 
 ## Andrew Crist
+
+[Skill Sharing](https://github.com/andrewLcrist/skill-sharing)
 [Swipe Tutorial](https://github.com/andrewLcrist/swipe-tutorial)
 
 ## Christine Gamble
 [Swipeable Cards Assignment](https://github.com/ccgamble/Swipeable-Cards)
+
 ## Dale Hendrickson
 
 ## Matt Kaufman
