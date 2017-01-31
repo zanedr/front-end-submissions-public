@@ -57,7 +57,7 @@
 
 - Points: (base 150)
 
-**107/150**
+**110/150**
 
 Notes from Brittany
 

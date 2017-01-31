@@ -7,9 +7,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Nick Chambers
 
 ## Andrew Crist
+
 [Skill Sharing](https://github.com/andrewLcrist/skill-sharing)
+[Swipe Tutorial](https://github.com/andrewLcrist/swipe-tutorial)
 
 ## Christine Gamble
+[Swipeable Cards Assignment](https://github.com/ccgamble/Swipeable-Cards)
 
 ## Dale Hendrickson
 
@@ -17,6 +20,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Graham Nessler
 [Skill Sharing Program](https://github.com/gness1804/mini-project-ejs)
+[Swipeable card repo](https://github.com/gness1804/swipeable-cards)
 
 ## Lacey Knaff
 [Skill-Sharing Website](https://github.com/lrknaff/skill-sharing-website)
@@ -30,10 +34,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 Intermission Repo: https://github.com/Pilewski/skill-sharing
 
 ## Chelsea Skovgaard
-Node.JS Homework: https://github.com/ChelseaSkovgaard/skillsharing-nodejs
+[Skill-Sharing Website](https://github.com/ChelseaSkovgaard/skillsharing-nodejs)
+[Swipeable-Cards UI Challenge](https://github.com/ChelseaSkovgaard/swipeable-cards)
 
 ## Maia Stone
 [Skill Sharing Site](https://github.com/maiastone/skill-sharing-site)
+[Dismissible Cards](https://github.com/maiastone/dismissible-cards)
 
 ## Ryan Westlake
 [Skill Sharing Site](https://github.com/rcwestlake/skill-sharing-site)
