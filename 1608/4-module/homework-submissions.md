@@ -1,6 +1,26 @@
-Homework Submissions
+# Homework Submissions
 
 Add a label of the homework with a link to the gist/repo/..etc for each homework assignment you have completed
+
+### List of Assignments
+
+**Week 1**
+
+- [Fundamentals Challenge](https://jsbin.com/niweqoleno/edit?js,output)
+- [UI Challenge - Swipeable Cards](https://www.youtube.com/watch?v=rBSY7BOYRo4)
+
+**Week 2**
+
+- [Fundamentals Challenge](https://gist.github.com/brittanystoroz/1e8183fec2dfd55e6a7c21ce5dc20ff3)
+- [UI Challenge - Navigation Bar](https://www.youtube.com/watch?v=e5CXg1sjTqQ)
+- [Real Time Blog Posts](http://frontend.turing.io/projects/real-time.html)
+
+### Professional Dev Things
+
+- [Outreach Plan](http://backend.turing.io/professional_development/module_four/outreach_plan)
+- [Identity Essentials](http://backend.turing.io/professional_development/module_one/identity_essentials)
+- [Sign up for optional 1 on 1 chats with Jeff](https://jeff-jobs-hours.youcanbook.me/index.jsp)
+- [Sign up for optionas 1 on 1 chats with Meg](https://megstew.youcanbook.me)
 
 ## Kristin Burgess
 
