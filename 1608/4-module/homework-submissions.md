@@ -1,0 +1,74 @@
+# Homework Submissions
+
+Add a label of the homework with a link to the gist/repo/..etc for each homework assignment you have completed
+
+### List of Assignments
+
+**Week 1**
+
+- [Fundamentals Challenge](https://jsbin.com/niweqoleno/edit?js,output)
+- [UI Challenge - Swipeable Cards](https://www.youtube.com/watch?v=rBSY7BOYRo4)
+
+**Week 2**
+
+- [Fundamentals Challenge](https://gist.github.com/brittanystoroz/1e8183fec2dfd55e6a7c21ce5dc20ff3)
+- [UI Challenge - Navigation Bar](https://www.youtube.com/watch?v=e5CXg1sjTqQ)
+- [Real Time Blog Posts](http://frontend.turing.io/projects/real-time.html)
+
+### Professional Dev Things
+
+- [Outreach Plan](http://backend.turing.io/professional_development/module_four/outreach_plan)
+- [Identity Essentials](http://backend.turing.io/professional_development/module_one/identity_essentials)
+- [Sign up for optional 1 on 1 chats with Jeff](https://jeff-jobs-hours.youcanbook.me/index.jsp)
+- [Sign up for optionas 1 on 1 chats with Meg](https://megstew.youcanbook.me)
+
+## Kristin Burgess
+
+## Nick Chambers
+
+## Andrew Crist
+
+[Skill Sharing](https://github.com/andrewLcrist/skill-sharing)
+[Swipe Tutorial](https://github.com/andrewLcrist/swipe-tutorial)
+
+## Christine Gamble
+[Swipeable Cards Assignment](https://github.com/ccgamble/Swipeable-Cards)
+
+## Dale Hendrickson
+
+## Matt Kaufman
+
+
+[Skill Sharing] (https://github.com/MilkMan90/skill-sharing)
+
+[Swipeable Cards] (https://github.com/MilkMan90/swipeable_cards)
+
+[Week 2 JavaScript Fundamentals] (https://jsfiddle.net/6024kv9o/)
+
+## Graham Nessler
+[Skill Sharing Program](https://github.com/gness1804/mini-project-ejs)
+[Swipeable card repo](https://github.com/gness1804/swipeable-cards)
+
+## Lacey Knaff
+[Skill-Sharing Website](https://github.com/lrknaff/skill-sharing-website)
+
+## Ian Lancaster
+
+## Hilary Lewis
+
+## Alex Pilewski
+[Skills](https://www.youtube.com/watch?v=8KgtGs1ny0k)
+Intermission Repo: https://github.com/Pilewski/skill-sharing
+
+## Chelsea Skovgaard
+[Skill-Sharing Website](https://github.com/ChelseaSkovgaard/skillsharing-nodejs)
+[Swipeable-Cards UI Challenge](https://github.com/ChelseaSkovgaard/swipeable-cards)
+
+## Maia Stone
+[Skill Sharing Site](https://github.com/maiastone/skill-sharing-site)
+[Dismissible Cards](https://github.com/maiastone/dismissible-cards)
+
+## Ryan Westlake
+[Skill Sharing Site](https://github.com/rcwestlake/skill-sharing-site)
+
+## Kinan Whyte
