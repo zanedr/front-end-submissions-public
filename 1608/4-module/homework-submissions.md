@@ -70,6 +70,8 @@ Intermission Repo: https://github.com/Pilewski/skill-sharing
 
 ## Ryan Westlake
 - [Skill Sharing Site](https://github.com/rcwestlake/skill-sharing-site)
+- [Wk 1 Fundamentals Challenge](http://g.recordit.co/fSspoDbxht.gif)
 - [Swipeable Cards](https://github.com/rcwestlake/ui-design-challenges/tree/master/swipeable-cards)
+- [Wk 2 Fundamentals Challenge](http://g.recordit.co/PCusubXOvL.gif)
 
 ## Kinan Whyte
