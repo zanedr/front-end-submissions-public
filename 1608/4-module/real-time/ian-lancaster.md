@@ -62,7 +62,7 @@ It was really hard to get the authentication to work without using query paramet
 
 -----
 
-# Instructor Feedback
+# Instructor Feedback (from Alex)
 
 ## Evaluation Criteria
 
