@@ -82,35 +82,110 @@ Alex is an instructor at a seven month developer training program in Colorado. I
 Does it have the expected features?
 
 * 50 points - Met expectations as outlined by the user personas, the application is a solid first version. All planned features were delivered and the application is easy to use.
-* 35 points - Some features were sacrificed to meet the deadline. At best, this is a prototype. Major features covered by the learning goals listed above were not written by the developer.
-* 10 points - Major features are missing, there are major bugs that make it impossible to use, and/or the application is not deployed to production.
-* 0 - There is no application.
+
+Awesome job on this project Ian. You have all the functionality working properly, your app is very easy to use and has a clean design, plus you list all of the active polls and have the ability to add as many options as you want per poll.
 
 ### Code Quality (JavaScript)
 
-* 50 points - Developer writes code that is exceptionally clear and well-factored. Application is expertly divided into logical components each with a clear, single responsibility.
-* 35 points - Developer solves problems with a balance between conciseness and clarity and often extracts logical components. Developer can speak to choices made in the code and knows what every line of code is doing.
-* 25 points - Developer writes effective code, but does not breakout logical components. Application shows some effort to break logic into components, but the divisions are inconsistent or unclear. There are many large methods or functions and it is not clear to the evaluator what a given section of code does.
-* 10 points - Developer writes code with unnecessary variables, operations, or steps which do not increase clarity.
-* 0 points - Developer writes code that is difficult to understand. Application logic shows poor decomposition with too much logic mashed together.
+* 45 points - Developer writes code that is exceptionally clear and well-factored. Application is expertly divided into logical components each with a clear, single responsibility.
+
+Things I liked:
+
+```js
+// Loved how you separated the server.js file with comments. Every endpoint is super simple and clean.
+
+
+// ------------------------------------
+// REST API
+// ------------------------------------
+
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
+app.use(express.static('public'))
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')
+  next()
+})
+
+app.set('port', process.env.PORT || 3000)
+
+app.locals.polls = {}
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+})
+
+app.get('/login', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/login.html'))
+})
+
+app.get('/polls/:poll_id', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/polls.html'))
+})
+
+app.get('/api/polls', (req, res) => {
+  res.json(app.locals.polls)
+})
+
+app.post('/api/polls', (req, res) => {
+  app.locals.polls[shortid()] = req.body
+  res.json(app.locals.polls)
+})
+```
+
+Also your client-side JS has single-responsibility functions that are well named.
+
+Things I would improve:
+
+I would have liked to seen multiple flat data structures instead of one large object that stored all votes like so:
+
+```js
+// Place new vote
+app.locals.polls[pollId].options[vote].profiles[uid] = profile
+```
+
+That's a lot of chaining and can get difficult to maintain as data requirements get more complex. I would have stored 3 different objects in 3 arrays and used relationships. This way it's much easier to transition to a database and store them with Knex:
+
+```js
+ const { polls, options, votes } = app.locals
+
+ const poll = { id, question }
+ const option = { id, text, pollId }
+ const vote = { id, user, optionId }
+
+// Add poll
+polls.push(poll)
+
+// Add option
+option.push(option)
+
+// Add vote
+votes.push(vote)
+```
+
+You should never expose API client ids. You have them in your auth0-variables.js file and it's not in your .gitignore file. Just be careful of this in future projects. Check out the npm package dotenv to keep confidential info in your .env file and then call them with process.env.ENV_VARIABLE.
+
+I'm not exactly sure where you are redirecting to the login route, I couldn't find it but come grab me and walk me through your auth process sometime.
 
 ### Testing
 
-* 25 points - The application has all routes tested and a minimum of five unit tests. No tests are failing on master and any skipped tests have an explanation of why skipped.
-* 17 points - The application has most routes tested and some unit tests. There are no tests failing testing on master.
-* 12 points - The application has a small number of routes tested and no unit tests. No tests are failing on master.
-* 0 points - The application is has no testing.
+* 20 points - The application has all routes tested and tested websocket data. No tests are failing on master and any skipped tests have an explanation of why skipped.
+
+Great test suite for the backend, I liked that you have tests using dummy data sent with web sockets.
+
+To test your client-side code with jQuery, you should download the minified jQuery js file instead of CDN'ing it. Then you can require it like a normal file and you don't have to rely on someone else's server.
 
 ### Workflow
 
 * 25 points - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
-* 17 points - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
-* 12 points - The developer makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application.
-* 0 points - The application was not checked into version control.
+
+It's apparent you know how to a lot of small, focused commits and PR's with clear comments to keep your progress organized and well documented. Great job.
 
 ### Extensions
 
-* 20 points - The application persists all poll questions and responses to a database.
-* 20 points - When creating a new poll, you have the ability to set an end date and time to automatically close the poll (you can visit the poll to see results but no one can vote).
+* N/A
 
-## Total Score:  / 150
+## Total Score: 140 / 150
+
+Excellent project Ian, great work.

@@ -71,36 +71,121 @@ Alex is an instructor at a seven month developer training program in Colorado. I
 
 Does it have the expected features?
 
-* 50 points - Met expectations as outlined by the user personas, the application is a solid first version. All planned features were delivered and the application is easy to use.
-* 35 points - Some features were sacrificed to meet the deadline. At best, this is a prototype. Major features covered by the learning goals listed above were not written by the developer.
-* 10 points - Major features are missing, there are major bugs that make it impossible to use, and/or the application is not deployed to production.
-* 0 - There is no application.
+* 35 points - One major feature was sacrificed to meet the deadline but the spirit of the application and baseline functionality was meet.
+
+Great job on getting a working, real-time polling app with authentication. We discussed this already but the major feature missing is having the user picture display when a user votes instead of the vote count. Another bug I encountered is that when I create a second or third poll it redirects me to the first poll I created so that's the only poll I can vote on.
+
+One thing that isn't in the spec but you should be aware of is that when I vote for one poll, it actually would cast a vote for all polls. This is something that I'm seeing in a lot of projects and I need to do a better job of teaching, but basically what you want to do is emit a vote on a poll-specific channel instead of a general voteCast channel. For example:
+
+```js
+// Current client-side code
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', function() {
+    socket.send('voteCast', this.innerText)
+  })
+}
+
+// Could be this instead ...
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', function(e) {
+    const pollId = e.target.id // Grab id of poll from button or some html attribute
+    socket.send('voteCast:${id}', this.innerText)
+  })
+}
+```
 
 ### Code Quality (JavaScript)
 
-* 50 points - Developer writes code that is exceptionally clear and well-factored. Application is expertly divided into logical components each with a clear, single responsibility.
 * 35 points - Developer solves problems with a balance between conciseness and clarity and often extracts logical components. Developer can speak to choices made in the code and knows what every line of code is doing.
-* 25 points - Developer writes effective code, but does not breakout logical components. Application shows some effort to break logic into components, but the divisions are inconsistent or unclear. There are many large methods or functions and it is not clear to the evaluator what a given section of code does.
-* 10 points - Developer writes code with unnecessary variables, operations, or steps which do not increase clarity.
-* 0 points - Developer writes code that is difficult to understand. Application logic shows poor decomposition with too much logic mashed together.
+
+Things I liked:
+
+```js
+// Very concise, clean functions that only do one thing and you have a single event listener for all buttons to vote instead of an event listener for each button. Also your app.js file code for authenticating users is very clean and easy to read.
+
+on('usersConnected', (count) => {
+  connectionCount.innerText = 'Connected Users: ' + count
+})
+
+socket.on('statusMessage', (message) => {
+  statusMessage.innerText = message
+})
+
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', function() {
+    socket.send('voteCast', this.innerText)
+  })
+}
+
+socket.on('voteCount', (votes, user) => {
+  let votedFor = Object.keys(votes).map(vote => {
+    return vote + ':' + votes[vote]
+  })
+  voteCount.innerText = votedFor
+})
+```
+Things I would like to see improved:
+
+```js
+// Because you were trying to count the vote totals instead of returning the user image, it made your code more complicated than it needed to. I like how you used reduce in this countVotes function but I would have moved the reduce code into it's own function called callVotes.
+
+const countVotes = (votes) => {
+  let voteArr = []
+  for (key in votes) {
+    if(votes.hasOwnProperty(key)) {
+      var value = votes[key]
+      voteArr.push(value)
+    }
+  }
+
+  let voteCount = voteArr.reduce((allVotes, vote) => {
+  	if(vote in allVotes) {
+  		allVotes[vote]++
+      }
+  	else {
+  		allVotes[vote] = 1
+      }
+  	return allVotes
+  }, {})
+  return voteCount
+}
+
+// You should never expose API client ids. You have them in your auth0-variables.js file and it's not in your .gitignore file. Just be careful of this in future projects. Check out the npm package dotenv to keep confidential info in your .env file and then call them with process.env.ENV_VARIABLE.
+
+// I think the bigger issue in this app is thinking about how you want to structure your data. You would want to have an app.locals.polls array to store all polls, an app.locals.choices array to store all choices and include the pollId in each choice, and an app.locals.votes array to store all votes that include a choiceId and user image.
+```
+
 
 ### Testing
 
-* 25 points - The application has all routes tested and a minimum of five unit tests. No tests are failing on master and any skipped tests have an explanation of why skipped.
-* 17 points - The application has most routes tested and some unit tests. There are no tests failing testing on master.
-* 12 points - The application has a small number of routes tested and no unit tests. No tests are failing on master.
-* 0 points - The application is has no testing.
+* 17 points - The application has all routes tested but NO unit tests. There are no tests failing testing on master.
+
+Great job testing all of the backend routes with checks on the request body properties but I would love to see unit tests. You should test functions like the one below that do a lot of string manipulation and could have a lot of potential inputs:
+
+```js
+function getParameterByName(name, url) {
+  if (!url) {
+    url = window.location.href
+  }
+  name = name.replace(/[\[\]]/g, "\\$&")
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+  results = regex.exec(url)
+  if (!results) return null
+  if (!results[2]) return ''
+  return decodeURIComponent(results[2].replace(/\+/g, " "))
+}
+```
 
 ### Workflow
 
 * 25 points - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
-* 17 points - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
-* 12 points - The developer makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application.
-* 0 points - The application was not checked into version control.
+
+It's apparent you know how to use small, focused commits and PR's with comments to keep your progress organized. Great job.
 
 ### Extensions
 
-* 20 points - The application persists all poll questions and responses to a database.
-* 20 points - When creating a new poll, you have the ability to set an end date and time to automatically close the poll (you can visit the poll to see results but no one can vote).
+* N/A
 
-## Total Score:  / 150
+## Total Score: 112 / 150
+
+Great job on getting a working polling app that authenticates users. Just be sure to think about how to best store and organize information and pass it between client and server and to test your app to make sure you can create multiple polls and vote on them.
