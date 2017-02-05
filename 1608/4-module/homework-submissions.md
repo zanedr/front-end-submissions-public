@@ -69,6 +69,7 @@ Intermission Repo: https://github.com/Pilewski/skill-sharing
 [Dismissible Cards](https://github.com/maiastone/dismissible-cards)
 
 ## Ryan Westlake
-[Skill Sharing Site](https://github.com/rcwestlake/skill-sharing-site)
+- [Skill Sharing Site](https://github.com/rcwestlake/skill-sharing-site)
+- [Swipeable Cards](https://github.com/rcwestlake/ui-design-challenges/tree/master/swipeable-cards)
 
 ## Kinan Whyte
