@@ -84,9 +84,7 @@ Does it have the expected features?
 
 Awesome job Kinan for completing all of the features, I can tell you put a lot of effort into this project. It's a simple, clean, easy to use app that works. I especially like that you can see all of the active polls on the home screen to easily navigate to each of them.
 
-One thing that isn't in the spec but you should be aware of is that when I vote for one poll, it actually casts that vote for all polls:
-
-(Two polls side by side)[http://g.recordit.co/aAXmhTHdgJ.gif]
+One thing that isn't in the spec but you should be aware of is that when I vote for one poll, it actually casts that vote for all polls. So if I vote 'A' for one poll, and other vote I visit will have the 'A' option voted for.
 
 This is something that I'm seeing in a lot of projects and I need to do a better job of teaching, but basically what you want to do is emit a vote on a poll-specific channel instead of a general voteCast channel. For instance:
 
