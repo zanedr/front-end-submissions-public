@@ -59,7 +59,52 @@ This project was incredibly hard. I thought it would be a good idea to pivot it 
 The dirt is in the details. The dirt is embarrassing, but I hope that the concepts that I missed early and late in this project will be remembered when learning new tools in the future.
 
 -----
+# Instructor Notes
 
-# Instructor Feedback
+Base Score: 104/150
 
-- Points: (base 150)
+Fix one of the UI or general bugs below to bump concept and feature score and receive full points.
+
+## Concept and Features
+
+40/50 - All planned features are delivered by major bugs and UI concerns need to be fixed asap.
+
+Major Bug: All old polls are overwritten by the newest poll
+
+UI Concern: `He gets back a link` - is a little questionable - while the link does get appended to the list of all polls, it's a little hard for the user to tell which poll is correct
+
+UI Concern: User is able to vote without logging in - which results in a broken image link under that vote. User should be prompted to log in or a default image should be uploaded if they are not logged in when they vote
+
+Bug: Once I logged in, I was unable to vote on the poll. I had to revisit the link in order to have my clicks be registered.
+
+Major UI Concern: Actual website root directory gives a 404 Knope (which is an awesome error screen) - the root directory of the app should be the page that creates the forms.
+
+UI Concern: If you only do 3 options, you get a blank 4th option
+
+OMG sign out is literally the best.
+
+## Code Quality
+
+35 points - Developer solves problems with a balance between conciseness and clarity and often extracts logical components. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+[Nice!](https://github.com/andrewLcrist/poehler/blob/master/server.js#L52-L56)
+
+[This fragile structure](https://github.com/andrewLcrist/poehler/blob/master/server.js#L69-L74) is something I would strongly consider you move away from on future projects. I think you made the right call in not trying to overhaul this in favor of making sure your bugs were handled - but now that you've lived with it for a while, I would try to either document it in your code base or fix it.
+
+[Good start on splitting out logic in this helpers file](https://github.com/andrewLcrist/poehler/blob/master/helpers.js). You want to be careful not to create a junk drawer by calling a file helpers. Really, everything in this file is actually your database queries for a poll. It's an ORM. So name this file as such!
+
+[Too many arguments per function](https://github.com/andrewLcrist/poehler/blob/master/helpers.js#L7) here - in part because of the fragile structure of how you keep track of options - too many arguments to one function is usually a good indicator of a code smell.
+
+[A lot of code formatting issues in here](https://github.com/andrewLcrist/poehler/blob/master/public/auth.js)
+
+Over all you have a really good start at refactoring this project. It looks better than a lot of other code that I've reviewed and you clearly put effort into this. There's still work to do, as seen above, but really solid effort.
+
+## Testing
+
+12 points - The application has a small number of routes tested and no unit tests. No tests are failing on master.
+
+## Workflow
+
+No PRs! 
+
+17 points - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
