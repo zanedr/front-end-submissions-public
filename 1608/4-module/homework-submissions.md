@@ -15,6 +15,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 - [UI Challenge - Navigation Bar](https://www.youtube.com/watch?v=e5CXg1sjTqQ)
 - [Real Time Blog Posts](http://frontend.turing.io/projects/real-time.html)
 
+**Week 3**
+
+- [Static Comp Challenge](http://frontend.turing.io/projects/m4-static-comp-2.html) (Due Tuesday of Week 4)
+- [CSS Hover Challenge](https://gist.github.com/brittanystoroz/3d69cc8c5eb51e5a1b926f217a1455c2) (Only required if you were in class on the day of the challenge)
+
 ### Professional Dev Things
 
 - [Outreach Plan](http://backend.turing.io/professional_development/module_four/outreach_plan)
@@ -37,6 +42,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Dale Hendrickson
 
 ## Matt Kaufman
+
 
 [Skill Sharing] (https://github.com/MilkMan90/skill-sharing)
 
@@ -68,6 +74,9 @@ Intermission Repo: https://github.com/Pilewski/skill-sharing
 [Dismissible Cards](https://github.com/maiastone/dismissible-cards)
 
 ## Ryan Westlake
-[Skill Sharing Site](https://github.com/rcwestlake/skill-sharing-site)
+- [Skill Sharing Site](https://github.com/rcwestlake/skill-sharing-site)
+- [Wk 1 Fundamentals Challenge](http://g.recordit.co/fSspoDbxht.gif)
+- [Swipeable Cards](https://github.com/rcwestlake/ui-design-challenges/tree/master/swipeable-cards)
+- [Wk 2 Fundamentals Challenge](http://g.recordit.co/PCusubXOvL.gif)
 
 ## Kinan Whyte
