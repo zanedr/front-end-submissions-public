@@ -84,6 +84,40 @@ I didn't get that deep with my testing
 Before the end of the mod I plan to implement the psql db!
 -----
 
-# Instructor Feedback
+# Instructor Feedback (Brittany)
 
-- Points: (base 150)
+### Concept and Features
+
+Does it have the expected features?
+
+* 45 points - Great job getting all of the base functionality in place. There's a slight bug with the authentication trying to authorize an endpoint as soon as I create a new poll if I'm not logged in. It would be better for this authorization to only occur when trying to actually vote.
+
+### Code Quality (JavaScript)
+
+* 40 points - Developer solves problems with a balance between conciseness and clarity and often extracts logical components. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+You've got a great eye for clever and concise code, and have demonstrated a strong understanding of how to manipulate complex data structures/objects and arrays. 
+
+#### Code That You Like:
+Agreed, this is some nice code. Just be consistent in your use of spacing (e.g. [Line 59](https://github.com/MilkMan90/realtime/blob/128f05c63bada45b5ae7a0dc34da93f9d7e56d66/server/server.js#L59) vs [Line 70](https://github.com/MilkMan90/realtime/blob/128f05c63bada45b5ae7a0dc34da93f9d7e56d66/server/server.js#L70)) Add a default linting configuration file at the start of your project and run it before each commit to keep your code clean and consistent.
+
+#### Code that could be refactored:
+
+Agreed, the only thing I would really refactor here is doing the redirect on the server side, sending along a response status of 302. I also would steer clear of committing commented out code. Look into [git stash](https://git-scm.com/docs/git-stash) for hanging onto code you might need later. You can 'stash' your changes away instead of committing them and pop them back onto your local branch whenever you'd like.
+
+### Testing
+
+* 25 points - The application has all routes tested and a minimum of five unit tests. No tests are failing on master and any skipped tests have an explanation of why skipped.
+
+
+### Workflow
+
+* 20 points - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
+
+Lots of good commits but let's clean up the messages a little bit so our history is more informative and consistent. 'code lookin fresh' is hilarious but not super helpful. Also, as mentioned above, get away from the habit of committing commented out code/console.logs. Otherwise your commits look good - small and easy to follow the code changes.
+
+### Extensions
+
+* N/A
+
+## Total Score: 130 / 150
