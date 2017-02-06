@@ -15,6 +15,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 - [UI Challenge - Navigation Bar](https://www.youtube.com/watch?v=e5CXg1sjTqQ)
 - [Real Time Blog Posts](http://frontend.turing.io/projects/real-time.html)
 
+**Week 3**
+
+- [Static Comp Challenge](http://frontend.turing.io/projects/m4-static-comp-2.html) (Due Tuesday)
+
 ### Professional Dev Things
 
 - [Outreach Plan](http://backend.turing.io/professional_development/module_four/outreach_plan)
