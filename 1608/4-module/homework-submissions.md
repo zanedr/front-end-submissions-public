@@ -18,6 +18,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 **Week 3**
 
 - [Static Comp Challenge](http://frontend.turing.io/projects/m4-static-comp-2.html) (Due Tuesday of Week 4)
+- [CSS Hover Challenge](https://gist.github.com/brittanystoroz/3d69cc8c5eb51e5a1b926f217a1455c2)
 
 ### Professional Dev Things
 
