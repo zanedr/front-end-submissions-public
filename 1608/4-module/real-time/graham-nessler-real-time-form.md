@@ -60,6 +60,36 @@ This tests my data validation that gives the user an error message if they leave
 
 This project was hard, but I am proud of my work and my final project.
 
-##Instructor Feedback
+## Instructor Feedback (Brittany)
 
-Points: (base 150)
+### Concept and Features
+
+* 45 points - The base functionality is all in place, though there's one bug I've noticed when voting on a poll. I can continue to cast multiple votes each time I click on an option, rather than having subsequent votes replace my original votes. This could be resolved by refactoring some of the server-side code [here](https://github.com/gness1804/real-time/blob/master/server.js#L151-L161). Instead of simply doing a `push` to `app.locals.questions.responses`, we'd first want to check if a response for that github user already existed. If so, let's update that vote value, rather than pushing a new one to the array.
+
+### Code Quality (JavaScript)
+
+* 35 points - Developer solves problems with a balance between conciseness and clarity and often extracts logical components. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+Be consistent with/without your use of jQuery. If you're using jQuery in one place, use it all over the place: [line 2 here](https://github.com/gness1804/real-time/blob/master/public/display.js#L2-L5) could be refactored to `$('#notification-logged-in-or-out').text(`Hello ${profile.name}`);
+
+When showing/hiding [elements](https://github.com/gness1804/real-time/blob/master/public/display.js#L18-L21), you could make use of jQuery's [toggle](http://api.jquery.com/toggle/) method instead.
+
+Instead of returning an entire HTML file on your get request for a [question](https://github.com/gness1804/real-time/blob/master/server.js#L86), why don't we just return the question JSON data and incorporate it into the DOM on the client-side, with jQuery.
+
+### Testing
+
+* 25 points - The application has all routes tested and a minimum of five unit tests. No tests are failing on master and any skipped tests have an explanation of why skipped.
+
+Excellent job of getting very difficult tests into the codebase. Mocking out certain interactions can be incredibly difficult, but you've demonstrated a solid understanding of testing small features by faking the surrounding data.
+
+### Workflow
+
+* 25 points - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
+
+Very nice consistently formatted and informative commit messages - it's easy to get a good understanding of the history just at a quick glance. Didn't notice the use of many branches but perhaps you have deleted the ones you've merged in.
+
+### Extensions
+
+* N/A
+
+## Total Score: 130 / 150
