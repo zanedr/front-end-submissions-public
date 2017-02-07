@@ -9,6 +9,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Adam Rice
 [UX/UI Week 1: Swipeable Cards](https://github.com/adam-rice/javascript-swipeable-cards)
 
+[UX/UI Week 2: Side Navigation Bar](https://github.com/adam-rice/javascript-side-nav)
+
 ## Annastasia Psitos
 [UI/UX Week 1](https://github.com/apsitos/UI-UXpractice)
 
