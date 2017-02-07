@@ -25,4 +25,4 @@
 
 ### Workflow
 
-* 3: The group makes a series of small, atomic commits that document the evolution of their application and it is clear who was responsible for what features.
+* 4: The group makes a series of small, atomic commits that document the evolution of their application and it is clear who was responsible for what features.
