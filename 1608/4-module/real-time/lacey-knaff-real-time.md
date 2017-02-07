@@ -2,17 +2,17 @@
 >A real-time polling app that uses WebSockets
 
 ####Link to Github Repository
-[Github Rep]('https://github.com/lrknaff/real-time')
+[Github Rep](https://github.com/lrknaff/real-time)
 
 ####Link to Deployed Application
-[Application]('https://real-time-laceyk.herokuapp.com/')
+[Application](https://real-time-laceyk.herokuapp.com/)
 
 ####Link to Commits
-[Commits]('https://github.com/lrknaff/real-time/commits/master')
+[Commits](https://github.com/lrknaff/real-time/commits/master)
 
 ####Screenshot of Application
-![Take Poll](file:///Users/laceyknaff/Desktop/Screen%20Shot%202017-02-03%20at%2010.01.52%20AM.png " Poll View Screenshot")
-![Create Poll](file:///Users/laceyknaff/Desktop/Screen%20Shot%202017-02-03%20at%2010.02.26%20AM.png " Create Poll Screenshot")
+![Take Poll](https://github.com/lrknaff/real-time/blob/master/screenshots/Screen%20Shot%202017-02-03%20at%2010.02.26%20AM.png)
+![Create Poll](https://github.com/lrknaff/real-time/blob/master/screenshots/Screen%20Shot%202017-02-03%20at%2010.01.52%20AM.png)
 
 ###Completion
 ####Were you able to complete the base functionality?
@@ -33,7 +33,7 @@ I was not able to complete and extensions on this project
 * I don't feel great about this code because I feel as though I could have somehow connected the votes to be stored and send with the users in WebSockets as opposed to having to save to local storage and then having to parse through the votes and users to know votes went with what user. I'm also not sure that I needed to store an individual user along with a user list. I was trying to get the votes and users to have the same id, and I really struggled with that portion of this project.
 
 ####Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-![Test Suite](file:///Users/laceyknaff/Desktop/Screen%20Shot%202017-02-03%20at%2011.36.40%20AM.png "Test Suite")
+![Test Suite](https://github.com/lrknaff/real-time/blob/master/screenshots/Screen%20Shot%202017-02-03%20at%2011.36.40%20AM.png)
 
 
 ####Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
