@@ -38,3 +38,47 @@ I was not able to complete and extensions on this project
 
 ####Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
 I did have time to write enough tests to cover any edge cases.
+
+
+
+## Instructor Feedback (Brittany)
+
+### Concept and Features
+
+* 35 points - The base functionality is all in place, but as mentioned there are a couple of bugs around redirects/routing. There are a couple of options for redirecting a user to a URL after they've created a new poll. One option would have been to do a simple `window.location.replace(pollUrl)` in the success handler of your API request. Instead of [hiding the poll and displaying the links](https://github.com/lrknaff/real-time/blob/master/public/createPoll.js#L23-L25) Just call `window.location.replace()` with the new poll URL. You could also do the redirect on the server-side. Instead of just returning the poll data in the response [here](https://github.com/lrknaff/real-time/blob/master/server.js#L38-L58), you can call `res.redirect` and send them to the new poll URL.
+
+Unfortunately these routing bugs make the app pretty difficult to use. I must log-in (where the authentication validation is firing immediately upon page load, rather than just when clicking 'Sign In' or just when trying to vote). I do see the app in it's most working state when I refresh or hit the back button after already being authenticated, so it's clear the core requirements are there -- just a little tough to find!
+
+### Code Quality (JavaScript)
+
+* 35 points - Developer solves problems with a balance between conciseness and clarity and often extracts logical components. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+A couple of notes on the data structure [here](https://github.com/lrknaff/real-time/blob/master/server.js#L49). I think a more semantic approach would have been to store all of the possible responses under the same key as an array:
+
+```javascript
+{
+  questionText: 'foo',
+  options: [ response1, response2, response3 ]
+}
+```
+
+This would provide a little more flexibility in scenarios like [this](https://github.com/lrknaff/real-time/blob/master/public/authO/poll.js#L7-L18) where you want to fill in DOM values in similar elements for each option value.
+
+I'm also a little unsure of the structure of your application directories. There appears to be an entire Auth0 folder, though it also contains general poll logic. I would use the module pattern to help group all poll logic together and all authentication logic together.
+
+
+### Testing
+
+* 15 points - The application has a small number of routes tested and no unit tests. No tests are failing on master.
+
+
+### Workflow
+
+* 25 points - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
+
+
+### Extensions
+
+* N/A
+
+## Total Score: 110 / 150
