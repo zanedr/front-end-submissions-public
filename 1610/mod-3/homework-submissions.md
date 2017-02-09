@@ -26,6 +26,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Elijah Williams
 [UX/UI Week 1: Swipeable Cards](https://github.com/ejwill04/Swipeable-cards)
+[UX/UI Week 3: Side-Nav](https://github.com/ejwill04/Side-Nav)
 
 ## Eric Sayler
 
@@ -40,6 +41,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Lauren Pesce
 [UX/UI Week 1: Swipeable Cards](https://github.com/pescel/swipeable-cards)
+
 ## Mike Limberg
 [UX/UI Week 1: Swipeable Cards](https://github.com/mlimberg/ux-ui-challenges/tree/master/swipeable-cards)
 
