@@ -1,7 +1,5 @@
 ## Evaluator:
 
-## Rubric
-
 ### Functional Expectations
 
 - 4: Application meets all of the functional expectations in Phase Three.
