@@ -1,5 +1,9 @@
 ## Evaluator: Bree
 
+- Commits are a little on the large size, but otherwise workflow looks solid
+- Some redundant and overwriting in the CSS, but not major
+- HTML is gorgeous, but look to improve with accessibility
+
 ### Functional Expectations
 
 - 3: Application meets all of the functional expectations in Phase Two.
