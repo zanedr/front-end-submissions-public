@@ -50,3 +50,41 @@ I'm still trying to deploy to heroku. I missed that lesson, and I'm currently ru
 # Instructor Feedback
 
 - Points: (base 150)
+
+89/150
+
+- Fix major poll bug with a test
+- Significant refactoring
+  - no linting errors - recommend installing eslint commandline - add an eslint rc - run the lint command and check that the errors make sense - then run it with --fix
+  - no spacing issues
+  - very minimal functionality in a document.ready or event listener
+- README with info on how to run the app and link to production
+- One unit test - recommend breaking out adding an id to the poll and testing that
+- Deployed
+
+Nice to Haves
+
+- Seperate file for ajax calls
+- Fix the ability to have 3 options or 4 options
+
+### Base Functionality 
+
+- 20/50
+
+- Directs user to a different poll that the one we filled out - broken locally and in production - get the exact same id for each poll
+
+- When another user visits the poll - they don't see the other votes until they vote - but argument to keep it this way so that other votes don't skew your vote. But it does update for all users live.
+
+### JavaScript Style
+
+35 points - Developer solves problems with a balance between conciseness and clarity and often extracts logical components. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+Need to set up text editor to correct tabs - code looks fine in editor 
+
+### Unit Test
+
+17 points - The application has most routes tested. There are no tests failing testing on master.
+
+### Workflow
+
+17 points - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
