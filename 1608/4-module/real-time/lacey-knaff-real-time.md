@@ -66,6 +66,7 @@ This would provide a little more flexibility in scenarios like [this](https://gi
 
 I'm also a little unsure of the structure of your application directories. There appears to be an entire Auth0 folder, though it also contains general poll logic. I would use the module pattern to help group all poll logic together and all authentication logic together.
 
+I'm not sure what this [conditional](https://github.com/lrknaff/real-time/blob/master/public/authO/poll.js#L11) is doing/why it's needed. If you are getting poll data back from the server based on the poll you requested through the URL, it should be assumed that `id === pollId`. A test on that server-side route would confirm.
 
 ### Testing
 
