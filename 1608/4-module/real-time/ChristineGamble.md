@@ -6,7 +6,7 @@
 [Your Repo](https://github.com/ccgamble/Real-Time)
 
 #### Link to the Deployed Application
-[Your Application]**still working on deploying
+[Your Application](https://cg-realtime.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
