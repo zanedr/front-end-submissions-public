@@ -66,8 +66,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 Intermission Repo: https://github.com/Pilewski/skill-sharing
 
 ## Chelsea Skovgaard
-[Skill-Sharing Website](https://github.com/ChelseaSkovgaard/skillsharing-nodejs)
-[Swipeable-Cards UI Challenge](https://github.com/ChelseaSkovgaard/swipeable-cards)
+- [Skill-Sharing Website](https://github.com/ChelseaSkovgaard/skillsharing-nodejs)
+- [Swipeable-Cards UI Challenge](https://github.com/ChelseaSkovgaard/swipeable-cards)
+- [Static Comp Challenge 1] (https://github.com/ChelseaSkovgaard/cs-comp-challenge-1)
 
 ## Maia Stone
 [Skill Sharing Site](https://github.com/maiastone/skill-sharing-site)
