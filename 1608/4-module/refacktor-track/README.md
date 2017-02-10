@@ -41,10 +41,10 @@ However you feel most comfortable keeping a running record of you week that coul
 
 ### Were all the boxes checked?
 
-- [] Documentation of experience completed
-- [] All major work was completed in PRs
-- [] An attempt at logging hours was completed
-- [] All standups were attended or updates were posted in the channel
-- [] Student met up with someone or refactored with someone
+- [ ] Documentation of experience completed
+- [ ] All major work was completed in PRs
+- [ ] An attempt at logging hours was completed
+- [ ] All standups were attended or updates were posted in the channel
+- [ ] Student met up with someone or refactored with someone
 
 ### Notes:
