@@ -51,3 +51,20 @@ The only negative aspect of this style of project is that we didn’t do this wi
 ##Something I didn’t know at the beginning of the week
 
 I did not understand how modals work. I wouldn’t say that I understand how they work now, only that I know how they work in the way that I made mine. I’m excited about learning different, potentially more performative ways of creating modals.
+
+
+# Instructor Feedback
+
+### Were all the boxes checked?
+
+- [x] Documentation of experience completed
+- [x] All major work was completed in PRs
+- [x] An attempt at logging hours was completed
+- [x] All standups were attended or updates were posted in the channel
+- [x] Student met up with someone or refactored with someone
+
+### Notes:
+
+Make sure you change your gist file names to the correct file type - like .md for markdown. Makes it way earlier to read cause you don't get the infinite scroll.
+
+What does the 'job search' mean for you when you write it down as a line item for a day? Only asking because it can be high yeild activities like going out into the world, meeting people - or low yeild activities - like Steve's example of sitting in your apartment, in the dark, under a blanket drinking boxed wine and skimming Linkedin. I am sure this is already a skill set you have, but please feel free to schedule time with Jeff, Meg, Me, Brittany, Alex, anyone if you just want to talk through it :D
