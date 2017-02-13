@@ -47,6 +47,8 @@ I did not know about a lot of the companies I reached out to and sent applicatio
 
 # Instructor Feedback
 
+Completed by Meeka Feb 17th, 2017
+
 ### Were all the boxes checked?
 
 - [x] Documentation of experience completed
