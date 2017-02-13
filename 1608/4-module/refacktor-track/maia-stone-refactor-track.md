@@ -34,4 +34,16 @@ I really enjoy hearing what everyone is working on, and it made me both more con
 The only thing I can think of is that it would have been nice to have the project specs earlier, so we could really think about what was important during the week.  There was more flexibility than I imagined, and it would have been nice to have more time to plan and more time to talk through options with an instructor.   Otherwise, I can't think of anything negative. It was JUST what I needed this week.
 
 ##Talk about something that you didn't know about before this week.
-Now that I've really honed in the agency track, I could actually do a search for agencies in Denver and reach out for specific help making direct connections.  Since before starting Turing, I wanted to know 'exactly' what I wanted to do when I would finish, but finally discovering it with 3 weeks left. I also learned quite a bit more about WordPress, and it seems likely I could end up on that platform, so I intend to do more leveling up on that skill.   
+Now that I've really honed in the agency track, I could actually do a search for agencies in Denver and reach out for specific help making direct connections.  Since before starting Turing, I wanted to know 'exactly' what I wanted to do when I would finish, but finally discovering it with 3 weeks left. I also learned quite a bit more about WordPress, and it seems likely I could end up on that platform, so I intend to do more leveling up on that skill.
+
+# Instructor Feedback
+
+### Were all the boxes checked?
+
+- [ ] Documentation of experience completed
+- [ ] All major work was completed in PRs
+- [ ] An attempt at logging hours was completed
+- [ ] All standups were attended or updates were posted in the channel
+- [ ] Student met up with someone or refactored with someone
+
+### Notes:
