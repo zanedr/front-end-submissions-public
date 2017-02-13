@@ -49,14 +49,16 @@ I did not know about a lot of the companies I reached out to and sent applicatio
 
 ### Were all the boxes checked?
 
-- [ ] Documentation of experience completed
-- [ ] All major work was completed in PRs
-- [ ] An attempt at logging hours was completed
-- [ ] All standups were attended or updates were posted in the channel
-- [ ] Student met up with someone or refactored with someone
+- [x] Documentation of experience completed
+- [x] All major work was completed in PRs
+- [x] An attempt at logging hours was completed
+- [x] All standups were attended or updates were posted in the channel
+- [x] Student met up with someone or refactored with someone
 
 ### Notes:
 
 Edited to correct the markdown syntax (you reversed your `[]`s and `()`)
 
 Couldn't do anything for the image - no actual image was linked there :(
+
+Holy networking, batman. Seriously, though, thank you for sharing all the details on what you've been pursuing this week. This is a tremendous amount of work!
