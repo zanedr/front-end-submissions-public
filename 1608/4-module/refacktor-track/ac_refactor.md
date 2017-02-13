@@ -68,3 +68,7 @@ I did not understand how modals work. I wouldn’t say that I understand how the
 Make sure you change your gist file names to the correct file type - like .md for markdown. Makes it way earlier to read cause you don't get the infinite scroll.
 
 What does the 'job search' mean for you when you write it down as a line item for a day? Only asking because it can be high yeild activities like going out into the world, meeting people - or low yeild activities - like Steve's example of sitting in your apartment, in the dark, under a blanket drinking boxed wine and skimming Linkedin. I am sure this is already a skill set you have, but please feel free to schedule time with Jeff, Meg, Me, Brittany, Alex, anyone if you just want to talk through it :D
+
+Also, leaving this top google image search result for 'karaoke face' here. For no particular reason.
+
+![karaoke face](http://djchrisfiore.com/images/154_anigif_enhanced-buzz-1676-1358374453-7.gif)
