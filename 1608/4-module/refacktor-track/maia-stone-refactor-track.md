@@ -40,10 +40,16 @@ Now that I've really honed in the agency track, I could actually do a search for
 
 ### Were all the boxes checked?
 
-- [ ] Documentation of experience completed
-- [ ] All major work was completed in PRs
-- [ ] An attempt at logging hours was completed
-- [ ] All standups were attended or updates were posted in the channel
-- [ ] Student met up with someone or refactored with someone
+- [x] Documentation of experience completed
+- [x] All major work was completed in PRs
+- [x] An attempt at logging hours was completed
+- [x] All standups were attended or updates were posted in the channel
+- [x] Student met up with someone or refactored with someone
 
 ### Notes:
+
+On the documentation of the work - if you change the file type to markdown, it'll make things easier to read (I always forget this step the first time around!)
+
+I really appreciate the time you took putting together the documentation. It was really cool to read about your experience for the week, and I think as instructors it's probably really valuable for us to read things like this so that we continue to have empathy for and a better understanding of what the student side of the experience is like.
+
+It was really fun to get to meet Jaime and hang out Friday night! And I'm _very_ excited for the Capstone project. Glad that we can get Lauren as a resource to work with you and find the part of the programming world that gets you excited. 
