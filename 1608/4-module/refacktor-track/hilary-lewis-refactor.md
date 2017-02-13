@@ -2,7 +2,7 @@
 
 ## Basics
 
-(Original Project Spec)[http://frontend.turing.io/projects/refacktor-track.html]
+[Original Project Spec](http://frontend.turing.io/projects/refacktor-track.html)
 
 ### Summarize the work you completed over the last week
 * Meeting with Spire Digital. Sent a followup email the next day. No response but they aren't hiring right now.
@@ -19,10 +19,10 @@
 * Completed my Resume
 
 ### Link(s) to Your Work
- - (Personal Porfolio PRs)[https://github.com/hilarylewis92/my-porfolio/pulls?q=is%3Apr+is%3Aclosed]
- - (Personal Portfolio Commits)[https://github.com/hilarylewis92/my-porfolio/commits/master]
- - (Personal Portfolio Production)[http://portfolio.hilarylewis.co/]
- - (Resume)[https://github.com/hilarylewis92/my-resume]
+ - [Personal Porfolio PRs](https://github.com/hilarylewis92/my-porfolio/pulls?q=is%3Apr+is%3Aclosed)
+ - [Personal Portfolio Commits](https://github.com/hilarylewis92/my-porfolio/commits/master)
+ - [Personal Portfolio Production](http://portfolio.hilarylewis.co/)
+ - [Resume](https://github.com/hilarylewis92/my-resume)
  
 ### Summarize the meetings or pairing sessions you completed this week
 I met with Meeka this week about how I would go about this week with refactoring and job searching. 
@@ -58,3 +58,5 @@ I did not know about a lot of the companies I reached out to and sent applicatio
 ### Notes:
 
 Edited to correct the markdown syntax (you reversed your `[]`s and `()`)
+
+Couldn't do anything for the image - no actual image was linked there :(
