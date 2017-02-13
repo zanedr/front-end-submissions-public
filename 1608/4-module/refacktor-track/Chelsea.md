@@ -44,8 +44,7 @@ I enjoyed using Harvest to track my hours this week.
 
 ### Link to the Documentation you completed for the week
 
-I would say my documentation is this submission form and tracking my hours.
-Let me know if there needs to be something additional.
+Gist: https://gist.github.com/ChelseaSkovgaard/196b3d738607e0e3f05923e2e3986645
 
 ### Discuss: your experience doing daily stand ups
 
