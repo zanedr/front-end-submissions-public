@@ -76,10 +76,16 @@ with Nathaniel, Bree, and/or Louisa.
 
 ### Were all the boxes checked?
 
-- [ ] Documentation of experience completed
-- [ ] All major work was completed in PRs
-- [ ] An attempt at logging hours was completed
-- [ ] All standups were attended or updates were posted in the channel
-- [ ] Student met up with someone or refactored with someone
+- [x] Documentation of experience completed
+- [x] All major work was completed in PRs
+- [x] An attempt at logging hours was completed
+- [x] All standups were attended or updates were posted in the channel
+- [x] Student met up with someone or refactored with someone
 
 ### Notes:
+
+I really enjoyed reading your documentation of the week - also the pairing was fun! Thank you for how hard you worked on this week. That's a LOT of work done, and the carrot static comp was a real delight. 
+
+I am really excited to see what you do with the time while you're waiting for your husband's placement. And in general after graduation!
+
+Also, Nathaniel, Bree and Louisa are always down to pair, even after this project :D
