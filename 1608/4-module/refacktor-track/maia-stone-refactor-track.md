@@ -38,6 +38,8 @@ Now that I've really honed in the agency track, I could actually do a search for
 
 # Instructor Feedback
 
+Completed by Meeka: Feb 13, 2017
+
 ### Were all the boxes checked?
 
 - [x] Documentation of experience completed
