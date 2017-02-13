@@ -63,4 +63,36 @@ This beginning part of the render file has a ton of global variables. It also il
 
 # Instructor Feedback
 
-- Points: (base 150)
+## Rubric
+
+### Blog Post (45 Points - 15 points per post)
+
+### JavaScript Style (40 points)
+
+* 35: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. 
+
+The group could have broken render.js file into three seperate files (renderer, button-events and graph) to keep the code more readable. Overall the JS is very well written with lots of small, single responsibility functions throughout the code base.
+
+### User Interface (10 points)
+
+* 7: The application has many strong pages/interactions, but a few holes in lesser-used functionality.
+
+Improvements: Fix icon to show in dark menubar, clean up labels in graph, different colors for each line in graph, overall more polish to look of app. 
+
+
+### Risk Taking and Creativity (60 points)
+
+- 55: Developers pushed themselves and their team by taking risks which is demonstrated by a delivered feature. Developers explored concepts and technologies outside the scope of the curriculum.
+
+The group tackled a lot of unique challenges using Active Window to track the time spent in each application, Chart.js to graph those times, and different OS specific scripts to make Active Window not throw errors when they should be ignored. The graph was particularly creative in showing the history of each session.
+
+### Workflow (20 Points)
+
+* 20: The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application. There is visible evidence of code review happening in pull requests and discussion around approaches. Your team uses Waffle effectively to create small, single functionality user stories that are assigned to team members.
+
+The group had a ton of very small and well written commit messages and lots of PRs. They also had 50+ Waffle issues, with each assigned to a group member.
+
+### To get a 3, you need to achieve 130 points
+### To get a 4, you need to achieve 160 points
+
+## Total Score -  117 + (blog score) / 175
