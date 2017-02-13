@@ -34,7 +34,7 @@ Logging hours this week really helped me stay motivated and see where my time wa
 ![Screenshot](https://cloud.githubusercontent.com/assets/15853081/22888384/bcd21e56-f1c2-11e6-9e2b-dc8ca7afa981.png)
 
 ### Link to the Documentation you completed for the week
-
+[Documentation](https://gist.github.com/ccgamble/d5d6cdfbf046e02182be5223d00b6a73)
 
 ### Discuss: your experience doing daily stand ups
 
