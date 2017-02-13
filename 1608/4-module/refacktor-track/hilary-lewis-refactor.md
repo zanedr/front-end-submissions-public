@@ -2,7 +2,7 @@
 
 ## Basics
 
-[Original Project Spec](http://frontend.turing.io/projects/refacktor-track.html)
+(Original Project Spec)[http://frontend.turing.io/projects/refacktor-track.html]
 
 ### Summarize the work you completed over the last week
 * Meeting with Spire Digital. Sent a followup email the next day. No response but they aren't hiring right now.
@@ -28,11 +28,11 @@
 I met with Meeka this week about how I would go about this week with refactoring and job searching. 
 
 ### Summarize your experience logging hours this week. 
-![Uploading Screen Shot 2017-02-12 at 8.39.30 PM.png…](Week Hours)
+![Week Hours](Uploading Screen Shot 2017-02-12 at 8.39.30 PM.png)
 
 
 ### Link to the Documentation you completed for the week
-(Link to week)[https://gist.github.com/hilarylewis92/72b041bbe0386ef94626187eae810a0c]
+[Link to week](https://gist.github.com/hilarylewis92/72b041bbe0386ef94626187eae810a0c)
 
 ### Discuss: your experience doing daily stand ups
 I enjoyed daily stand ups and I would like to do that more often. It would be nice to make sure each stand up is more consice and short. It is nice to reflect on the day and set goals for the next day. 
@@ -56,3 +56,5 @@ I did not know about a lot of the companies I reached out to and sent applicatio
 - [ ] Student met up with someone or refactored with someone
 
 ### Notes:
+
+Edited to correct the markdown syntax (you reversed your `[]`s and `()`)
