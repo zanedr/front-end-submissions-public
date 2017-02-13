@@ -58,4 +58,72 @@ We were very close to getting it distributed, but alas, not quite there. We plan
 
 # Instructor Feedback
 
-- Points: (base 150)
+## Rubric
+
+### Blog Post (45 Points - 15 points per post)
+
+### JavaScript Style (40 points)
+
+* 37: Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are a few small instances where an instructor would recommend taking a different approach and refactor.
+
+Tons of tiny, easy to read JS functions with single responsibility. Correct use of importing multiple CSS files to a master file and pulling out the Info box code into it's own files. Honestly would have just liked to have seen more code written.
+
+```js
+$quitButton.on('click', () => {
+  quitApp()
+})
+
+$themeSelector.on('change', () => {
+  $chosenTheme = $('#theme-selector option:selected').val()
+  editor.setOption('theme', $chosenTheme)
+})
+
+$runButton.on('click', () => {
+  const code = transpileToES5()
+
+  checkForMaliciousIntent(code)
+  eval(code)
+})
+
+$uploadButton.on('click', () => {
+  setEditorValue(openFile())
+})
+
+const setEditorValue = (content) => {
+  if(!content) return
+  editor.setValue(content)
+}
+$saveButton.on('click', () => {
+  const code = editor.getValue()
+  saveFile(code)
+})
+
+$toES5Button.on('click', () => {
+  const code = transpileToES5()
+  editor.setValue(code)
+})
+```
+
+### User Interface (10 points)
+
+* 7: The application has many strong pages/interactions, but a few holes in lesser-used functionality. 
+
+The overall look and feel of the app is well polished and user friendly. Howevever there is a major UI bug when a user enters code past 28 lines, you can't click the Run button. Simple fix is to move it to the panel with all other icons.
+
+### Risk Taking and Creativity (60 points)
+
+- 55: Developers pushed themselves and their team by taking risks which is demonstrated by an almost delivered feature. Developers explored concepts and technologies outside the scope of the curriculum.
+
+The group took a big risk in taking on this project without know how to accomplish it. Once they figured out how to use CodeMirror and Babel, it was a much simplier problem than they expected. They implemented extra features such as open and save file functionality and keyword shortcuts for console.log().
+
+### Workflow (20 Points)
+
+* 20: The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application. There is visible evidence of code review happening in pull requests and discussion around approaches. Your team uses Waffle effectively to create small, single functionality user stories that are assigned to team members.
+
+The group used great syntax for commit messages [FIX] Fixed render bug... [UPDATE] Finish x feature. Lots of commits and user stories.
+
+
+### To get a 3, you need to achieve 130 points
+### To get a 4, you need to achieve 160 points
+
+## Total Score -  119 + (blog score) / 175
