@@ -48,7 +48,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [UX/UI Week 1: Swipeable Cards](https://github.com/jwood11atx/UX-UI---Swipeable-Cards)
 
 ## Lauren Pesce
-[UX/UI Week 1: Swipeable Cards](https://github.com/pescel/swipeable-cards)
+[UX/UI Challenge 1: Swipeable Cards](https://github.com/pescel/swipeable-cards)
+[UX/UI Challenge 2: Side-Nav](https://github.com/pescel/side-nav)
 
 ## Mike Limberg
 [UX/UI Challenge 1: Swipeable Cards](https://github.com/mlimberg/ux-ui-challenges)
