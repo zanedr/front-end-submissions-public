@@ -52,7 +52,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Graham Nessler
 [Skill Sharing Program](https://github.com/gness1804/mini-project-ejs)
+
 [Swipeable card repo](https://github.com/gness1804/swipeable-cards)
+
+[Blog Post 1: An Intro to Electron](https://medium.com/@gness1804/fired-up-an-introduction-to-electron-9d1f2c91f513#.yhcpin182)
+[Blog Post 2: Debugging Electron: A Journey](https://medium.com/@gness1804/debugging-electron-a-journey-e4e01ea481fb#.8g2cagnnm)
 
 ## Lacey Knaff
 [Skill-Sharing Website](https://github.com/lrknaff/skill-sharing-website)
