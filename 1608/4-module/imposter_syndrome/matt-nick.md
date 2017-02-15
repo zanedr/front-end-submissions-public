@@ -34,19 +34,19 @@
 ## Completion
 
 #### Were you able to complete the base functionality of your planned MVP?
-	Yes. 
+  Yes. 
 
 #### Did you take risks and creatively utilized Electron's many different abilities?
 * What were your biggest risks?
-		
-		Using the webAudio API, a NPM package created by Turing students, Redux 
+    
+    Using the webAudio API, a NPM package created by Turing students, Redux 
 * What is one feature that you think is really creative?
-	
-		The crossfader. 
+  
+    The crossfader. 
 
 #### Which extensions, if any, did you complete?
 
-	Building a zip file of the application. 
+  Building a zip file of the application. 
 
 
 ##Code Quality
@@ -54,13 +54,13 @@
 #### [We like this action.](https://github.com/MilkMan90/ck5/blob/master/app/actions/loadsong.js#L56-L85)
 * Why were you proud of this piece of code?
 
-	Because aSync, promises, Promise.all, and we refactored this from within a 	component and put it into this beautiful action. 
+  Because aSync, promises, Promise.all, and we refactored this from within a  component and put it into this beautiful action. 
 
 #### [This component renders too much too often.](https://github.com/MilkMan90/ck5/blob/master/app/components/PlayBox.js#L80-L103)
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it? 
 
-	How we re-render the entire Playbox component on each second "tick" of the 	song, so that we can keep the progressbar and time updated. Given a bit more 	time, we could have broken this out into smaller components that managed 	themselves  
-	
+  How we re-render the entire Playbox component on each second "tick" of the  song, so that we can keep the progressbar and time updated. Given a bit more  time, we could have broken this out into smaller components that managed  themselves  
+  
 ---
 
 # Instructor Feedback
