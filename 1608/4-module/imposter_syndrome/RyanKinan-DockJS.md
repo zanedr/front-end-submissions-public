@@ -126,4 +126,4 @@ The group used great syntax for commit messages [FIX] Fixed render bug... [UPDAT
 ### To get a 3, you need to achieve 130 points
 ### To get a 4, you need to achieve 160 points
 
-## Total Score -  119 + (blog score) / 175
+## Total Score -  164 / 175
