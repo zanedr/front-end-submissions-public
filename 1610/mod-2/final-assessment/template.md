@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rubric
 # Instructor Evaluation Points: Mock Assessment
 # Instructor:
@@ -24,3 +25,6 @@
 ## Collaboration
 
 * 2: Developer asks detailed questions when progress slows or stops
+=======
+l
+>>>>>>> f8030efe9e85650342574e7970f34cd7518b5fc0
