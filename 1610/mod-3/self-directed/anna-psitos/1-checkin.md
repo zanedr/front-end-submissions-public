@@ -1,4 +1,4 @@
-### Student: 
+### Student: Anna Psitos
 
 #### Check In: 1
 
@@ -9,13 +9,15 @@
 ### Deliverables:
 
 #### Project Pitch
-    - Shark Tank Style. Sell me on what your app does and why its important.
+    - This app will help you choose where to go for happy hour when you can't make a decision.
+    It takes in your preferred neighborhood and beverage of choice and will randomly choose from the venues that
+    meet those criteria.
 
 ### Wireframes
     - Include screenshots to wireframes of EVERY PAGE of the MVP of your app
 
 #### Frameworks
-    - What Frameworks are you planning on using?
+    - React, Redux, possibly Firebase and React Native
 
 #### APIs
     - Link to any API docs that you are planning on using
@@ -23,10 +25,10 @@
     - If the API blows up or requires a back end, how will you mock out your data at first?
 
 #### MVP
-    - Minimum Viable Product: What is the bare minimum you can guarantee delivery of in 2 weeks?
+    - A web app that 
 
 #### RVP
-    - Reach Viable Product: In a perfect, world, if you get EVERYTHING done, what does that look like? What are the dream extensions you want to build?
+    - Reach Viable Product: In a perfect world, if you get EVERYTHING done, what does that look like? What are the dream extensions you want to build?
 
 #### Collaborators
-    - List collaborators here
+    - None, this is a solo project
