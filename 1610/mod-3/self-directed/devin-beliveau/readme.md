@@ -1,29 +1,29 @@
 ## Project Name & Pitch
 
-#### Example:
+NYT Bookshelf
 
-TweetWorld
+An application that allows a user to filter the NYT Best Sellers lists by 11 different categories. A user can favorite the books they want to keep track of.
 
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
+Phase Two: A user can log in and set an alert to see if the book changes price.
 
 ## Project Status
-(only necessary if incomplete)
+Implementing React, Redux, Router. I am hitting the API and getting an array of objects back depending on what list category I enter. 
+
+Issue One: I can't implement Sass.
+Issue Two: My Redux cycle seems incomplete.
 
 #### Example:
 
-This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+This project is currently in development. Developer can see lists of books in colsole.
 
 ## Project Screen Shot(s)
 
 #### Example:   
 
-[ PRETEND SCREEN SHOT IS HERE ]
+[Main Page](http://devinmarieb-trends.tumblr.com/image/157535399105)
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
 
 ## Installation and Setup Instructions
-
-#### Example:  
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
@@ -41,7 +41,7 @@ To Start Server:
 
 To Visit App:
 
-`localhost:3000/ideas`  
+`localhost:8080`  
 
 ## Reflection
 
