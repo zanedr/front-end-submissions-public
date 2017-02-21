@@ -14,6 +14,7 @@ Have you ever played in a friendly tournament whether it's cornhole, volleyball,
 Enter Bracket Builder! The real-time bracket builder that allows you to set up teams, log scores, and EVERYONE can see the updates real-time.   
 
 ### Wireframes
+[Image of wireframes](http://imgur.com/a/kZkVf)
 
 #### Frameworks
     - React, Redux, Firebase (may dig into Socket if there is time)
