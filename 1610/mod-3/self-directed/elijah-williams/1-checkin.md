@@ -12,7 +12,7 @@
     - This project provides Turing students and alumni with a platform for finding a job after Turing.  The site will allow user's to gain important information such as - average salaries, industries, interview questions, and reviews.
 
 ### Wireframes
-    - Include screenshots to wireframes of EVERY PAGE of the MVP of your app
+    - link to screenshot: http://imgur.com/a/lEsng
 
 #### Frameworks
     - React
