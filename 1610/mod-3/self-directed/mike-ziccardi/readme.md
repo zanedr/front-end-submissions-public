@@ -8,11 +8,9 @@ This application will use the Zomato api and take the users lat and long to call
 As of Checkin 1 I am currently getting latitude and longitude to make an api call to Zomato the get a list of close restaurants.
 
 
-#### Example:   
+#### SCREENSHOT
 
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+[Imgur](http://i.imgur.com/1UXCkNa.png)
 
 ## Installation and Setup Instructions
 
