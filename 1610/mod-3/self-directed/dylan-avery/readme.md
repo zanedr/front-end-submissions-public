@@ -1,25 +1,16 @@
 ## Project Name & Pitch
 
-#### Example:
+LyricFaves
 
-TweetWorld
-
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
+An application used to filter data form Genius.com based songs, built with React, Redux, JavaScript, and CSS. User can favorite songs.
 
 ## Project Status
-(only necessary if incomplete)
 
-#### Example:
-
-This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+This project is currently in development. Users can search for artists using Genius API, and display song names and cover art, links to lyrics are semi-broken (only works on reload), ALSO, I want to think of some more robust Functionality, but API is kind of shallow.
 
 ## Project Screen Shot(s)
 
-#### Example:   
-
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+[Screen Shot](http://imgur.com/a/p5mVj)
 
 ## Installation and Setup Instructions
 
@@ -35,13 +26,17 @@ To Run Test Suite:
 
 `npm test`  
 
+To Debug:
+
+`node debug server.js ; repl`
+
 To Start Server:
 
-`npm start`  
+`GENIUS_CLIENT_SECRET=ODTvSN9y8kcvEvwQ38mfgjbh_BbX51upwyK4J2gr9ewfSo-UvEk6J-qaCLGPeqXYZj5W792Bxs6ohV-j1q1lVQ node server.js`  
 
 To Visit App:
 
-`localhost:3000/ideas`  
+`localhost:9000/`  
 
 ## Reflection
 
