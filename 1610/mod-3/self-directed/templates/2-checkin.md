@@ -16,4 +16,4 @@
 
 ##### What is on fire/what are you having trouble with?
 
-#### Screen Shots of Current State Of App  
+### Screen Shots of Current State Of App  
