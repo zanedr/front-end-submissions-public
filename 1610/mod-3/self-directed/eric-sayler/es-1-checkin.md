@@ -16,7 +16,8 @@ sorted/organized tracks and add it to their spotify account.
 
 
 ### Wireframes
-- Include screenshots to wireframes of EVERY PAGE of the MVP of your app
+
+![](http://i.imgur.com/SSEhsII.jpg)
 
 #### Frameworks
 - React/Redux
@@ -36,13 +37,13 @@ sorted/organized tracks and add it to their spotify account.
   - a loading bar if API calls take a while
 
 #### RVP
-    - Reach Viable Product:
-      - User can grab entire playlist tracks with track data sort them into specific BPM ranges as separate Playlists
-      - User can sort based on other metadata
-    - What are the dream extensions you want to build?
-      - App uses a back-end caching such as Redis to save User data and making fetching data less expensive
-      - or App utilizes a back-end DB to keep track of state, front end caching uses Relay/Apollo to get data from store graphQL server
-         - graphQL server interacts with SQL/noSQL DB to hold user data and prevent unnecessary re-fetching API data
+- Reach Viable Product:
+  - User can grab entire playlist tracks with track data sort them into specific BPM ranges as separate Playlists
+  - User can sort based on other metadata
+- What are the dream extensions you want to build?
+  - App uses a back-end caching such as Redis to save User data and making fetching data less expensive
+  - or App utilizes a back-end DB to keep track of state, front end caching uses Relay/Apollo to get data from store graphQL server
+  - graphQL server interacts with SQL/noSQL DB to hold user data and prevent unnecessary re-fetching API data
 
 #### Collaborators
     - Just me
