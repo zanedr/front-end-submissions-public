@@ -1,63 +1,52 @@
-## Project Name & Pitch
+### Student: Noah Peden
 
-#### Example:
+#### Check In: 1
 
-TweetWorld
+#### Project Name: Free College Abroad
 
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
+#### Client: Prospective and Current College Student / Brenna
 
-## Project Status
-(only necessary if incomplete)
+### Deliverables:
 
-#### Example:
+#### Project Pitch
+    - My father started a site in 1997 called GoAbroad.com which is a directory for alternative travel: study, volunteer, intern, jobs, and degrees abroad. Because of this study abroad and travel have been a central part of my life, and recently my dad and I watched Michael Moore's new documentary: "Where to Invade Next". The premise is Michael Moore goes to several different countries and takes their best ideas to import back to America, like Norway's prison system which treats prisoners more like rehab patients than prisoners, or France where every public school has three course lunches, or Italy where they have mandatory paid 8 weeks vacation a year. At a certain point he goes to Slovenia to talk to college students about how college is completely free, and it's one of about a dozen countries that offers full degrees for free or very close to free. For my personal project I'd like to create a web app/site where a user can pick a country and it shows the options of getting a full university degree for free and the requirements to go there. I'd like to see if a back end student would want to pair with me on creating a server/database of countries to do this in, and maybe creating an SEO search algorithm to avoid having to spend hours and hours of research. Here's the snippet from the movie: https://www.youtube.com/watch?v=DGpXnSRX2CY"
 
-This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+### Wireframes
+    - http://imgur.com/a/gXvoh
 
-## Project Screen Shot(s)
+#### Frameworks
+    - FE: React Redux, Sass  BE: Ruby on Rails
 
-#### Example:   
+#### APIs
+    - https://www.numbeo.com/common/api.jsp
+    - Internal API to database that holds our info
+    - My partner is building a backend API for our internal database that will allow me to access our data
 
-[ PRETEND SCREEN SHOT IS HERE ]
+#### MVP
+    - Minimum Viable Product: A website where a user can click on a region, then a country, then a university that holds some information and a link to the official website
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+#### RVP
+    - Reach Viable Product: Phase 1:
+BE: Database design, what info to pull in, what API are we going to use
+FE: Get one thing rendering from our database, build out boilerplate in react redux: maybe selecting a country and seeing the universities
 
-## Installation and Setup Instructions
+Phase 2:
+BE: Web scraping
+FE: Styling, display basic requirements for university
 
-#### Example:  
+Phase 3:
+FE: Really nice SASS/styling, easy user flow, more than
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+MVP:
+FE: An app where a user can select a country, then select a university, and see price, requirements, and if the classes are in English
+BE: Database that FE can call with 15-20 top options
 
-Installation:
 
-`npm install`  
+Extensions:
+Format like pinterest with flex box, web scrape for photos of universities
+Registered User sign in
+Add in free university options
+Admin stuff
 
-To Run Test Suite:  
-
-`npm test`  
-
-To Start Server:
-
-`npm start`  
-
-To Visit App:
-
-`localhost:3000/ideas`  
-
-## Reflection
-
-  - What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
-  - What did you set out to build?
-  - Why was this project challenging and therefore a really good learning experience?
-  - What were some unexpected obstacles?
-  - What tools did you use to implement this project?
-      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
-
-#### Example:  
-
-This was a 3 week long project built during my third module at Turing School of Software and Design. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
-
-Originally I wanted to build an application that allowed users to pull data from the Twitter API based on what they were interested in, such as 'most tagged users'. I started this process by using the `create-react-app` boilerplate, then adding `react-router-4.0` and `redux`.  
-
-One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
-
-At the end of the day, the technologies implemented in this project are React, React-Router 4.0, Redux, LoDash, D3, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.
+#### Collaborators
+    - Amy Kintner: Mod3 BE
