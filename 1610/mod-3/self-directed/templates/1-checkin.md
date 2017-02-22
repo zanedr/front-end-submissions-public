@@ -12,9 +12,9 @@
     ColorPal is an application that allows you to use your favorite pictures as inspiration for your next color palette. You just need to drag and drop your photo into the application and it gives you the most compatible 5 colors that are within the photo you provided. This includes the hex codes so you can use them in your code! 
 
 ### Wireframes
-    ![Image of main page wireframes](50940421081__81CA9E89-D884-43B0-8120-0AEA82D05D75.JPG)
-    ![Image of favorites page wireframe] (50940421933__E713F83E-64BD-4490-9E1D-3A64ADFAA5E5.JPG)
-    ![user experience run through] (50940422278__1F1B31B4-3F7F-4B43-966D-44277B74B5FC.JPG)
+    ![Image of main page wireframes](http://imgur.com/a/3Du9A)
+    ![Image of favorites page wireframe] (http://imgur.com/ugTOUTc)
+    ![user experience run through] (http://imgur.com/hhhwTpN)
 
 #### Frameworks
     Redux
