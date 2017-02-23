@@ -66,6 +66,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Rebekah Lundy
 [UX/UI Week 1: Swipeable Cards](https://github.com/bekahlundy/ui-ux-swipe-cards)
+[UX/UI Week 3: Side Nav](https://github.com/bekahlundy/side-nav)
 
 ## Samuel Johnson
 [UX/UI Week 1: Swipeable Cards](https://github.com/sljohnson32/swipeable-cards)
