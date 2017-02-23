@@ -29,7 +29,7 @@ What tools did you use to implement this project?
 This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.
 
 This project utilizes a backend with express node, and front end built with React-Redux and Router.
-  Complications arose when trying to pull in api data that required OAtuth.  I'm please to report I'm now pulling that data in.
+Complications arose when trying to pull in api data that required OAtuth.  I'm please to report I'm now pulling that data in.
 
 
 
