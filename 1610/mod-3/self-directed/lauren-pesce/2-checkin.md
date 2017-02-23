@@ -25,3 +25,10 @@ Timing is the biggest problem, I'm worried about getting the favorites page prop
 ### Screen Shots of Current State Of App  
 ![Main page before uploading a photo](http://i.imgur.com/2V3QAMx.png)
 ![Main page after uploading a photo](http://i.imgur.com/SeDGgua.png)
+
+
+Expections for Monday 2/27: 
+1. Delete
+2. Favorites
+3. Sign in / Sign Out
+4. Display Color Palette.
