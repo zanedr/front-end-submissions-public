@@ -8,8 +8,9 @@ I'm currently hitting the Spotify audio endpoint requiring OAuth.  I'm also pull
 
 ### Project Screen Shots
 
-![](http://imgur.com/a/UA3E1)
+![](http://i.imgur.com/HW5GZ9X.png)
 
+![](http://i.imgur.com/3CghDhd.png)
 ### Installation and Setup Instructions
 
 Clone down this repository. You will need node and npm installed globally on your machine.  To start front end, npm run end. back To start backend, npm run backend.  Then bring up http://localhost:8080
