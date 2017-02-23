@@ -23,5 +23,5 @@ I will have a color palette rendering to the screen, along with a favorites and 
 Timing is the biggest problem, I'm worried about getting the favorites page properly working, along with a properly working login using firebase. 
 
 ### Screen Shots of Current State Of App  
-![Main page before uploading a photo](http://imgur.com/japGjvD)
-![Main page after uploading a photo](http://imgur.com/rTM1i1c)
+![Main page before uploading a photo](http://imgur.com/a/UNevu)
+![Main page after uploading a photo](http://imgur.com/a/TV0yE)
