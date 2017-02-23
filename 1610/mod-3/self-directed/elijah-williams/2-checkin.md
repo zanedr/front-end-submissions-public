@@ -44,3 +44,10 @@ Screen Shots of Current State Of App
 ![Imgur](http://i.imgur.com/iWvGI9T.png)
 
 ![Imgur](http://i.imgur.com/MyWJgTo.png)
+
+Expectations for Monday 2/27:
+1. Users can comment on companies. Users can Delete their own comments.
+2. Login / Sign Out / Create User
+3. Add search feature includes searching company name and or city.
+4. Add favorite companies, for user (extension)
+
