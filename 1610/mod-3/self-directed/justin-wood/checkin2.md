@@ -20,3 +20,7 @@
 -
 [img1](http://imgur.com/1yLjCI8.jpg)
 [img2](http://imgur.com/X2KDZco.jpg)
+
+
+Expectations for Monday 2/27:
+1. Database setup.
