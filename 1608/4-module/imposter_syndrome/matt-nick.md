@@ -72,6 +72,7 @@
 ## Rubric
 
 ### Blog Post (45 Points - 15 points per post)
+* 45
 
 ### JavaScript Style (40 points)
 
@@ -106,4 +107,4 @@ Great job working with the WebAudio API (not something a ton of people have beco
 ### To get a 3, you need to achieve 130 points
 ### To get a 4, you need to achieve 160 points
 
-## Total Score -  127 + (blog score) / 175
+## Total Score -  166 / 175
