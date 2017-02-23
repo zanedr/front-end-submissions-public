@@ -10,7 +10,7 @@ Deliverables:
 
 Now that you have started building your app, what are the frameworks/additional modules/technologies/testing frameworks you are using, list those here (ALL of them).
 
-  I need to start implementing firebase so the user can mark a restaurant as visited, and let them make notes on restaurant
+  I need to start implementing firebase so the user can mark a restaurant as visited, and let them make notes on restaurant. will be using jest to test functionality. using react router to move around the app
 
 Based on the MVP you stated in the first check in template, list what you have accomplished, and what still needs to be done.
   i am able to get a list of current close restaurants, and when i click on them i get a list of 5 reviews(limits of api. questions to the developer team at zomato have been emailed to them) of that restaurant.
