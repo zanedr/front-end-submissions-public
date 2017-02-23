@@ -1,18 +1,16 @@
-ShutUp&Dance
+## ShutUp&Dance
 
 I am building a small-scale version music app that provides the user with options to find a local venue where a particular artist is going to play at.  
 
-Project Status
+### Project Status
 
-I'm currently hitting the Spotify artist image endpoint and  rendering them.  
+I'm currently hitting the Spotify audio endpoint requiring OAuth.  I'm also pulling in artist images and rendering them.  
 
-I'm barelyyyy authorizing a user via express.
-
-Project Screen Shots
+### Project Screen Shots
 
 ![](http://imgur.com/a/UA3E1)
 
-Installation and Setup Instructions
+### Installation and Setup Instructions
 
 Clone down this repository. You will need node and npm installed globally on your machine.  To start front end, npm run end. back To start backend, npm run backend.  Then bring up http://localhost:8080
 
@@ -32,3 +30,12 @@ This might seem obvious because you are IN this codebase, but to all other human
 
 This project utilizes a backend with express node, and front end built with React-Redux and Router.
   Complications arose when trying to pull in api data that required OAtuth.  I'm please to report I'm now pulling that data in.
+
+
+
+
+
+
+
+
+
