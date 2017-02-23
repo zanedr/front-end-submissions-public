@@ -31,3 +31,10 @@ Screen Shots of Current State Of App
 [drummachine page](https://i.imgur.com/t2UEVn7.png)
 [visualizer page](https://i.imgur.com/RkHMcN6.png)
 
+
+Expectations for Monday 2/27:
+1. hidden keyboard. this one will actually use p5 since it only lives on the p5 canvas page.
+2. 2 different sound libraries
+3. ability to add additional drumracks
+4. Double or single stacks UI(maybe?) 
+5. modify tempo
