@@ -4,13 +4,13 @@ I am building a small-scale version music app that provides the user with option
 
 Project Status
 
-I'm currently hitting the Spotify audio endpoint requiring OAuth.  I'm also pulling in artist images and rendering them.  
+I'm currently hitting the Spotify artist image endpoint and  rendering them.  
+
+I'm barelyyyy authorizing a user via express.
 
 Project Screen Shots
 
 <img width="1280" alt="screen shot 2017-02-20 at 1 31 57 am" src="https://cloud.githubusercontent.com/assets/19790856/23173067/2f1009c6-f815-11e6-9098-daf97ce4597e.png">
-
-<img width="1280" alt="screen shot 2017-02-23 at 10 01 52 am" src="https://cloud.githubusercontent.com/assets/19790856/23269934/60e6211a-f9af-11e6-9ef0-7c4a918825a0.png">
 
 <img width="1280" alt="screen shot 2017-02-23 at 10 01 25 am" src="https://cloud.githubusercontent.com/assets/19790856/23269993/925eda2a-f9af-11e6-95b1-95148f78cddb.png">
 
