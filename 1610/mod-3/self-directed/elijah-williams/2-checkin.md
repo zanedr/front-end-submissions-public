@@ -41,6 +41,6 @@ I'm still not really comfortable with Redux, so I feel like I'm moving slow with
 
 Screen Shots of Current State Of App
 
-[Imgur](http://i.imgur.com/iWvGI9T.png)
+![Imgur](http://i.imgur.com/iWvGI9T.png)
 
-[Imgur](http://i.imgur.com/MyWJgTo.png)
+![Imgur](http://i.imgur.com/MyWJgTo.png)
