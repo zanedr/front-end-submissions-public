@@ -1,21 +1,17 @@
-ShutUp&Dance
+## ShutUp&Dance
 
 I am building a small-scale version music app that provides the user with options to find a local venue where a particular artist is going to play at.  
 
-Project Status
+### Project Status
 
-I'm currently hitting the Spotify artist image endpoint and  rendering them.  
+I'm currently hitting the Spotify audio endpoint requiring OAuth.  I'm also pulling in artist images and rendering them.  
 
-I'm barelyyyy authorizing a user via express.
+### Project Screen Shots
 
-Project Screen Shots
+![](http://i.imgur.com/HW5GZ9X.png)
 
-<img width="1280" alt="screen shot 2017-02-20 at 1 31 57 am" src="https://cloud.githubusercontent.com/assets/19790856/23173067/2f1009c6-f815-11e6-9098-daf97ce4597e.png">
-
-<img width="1280" alt="screen shot 2017-02-23 at 10 01 25 am" src="https://cloud.githubusercontent.com/assets/19790856/23269993/925eda2a-f9af-11e6-95b1-95148f78cddb.png">
-
-
-Installation and Setup Instructions
+![](http://i.imgur.com/3CghDhd.png)
+### Installation and Setup Instructions
 
 Clone down this repository. You will need node and npm installed globally on your machine.  To start front end, npm run end. back To start backend, npm run backend.  Then bring up http://localhost:8080
 
@@ -34,4 +30,13 @@ What tools did you use to implement this project?
 This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.
 
 This project utilizes a backend with express node, and front end built with React-Redux and Router.
-  Complications arose when trying to pull in api data that required OAtuth.  I'm please to report I'm now pulling that data in.
+Complications arose when trying to pull in api data that required OAtuth.  I'm please to report I'm now pulling that data in.
+
+
+
+
+
+
+
+
+
