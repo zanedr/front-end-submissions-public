@@ -28,3 +28,9 @@ Screen Shots of Current State Of App
 ![homeScreen](http://i.imgur.com/hKSIzw4.png)
 ![restaurantsScreen](http://i.imgur.com/oTeReMh.png)
 ![Single-review](http://i.imgur.com/ZC7BhL4.png)
+
+Expectations for Monday 2/27: 
+1. Fix routing for show page of Restaurant
+2. Sign Out 
+3. Save Favorites and Favorites page.
+4. Notes / Rating
