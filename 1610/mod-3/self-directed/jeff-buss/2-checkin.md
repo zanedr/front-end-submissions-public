@@ -57,4 +57,20 @@ As stated above I spent most of the weekend battling w/ setting up my dev enviro
 
 ### Screen Shots of Current State Of App  
 
-![Screenshot](https://gyazo.com/72a77674078dc5c07c8eb4c0e644c5e7)
+[Screenshot](https://gyazo.com/72a77674078dc5c07c8eb4c0e644c5e7)
+
+
+Expectations for Monday 2/27:
+* Set up routing based on user authorization. Only admins should see the add event section.
+* Fix routing of OAuth/Events page based on whether user is logged in or not.
+* Fix routing of pages besides the indexroute
+* Set up invite code that links to a specific event alongside the google login
+* Actually build pages:
+	* Single event page
+	* About
+	* Media (likely instagram feed, am currently looking into packages for simplifying that)
+	* Contact
+* Sign out
+* Setting up Reducers.
+
+
