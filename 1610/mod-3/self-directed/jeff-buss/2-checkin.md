@@ -57,4 +57,4 @@ As stated above I spent most of the weekend battling w/ setting up my dev enviro
 
 ### Screen Shots of Current State Of App  
 
-[Screenshot](https://gyazo.com/72a77674078dc5c07c8eb4c0e644c5e7)
+![Screenshot](https://gyazo.com/72a77674078dc5c07c8eb4c0e644c5e7)
