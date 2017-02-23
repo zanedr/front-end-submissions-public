@@ -16,7 +16,7 @@
 ### Wireframes
 
    ![Image of main page wireframes](http://imgur.com/a/3Du9A)
-   ![Image of favorites page wireframe](http://imgur.com/ugTOUTc)
+   ![Image of favorites page wireframe](http://i.imgur.com/ugTOUTc.jpg)
    ![user experience run through](http://imgur.com/hhhwTpN)
 
 #### Frameworks
