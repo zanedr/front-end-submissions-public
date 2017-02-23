@@ -22,3 +22,10 @@ Nothing yet.
 
 #### Screen Shots of Current State Of App
 ![](http://i.imgur.com/bi9eMsm.png)
+
+Expectations for Monday 2/27: 
+1. Search Functionality
+2. Look into UPC let me know Friday if possible.
+3. Favorite recipes
+4. Multiple inputs?
+5. Filter by cuisine
