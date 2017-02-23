@@ -22,4 +22,6 @@
   - I would love to figure out how to allow the user to change their location, but at this point I need to move forward.
 
 ### Screen Shots of Current State Of App  
-  - I will add screenshots on GitHub.
+  - ![Controller.js](https://github.com/apsitos/front-end-submissions-public/blob/master/1610/mod-3/self-directed/anna-psitos/ControllerJSfile.png)
+  - ![Image of Live Site](https://github.com/apsitos/front-end-submissions-public/blob/master/1610/mod-3/self-directed/anna-psitos/ImageofApp.png)
+  - ![Main.js](https://github.com/apsitos/front-end-submissions-public/blob/master/1610/mod-3/self-directed/anna-psitos/MainJSfile.png) 
