@@ -20,6 +20,6 @@ Have not looked into testing yet.
 
 ### Screen Shots of Current State Of App  
 
-[http://imgur.com/jrwjpEy](http://imgur.com/jrwjpEy)
+![http://imgur.com/jrwjpEy](http://imgur.com/jrwjpEy)
 
-[http://imgur.com/KqiO9SZ](http://imgur.com/KqiO9SZ)
+![http://imgur.com/KqiO9SZ](http://imgur.com/KqiO9SZ)
