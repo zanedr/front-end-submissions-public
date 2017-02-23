@@ -20,7 +20,8 @@
 #### APIs
     - https://www.numbeo.com/common/api.jsp
     - Internal API to database that holds our info
-    - My partner is building a backend API for our internal database that will allow me to access our data 
+    - My partner is building a backend API for our internal database that will allow me to access our data
+
 
 #### MVP
     - Minimum Viable Product: A website where a user can click on a region, then a country, then a university that holds some information and a link to the official website
@@ -35,7 +36,7 @@ BE: Web scraping
 FE: Styling, display basic requirements for university
 
 Phase 3:
-FE: Really nice SASS/styling, easy user flow, more than 
+FE: Really nice SASS/styling, easy user flow
 
 MVP:
 FE: An app where a user can select a country, then select a university, and see price, requirements, and if the classes are in English
