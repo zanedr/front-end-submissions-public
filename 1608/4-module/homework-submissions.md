@@ -20,6 +20,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 - [Static Comp Challenge](http://frontend.turing.io/projects/m4-static-comp-2.html) (Due Tuesday of Week 4)
 - [CSS Hover Challenge](https://gist.github.com/brittanystoroz/3d69cc8c5eb51e5a1b926f217a1455c2) (Only required if you were in class on the day of the challenge)
 
+**Week 4**
+
+- [Elevator Challenge](https://github.com/turingschool-examples/elevator_challenge)
+
 ### Professional Dev Things
 
 - [Outreach Plan](http://backend.turing.io/professional_development/module_four/outreach_plan)
