@@ -24,6 +24,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 - [Elevator Challenge](https://github.com/turingschool-examples/elevator_challenge)
 
+**Week 5**
+
+- UI Challenge Comp Switch
+
 ### Professional Dev Things
 
 - [Outreach Plan](http://backend.turing.io/professional_development/module_four/outreach_plan)
