@@ -38,6 +38,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Kristin Burgess
 
 ## Nick Chambers
+- [Skills Sharing](https://github.com/nnchambs/skill-sharing)
+- [Swipeable Cards](https://github.com/nnchambs/swipeable-cards)
+- [Sidenav](https://github.com/nnchambs/sidenav)
+- [Electron Blog Post](https://medium.com/@nicknchambers/i-built-an-electron-app-with-react-youll-never-guess-what-happened-next-1ae017973d3d#.ri24nye02)
+- [ULTIMATE UX](https://github.com/nnchambs/ultimate-ux)
+- [Elevator Challenge](https://github.com/nnchambs/elevator-challenge)
 
 ## Andrew Crist
 
