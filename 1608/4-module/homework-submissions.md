@@ -45,7 +45,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Swipe Tutorial](https://github.com/andrewLcrist/swipe-tutorial)
 
 ## Christine Gamble
-[Swipeable Cards Assignment](https://github.com/ccgamble/Swipeable-Cards)
+[Homework Assignments Gist](https://gist.github.com/ccgamble/6366ce85d29b1eed66d5583451fd1723)
 
 ## Dale Hendrickson
 
