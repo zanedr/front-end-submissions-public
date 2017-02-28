@@ -11,11 +11,12 @@
 * Sent in 3 job applications
 * Created a job interview prep document
 * Wrote a blog post on design and business
-* Cleaned up issues in
+* Cleaned up issues in Mod3 Project - MASV
 
 ### Link(s) to Your Work
  - [Interview Prep](https://github.com/lrknaff/frontend-interview-prep)
  - [Blog Post](https://medium.com/@lacey.k/good-design-is-good-business-why-design-should-be-at-the-forefront-of-business-thinking-2d5cf27c4588#.3zo93k7lx)
+ - [Clean up issues in MASV](https://github.com/lrknaff/masv/issues)
 
 ### Summarize the meetings or pairing sessions you completed this week
 I met with Bree to talk about my mod3 personal project to see if she had any feedback on design.
