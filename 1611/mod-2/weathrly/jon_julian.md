@@ -10,6 +10,10 @@ Has one axe violation but developers spent a significant amount of time research
 
 ## HTML Style
 
+Ammeded to a 3 after [this commit](https://github.com/juliankyer/weathrly/commit/baf471d0d0b625abf3f6ba200d2306a0867f491a)
+
+** Previous **
+
 Developers switched over to divs quite a bit - html is laid out semantically.
 
 Would recommend going through and switching to semantic html instead of divs.
@@ -43,6 +47,12 @@ Make sure you test your helpers.
 3 - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
 
 ## Code Sanitation
+
+** Score ammended to 3 ***
+
+Student researched implementations - made a quick fix to prevent errors
+
+** Previous **
 
 Do a little research into how to tell the linter in the eslintrc file that you're using React. Otherwise go with the disabling the specific rule.
 
