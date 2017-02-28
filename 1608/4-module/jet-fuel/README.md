@@ -14,50 +14,57 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[Your Repo](http://giantbatfarts.com/)
+[Nick and Andrew's Repo](https://github.com/nnchambs/jet-fuel/)
 
 #### Link to the Deployed Application
-[Your Application](http://burymewithmymoney.com/)
+[Shor.ty](https://sh-orty.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
--[TeamMate1](http://ericsteinborn.com/github-for-cats/img/typing.gif)
+-[Nick](https://github.com/nnchambs/jet-fuel/commits?author=nnchambs)
 
--[TeamMate 2](http://45.media.tumblr.com/96975bc08e24a9876e62311fdd0c4a34/tumblr_ne4ehpSJ5z1qa747mo1_500.gif)
+-[Andrew](hhttps://github.com/nnchambs/jet-fuel/commits?author=andrewLcrist)
 
 #### Provide a Screenshot of your Application
-![spacejam](http://img.wennermedia.com/article-leads-horizontal/rs-206607-Screen-Shot-2015-08-19-at-12.43.08-PM.jpg)
+![😍Shor.ty😍](jet-fuel/Screen Shot 2017-01-27 at 1.08.20 PM.png)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-* If not, list what functionality is missing.
+* Yes
 
 #### Which extensions, if any, did you complete?
 
-- Per Extension:
-  - Describe the extension
-  - Provide a .gif of the extension or a link to the relevant code
+- None
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
+[this code is sweet](https://github.com/nnchambs/jet-fuel/blob/master/helperfriends.js#L53-L61)
 * Why were you proud of this piece of code?
+
+It's dynamic and sorts based on both created_at and popularity. Quite nice.
 
 #### Link to a specific block of your code on Github that you feel not great about
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-
+[this code is lame/weak sauce](https://github.com/nnchambs/jet-fuel/blob/master/public/index.js#L47-L97)
+Repetition with how we're rendering the URLs. It could be cleaned up. jQuery sux.
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
+[WIP](jet-fuel/Screen Shot 2017-01-27 at 1.13.46 PM.png)
 
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
+
+n/a
 
 -----
 
 #### Please feel free to ask any other questions or make any other statements below!
 
+mercy, please.
+
+This project was SWEET! It was awesome to use node/Express and get to use knex and postgres. Knex is really, really cool. 
 -----
 
 # Instructor Feedback
 
 - Points: (base 150)
-
