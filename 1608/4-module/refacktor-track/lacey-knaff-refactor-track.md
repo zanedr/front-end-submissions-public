@@ -49,3 +49,7 @@ I didn't know how much I needed to prepare/study for a technical interview. It w
 - [x] Student met up with someone or refactored with someone
 
 ### Notes:
+
+Project is a pass!
+
+The interview repo was a really great way to summarize the work that you put in with networking in a way that is both technical and will help the community and your cohort. Thank you for going that extra mile, as per usual.
