@@ -53,14 +53,15 @@ I'm still trying to deploy to heroku. I missed that lesson, and I'm currently ru
 
 89/150
 
-- Fix major poll bug with a test
-- Significant refactoring
-  - no linting errors - recommend installing eslint commandline - add an eslint rc - run the lint command and check that the errors make sense - then run it with --fix
-  - no spacing issues
-  - very minimal functionality in a document.ready or event listener
-- README with info on how to run the app and link to production
-- One unit test - recommend breaking out adding an id to the poll and testing that
-- Deployed
+UPDATES
+- [x] Fix major poll bug with a test [Code](https://github.com/ccgamble/Real-Time/blob/master/test/routes.js#L87-L99)
+- [x] Significant refactoring
+- [x] no linting errors -> used eslint
+- [x]  no spacing issues -> changed tabs to spaces
+- [x] very minimal functionality in a document.ready or event listener
+- [x] README with info on how to run the app and link to production [README](https://github.com/ccgamble/Real-Time/blob/master/README.md)
+- [x] One unit test [code](https://github.com/ccgamble/Real-Time/blob/master/public/test/test.js)
+- [x] [Deployed](https://cg-realtime.herokuapp.com/) 
 
 Nice to Haves
 
