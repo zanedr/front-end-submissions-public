@@ -1,5 +1,5 @@
 # Instructor Evaluation Points: 2DoBox
-# Instructor:
+# Instructor: Nathaniel Foster
 # Comments:
 
 # Specification Adherence
