@@ -44,7 +44,7 @@ I didn't know how much I needed to prepare/study for a technical interview. It w
 
 - [x] Documentation of experience completed
 - [x] All major work was completed in PRs
-- [] An attempt at logging hours was completed
+- [N/A] An attempt at logging hours was completed
 - [x] All standups were attended or updates were posted in the channel
 - [x] Student met up with someone or refactored with someone
 
