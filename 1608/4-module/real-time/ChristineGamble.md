@@ -89,3 +89,35 @@ Need to set up text editor to correct tabs - code looks fine in editor
 ### Workflow
 
 17 points - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
+
+## Retake - Feb 28, 2017
+
+114/150 (score of 3)
+
+**Note:**
+
+When I run eslint on a cloned version of the app - I get a number of errors.
+
+For example, [this like of code](https://github.com/ccgamble/Real-Time/blob/master/public/app.js#L32) gives a `'postURL' is not defined no-undef` error - which is a logical error which relates to the way you name the function and hoisting.
+
+Concept and Features
+
+Does it have the expected features?
+
+50 points - Met expectations as outlined by the user personas, the application is a solid first version. All planned features were delivered and the application is easy to use.
+
+Code Quality (JavaScript)
+
+See eslint error notes
+
+35 points - Developer solves problems with a balance between conciseness and clarity and often extracts logical components. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+Testing
+
+17 points - The application has most routes tested and some unit tests. There are no tests failing testing on master.
+
+Workflow
+
+Notes: See the eslint notes above
+
+12 points - The developer makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application.
