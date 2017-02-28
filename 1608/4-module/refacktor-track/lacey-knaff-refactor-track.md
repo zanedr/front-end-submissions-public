@@ -41,10 +41,10 @@ I didn't know how much I needed to prepare/study for a technical interview. It w
 
 ### Were all the boxes checked?
 
-- [] Documentation of experience completed
-- [] All major work was completed in PRs
+- [x] Documentation of experience completed
+- [x] All major work was completed in PRs
 - [] An attempt at logging hours was completed
-- [] All standups were attended or updates were posted in the channel
-- [] Student met up with someone or refactored with someone
+- [x] All standups were attended or updates were posted in the channel
+- [x] Student met up with someone or refactored with someone
 
 ### Notes:
