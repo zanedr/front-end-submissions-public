@@ -104,7 +104,7 @@ Instructor/developers will select one feature in the project to review for this 
 
 #### Extensions (10 points each)
 
-- Developer went through an entire wireframe process with Lauren - user testing - etc
+- Developer went through an entire wireframe process with Lauren - user testing - etcg
 
 ### To get a 4 on this project, you need to achieve 300 / 325
 
