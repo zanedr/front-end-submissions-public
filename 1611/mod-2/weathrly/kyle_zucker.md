@@ -10,6 +10,10 @@ Minor Bug: When entering a zipcode and then tabbing into an autocomplete option 
 
 ## HTML Style
 
+Score bumped to a 3 after [this post eval PR submitted](https://github.com/zkc/Weatherly/pull/3)
+
+** Previous **
+
 Developers switched over to divs quite a bit - html is laid out semantically.
 
 Would recommend going through and switching to semantic html instead of divs.
@@ -28,6 +32,18 @@ If changes made, will bump to 3.
 
 ## Testing
 
+Score bumped to a 2.9 after [this post eval PR submitted](https://github.com/zkc/Weatherly/pull/3)
+
+Notes from PR review:
+
+Sweet! Good work.
+
+For the testing, to bump the score to a 3 I would still really want to see some juicier testing. I think this is basically the 'bare minimum' -- which is a huge improvement, but something that you need to keep an eye on continuing to grow as a developer.
+
+Great submission, very professional - thank you for taking my feedback seriously!
+
+** Previous **
+
 Data wrapper or some kind of logical code should be broken into a js file and unit testing. 
 
 Should have a test file per component with at least one test.
@@ -45,6 +61,10 @@ If you get a pull request in to fix those things, will ammend score.
 3 - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
 
 ## Code Sanitation
+
+Score bumped to a 3 after [this post eval PR submitted](https://github.com/zkc/Weatherly/pull/3)
+
+** Previous **
 
 Do a little research into how to tell the linter in the eslintrc file that you're using React. Otherwise go with the disabling the specific rule.
 
