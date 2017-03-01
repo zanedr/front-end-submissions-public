@@ -65,15 +65,13 @@ Pick a team lead to create a repository for each the selected projects. If you h
 
 ## Rubric
 
-#### Production URL: volit.herokuapp.com
+#### Production URL: https://www.volit.herokuapp.com
 
-#### Github Repo:
-
+#### Github Repo: https://github.com/hilarylewis92/volit
 
 ### Production (75 points)
 
-- 75: Application is deployed and in production.
-- 0: Application is not deployed and in production.
+- 23: Application is deployed and in production. However you can only access the login screen. The auth redirect goes to a 404 page.
 
 ### JavaScript Style (50 points)
 
@@ -102,4 +100,4 @@ Instructor/developers will select one feature in the project to review for this 
 
 ### To get a 3 on this project, you need to achieve 240 / 325
 
-## Final Score: 217 + (Deploy score) / 325
+## Final Score: 240 / 325 (Pass on the skin of your teeth)
