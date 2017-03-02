@@ -20,6 +20,14 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 - [Static Comp Challenge](http://frontend.turing.io/projects/m4-static-comp-2.html) (Due Tuesday of Week 4)
 - [CSS Hover Challenge](https://gist.github.com/brittanystoroz/3d69cc8c5eb51e5a1b926f217a1455c2) (Only required if you were in class on the day of the challenge)
 
+**Week 4**
+
+- [Elevator Challenge](https://github.com/turingschool-examples/elevator_challenge)
+
+**Week 5**
+
+- UI Challenge Comp Switch
+
 ### Professional Dev Things
 
 - [Outreach Plan](http://backend.turing.io/professional_development/module_four/outreach_plan)
@@ -30,6 +38,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Kristin Burgess
 
 ## Nick Chambers
+- [Skills Sharing](https://github.com/nnchambs/skill-sharing)
+- [Swipeable Cards](https://github.com/nnchambs/swipeable-cards)
+- [Sidenav](https://github.com/nnchambs/sidenav)
+- [Electron Blog Post](https://medium.com/@nicknchambers/i-built-an-electron-app-with-react-youll-never-guess-what-happened-next-1ae017973d3d#.ri24nye02)
+- [ULTIMATE UX](https://github.com/nnchambs/ultimate-ux)
+- [Elevator Challenge](https://github.com/nnchambs/elevator-challenge)
 
 ## Andrew Crist
 
@@ -37,7 +51,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Swipe Tutorial](https://github.com/andrewLcrist/swipe-tutorial)
 
 ## Christine Gamble
-[Swipeable Cards Assignment](https://github.com/ccgamble/Swipeable-Cards)
+[Homework Assignments Gist](https://gist.github.com/ccgamble/6366ce85d29b1eed66d5583451fd1723)
 
 ## Dale Hendrickson
 
@@ -73,7 +87,13 @@ Intermission Repo: https://github.com/Pilewski/skill-sharing
 ## Chelsea Skovgaard
 - [Skill-Sharing Website](https://github.com/ChelseaSkovgaard/skillsharing-nodejs)
 - [Swipeable-Cards UI Challenge](https://github.com/ChelseaSkovgaard/swipeable-cards)
-- [Static Comp Challenge 1] (https://github.com/ChelseaSkovgaard/cs-comp-challenge-1)
+- [Week 2 Fundamentals Challenge](https://gist.github.com/ChelseaSkovgaard/dc85e6c0ce35cd5061f3f4a556380e27)
+- [Static Comp Challenge](https://github.com/ChelseaSkovgaard/cs-comp-challenge-1)
+- [Elevator Challenge](https://github.com/ChelseaSkovgaard/elevator_challenge)
+- [UI Challenge Comp - partner was supposed to complete](https://github.com/ChelseaSkovgaard/ux-comp)
+- [Fundamentals Challenge - Insertion Sort](http://codepen.io/chelseaskovgaard/pen/MJqLGb)
+- [Fundamentals Challenge - Snail Function](http://codepen.io/chelseaskovgaard/pen/aJoEyb)
+- [Blog on Week as a Turing Student](https://medium.com/@chelseaskovgaard/a-week-in-the-life-of-a-bootcamp-student-at-turing-fbf7fc428cf6#.43pwdpdfj)
 
 ## Maia Stone
 [Skill Sharing Site](https://github.com/maiastone/skill-sharing-site)

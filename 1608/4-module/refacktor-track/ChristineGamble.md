@@ -53,10 +53,16 @@ I got to play around in Mapbox, which was really cool! I created different map l
 
 ### Were all the boxes checked?
 
-- [ ] Documentation of experience completed
-- [ ] All major work was completed in PRs
-- [ ] An attempt at logging hours was completed
-- [ ] All standups were attended or updates were posted in the channel
-- [ ] Student met up with someone or refactored with someone
+- [x] Documentation of experience completed
+- [x] All major work was completed in PRs
+- [x] An attempt at logging hours was completed
+- [x] All standups were attended or updates were posted in the channel
+- [x] Student met up with someone or refactored with someone
 
 ### Notes:
+
+Great documentation on your work and what you accomplished this week. Thank you for the level of detail and spending time formatting the PR so that it was easy for me to understand the context!
+
+You got a tremendous amount of work done! Doing things correctly, refactoring, etc takes a ton of time.. and it's easy to forget how much it takes when we estimate.
+
+Glad you got some mapping fun times in as well :D

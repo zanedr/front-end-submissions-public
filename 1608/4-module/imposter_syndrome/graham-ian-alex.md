@@ -95,4 +95,6 @@ The group had a ton of very small and well written commit messages and lots of P
 ### To get a 3, you need to achieve 130 points
 ### To get a 4, you need to achieve 160 points
 
-## Total Score -  117 + (blog score) / 175
+## Ian: Total Score -  162 / 175
+## Graham: Total Score -  162 / 175
+## Alex: Total Score -  117 + (blog score) / 175
