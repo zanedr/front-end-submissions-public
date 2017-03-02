@@ -56,3 +56,5 @@ Originally I wanted to build an application that allowed users to pull data from
 One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0. Due to a lack of good data inside of the Genius API (No Lyrics!), I had to pivot to using a better API, like the Vimeo API.
 
 The technologies used in this project are React, React-Router, Redux, VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into server-side-rendering, and building a reusable Oauth2 boilerplate for future endeavors with new API calls. I enjoy `create-react-app`, if only for its great read-me, and cohesive design, and I plan on continuing to use it in the future.
+
+For my next self-directed project I've learned that I want to dream up a product first, set my aim high, and then look for the tools to get it done, be that a external API, or a rest API. 
