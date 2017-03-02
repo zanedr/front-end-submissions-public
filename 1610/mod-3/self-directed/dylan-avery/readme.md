@@ -1,12 +1,12 @@
 ## Project Name & Pitch
 
-LyricFaves
+Palatial Revimeo
 
-An application used to filter data form Genius.com based songs, built with React, Redux, JavaScript, and CSS. User can favorite songs.
+An application used to filter data from Vimeo.com based videos, built with React, Redux, JavaScript, and CSS. User can favorite songs.
 
 ## Project Status
 
-This project is currently in development. Users can search for artists using Genius API, and display song names and cover art, links to lyrics are semi-broken (only works on reload), ALSO, I want to think of some more robust Functionality, but API is kind of shallow.
+This project is currently in development. Users can search for videos using Vimeo API, and display hash tags.
 
 ## Project Screen Shot(s)
 
@@ -32,7 +32,7 @@ To Debug:
 
 To Start Server:
 
-`GENIUS_CLIENT_SECRET=ODTvSN9y8kcvEvwQ38mfgjbh_BbX51upwyK4J2gr9ewfSo-UvEk6J-qaCLGPeqXYZj5W792Bxs6ohV-j1q1lVQ node server.js`  
+`VIMEO_CLIENT_SECRET=KMjW6p2aO3UI/yR7+C8fO9YFYeVRSfl4c9zK4fZWPOb5pmqS9gG8rtpO8Ntw91d8hJ5w1JZdP1HWdK4PxIiwDP0aU0dPhy/8VKja9G02t835aWHaXArrWowLr8i9WtGq node server.js`  
 
 To Visit App:
 
@@ -47,12 +47,12 @@ To Visit App:
   - What tools did you use to implement this project?
       - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
 
-#### Example:  
+## Reflection:  
 
-This was a 3 week long project built during my third module at Turing School of Software and Design. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
+This was a 2 week long project built during my third module at Turing School of Software and Design. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
 
-Originally I wanted to build an application that allowed users to pull data from the Twitter API based on what they were interested in, such as 'most tagged users'. I started this process by using the `create-react-app` boilerplate, then adding `react-router-4.0` and `redux`.  
+Originally I wanted to build an application that allowed users to pull data from the Genius API. I started this process by using the `create-react-app` boilerplate, then adding `express` `react-router` and `redux`.  
 
-One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
+One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0. Due to a lack of good data inside of the Genius API (No Lyrics!), I had to pivot to using a better API, like the Vimeo API.
 
-At the end of the day, the technologies implemented in this project are React, React-Router 4.0, Redux, LoDash, D3, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.
+The technologies used in this project are React, React-Router, Redux, VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into server-side-rendering, and building a reusable Oauth2 boilerplate for future endeavors with new API calls. I enjoy `create-react-app`, if only for its great read-me, and cohesive design, and I plan on continuing to use it in the future.
