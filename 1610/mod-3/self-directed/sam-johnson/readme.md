@@ -1,17 +1,5 @@
-## Project Name & Pitch
-
-#### Example:
-
-TweetWorld
-
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
-
-## Project Status
-(only necessary if incomplete)
-
-#### Example:
-
-This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+## School Finder
+### A webbased application that uses a Firebase Database of DPS schools and Google Map APIs to help parents find great schools for their kids based on commute time and distance.
 
 ## Project Screen Shot(s)
 
