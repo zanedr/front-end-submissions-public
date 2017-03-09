@@ -40,7 +40,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Noah Peden
 
-### Rebekah Lundy
+### Bekah Lundy
 
 ### Samuel Johnson
 
