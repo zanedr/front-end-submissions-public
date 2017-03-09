@@ -15,7 +15,7 @@
 
 #### Link to Your Deliverable
 
-(Well formatted markdown document, medium blog post (or equivalent), or deployed html page)
+[Here is the link.](https://gist.github.com/nnchambs/bd867d9b6de24141f5800fda3be5f0d1)
 
 ## Completion
 
