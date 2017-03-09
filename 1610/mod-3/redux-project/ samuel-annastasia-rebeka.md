@@ -9,7 +9,6 @@
 Iteration 0: Current Location
 * Use the Geolocation API to determine your current location.
 
-
 Iteration 1: Sunrise & Sunset
 * At the top of the app you should display the sunrise and sunset information with icons.
 

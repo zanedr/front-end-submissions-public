@@ -46,6 +46,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Joshua Small
 [UX/UI Week 1: Swipeable Cards](https://github.com/jksmall0631/swipeable-cards)
+[UX/UI Week 3: Side-Nav](https://github.com/jksmall0631/side-nav)
 
 ## Justin Wood
 [UX/UI Week 1: Swipeable Cards](https://github.com/jwood11atx/UX-UI---Swipeable-Cards)
@@ -72,6 +73,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Samuel Johnson
 [UX/UI Week 1: Swipeable Cards](https://github.com/sljohnson32/swipeable-cards)
+[UX/UI Week 2: Side Nav](https://github.com/sljohnson32/side-nav)
 
 ## Stephanie Andrews
 [UX/UI Week 1: Swipeable Cards](https://github.com/StephanieEA/ui-element-samples/tree/gh-pages/swipeable-cards)
