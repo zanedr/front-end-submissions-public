@@ -30,6 +30,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jeff Buss
 
+* [Express Tutorial](https://github.com/JeffBuss/express-tutorial)
+
 ### Joshua Small
 
 ### Justin Wood
