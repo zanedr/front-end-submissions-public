@@ -45,6 +45,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Bekah Lundy
 
 ### Samuel Johnson
+[Node/Express Tutorial REPO](https://github.com/sljohnson32/express-node-tutorial)
 
 ### Stephanie Andrews
 * Intermission Homework - [Express Tutorial](https://github.com/StephanieEA/node-tutorial)
