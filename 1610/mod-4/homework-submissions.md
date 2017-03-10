@@ -45,3 +45,4 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Samuel Johnson
 
 ### Stephanie Andrews
+* Intermission Homework - [Express Tutorial](https://github.com/StephanieEA/node-tutorial)
