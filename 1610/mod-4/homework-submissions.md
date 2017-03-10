@@ -43,6 +43,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Bekah Lundy
 
 ### Samuel Johnson
-[Node/Express Tutorial Repo](https://github.com/sljohnson32/express-node-tutorial)
+[Node/Express Tutorial REPO](https://github.com/sljohnson32/express-node-tutorial)
 
 ### Stephanie Andrews
