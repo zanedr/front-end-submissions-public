@@ -23,6 +23,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Elijah Williams
 
 ### Eric Sayler
+* [Express Tutorial](https://github.com/esayler/node-express-tutorial)
 
 ### Gabi Procell
 
