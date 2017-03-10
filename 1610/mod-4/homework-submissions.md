@@ -13,6 +13,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Annastasia Psitos
 
 ### Chelle Tuerk
+[Express Tutorial](https://github.com/chelletuerk/express-tutorial)
 
 ### Dan Grund
 
