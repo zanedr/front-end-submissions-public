@@ -16,6 +16,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
 
 ### Dan Grund
+[Express Tutorial](https://github.com/DanGrund/node-tutorial)
 
 ### Devin Marie Beliveau
 
