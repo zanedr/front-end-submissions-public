@@ -21,6 +21,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Dylan Avery
 
+* [Express Tutorial](https://github.com/dylanavery720/express-mod4-tut)
+
 ### Elijah Williams
 
 ### Eric Sayler
