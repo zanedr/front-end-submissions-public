@@ -8,8 +8,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * Intermission Homework - [Express Tutorial](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm)
 
-### Adam Rice
-
 ### Annastasia Psitos
 * [Express Tutorial](https://github.com/apsitos/Express_Tutorial)
 
