@@ -39,6 +39,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Joshua Small
 
+* [Express Tutorial](https://github.com/jksmall0631/express-tut)
+
 ### Justin Wood
 * Intermission Work - [Express Toot](https://github.com/jwood11atx/express-toot)
 
