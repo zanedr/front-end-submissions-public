@@ -27,6 +27,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Elijah Williams
 
+* [Express Tutorial](https://github.com/ejwill04/express-tutorial)
+
 ### Eric Sayler
 * [Express Tutorial](https://github.com/esayler/node-express-tutorial)
 
