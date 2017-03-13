@@ -53,6 +53,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Noah Peden
 [Node/Express Tutorial] (https://github.com/noahpeden/node-express-tutorial)
 ### Bekah Lundy
+* [Express Tutorial](https://github.com/bekahlundy/node-express)
 
 ### Samuel Johnson
 [Node/Express Tutorial REPO](https://github.com/sljohnson32/express-node-tutorial)
