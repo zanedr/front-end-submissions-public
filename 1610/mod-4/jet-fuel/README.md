@@ -14,55 +14,55 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[Nick and Andrew's Repo](https://github.com/nnchambs/jet-fuel/)
+[Your projects's repo URL](https://github.com/)
 
 #### Link to the Deployed Application
-[Shor.ty](https://sh-orty.herokuapp.com/)
+[Your project's production URL](https://github.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
--[Nick](https://github.com/nnchambs/jet-fuel/commits?author=nnchambs)
+-[Partner 1](https://github.com)
 
--[Andrew](hhttps://github.com/nnchambs/jet-fuel/commits?author=andrewLcrist)
+-[Partner 2](hhttps://github.com/)
 
 #### Provide a Screenshot of your Application
-![😍Shor.ty😍](./Screen Shot 2017-01-27 at 1.08.20 PM.png)
+
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-* Yes
+* Yes / No
 
 #### Which extensions, if any, did you complete?
 
-- None
+- List extensions completed or N/A
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[this code is sweet](https://github.com/nnchambs/jet-fuel/blob/master/helperfriends.js#L53-L61)
+[Link to code block in repo](https://github.com)
+
 * Why were you proud of this piece of code?
 
-It's dynamic and sorts based on both created_at and popularity. Quite nice.
+Reason you are proud of code
 
 #### Link to a specific block of your code on Github that you feel not great about
+[Link to code block in repo](https://github.com)
+
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-[this code is lame/weak sauce](https://github.com/nnchambs/jet-fuel/blob/master/public/index.js#L47-L97)
-Repetition with how we're rendering the URLs. It could be cleaned up. jQuery sux.
+
+Reason you don't feel awesome about this code.
+
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-[WIP](jet-fuel/Screen Shot 2017-01-27 at 1.13.46 PM.png)
 
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
-
-n/a
 
 -----
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-mercy, please.
+Anything else you wanna say!
 
-This project was SWEET! It was awesome to use node/Express and get to use knex and postgres. Knex is really, really cool.
 -----
 
 # Instructor Feedback
