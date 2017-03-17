@@ -40,7 +40,8 @@ testing DB is hard
 
 
 #### testing
-![tests](http://i.imgur.com/ykmSYi5.png)
+![tests](http://i.imgur.com/12t6prE.png))
+having trouble getting database set up in order to get endpoint tests to pass
 
 
 ### OTHER things
