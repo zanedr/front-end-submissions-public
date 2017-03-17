@@ -32,7 +32,7 @@
 ## Completion
 
 #### Were you able to complete the base functionality?
-* No - We are still working on sort functionality and making the link shareable.
+* No - We are still working on sort functionality and visits
 
 #### Which extensions, if any, did you complete?
 
