@@ -14,22 +14,22 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[](https://github.com/jksmall0631/jet-fuel)
+[gh](https://github.com/jksmall0631/jet-fuel)
 
 #### Link to the Deployed Application
-[](https://jet-fuelz.herokuapp.com/)
+[heroku](https://jet-fuelz.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
 
 #### Provide a Screenshot of your Application
 
-!
+!(http://i.imgur.com/gvKtfVM.png)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-* Yes / No
+* Yes
 
 #### Which extensions, if any, did you complete?
 
@@ -38,14 +38,14 @@ N/A
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L121-L132)
+[code](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L121-L132)
 
 * Why were you proud of this piece of code?
 
 Proud because it was a much larger block of code and got refactored to look much better.
 
 #### Link to a specific block of your code on Github that you feel not great about
-[](https://github.com/jksmall0631/jet-fuel/blob/master/public/app.js#L74-L85)
+[code](https://github.com/jksmall0631/jet-fuel/blob/master/public/app.js#L74-L85)
 
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
