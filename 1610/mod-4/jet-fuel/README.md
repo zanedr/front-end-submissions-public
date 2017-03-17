@@ -14,17 +14,19 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[](https://github.com/jksmall0631/jet-fuel)
+[Your projects's repo URL](https://github.com/)
 
 #### Link to the Deployed Application
-[](https://jet-fuelz.herokuapp.com/)
+[Your project's production URL](https://github.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
+-[Partner 1](https://github.com)
+
+-[Partner 2](hhttps://github.com/)
 
 #### Provide a Screenshot of your Application
 
-!
 
 ## Completion
 
@@ -33,29 +35,25 @@
 
 #### Which extensions, if any, did you complete?
 
-N/A
+- List extensions completed or N/A
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L121-L132)
+[Link to code block in repo](https://github.com)
 
 * Why were you proud of this piece of code?
 
-Proud because it was a much larger block of code and got refactored to look much better.
+Reason you are proud of code
 
 #### Link to a specific block of your code on Github that you feel not great about
-[](https://github.com/jksmall0631/jet-fuel/blob/master/public/app.js#L74-L85)
-
+[Link to code block in repo](https://github.com)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-Not happy with this because we didn't have time to break it out and refactor.
+Reason you don't feel awesome about this code.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-We ran out of time with unit testing, and had a hard time understanding what we could test. We also had all server tests passing and realized last minute that we needed to create a testing db. Started going through the blog that was linked in the lesson but ran out of time to implement the whole thing.
-
-![](http://i.imgur.com/E6jfQgM.png)
 
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
 
@@ -63,13 +61,10 @@ We ran out of time with unit testing, and had a hard time understanding what we 
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Meeka - Remember last mod when I was having CORS issues with my assessment? It came back to haunt me this project too! For a good portion of the project I wasn't able to push up code because I was getting issues with the database. Is there anything I can do to fix it??
-                        -love, Lauren
+Anything else you wanna say!
 
 -----
 
 # Instructor Feedback
-
-We both struggled with the unit testing, especially setting it up. It'd be really helpful to get a refresher on that during the unit testing lesson! 
 
 - Points: x / 150
