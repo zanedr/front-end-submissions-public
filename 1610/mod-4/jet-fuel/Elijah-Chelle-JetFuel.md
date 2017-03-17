@@ -22,7 +22,7 @@ Link to the Deployed Application
 
 Provide a Screenshot of your Application
 
-[](http://i.imgur.com/fVWER0z.png)
+![Screenshot of application](http://i.imgur.com/fVWER0z.png)
 
 Completion
 
@@ -53,7 +53,7 @@ Reason you don't feel awesome about this code.
 We spoke with Brittany about optimizing this funciton when rerendering.  We never got around to updating it, though.
 
 Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-[](http://i.imgur.com/Vecce7T.png)
+![Test suite](http://i.imgur.com/Vecce7T.png)
 
 Please feel free to ask any other questions or make any other statements below!
 
