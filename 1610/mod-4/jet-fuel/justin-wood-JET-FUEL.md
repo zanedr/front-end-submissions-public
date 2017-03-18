@@ -69,41 +69,56 @@ Anything else you wanna say!
 ## Specification Adherence
 
 * 50 points: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
-User Interface
-* 20 points - The application is pleasant, logical, and easy to use. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
-* 15 points - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 7 points - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 0 points - The application is confusing or difficult to use.
+
+(Reverse sort was not an extension based on the outline [here](http://frontend.turing.io/projects/jet-fuel.html))
+
+
+## User Interface
+* 17 points - The application is pleasant, logical, and easy to use. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
+
+Nice super hero colors. One tiny nitpick is it might be nice to see the timestamp for the URLs (if they're created on the same date, it's not easy to tell that the sorting is accurate.)
 
 ## Data Persistence with SQL Database
 
 * 20 points - The application persists data in a SQL database but with correct relationships between folders and URLs.
-* 10 points - The application persists data in a SQL database but with some incorrect relationships between folders and URLs.
-* 0 points - The application does not persist data in a SQL database.
-
 
 ## Testing
 
-* 20 points - Project has a running test suite that exercises the application at multiple levels including server and client tests.
 * 15 points - Project has a running test suite that tests and multiple levels but fails to cover some features. All controller actions are covered by tests. The application makes some use of integration testing.
-* 7 points - Project has sporadic use of tests and multiple levels. Not all controller actions are tested. There are little or no attempts at integration testing.
-* 0 points - There is little or no evidence of testing in this application.
 
 
 ## JavaScript Style
 
-* 20 points - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There zero instances where an instructor would recommend taking a different approach.
 * 15 points - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
-* 12 points - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
-* 8 points - Your application has a significant amount of duplication and one or more major bugs. Developer cannot speak to most choices and does not know what every line of code is doing.
-* 3 point - Your client-side application does not function or the application does not make use of AJAX using jQuery for updating information on the client. Developer writes code with unnecessary variables, operations, or steps which do not increase clarity.
-* 0 points - There is little or no client-side code. Developer writes code that is difficult to understand. Application logic shows poor decomposition with too much logic mashed together.
+
+Functions are nice and modular, easy to read. I dig em. Just make sure you are always catching any Promise errors when using fetch. I'd like to see `.catch()` blocks after all your `.thens()`. (Like [here](https://github.com/jwood11atx/Jet-Fuel/blob/master/app/helpers/api.js#L17)). Another common convention when working with a particular API is to extract the 'root' of the URL into a variable. In your case it would look something like:
+
+```javascript
+const API_ROOT = `http://localhost:3000`;
+
+fetch(`${API_ROOT}/folders/${folderId}/`, {
+  method: 'GET'
+})
+```
+
+This pattern makes it easy to toggle between different environments (e.g. you might be using localhost:3000/api/ for development, http://jetfuel.staging.com/api/ for a staging server and http://jetfuel.com/api/ for production). Or even if your local port changes, you would only have to update that base root URL in one place rather than in every fetch request.
+
+When doing a `POST` to [create a new record](https://github.com/jwood11atx/Jet-Fuel/blob/master/server.js#L35), the status code should be 201 rather than 200 if things were successful. Take a look at all the status codes that exist [here](http://www.restapitutorial.com/httpstatuscodes.html).
+
+I'm actually surprised that [new Date](https://github.com/jwood11atx/Jet-Fuel/blob/master/server.js#L30) works without the [parens](https://github.com/jwood11atx/Jet-Fuel/blob/master/server.js#L63).
+
+Is this [finally](https://github.com/jwood11atx/Jet-Fuel/blob/master/server.js#L79) doing anything in particular? 
+
+Better names for the [viewSort](https://github.com/jwood11atx/Jet-Fuel/blob/master/app/main.js#L9) would be ascending/descending (or asc/desc) rather than up/down. Up/down is a more...geographical? descriptor rather than an ordering descriptor.
+
+I know we see a ton of examples out there just using words like `json` or `payload` for data variables but let's be more descriptive/informative [here](https://github.com/jwood11atx/Jet-Fuel/blob/master/app/main.js#L13-L14). I would rename that json argument to `folders`, or `foldersJSON`.
 
 ## Workflow
 
 * 20 points - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
-* 15 points - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
-* 7 points - The developer makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application.
-* 0 points - The application was not checked into version control.
 
-Points: x / 150
+Make sure your .gitignore file includes `.DS_Store`. That's a hidden file created on OSX when you use the Finder application and we don't want that committed to our repos.
+
+Commits are otherwise nice and tiny, the diffs are readable and relevant to their commit messages. Good work!
+
+Points: 137 / 150
