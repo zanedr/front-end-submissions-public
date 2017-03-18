@@ -98,7 +98,7 @@ Nitpicks:
 
 ## JavaScript Style
 
-* 12 points - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
+* 13 points - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
 
 Is this [put](https://github.com/DanGrund/jetFuel/blob/e77c1e9398192824d4a07c9f20cbd4881a5988be/server.js#L121-L136) actually being used? It looks like it's just handling updating the visit count but it also seems you're doing that in your [get](https://github.com/DanGrund/jetFuel/blob/e77c1e9398192824d4a07c9f20cbd4881a5988be/server.js#L109) request as well. Either way, if you are just trying to update a single property on a data object, you'd want to use a `PATCH` instead of a `PUT`. A `PUT` replaces the entire data object (therefore requiring you to have all the data points associated with it), whereas a `PATCH` allows you to just pass in and update a single property.
 
