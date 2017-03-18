@@ -120,6 +120,11 @@ Nitpick: I would reorder [these request handlers](https://github.com/jksmall0631
 
 Also, you seem to have two different handlers for POST to /api/folders. [Here](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L55) and [here](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L83).
 
+Let's make sure we're [catching any errors](https://github.com/jksmall0631/jet-fuel/blob/c965f7af3f846f16437610baf6df42a02fb0c4cb/public/app.js#L12-L13) with a `.catch()` block when using promises, especially for fetch requests since so many things can go wrong!
+
+This [line](https://github.com/jksmall0631/jet-fuel/blob/c965f7af3f846f16437610baf6df42a02fb0c4cb/public/app.js#L30) is getting pretty gnarly. I'd like us to just do an `appendChild()` instead of tacking on a string to the existing `innerHTML`. Additionally, when looping through items to append to the DOM, you want to build up all the HTML first and make a single DOM manipulation to append the entire block at the end, rather than consistently making DOM manipulations through each iteration of the loop. (That gets very slow and will lock up your browser if you have a lot of data.). Look into using [Document Fragments](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment) to build up your HTML in these scenarios.
+
+[This](https://github.com/jksmall0631/jet-fuel/blob/c965f7af3f846f16437610baf6df42a02fb0c4cb/public/app.js#L74-L83) is a good use-case for using a [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) statement rather than a bunch of if-else conditions.
 
 ## Workflow
 
