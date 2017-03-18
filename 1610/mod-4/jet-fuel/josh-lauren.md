@@ -72,42 +72,63 @@ Meeka - Remember last mod when I was having CORS issues with my assessment? It c
 
 ## Specification Adherence
 
-* 50 points: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
-User Interface
-* 20 points - The application is pleasant, logical, and easy to use. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
-* 15 points - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 7 points - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 0 points - The application is confusing or difficult to use.
+* 45 points: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+
+The shortened URL breaks if I use the format `http://google.com` or even if I use `http://www.google.com` when I first enter a URL. (Trying to access it from the shortened URL will actually bring me to `http://http//google.com`). I'd like to see either an error message pop-up or some sort of invalidator if I enter a URL that does not fit the correct format. Better yet, I'd like to be able to enter URLs in any of these three formats:
+
+* http://google.com
+* http://www.google.com
+* www.google.com
+
+Currently, it appears only the last format is supported.
+
+
+## User Interface
+* 17 points - The application is pleasant, logical, and easy to use. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
+
+One nitpick with the sorting - I'd like to only have a single button that toggles between an up/down arrow rather than two separate buttons for each. The most common convention is to just flip the icon/sort indicator vertically to point up or down depending on the current sort order. Many people are used to just being able to toggle from the same button rather than using two separate arrows.
 
 ## Data Persistence with SQL Database
 
 * 20 points - The application persists data in a SQL database but with correct relationships between folders and URLs.
-* 10 points - The application persists data in a SQL database but with some incorrect relationships between folders and URLs.
-* 0 points - The application does not persist data in a SQL database.
-
 
 ## Testing
 
-* 20 points - Project has a running test suite that exercises the application at multiple levels including server and client tests.
-* 15 points - Project has a running test suite that tests and multiple levels but fails to cover some features. All controller actions are covered by tests. The application makes some use of integration testing.
 * 7 points - Project has sporadic use of tests and multiple levels. Not all controller actions are tested. There are little or no attempts at integration testing.
-* 0 points - There is little or no evidence of testing in this application.
-
 
 ## JavaScript Style
 
-* 20 points - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There zero instances where an instructor would recommend taking a different approach.
-* 15 points - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 * 12 points - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
-* 8 points - Your application has a significant amount of duplication and one or more major bugs. Developer cannot speak to most choices and does not know what every line of code is doing.
-* 3 point - Your client-side application does not function or the application does not make use of AJAX using jQuery for updating information on the client. Developer writes code with unnecessary variables, operations, or steps which do not increase clarity.
-* 0 points - There is little or no client-side code. Developer writes code that is difficult to understand. Application logic shows poor decomposition with too much logic mashed together.
+
+Is there a reason we're using == instead of === [?](https://github.com/jksmall0631/jet-fuel/commit/a01c3bad3aec86e28115d6162a76c0214d75f7ef#diff-4fb0e45f4ba6881335591c2d8331b72bR66)
+
+I'd make this endpoint [param](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L28) a little clearer than just 'id'. It's tough to tell what it should be doing based on the endpoint alone. I'd rename that param to something like `:shortenedUrlId` to give a little more context about what a user is trying to hit.
+
+Lots of toggling between [ES5](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L31) and [ES6](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L45) syntax. Let's be consistent.
+
+[Noooooo](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L34)
+
+When doing a `POST` to [create a new record](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L63), the status code should be 201 rather than 200 if things were successful. Take a look at all the status codes that exist [here](http://www.restapitutorial.com/httpstatuscodes.html).
+
+Nitpick: I would reorder [these request handlers](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L72-L119) so that you keep the endpoints together. e.g. it reads a little more smoothly if we know all the types of requests we can make to a particular endpoint. I'd reorder them like so:
+
+* app.get('/api/folders/')
+* app.post('/api/folders/')
+* app.get('/api/folders/:folderId')
+* app.post('/api/folders/:folderId')
+
+
+Also, you seem to have two different handlers for POST to /api/folders. [Here](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L55) and [here](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L83).
+
 
 ## Workflow
 
-* 20 points - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
 * 15 points - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
-* 7 points - The developer makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application.
-* 0 points - The application was not checked into version control.
 
-Points: x / 150
+Ahhh don't commit large blocks of [commented out code](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L133-L148) and definitely no [console.logs](https://github.com/jksmall0631/jet-fuel/commit/b4b9e6ae00ef9f922d110791414c427dd360a184#diff-78c12f5adc1848d13b1c6f07055d996eR51)
+
+Also, in the same vein, make sure you remove things you're no longer using. I was slightly confused that you still had folders and urls in your [app.locals](https://github.com/jksmall0631/jet-fuel/blob/master/server.js#L19-L20) even though you had switched over to using a database.
+
+Some commits are a little long, and contain changes that should be broken out into a different commit with a different message. [For example](https://github.com/jksmall0631/jet-fuel/commit/a01c3bad3aec86e28115d6162a76c0214d75f7ef), the addition of all the semi-colons here (I'm assuming this was a linting fix), should be broken out into a separate commit named 'Fix Linting Errors'. You can control what gets put into a particular commit by using `git add --patch` rather than adding everything all at once, it will show you each little change you've made and allow you to commit them in chunks.
+
+Points: 116 / 150
