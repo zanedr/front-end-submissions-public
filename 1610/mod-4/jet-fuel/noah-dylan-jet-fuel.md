@@ -69,4 +69,52 @@ Anything else you wanna say!
 
 # Instructor Feedback
 
-- Points: x / 150
+## Instructor Evaluation Points
+
+The following set of points are distributed at the discretion of the instructor.
+
+### Specification Adherence
+
+* **40 points**: All functionality was met except for displaying the date created and number of clicks for each URL.
+
+### User Interface
+
+* **12 points** - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
+
+Overall, the application is well structured with the following exceptions:
+
+* Don't display the sorting buttons until a folder is clicked. A user will be confused to see those buttons without any information to sort.
+* Label the 'SORT' button with 'SORT by popularity'. The generic 'SORT' label doesn't give the user any idea what it's going to be sorted by.
+* The list of URLS is not formatted well. It's a list with commas seperating them and the URL's only show an integer without the number of clicks and created date.
+
+### Data Persistence with SQL Database
+
+* **20 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+### Testing
+
+* **7 points** - Project has sporadic use of tests and multiple levels. Not all controller actions are tested. There are little or no attempts at integration testing.
+
+There are 3 passing server-side tests and 1 failing test. There is an attempt at unit testing but no passing unit tests. 
+
+### JavaScript Style
+
+* **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+The code is well broken out into small functions and consistent style, but there are areas of improvement:
+
+* I would have liked to seen the code written in ES6
+* Remove any unused global variables (var $shortUrl = $('.short-url'))
+
+### Workflow
+
+* **20 points** - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
+
+Lots of small, atomic commits and good conversations in PRs.
+
+## To get a 3 on this project, you need to score 110 points or higher
+
+## To get a 4 on this project, you need to score 135 points or higher
+
+# Final Score: 114 / 150
+
