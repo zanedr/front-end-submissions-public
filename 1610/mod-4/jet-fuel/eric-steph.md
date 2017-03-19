@@ -74,6 +74,8 @@ Every endpoint was tested and lots of unit tests for folders and urls. Only thin
 
 * **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+Really liked how you used Folder and Url prototypes to handle click events. Some of your event handler functions are pretty long and could have been broken into even smaller functions.  I would have pulled out the convertTimestamps function into a helper file and imported it into server.js. I also would have liked to seen more consistency between ES6 and ES5 (you mixed () => {} with function() {}).
+
 ### Workflow
 
 * **20 points** - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
