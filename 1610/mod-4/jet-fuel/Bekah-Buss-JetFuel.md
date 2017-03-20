@@ -32,7 +32,7 @@
 ## Completion
 
 #### Were you able to complete the base functionality?
-* No - We are still working on sort functionality and visits
+* Yes - functionality is now all working
 
 #### Which extensions, if any, did you complete?
 
@@ -52,15 +52,15 @@ It's the heart of our project! Displays all the pretty folders using our good fr
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-Mostly b/c it doesn't work. Much sadness :(
+I think we now feel good about the code, we got it all done this weekend. We haven't looked into refactoring too much yet.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[Screenshot](https://gyazo.com/dd07899aa952f761444dd92058253b76)
+[Screenshot](https://gyazo.com/6c6784e3de3e9f063f26330c39f67869)
 
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
 
-* We didn't have any tests covering edge cases
+* I beleive Jeff was having trouble with the one of the tests, I am not sure which one. I'll have him update this pr if needed
 
 -----
 
