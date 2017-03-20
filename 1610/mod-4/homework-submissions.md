@@ -10,7 +10,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 2**
 
-* Web Scraping - Link to README.md for your web scraping workshop
+* [Web Scraping](http://frontend.turing.io/lessons/web-scraping-workshop.html) - Link to README.md for your web scraping workshop
 
 ### Annastasia Psitos
 * [Express Tutorial](https://github.com/apsitos/Express_Tutorial)
