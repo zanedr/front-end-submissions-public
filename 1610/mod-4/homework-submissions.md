@@ -8,6 +8,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * Intermission Homework - [Express Tutorial](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm)
 
+**Week 2**
+
+* Web Scraping - Link to README.md for your web scraping workshop
+
 ### Annastasia Psitos
 * [Express Tutorial](https://github.com/apsitos/Express_Tutorial)
 
