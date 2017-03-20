@@ -75,17 +75,15 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Specification Adherence
 
-* **40 points**: All functionality was met except for displaying the date created and number of clicks for each URL.
+* **50 points**: All functionality was met.
 
 ### User Interface
 
-* **12 points** - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
+* **15 points** - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
 
 Overall, the application is well structured with the following exceptions:
 
-* Don't display the sorting buttons until a folder is clicked. A user will be confused to see those buttons without any information to sort.
-* Label the 'SORT' button with 'SORT by popularity'. The generic 'SORT' label doesn't give the user any idea what it's going to be sorted by.
-* The list of URLS is not formatted well. It's a list with commas seperating them and the URL's only show an integer without the number of clicks and created date.
+* The list of URLS could be better. The sorting buttons should be on top because if you have a long list of urls you have to scroll a long ways down to sort. Also, make the URLs info more spaced out and on a different background. It's tough to read the short url.
 
 ### Data Persistence with SQL Database
 
@@ -116,5 +114,5 @@ Lots of small, atomic commits and good conversations in PRs.
 
 ## To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: 114 / 150
+# Final Score: 127 / 150
 
