@@ -67,6 +67,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Noah Peden
 [Node/Express Tutorial] (https://github.com/noahpeden/node-express-tutorial)
+[JWT Tutorial](https://github.com/noahpeden/Securing-SPAs-with-JWTs)
 ### Bekah Lundy
 * [Express Tutorial](https://github.com/bekahlundy/node-express)
 
