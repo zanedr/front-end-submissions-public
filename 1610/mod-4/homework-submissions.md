@@ -11,6 +11,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 **Week 2**
 
 * [Web Scraping](http://frontend.turing.io/lessons/web-scraping-workshop.html) - Link to README.md for your web scraping workshop
+* [Wednesday Student Spike](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
 
 ### Annastasia Psitos
 * [Express Tutorial](https://github.com/apsitos/Express_Tutorial)
