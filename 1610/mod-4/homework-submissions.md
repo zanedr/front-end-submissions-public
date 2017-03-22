@@ -20,7 +20,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
 
 ### Dan Grund
-[Express Tutorial](https://github.com/DanGrund/node-tutorial)
+**Week 1**
+* [Express Tutorial](https://github.com/DanGrund/node-tutorial)
+
+**Week 2**
+* [Web Scraping](https://github.com/DanGrund/webscraping-tutorial)
+* [Wednesday Student Spike](https://github.com/DanGrund/JWT-lesson)
 
 ### Devin Marie Beliveau
 [Express Tutorial](https://github.com/devinmarieb/Node-Express-Tutorial)
