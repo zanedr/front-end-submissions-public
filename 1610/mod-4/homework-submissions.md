@@ -14,7 +14,13 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Wednesday Student Spike](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
 
 ### Annastasia Psitos
+
+**Week 1**
 * [Express Tutorial](https://github.com/apsitos/Express_Tutorial)
+
+**Week 2**
+* [Web Scraping](https://github.com/apsitos/webscraping)
+* [JWTs Homework](https://github.com/apsitos/jwts)
 
 ### Chelle Tuerk
 [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
