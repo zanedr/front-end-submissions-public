@@ -59,7 +59,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Lauren Pesce
 [Express Tutorial](https://github.com/pescel/express-tutorial)
 ### Mike Limberg
-* [The Thing](https://github.com/mlimberg/express-tutorial)
+* [Express Tutorial](https://github.com/mlimberg/express-tutorial)
+* [JWT Tutorial](https://github.com/mlimberg/JWT-practice)
 
 
 ### Mike Ziccardi
