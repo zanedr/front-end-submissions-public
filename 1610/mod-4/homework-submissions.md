@@ -18,6 +18,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Chelle Tuerk
 [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
+[JWT Tutorial](https://github.com/chelletuerk/jwt-tutorial)
 
 ### Dan Grund
 **Week 1**
