@@ -12,7 +12,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Web Scraping](http://frontend.turing.io/lessons/web-scraping-workshop.html) - Link to README.md for your web scraping workshop
 * [Wednesday Student Spike](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
-* [Code Pen](https://codepen.io/apsitos/pen/dveLwo)
 
 ### Annastasia Psitos
 
@@ -22,6 +21,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 **Week 2**
 * [Web Scraping](https://github.com/apsitos/webscraping)
 * [JWTs Homework](https://github.com/apsitos/jwts)
+* [Code Pen](https://codepen.io/apsitos/pen/dveLwo)
 
 ### Chelle Tuerk
 [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
