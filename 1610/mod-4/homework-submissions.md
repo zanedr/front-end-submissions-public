@@ -44,6 +44,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Gabi Procell
 [Express Tutorial](https://github.com/gprocell927/NodeExpressPrework)
+[JWT Tutorial](https://github.com/gprocell927/json-web-tokens-tutorial)🚆🚆
 
 ### Jeff Buss
 
