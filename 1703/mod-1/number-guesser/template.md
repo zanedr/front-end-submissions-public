@@ -14,7 +14,7 @@
 
 #### Accessibility
 
-* ____Novice:____ Knows what a semantic tag is and leverages the HTML5 structural tags to organize the content of their markup. 
+* ___Novice:___ Knows what a semantic tag is and leverages the HTML5 structural tags to organize the content of their markup. 
 * __Advanced Beginner:__ Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags. 
 * __Proficient:__ Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns. 
 * __Exceptional__ Can run markup through a variety of online accessibility tools and score well for content, color, screen readers, etc. 
@@ -34,7 +34,7 @@
 
 * __Novice:__ Can effectively target DOM elements via tag, class, and/or id and write CSS rules around each element to create the desired style. 
 * __Advanced Beginner:__ Can cleanly and logically organize CSS rules according to similar categories (i.e. typography, layout, components), and then logically organize the remaining CSS rules based on flow of the markup. Organizes properties within rules alphabetically.
-* Proficient : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS. 
+* __Proficient__ : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS. 
 * __Exceptional__ Understands the performance implications surrounding cascading/specificity and crafts CSS that is mindful of reducing complexity and increasing performance.
 
 #### Implementation
@@ -57,7 +57,7 @@
 
 #### Functions & Scope
 
-* Novice : Can write a simple function that takes at least one input argument.
+* __Novice__ : Can write a simple function that takes at least one input argument.
 * __Advanced Beginner:__ Developer is comfortable using multiple arguments to pass data into functions. Understands how variables are scoped at the function level and global level. Functions are named descriptively. Knows when and why to use return in a function.
 * __Proficient:__ Functions have single responsibility. The entirety of the function is easy to read what functionality it contains. Function is generally shorter than 8 lines. Uses functions to eliminate repeated code. Comfortable refactoring any piece of code and extracting it to a function.
 * __Exceptional__ Comfortable with using callback functions where applicable. Comfortable returning collections from functions (objects, arrays).
