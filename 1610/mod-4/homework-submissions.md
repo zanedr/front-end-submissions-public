@@ -12,7 +12,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Web Scraping](http://frontend.turing.io/lessons/web-scraping-workshop.html) - Link to README.md for your web scraping workshop
 * [Wednesday Student Spike](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
-* [Link to UI Challenge CodePen](http://codepen.io/atideman/pen/MpGRMP)
+* [Link to UI Challenge CodePen](http://codepen.io/atideman/pen/MpGRMP) - [Here is the comp](http://frontend.turing.io/projects/mod4-guest-design-challenge.html)
 
 ### Annastasia Psitos
 * [Express Tutorial](https://github.com/apsitos/Express_Tutorial)
