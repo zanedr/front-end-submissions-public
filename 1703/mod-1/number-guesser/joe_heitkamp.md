@@ -1,6 +1,11 @@
 ## Evaluator: 
 ## Optional Notes: 
 
+*  Refactor header to remove that extra markup (the div)
+*  Potential refactor in button containers - maybe don't need them, or not both of them
+*  Use percentages for box model props if you want relative units of measure. Save the em's for fonts and be sure to set a base font-size on your body
+*  Consider refactor on the big if/else, research a switch statement in js
+
 ### Functional Expectations
 
 * __Novice:__ Application meets all of the functional expectations in Phase One.
