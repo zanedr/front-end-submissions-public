@@ -15,7 +15,14 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Link to UI Challenge CodePen](http://codepen.io/atideman/pen/MpGRMP) - [Here is the comp](http://frontend.turing.io/projects/mod4-guest-design-challenge.html)
 
 ### Annastasia Psitos
+
+**Week 1**
 * [Express Tutorial](https://github.com/apsitos/Express_Tutorial)
+
+**Week 2**
+* [Web Scraping](https://github.com/apsitos/webscraping)
+* [JWTs Homework](https://github.com/apsitos/jwts)
+* [Code Pen](https://codepen.io/apsitos/pen/dveLwo)
 
 ### Chelle Tuerk
 [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
