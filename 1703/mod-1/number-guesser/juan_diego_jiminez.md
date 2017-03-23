@@ -1,6 +1,10 @@
 ## Evaluator: 
 ## Optional Notes: 
 
+* Use the fieldset tag in your forms :)
+* Refactor your fonts so as not to use GIANT percentages.
+* Be careful of overusing position absolute in the CSS 
+
 ### Functional Expectations
 
 * __Novice:__ Application meets all of the functional expectations in Phase One.
