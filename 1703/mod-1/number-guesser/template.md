@@ -62,8 +62,6 @@
 * __Proficient:__ Functions have single responsibility. The entirety of the function is easy to read what functionality it contains. Function is generally shorter than 8 lines. Uses functions to eliminate repeated code. Comfortable refactoring any piece of code and extracting it to a function.
 * __Exceptional__ Comfortable with using callback functions where applicable. Comfortable returning collections from functions (objects, arrays).
 
-------------------------------------------------------------------
-
 #### DOM Manipulation
 
 * __Novice:__ Can articulate what the DOM is and can effectively target elements in vanilla JavaScript via class, id, or tag.
