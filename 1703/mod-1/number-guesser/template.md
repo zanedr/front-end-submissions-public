@@ -14,7 +14,7 @@
 
 #### Accessibility
 
-* ___Novice:___ Knows what a semantic tag is and leverages the HTML5 structural tags to organize the content of their markup. 
+* __Novice:__ Knows what a semantic tag is and leverages the HTML5 structural tags to organize the content of their markup. 
 * __Advanced Beginner:__ Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags. 
 * __Proficient:__ Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns. 
 * __Exceptional__ Can run markup through a variety of online accessibility tools and score well for content, color, screen readers, etc. 
