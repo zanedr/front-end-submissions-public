@@ -41,9 +41,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Devin Marie Beliveau
 **Week 1**
 [Express Tutorial](https://github.com/devinmarieb/Node-Express-Tutorial)
+
 **Week 2**
 * [Web Scraping](https://github.com/devinmarieb/webscraping-workshop)
 * [JWT Tutorial](https://github.com/devinmarieb/jwt-mini-project)
+* [Codepen Card Challenge](https://codepen.io/devinmarieb/pen/PpevwK)
 
 ### Dylan Avery
 
