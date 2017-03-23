@@ -1,6 +1,10 @@
 ## Evaluator: 
 ## Optional Notes: 
 
+* That bdi tag is not what you think it is. ;)
+* Get those js calls out of your html
+* Use conventional naming in CSS w/ dashes instead of underscores and camelcase
+
 ### Functional Expectations
 
 * __Novice:__ Application meets all of the functional expectations in Phase One.
