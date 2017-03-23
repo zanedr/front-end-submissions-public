@@ -29,6 +29,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 **Week 2**
 * [Web Scraping](https://github.com/DanGrund/webscraping-tutorial)
 * [Wednesday Student Spike](https://github.com/DanGrund/JWT-lesson)
+* [1hr Design Challenge](http://codepen.io/dangrund/pen/qrYGVN?editors=1010)
 
 ### Devin Marie Beliveau
 [Express Tutorial](https://github.com/devinmarieb/Node-Express-Tutorial)
