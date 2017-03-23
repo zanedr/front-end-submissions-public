@@ -1,6 +1,10 @@
 ## Evaluator: 
 ## Optional Notes: 
 
+* Consider the human factor in the min/max range, might be worthwhile to add a confirmation note OR a "set" button. Something in the UI to reinforce that the inputs from user were accepted and the game is in play accordingly.
+* Refactor the header and h1 - lose the extra div and the extra h1, can style words independently w/in a single h1 using spans
+* Shore up the redundant clearfix class code
+
 ### Functional Expectations
 
 * __Novice:__ Application meets all of the functional expectations in Phase One.
