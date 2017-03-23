@@ -48,6 +48,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Gabi Procell
 [Express Tutorial](https://github.com/gprocell927/NodeExpressPrework)
+[Wk 2 Design Challenge](https://codepen.io/gabitron/pen/MpGdeL) 
 
 ### Jeff Buss
 
