@@ -55,7 +55,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jksmall0631/express-tut)
 
 ### Justin Wood
-* Intermission Work - [Express Toot](https://github.com/jwood11atx/express-toot)
+* [Express Toot](https://github.com/jwood11atx/express-toot)
+* [JWT Toot](https://github.com/jwood11atx/jwt-toot)
+* [Slideshow](https://codepen.io/jwood11atx/pen/yMjWrB)
 
 ### Lauren Pesce
 [Express Tutorial](https://github.com/pescel/express-tutorial)
