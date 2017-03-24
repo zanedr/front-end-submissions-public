@@ -26,9 +26,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Chelle Tuerk
 [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
+[JWT Tutorial](https://github.com/chelletuerk/jwt-tutorial)
 [Link to UI challenge](https://codepen.io/mtuerk/pen/jBxjPN)
 [Webscraper](https://github.com/chelletuerk/webscraper)
-
 
 ### Dan Grund
 **Week 1**
