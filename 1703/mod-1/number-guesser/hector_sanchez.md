@@ -1,6 +1,12 @@
 ## Evaluator: 
 ## Optional Notes: 
 
+* Setup min/max feature when you have time. ;)
+* Work on making disabled state for buttons (clear button for example) visible to the user
+* Use convention in css id/class naming w/ dashes to separate words instead of underscores and/or camelCase
+* Refactor that h1 w/ a span to target one of the words independently for styling
+
+
 ### Functional Expectations
 
 * __Novice:__ Application meets all of the functional expectations in Phase One.
