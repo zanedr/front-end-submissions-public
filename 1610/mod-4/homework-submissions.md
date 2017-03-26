@@ -101,4 +101,13 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Node/Express Tutorial REPO](https://github.com/sljohnson32/express-node-tutorial)
 
 ### Stephanie Andrews
+
+**Week 1**
+
 * Intermission Homework - [Express Tutorial](https://github.com/StephanieEA/node-tutorial)
+
+**Week 2**
+
+* [Web Scraping](https://github.com/bekahlundy/find-my-dog-costume/blob/master/README.md) - Link to README.md for your web scraping workshop
+* [Wednesday Student Spike](https://github.com/StephanieEA/jwt-tutorial) - Link to completed repo from the tutorial
+* [Link to UI Challenge CodePen](http://codepen.io/StephanieEA/pen/vxjMqK) - [Here is the comp](http://frontend.turing.io/projects/mod4-guest-design-challenge.html)
