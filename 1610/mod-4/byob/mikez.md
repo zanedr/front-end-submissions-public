@@ -52,4 +52,34 @@ Anything else you wanna say!
 
 # Instructor Feedback
 
-- Points: x / 150
+- Points: 65 / 150
+
+### Endpoints
+
+Do you know what might be happening with your patch endpoints that is causing them to be so problematic?
+
+Notes: 3 Put/Patch endpoints present but broken. 2 Custom endpoints missing
+
+10 points (60 - 10)
+
+### Data Persistence with SQL Database
+
+40 points - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+### Testing
+
+12 passings tests - 3 tests failing - 19 tests missing
+
+Notes: You can avoid repeating this [before block](https://github.com/mziccardi/byob/blob/master/tests/server-test.js#L48-L59) by having all of your tests wrapped in a top level `describe('Server'...` with that beforeEach in it - that top level will touch all tests
+
+0 points
+
+### JavaScript Style
+
+Notes: All code lives in the server file - server code is much easier to break out, would like to see some logic broken into separate files.
+
+Code formatting is off in multiple places. [See example](https://github.com/mziccardi/byob/blob/master/server.js#L50-L52)
+
+Otherwise, code is in good shape and is using best practices!
+
+15 points - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
