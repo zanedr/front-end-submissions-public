@@ -25,10 +25,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Code Pen](https://codepen.io/apsitos/pen/dveLwo)
 
 ### Chelle Tuerk
-[Express Tutorial](https://github.com/chelletuerk/express-tutorial)
-[JWT Tutorial](https://github.com/chelletuerk/jwt-tutorial)
-[Link to UI challenge](https://codepen.io/mtuerk/pen/jBxjPN)
-[Webscraper](https://github.com/chelletuerk/webscraper)
+* [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
+* [JWT Tutorial](https://github.com/chelletuerk/jwt-tutorial)
+* [Link to UI challenge](https://codepen.io/mtuerk/pen/JWaLYY)
+* [Webscraper](https://github.com/chelletuerk/webscraper)
 
 ### Dan Grund
 **Week 1**
