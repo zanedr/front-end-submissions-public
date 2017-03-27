@@ -59,6 +59,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/ejwill04/express-tutorial)
 * [JWT Tutorial](https://github.com/ejwill04/JWT-tutorial)
+* [Codepen Card Challenge](http://codepen.io/ejwill04/pen/WpJBqW?editors=0110)
 
 ### Eric Sayler
 * [Express Tutorial](https://github.com/esayler/node-express-tutorial)
