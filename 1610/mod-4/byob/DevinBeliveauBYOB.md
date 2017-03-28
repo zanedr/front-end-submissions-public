@@ -50,4 +50,36 @@ I'm still a little confused about headers. After reading the JSON docs, I'm not 
 
 Instructor Feedback
 
-Points: x / 150
+Points: 150 / 150
+
+Notes: Great job on this project. Super friendly interface for accessing the API - that was a great touch to add.
+
+Re: the headers: [This](http://expressjs.com/en/4x/api.html#setHeaders) is how you would set custom headers. You can use [req.accepts](http://expressjs.com/en/4x/api.html#req.accepts) to lock down accepting only certain types of content types - or [req.is](http://expressjs.com/en/4x/api.html#req.is) to respond different to certain content types.
+
+`res.status(200)` is going to give you a lot of what you need without having to go deep in the weeds. 
+
+## Endpoints
+
+Note: All endpoints (and then some) present
+
+60 points - The application has all 17 endpoints (6 GETs, 3 POSTs, 3 PUTs/PATCHs, 3 DELETEs, 2 CUSTOM) with responses for happy and sad paths for each endpoint.
+
+## Data Persistence with SQL Database
+
+1 relationship present - data seeded at minimum amounts
+
+40 points - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+## Testing
+
+All tests present!!!
+
+Note: The 404 tests like [this one](https://github.com/devinmarieb/trip-planner/blob/master/tests/server-test.js#L45-L46) don't actually test the specific endpoint. If you add some console.log statements in different endpoints, you'll probably find that it doesn't hit the ones you expect (like, `usres` won't hit `app.get('api/users')`
+
+I believe that actually, an api endpoint to a collection of items (the get trips, countries, etc) would actually never return a 404 - since if the table didn't exist, you would get a `500` and if it did. 
+
+30 points - Project has a running test suite that has 34 passing tests (a sad path and a happy path test for each endpoint)
+
+## JavaScript Style
+
+20 points - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There zero instances where an instructor would recommend taking a different approach.
