@@ -64,4 +64,69 @@ Anything else you wanna say!
 
 # Instructor Feedback
 
-- Points: x / 150
+## Instructor Evaluation Points
+
+The following set of points are distributed at the discretion of the instructor.
+
+### Endpoints
+
+* **60 points** - The application has all 17 endpoints (6 GETs, 3 POSTs, 3 PUTs/PATCHs, 3 DELETEs, 2 CUSTOM) with responses for happy and sad paths for each endpoint.
+
+### Data Persistence with SQL Database
+
+* **40 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+### Testing
+
+* **10 points** - Project has a running test suite that has 34 passing tests (a sad path and a happy path test for each endpoint)
+* 23 total tests, but extensive testing around data. 
+
+### JavaScript Style
+
+* **12 points** - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
+
+
+In your endpoints that have request queries (const species = req.query.species, be sure to check for species before the database query. That way if species exists, you can use a WHERE statement instead of selecting all and then filtering through the results:
+
+```
+app.get('/api/v1/patients', (req, res) => {
+  const species = req.query.species
+
+  database('patients').select()
+  .then(patients => {
+    if(species){
+      const matchingPatients = patients.filter(patient => {
+        return patient.species == species
+      })
+      if(matchingPatients.length === 0){
+        res.status(404).send({
+          error:'There are no existing patients belonging to that species.'
+        })
+      } else {
+        res.status(200).send(matchingPatients)
+        }
+      }
+      else {
+        res.status(200).json(patients)
+    }
+  })
+  .catch((error) => {
+    res.status(404)
+  })
+})
+```
+
+I think you did a really good job with this project and produced a lot of consistent, clean API endpoints. You also had the most complex dataset of all the projects I reviewed so that was awesome to see.
+
+Whenever you want to go over seeding test data, let me know and I can walk through the errors with you. It's hard to know the issues just looking at your repo but I'll definitely debug with you. Even though you didn't have all the tests/passing tests, I was really happy to see all the data validations in the tests you did have.
+
+
+## Projects are due on Friday 3/24, 1:00 p.m. We will provide a submission form for all teams to submit their repos.
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+
+## To get a 4 on this project, you need to score 140 points or higher
+
+# Final Score: 122 / 150
