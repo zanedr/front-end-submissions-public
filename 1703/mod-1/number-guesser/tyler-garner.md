@@ -1,6 +1,8 @@
 ## Evaluator: Louisa
 ## Optional Notes:
-Tyler had a rough week, and didn't have any CSS completed for for the eval. Struggled to explain and talk through the JS. Was given an extention through the weekend to complete the project and will revisit/eval on Monday.
+Tyler had a rough week, and didn't have any CSS completed for for the eval. Struggled to explain and talk through the JS. Was given an extension through the weekend to complete the project and will revisit/eval on Monday.
+
+Notes on extension: layout was well executed with a few of the details of the comp that were missed. `reset` button clears inputs and guesses but doesn't reset the random number. Code itself is good erring on the side of being a bit sloppy, with inconsistencies in indentation, naming conventions, and organization. Overall, a good effort!
 
 ### Functional Expectations
 
@@ -31,21 +33,13 @@ Tyler had a rough week, and didn't have any CSS completed for for the eval. Stru
 
 ## CSS
 
-No styling, will reassess on Monday.
+#### Structure of Code
 
-<!-- #### Structure of Code
-
-* __Novice:__ Can effectively target DOM elements via tag, class, and/or id and write CSS rules around each element to create the desired style.
 * __Advanced Beginner:__ Can cleanly and logically organize CSS rules according to similar categories (i.e. typography, layout, components), and then logically organize the remaining CSS rules based on flow of the markup. Organizes properties within rules alphabetically.
-* Proficient : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
-* __Exceptional__ Understands the performance implications surrounding cascading/specificity and crafts CSS that is mindful of reducing complexity and increasing performance.
 
 #### Implementation
 
-* __Novice:__ Can articulate how the CSS box model works and apply it appropriately in a static layout.
 * __Advanced Beginner:__ Can articulate the differences between the approaches of absolute/relative positioning, flex-box, floats, and can appropriately apply the approaches to solve a variety of layout problems.
-* __Proficient:__ Develops layouts that work cross-browser, are responsive, and can logically defend the choices made in implementation approach for layout.
-* __Exceptional__ Can articulate rationale for all parts of the CSS implementation (each line of code/CSS rule) specifically in regards to the balance of: structure of code, design integrity, performance. -->
 
 ------------------------------------------------------------------
 
@@ -85,12 +79,7 @@ No styling, will reassess on Monday.
 
 ## DESIGN
 
-Will reassess on Monday.
 
-<!--
 #### Comp Recreation
 
-* __Novice:__ Can establish a complementary color palette, integrate font(s), and execute a handful of the large comp details.
-* __Advanced Beginner:__ Can accomplish about 50-75% of the large and small design details and can logically rework them on at least 1 breakpoint.
 * __Proficient:__ Developer captures the spirit and design intent of the comp. Some small details need polish to achieve a pixel-perfect match to the comp, but developer is clearly mindful of details and has made a conscious and careful effort to match the comp. Any design decisions left open to interpretation are handled thoughtfully and are well executed, but are more noticable and/or unintuative than they would be if the designer had provided the solution, or may not be totally seamless during screen-size transitions.
-* __Exceptional__ Developer skillfully captures the spirit and design intent of all comp details. Execution is pixel-perfect and any design decisions left open to interpretation are solved intentionally, are as seamless as if the designer had provided the solution, are handled gracefully, and enhance the overall design. -->
