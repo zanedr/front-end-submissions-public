@@ -1,5 +1,5 @@
 # Instructor Evaluation Points: Game Time
-# Instructor:
+# Instructor: Nathaniel
 # Comments:
 
 ## Functional Expectations
@@ -12,7 +12,7 @@
 
 ### Testing
 
-* 3 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
+* 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing.
 
 ### JavaScript Style
 

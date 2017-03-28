@@ -1,5 +1,5 @@
 # Instructor Evaluation Points: Game Time
-# Instructor:
+# Instructor: Nathaniel
 # Comments:
 
 ## Functional Expectations
@@ -12,19 +12,12 @@
 
 ### Testing
 
-// move setPiece into piece class,
-// create board in checkWinner class test file
-// add pieces to board
-// check each win condition
-
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
-
+* 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing.
 
 ### JavaScript Style
 
-why does piece have two drawCharacterFunctions?
 
-* 2.5 - Your application has a significant amount of duplication and one or more major bugs.
+* 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 ### Workflow
 
@@ -32,6 +25,6 @@ why does piece have two drawCharacterFunctions?
 
 ### Code Sanitation
 
-The output from JSHint shows…
+The output from ESLint shows…
 
 * 4 - Zero complaints

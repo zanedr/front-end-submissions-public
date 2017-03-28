@@ -1,5 +1,5 @@
 # Instructor Evaluation Points: Game Time
-# Instructor:
+# Instructor: Nathaniel
 # Comments:
 
 ## Functional Expectations

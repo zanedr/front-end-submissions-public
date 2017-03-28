@@ -10,19 +10,15 @@ snake gets longer, crashes into self and walls, keeps score, can play multiple g
 
 ### User Interface
 
-would have like one button vs two
-
 * 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 1 - The application is confusing or difficult to use.
 
 ### Testing
 
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
+* 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing.
 
 ### JavaScript Style
 
-* 2.5 - Your application has a significant amount of duplication and one or more major bugs.
+* 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 ### Workflow
 
