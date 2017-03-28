@@ -59,4 +59,47 @@ Anything else you wanna say!
 
 # Instructor Feedback
 
-- Points: x / 150
+## Instructor Evaluation Points
+
+The following set of points are distributed at the discretion of the instructor.
+
+### Endpoints
+
+* **60 points** - The application has all 17 endpoints (6 GETs, 3 POSTs, 3 PUTs/PATCHs, 3 DELETEs, 2 CUSTOM) with responses for happy and sad paths for each endpoint.
+
+### Data Persistence with SQL Database
+
+* **40 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+### Testing
+
+* **30 points** - Project has a running test suite that has 34 passing tests (a sad path and a happy path test for each endpoint)
+
+### JavaScript Style
+
+* **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+Great job on this project, you put in a lot of time and effort and it showed. There were just a couple of little things for improvment. In this GET request, you can use the photoId to grab the feeling with that photoId, however since you are reusing the same feeling for multiple photos (happy associated with a lot of photos), I would have included a feeling_id for each photo. So basically reverse the relationship. 
+
+Also, in the sad path, the response.status(404).json(feeling) won't work because it doesn't know what feeling is:
+
+```
+app.get('/api/feelings/:photoId', (request, response) => {
+  database('feelings').where('photoId', request.params.photoId).select()
+  .then((feeling) => {
+    response.status(200).json(feeling)
+  })
+  .catch((error) => {
+    console.log(error)
+    response.status(404).json(feeling);
+  })
+})
+```
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+
+## To get a 4 on this project, you need to score 140 points or higher
+
+# Final Score: 145 / 150
