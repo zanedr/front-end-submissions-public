@@ -70,4 +70,76 @@ Anything else you wanna say!
 
 # Instructor Feedback
 
-- Points: x / 150
+## Instructor Evaluation Points
+
+The following set of points are distributed at the discretion of the instructor.
+
+### Endpoints
+
+* **60 points** - The application has all 17 endpoints (6 GETs, 3 POSTs, 3 PUTs/PATCHs, 3 DELETEs, 2 CUSTOM) with responses for happy and sad paths for each endpoint.
+
+### Data Persistence with SQL Database
+
+* **40 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+### Testing
+
+* **30 points** - Project has a running test suite that has 34 passing tests (a sad path and a happy path test for each endpoint)
+
+### JavaScript Style
+
+* **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+
+Great job checking for the request.query before the database query. A lot of people were selecting everything then doing a filter based on the request.query. This is more performant.
+
+```
+app.get('/api/v1/companies', (request, response) => {
+  if (request.query.state) {
+    let state = request.query.state
+    database('companies').where('state', state).select()
+    .then(companies => {
+      if (companies.length > 0) {
+        response.status(200).json(companies)
+      } else {
+        response.status(404).json('State not found')
+      }
+    })
+  } else {
+    database('companies').select()
+    .then(companies => {
+      response.status(200).json(companies)
+    })
+    .catch(error => {
+      console.error('error', error)
+    })
+  }
+})
+```
+
+I'd like to see this be a little more specific around the responses. So check that the company object returned is Kentucky and has all the expected key/values. Right now this test does nothing to give me confidence that I return the right company.
+
+```
+  it('should query companies', (done) => {
+    chai.request(app)
+    .get('/api/v1/companies?state=KY')
+    .end((err, res) => {
+      if(err) { return done(err) }
+      expect(res).to.have.status(200);
+      expect(res).to.be.json;
+      expect(res.body).to.be.a('array');
+      expect(res.body).to.have.length(1);
+      done()
+    })
+  })
+```
+
+Overall you did a great job on this project, well done!
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+
+## To get a 4 on this project, you need to score 140 points or higher
+
+# Final Score: 145 / 150
