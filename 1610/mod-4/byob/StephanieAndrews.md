@@ -97,6 +97,49 @@ Anything else you wanna say!
 
 -----
 
-# Instructor Feedback
+# Instructor Feedback - Brittany
 
-- Points: x / 150
+## Endpoints
+
+50 points - Found 16 endpoints rather than 17: 10 GETs, 2 POSTs, 2 PATCHes, 2 DELETEs
+
+
+## Data Persistence with SQL Database
+
+40 points - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+## Testing
+
+30 points - Project has a running test suite that has 34 passing tests (a sad path and a happy path test for each endpoint)
+
+
+## JavaScript Style
+
+15 points - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+Any reason we're using [double equals](https://github.com/StephanieEA/byob/blob/master/server.js#L29-L30) instead of triple here?
+
+Interesting 404 here https://github.com/StephanieEA/byob/blob/master/server.js#L31-L33
+
+Let's be consistent with our error handling. I'd like to see [this](https://github.com/StephanieEA/byob/blob/master/server.js#L42-L43) block look a little more like the one you wrote [here](https://github.com/StephanieEA/byob/blob/master/server.js#L59-L61)
+
+You mentioned [this](https://github.com/StephanieEA/byob/blob/master/server.js#L191-L195) code was a little intense to be destructuring. I agree -- on subsequent [lines](https://github.com/StephanieEA/byob/blob/master/server.js#L196-L197) you're putting all those destructured values right back into an object called `incident`. I would rewrite these lines to simply:
+
+`const incident = request.body`
+
+And include that once at the beginning of the request handler. When checking for required properties, you can also clean up that check a little bit like so:
+
+```javascript
+  let required = ['array', 'of', 'all', 'required', 'values'];
+
+  for (let requiredParameter of required) {
+    if (!incident[requiredParameter]) {
+      return response
+        .status(422)
+        .send({ error: `You're missing a "${requiredParameter}" property.` });
+    }
+  }
+```
+
+
+- Points: 135/150
