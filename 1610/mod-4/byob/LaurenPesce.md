@@ -58,4 +58,35 @@ I can do to get that to clear on it's own or should I have installed something?
 
 # Instructor Feedback
 
-- Points: x / 150
+- Points: 115 / 150 (3)
+
+Notes: With the DB being cleared out - there's nothing to install but you do need to manually clear out - check out some of the other project repos or ask classmates on how they handled it. For the most part, everyone seems to have gone with a similar solution and it's a reasonable one!
+
+Great README!
+
+Watch your spacing in files like your [initial migration](https://github.com/pescel/wtd-api/blob/master/db/migrations/20170321195542_initial_db_setup.js) - this file is still just JavaScript, so you should lint this file too.
+
+OMG Jenny Slate is the BEST!
+
+## Endpoints
+
+60 points - The application has all 17 endpoints (6 GETs, 3 POSTs, 3 PUTs/PATCHs, 3 DELETEs, 2 CUSTOM) with responses for happy and sad paths for each endpoint.
+
+## Data Persistence with SQL Database
+
+40 points - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+## Testing
+
+Good job on the testing - Seems like the inability to clear the database prevented you from doing as much in depth as you wanted to - so consider the solution above of asking how others cleared. The solution is a lot lower level than you might think.
+
+23/34
+
+0 points - Project has a running test suite that has 34 passing tests (a sad path and a happy path test for each endpoint)
+
+## JavaScript Style
+
+You can wrap the results of `.catch` and `.then` into named functions to refactor your code. For example, [this](https://github.com/pescel/wtd-api/blob/master/server.js#L59) is repeated often in your code.
+
+15 points - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
