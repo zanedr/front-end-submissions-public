@@ -2,14 +2,13 @@
 # Instructor:
 # Comments:
 
+## Evaluation Rubric
+
 ### 1. Fundamental JavaScript & Style
 
 * 4: Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach.
-
 * 3: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
-
 * 2: Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
-
 * 1: Your application has a significant amount of duplication and one or more major bugs. Developer cannot speak to most choices and does not know what every line of code is doing.
 * 0: Your client-side application does not function or the application does not make use of localStorage for updating information on the client. Developer writes code with unnecessary variables, operations, or steps which do not increase clarity.
 
@@ -33,3 +32,12 @@
 * 3: Application meets all requirements as laid out per the specification.
 * 2: Application runs, but does not work properly, or does not meet specifications.
 * 1: Application does not run, crashes on start.
+
+### 5. Code Sanitation
+
+The output from ESLint shows…
+
+* 4 - Zero complaints
+* 3 - Five or fewer complaints
+* 2 - Six to ten complaints
+* 1 - More than ten complaints
