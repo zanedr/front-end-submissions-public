@@ -48,7 +48,7 @@ to amend the error to no avail.  Sooooo, I deleted it.  5 points gone...I'm awar
 ### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 ![](http://i.imgur.com/DMjKcAT.png)
 
-Instructor Feedback
+# Instructor Feedback
 
 Notes: You _crushed_ this Chelle! 
 
