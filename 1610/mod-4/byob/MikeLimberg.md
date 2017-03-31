@@ -56,4 +56,30 @@ It's not how fast you mow...it's how you mow fast.
 
 # Instructor Feedback
 
-- Points: x / 150
+- Points: 118/150
+
+## Endpoints
+
+60 points - The application has all 17 endpoints (6 GETs, 3 POSTs, 3 PUTs/PATCHs, 3 DELETEs, 2 CUSTOM) with responses for happy and sad paths for each endpoint.
+
+## Data Persistence with SQL Database
+
+40 points - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+## Testing
+
+Note: I'd love to hear what happened with the tests that didn't get written. Was it a time issue, or did you hit a gnarly bug?
+
+0 points (27 of 34 tests)
+
+## JavaScript Style
+
+Watch [things like spacing](https://github.com/mlimberg/BYOBackend/blob/master/test/server.test.js#L43-L46)
+
+In the future, consider breaking out the things that happen in your `.then` and `.catch` into named functions - for example [this logic](https://github.com/mlimberg/BYOBackend/blob/master/server.js#L108-L110) is juicy and already basically wrapped in an anonymous function. And [this code](https://github.com/mlimberg/BYOBackend/blob/master/server.js#L113) gets repeated multiple places and could be DRY'd up.
+
+Those notes aside, you clearly spent a lot of time on cleaning up the code in server.js!
+
+18 points - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+
