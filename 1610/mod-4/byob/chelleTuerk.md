@@ -50,4 +50,34 @@ to amend the error to no avail.  Sooooo, I deleted it.  5 points gone...I'm awar
 
 Instructor Feedback
 
-Points: x / 150
+Notes: You _crushed_ this Chelle! 
+
+The `Unhandled rejection error: insert into "favorites" ("email", "password") values ($1, $2) - column "email" of relation "favorites" does not exist` looks like it is being caused by the fact that you are trying to insert an object into `favorites` that has an `email` key - which doesn't exist in the schema
+
+```
+        knex.schema.createTable('favorites', function(table){
+          table.increments('id').primary();
+          table.string('songKickVenueId');
+          table.integer('rating');
+            table.integer('userId')
+                 .references('id')
+                 .inTable('users');
+```
+
+Points: 140/150
+
+## Endpoints
+
+60 points - The application has all 17 endpoints (6 GETs, 3 POSTs, 3 PUTs/PATCHs, 3 DELETEs, 2 CUSTOM) with responses for happy and sad paths for each endpoint.
+
+## Data Persistence with SQL Database
+
+40 points - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+## Testing
+
+25 points - Project has a running test suite that has 34 passing tests (a sad path and a happy path test for each endpoint)
+
+## JavaScript Style
+
+15 points - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
