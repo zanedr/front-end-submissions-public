@@ -1,5 +1,18 @@
-## Evaluator: 
+## Evaluator: Robbie
+
 ## Optional Notes:
+
+Need to Fix:
+
+* Make site responsive down to 320 pixel width and for larger screens
+* Fix bottom section background color so there is no whitespace at the bottom
+* Make sure image is contained within the image card border
+* Give breathing room to image card buttons (trash and heart)
+* If you choose an image file and then fill out the caption and title, the Add to Album button is still disabled until you unfocus the text field (blur is probably not the best tool for this validation)
+* Favorite heart button is not working (at least the color of the heart does not change after it is clicked)
+* There is no welcome message or indication of how to add photos to an empty album (part of phase 3)
+* No file-type validation for images (part of phase 3)
+* Images do not align to the left of the page as they are added (per the comp)
 
 ### Functional Expectations
 
