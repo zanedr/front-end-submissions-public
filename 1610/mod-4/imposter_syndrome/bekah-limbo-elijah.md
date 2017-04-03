@@ -21,10 +21,9 @@ Instructor/developers will select one feature in the project to review for this 
 * 20: The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application. There is visible evidence of code review happening in pull requests and discussion around approaches. Your team uses Waffle effectively to create small, single functionality user stories that are assigned to team members.
 
 #### Extensions (20 points each)
-
-No extensions, yet...
+- Developer packaged their application for distribution aka you can send me a zip folder with your app and I can use it on my computer.
 
 ### To get a 4, you need to achieve 160 points
 ### To get a 3, you need to achieve 130 points
 
-### Final Score - 150 / 175
+### Final Score - 170 / 175
