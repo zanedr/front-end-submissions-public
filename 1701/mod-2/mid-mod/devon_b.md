@@ -6,7 +6,7 @@
 
 ### Progression/Completion
 
-* 3: Developer is able to implement solutions at the speed of a junior developer.
+* 2: Developer is able to implement solutions at the speed of an apprentice.
 
 ### JavaScript Style
 
@@ -19,8 +19,8 @@
 
 ### Collaboration
 
-* 4: Developer actively seeks collaboration both before implementing, while in motion, and when stuck
+* 3.5: Developer lays out their thinking before attacking a problem and integrates feedback through the process
 
 ### Testing
 
-* 3.5: Developer writes tests that are effective validation of functionality, but don't drive the design
+* 3: Developer writes tests that are effective validation of functionality, but don't drive the design

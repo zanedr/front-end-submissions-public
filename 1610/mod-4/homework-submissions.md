@@ -25,10 +25,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Code Pen](https://codepen.io/apsitos/pen/dveLwo)
 
 ### Chelle Tuerk
-[Express Tutorial](https://github.com/chelletuerk/express-tutorial)
-[Link to UI challenge](https://codepen.io/mtuerk/pen/jBxjPN)
-[Webscraper](https://github.com/chelletuerk/webscraper)
-
+* [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
+* [JWT Tutorial](https://github.com/chelletuerk/jwt-tutorial)
+* [Link to UI challenge](https://codepen.io/mtuerk/pen/JWaLYY)
+* [Webscraper](https://github.com/chelletuerk/webscraper)
 
 ### Dan Grund
 **Week 1**
@@ -59,12 +59,14 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/ejwill04/express-tutorial)
 * [JWT Tutorial](https://github.com/ejwill04/JWT-tutorial)
+* [Codepen Card Challenge](http://codepen.io/ejwill04/pen/WpJBqW?editors=0110)
 
 ### Eric Sayler
 * [Express Tutorial](https://github.com/esayler/node-express-tutorial)
 
 ### Gabi Procell
 [Express Tutorial](https://github.com/gprocell927/NodeExpressPrework)
+[JWT Tutorial](https://github.com/gprocell927/json-web-tokens-tutorial)🚆🚆
 [Wk 2 Design Challenge](https://codepen.io/gabitron/pen/MpGdeL) 
 
 ### Jeff Buss
@@ -93,6 +95,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Noah Peden
 [Node/Express Tutorial] (https://github.com/noahpeden/node-express-tutorial)
 [JWT Tutorial](https://github.com/noahpeden/Securing-SPAs-with-JWTs)
+[UI Challenge] (http://codepen.io/noahpeden/pen/dvwbZQ)
+
 ### Bekah Lundy
 * [Express Tutorial](https://github.com/bekahlundy/node-express)
 
@@ -100,4 +104,13 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Node/Express Tutorial REPO](https://github.com/sljohnson32/express-node-tutorial)
 
 ### Stephanie Andrews
+
+**Week 1**
+
 * Intermission Homework - [Express Tutorial](https://github.com/StephanieEA/node-tutorial)
+
+**Week 2**
+
+* [Web Scraping](https://github.com/bekahlundy/find-my-dog-costume/blob/master/README.md) - Link to README.md for your web scraping workshop
+* [Wednesday Student Spike](https://github.com/StephanieEA/jwt-tutorial) - Link to completed repo from the tutorial
+* [Link to UI Challenge CodePen](http://codepen.io/StephanieEA/pen/vxjMqK) - [Here is the comp](http://frontend.turing.io/projects/mod4-guest-design-challenge.html)

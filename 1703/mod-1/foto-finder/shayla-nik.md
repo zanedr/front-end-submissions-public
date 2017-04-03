@@ -1,6 +1,18 @@
 ## Evaluator: Robbie
 
-## Optional Notes: Not evaluated due to incomplete project (re-evaluating at later date)
+## Optional Notes:
+
+Need to Fix:
+
+* Make site responsive down to 320 pixel width and for larger screens
+* Fix bottom section background color so there is no whitespace at the bottom
+* Make sure image is contained within the image card border
+* Give breathing room to image card buttons (trash and heart)
+* If you choose an image file and then fill out the caption and title, the Add to Album button is still disabled until you unfocus the text field (blur is probably not the best tool for this validation)
+* Favorite heart button is not working (at least the color of the heart does not change after it is clicked)
+* There is no welcome message or indication of how to add photos to an empty album (part of phase 3)
+* No file-type validation for images (part of phase 3)
+* Images do not align to the left of the page as they are added (per the comp)
 
 ### Functional Expectations
 
@@ -35,7 +47,7 @@
 
 * __Novice:__ Can effectively target DOM elements via tag, class, and/or id and write CSS rules around each element to create the desired style.
 * __Advanced Beginner:__ Can cleanly and logically organize CSS rules according to similar categories (i.e. typography, layout, components), and then logically organize the remaining CSS rules based on flow of the markup. Organizes properties within rules alphabetically.
-* Proficient : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
+* __Proficient__ : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
 * __Exceptional__ Understands the performance implications surrounding cascading/specificity and crafts CSS that is mindful of reducing complexity and increasing performance.
 
 #### Implementation
@@ -49,6 +61,13 @@
 
 ## JAVASCRIPT
 
+#### Data Types
+
+|Novice             | Can articulate the definitions of primitive data types: strings, booleans, numbers, null, and undefined. Can articulate and describe object types: objects, arrays.|
+|Advanced Beginner  | Can diagnose when issues of data-type mismatch are present and appropriately redirect their coding and/or research efforts accordingly to solve the problem.|
+|Proficient         | Can identify and track data types through any variety of functions, understanding their affect and result on each line of code. Knows which scenarios are better suited for objects vs. arrays and employs them accordingly.|
+|Exceptional        | Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.|
+
 #### Conditional Logic
 
 * __Novice:__ Can understand when an expression evaluates to true or false.
@@ -58,12 +77,10 @@
 
 #### Functions & Scope
 
-* Novice : Can write a simple function that takes at least one input argument.
+* __Novice__ : Can write a simple function that takes at least one input argument.
 * __Advanced Beginner:__ Developer is comfortable using multiple arguments to pass data into functions. Understands how variables are scoped at the function level and global level. Functions are named descriptively. Knows when and why to use return in a function.
 * __Proficient:__ Functions have single responsibility. The entirety of the function is easy to read what functionality it contains. Function is generally shorter than 8 lines. Uses functions to eliminate repeated code. Comfortable refactoring any piece of code and extracting it to a function.
 * __Exceptional__ Comfortable with using callback functions where applicable. Comfortable returning collections from functions (objects, arrays).
-
-------------------------------------------------------------------
 
 #### DOM Manipulation
 

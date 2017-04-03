@@ -4,7 +4,7 @@
 
 ### Functional Expectations
 
-* __Proficient:__ Application meets all of the functional expectations in Phase Three.
+* __Exceptional__ You completed Phase Three and did something with Phase Four.
 
 ------------------------------------------------------------------
 
@@ -12,7 +12,7 @@
 
 #### Accessibility
 
-* __Proficient:__ Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns.
+* __Advanced Beginner:__ Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags.
 
 #### Style
 
@@ -24,15 +24,20 @@
 
 #### Structure of Code
 
-* __Proficient:__ Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
+* __Exceptional__ Understands the performance implications surrounding cascading/specificity and crafts CSS that is mindful of reducing complexity and increasing performance.
 
 #### Implementation
 
 * __Proficient:__ Develops layouts that work cross-browser, are responsive, and can logically defend the choices made in implementation approach for layout.
+* __Exceptional__ Can articulate rationale for all parts of the CSS implementation (each line of code/CSS rule) specifically in regards to the balance of: structure of code, design integrity, performance.
 
 ------------------------------------------------------------------
 
 ## JAVASCRIPT
+
+#### Data Types
+
+|Exceptional        | Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.|
 
 #### Conditional Logic
 
@@ -42,11 +47,9 @@
 
 * __Proficient:__ Functions have single responsibility. The entirety of the function is easy to read what functionality it contains. Function is generally shorter than 8 lines. Uses functions to eliminate repeated code. Comfortable refactoring any piece of code and extracting it to a function.
 
-------------------------------------------------------------------
-
 #### DOM Manipulation
 
-* __Advanced Beginner:__ Can add event listeners and create small functions that execute on events, can leverage the event object appropriately, and can articulate the what/why/how of jQuery.
+* __Proficient:__ Able to extract information, modify attributes, or append/prepend data in the DOM easily regardless of whether they are employing vanilla JavaScript or jQuery. Understands how to harness event bubbling.
 
 #### Style
 
@@ -58,4 +61,4 @@
 
 #### Comp Recreation
 
-* __Proficient:__ Developer captures the spirit and design intent of the comp. Some small details need polish to achieve a pixel-perfect match to the comp, but developer is clearly mindful of details and has made a conscious and careful effort to match the comp. Any design decisions left open to interpretation are handled thoughtfully and are well executed, but are more noticable and/or unintuative than they would be if the designer had provided the solution, or may not be totally seamless during screen-size transitions.
+* __Exceptional__ Developer skillfully captures the spirit and design intent of all comp details. Execution is pixel-perfect and any design decisions left open to interpretation are solved intentionally, are as seamless as if the designer had provided the solution, are handled gracefully, and enhance the overall design.

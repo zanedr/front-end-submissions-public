@@ -1,17 +1,16 @@
 # Instructor Evaluation Points: Mid Mod Diag
-# Instructor:
+# Instructor: Nathaniel
 # Comments:
 ## Rubric
 
 
 ### Progression/Completion
 
-* 3: Developer is able to implement solutions at the speed of a junior developer.
+* 2: Developer is able to implement solutions at the speed of an apprentice.
 
 ### JavaScript Style
 
-* 3: Developer solves problems with a balance between conciseness and clarity and often extracts logical components
-
+* 3.5: Developer solves problems with a balance between conciseness and clarity and often extracts logical components
 
 ### Workflow
 
@@ -19,7 +18,7 @@
 
 ### Collaboration
 
-* 3: Developer lays out their thinking before attacking a problem and integrates feedback through the process
+* 3.5: Developer lays out their thinking before attacking a problem and integrates feedback through the process
 
 ### Testing
 

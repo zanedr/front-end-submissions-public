@@ -1,8 +1,8 @@
 # Instructor Evaluation Points: Mid Mod Diag
-# Instructor: Meeka
+# Instructor: Nathaniel
 # Comments:
-
 ## Rubric
+
 
 ### Progression/Completion
 
@@ -18,8 +18,8 @@
 
 ### Collaboration
 
-* 4: Developer actively seeks collaboration both before implementing, while in motion, and when stuck
+* 3.5: Developer lays out their thinking before attacking a problem and integrates feedback through the process
 
 ### Testing
 
-* 4: Developer excels at taking small steps and using the tests for both design and verification
+* 3: Developer writes tests that are effective validation of functionality, but don't drive the design
