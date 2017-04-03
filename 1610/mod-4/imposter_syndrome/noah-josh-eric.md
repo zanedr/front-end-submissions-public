@@ -39,3 +39,8 @@ Instructor/developers will select one feature in the project to review for this 
 
 - Developer contributes to or creates an npm module/library.
 - Developer packaged their application for distribution aka you can send me a zip folder with your app and I can use it on my computer.
+
+### To get a 4, you need to achieve 160 points
+### To get a 3, you need to achieve 130 points
+
+### Final Score - x / 175
