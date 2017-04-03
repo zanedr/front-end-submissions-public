@@ -14,6 +14,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Wednesday Student Spike](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
 * [Link to UI Challenge CodePen](http://codepen.io/atideman/pen/MpGRMP) - [Here is the comp](http://frontend.turing.io/projects/mod4-guest-design-challenge.html)
 
+**Week 4**
+
+* [Vending Machine Interview Challenge](https://github.com/turingschool-examples/vending_machine_challenge)
+
+
 ### Annastasia Psitos
 
 **Week 1**
