@@ -22,18 +22,19 @@
 ## Completion
 
 #### Were you able to complete all 17 endpoints? If not how many did you complete?
-* No, somehow the query functions I wrote were not committed.
+* Yes
 
 #### Were you able to complete all 34 endpoint tests? If not how many did you complete?
-* No, there are 28 tests.
+* Yes, there are 35 tests.
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
 
-I was proud of my querying code, but in the hurry to get everything else finished, I didn't even notice it was gone. Clearly, not that proud
+I really like my delete functions. [Link](https://github.com/apsitos/HappyHourAPI/blob/master/server.js#L84) to the first line of the delete function in my restuarant describe block.
 
 * Why were you proud of this piece of code?
+Figuring out how to properly go through each table and reset the foreign keys was a fun challenge. 
 
 
 #### Link to a specific block of your code on Github that you feel not great about
@@ -45,7 +46,7 @@ I was proud of my querying code, but in the hurry to get everything else finishe
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-![Test Screenshot](https://github.com/apsitos/HappyHourAPI/blob/master/Screen%20Shot%202017-03-25%20at%209.58.53%20PM.png)
+![Test Screenshot](https://github.com/apsitos/HappyHourAPI/blob/master/Screen%20Shot%202017-03-31%20at%209.02.12%20AM.png)
 
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
 
