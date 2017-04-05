@@ -60,4 +60,83 @@ Four tests are currently skipped. Two have errors relating to foreign-key constr
 
 # Instructor Feedback
 
-- Points: x / 150
+## Instructor Evaluation Points
+
+The following set of points are distributed at the discretion of the instructor.
+
+### Endpoints
+
+* **50 points** - The application has all 17 endpoints (6 GETs, 3 POSTs, 3 PUTs/PATCHs, 3 DELETEs, 2 CUSTOM) with responses for happy and sad paths for each endpoint. But the 2 custom points are both using param queries instead of one custom calculation and they both return the same information as the /:id endpoints. 
+
+### Data Persistence with SQL Database
+
+* **40 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+### Testing
+
+* **30 points** - Project has a running test suite that has 34 passing tests (a sad path and a happy path test for each endpoint)
+
+Great job on getting all the tests, just be careful that you are testing status codes on sad paths (not sure if you did tests on other branch and they aren't commented out there)
+
+```
+it('DELETE should return an error if the user does not exist', (done) => {
+      chai.request(app)
+      .delete('/api/v1/drinkers/43')
+      .end((err, res) => {
+        expect(err).to.throw
+        // expect(err).to.have.status()
+        done()
+      });
+    });
+```
+
+### JavaScript Style
+
+* **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+Really good job on writing clean code on all the endpoints. This is awesome to see and very easy to read:
+
+```
+app.post('/api/v1/restaurants', (request, response) => {
+  const { name, address, phone } = request.body;
+  const restaurant = { name, address, phone, created_at: new Date };
+
+  database('restaurants').insert(restaurant)
+  .then(() => {
+    database('restaurants').select()
+    .then((restaurants) => {
+      response.status(200).json(restaurants)
+    })
+    .catch(error => {
+      console.error('Could not add restaurant', error);
+      response.status(422).send('Please ensure the restaurant has a name, address, and phone number')
+    });
+  });
+});
+``` 
+
+Only a couple of instances where you don't destructure like most of your endpoints (this is pretty nitpicky):
+
+```
+const time = request.query.time
+const user = request.query.user
+
+// Should be this
+const { time } = request.query
+const { user } = request.query
+
+database('happyhours').where('id', id).update({ drinks: drinks })
+
+// Should be this
+database('happyhours').where('id', id).update({ drinks })
+```
+
+## Projects are due on Friday 3/24, 1:00 p.m. We will provide a submission form for all teams to submit their repos.
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+
+## To get a 4 on this project, you need to score 140 points or higher
+
+# UPDATED Final Score: 135 / 150
