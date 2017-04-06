@@ -94,6 +94,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/mlimberg/express-tutorial)
 * [JWT Tutorial](https://github.com/mlimberg/JWT-practice)
 * [Codepen to Carousel](http://codepen.io/SirBimbus/pen/YZLbeQ)
+* [Vending Machine](https://github.com/mlimberg/vending-machine)
 
 ### Mike Ziccardi
 
