@@ -16,7 +16,6 @@
 
 #### Style
 
-* __Novice:__ Crafts markup with proper indentation and opening/closing tags.
 * __Advanced Beginner:__ Crafts markup with proper and logical nesting.
 
 ------------------------------------------------------------------
