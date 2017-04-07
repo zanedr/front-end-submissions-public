@@ -99,6 +99,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Mike Ziccardi
 
+[nodeprework](https://github.com/mziccardi/nodePrework)
+[jwt tutorial](https://github.com/mziccardi/jwt-tutorial)
 ### Noah Peden
 [Node/Express Tutorial] (https://github.com/noahpeden/node-express-tutorial)
 [JWT Tutorial](https://github.com/noahpeden/Securing-SPAs-with-JWTs)
