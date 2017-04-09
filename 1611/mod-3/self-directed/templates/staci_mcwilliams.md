@@ -38,7 +38,7 @@ Based on your wireframes, in what order are you going to approach building out t
 
 #### Nice To Haves   
 - Web Sockets would be pretty sweet
-- New user Signup
+- New user Signup and user interaction (ratings etc)
 - Suggestions and favorites for established users
 
 
