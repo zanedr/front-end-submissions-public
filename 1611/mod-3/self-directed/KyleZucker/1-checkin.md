@@ -1,5 +1,4 @@
 ### Student: Kyle Zucker
-don't mind the speeling. 
 
 ### Project Name:  
 
