@@ -29,6 +29,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [JWTs Homework](https://github.com/apsitos/jwts)
 * [Code Pen](https://codepen.io/apsitos/pen/dveLwo)
 
+**Week 4**
+* [Vending Machine](https://github.com/apsitos/vending_machine)
+
 ### Chelle Tuerk
 * [Express Tutorial](https://github.com/chelletuerk/express-tutorial)
 * [JWT Tutorial](https://github.com/chelletuerk/jwt-tutorial)
