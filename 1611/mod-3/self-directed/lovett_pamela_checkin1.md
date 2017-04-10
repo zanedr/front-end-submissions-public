@@ -35,7 +35,7 @@ Extensions:
 
 #### Wireframes  
 
-n/a
+N/A
 
 Results from the tone analysis will be posted as written summaries via slack.
 
