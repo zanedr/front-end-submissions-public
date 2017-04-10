@@ -26,6 +26,7 @@ I'm going for a simple panel based usage, so the user doesn't have a ton to thin
 
 ##### Group Generation
 
+Image X is a googs map
 ![image](https://cloud.githubusercontent.com/assets/5368526/24844511/497b9ed8-1d68-11e7-8a56-36891c29836b.png)
 
 ![image](https://cloud.githubusercontent.com/assets/5368526/24844372/4855561c-1d67-11e7-984b-32eaab303eb9.png)
