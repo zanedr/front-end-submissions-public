@@ -20,13 +20,15 @@ Google Places: https://developers.google.com/maps/documentation/javascript/place
 I'm going for a simple panel based usage, I beleive these following frames are enough for MVP but I won't hesitate to add more panels as needed.
 
 
-
+##### Voting Page
 
 ![image](https://cloud.githubusercontent.com/assets/5368526/24844370/45e20790-1d67-11e7-8e9d-c8d9effa0cea.png)
 
-![image](https://cloud.githubusercontent.com/assets/5368526/24844372/4855561c-1d67-11e7-984b-32eaab303eb9.png)
+##### Group Generation
 
 ![image](https://cloud.githubusercontent.com/assets/5368526/24844511/497b9ed8-1d68-11e7-8a56-36891c29836b.png)
+
+![image](https://cloud.githubusercontent.com/assets/5368526/24844372/4855561c-1d67-11e7-984b-32eaab303eb9.png)
 
 ![image](https://cloud.githubusercontent.com/assets/5368526/24844376/4af60a7e-1d67-11e7-8f7f-a16564e4e900.png)
 
