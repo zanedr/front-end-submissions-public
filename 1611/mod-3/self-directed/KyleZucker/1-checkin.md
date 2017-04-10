@@ -1,4 +1,5 @@
-### Student:
+### Student: Kyle Zucker
+don't mind the speeling. 
 
 ### Project Name:  
 
@@ -8,7 +9,7 @@
 None
 
 #### Project Pitch  
-This app facilitates a quick and painless way to choose a place to get lunch.
+This app facilitates a quick and painless way for a small group choose a place to get lunch.
 
 ### Deliverables  
 
@@ -17,8 +18,7 @@ This app facilitates a quick and painless way to choose a place to get lunch.
 Google Places: https://developers.google.com/maps/documentation/javascript/places
 
 #### Wireframes  
-I'm going for a simple panel based usage, I beleive these following frames are enough for MVP but I won't hesitate to add more panels as needed.
-
+I'm going for a simple panel based usage, so the user doesn't have a ton to think about each panel. I beleive these following frames are enough for MVP but I won't hesitate to add more panels as needed.
 
 ##### Voting Page
 
@@ -35,18 +35,18 @@ I'm going for a simple panel based usage, I beleive these following frames are e
 
 #### Waffle.io
 https://waffle.io/zkc/Lunch-r
-I've started my "plan of attack" on Trello, I'll migrate to Waffle
+I've started my "plan of attack" on Trello, I'll migrate to Waffle. Also my new waffle is still stuck on ironing so....
 
 ### Reflection  
 
 #### Order Of Attack  
-I want to poke about with websockets first. If that feels right I'll build up the Voting/suggestions page first. Then I'll work thru the group creation process.  
+I want to poke about with websockets first. If that feels right I'll build up the Voting/suggestions page first thing. Then I'll work thru the group creation process screens.  
 
 #### Nice To Haves   
-I really want basic user account/profile functions 
+I really want basic user account/profile functions like saving/resusing a lunch group. The nice-to-have parts would be user preferences with food/resturant preferences automatically taken into account with the initial group suggestions. This would also need a way to store/manage users with-in a resused lunch group. Email notifications could be fun? 
 
 #### Biggest Challenges  
-The places data could be tricky. The googs docs got seem good. 
+The places data could be tricky. The googs docs seem good. 
 I've no clue how the backend voting sessions will be handled. I know they can, websocket exploration should help start spelling that end of things out.  
 Dynamic URL generation. Each group voting session will need a unique URL. Probably not hard. Probably? 
 
