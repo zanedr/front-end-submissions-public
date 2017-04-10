@@ -34,6 +34,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [JWT Tutorial](https://github.com/chelletuerk/jwt-tutorial)
 * [Link to UI challenge](https://codepen.io/mtuerk/pen/JWaLYY)
 * [Webscraper](https://github.com/chelletuerk/webscraper)
+* [Vending Maching Challenge](https://github.com/chelletuerk/vending-machine-challenge)
+* [Student Spike Gear Up Reformat](https://gist.github.com/chelletuerk/0bde0aaee5a06e0ce82c97ad411fe61a)
 
 ### Dan Grund
 **Week 1**
