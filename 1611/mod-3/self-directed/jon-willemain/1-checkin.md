@@ -20,11 +20,13 @@ Given the two week time period, I plan on using Nightmare to scrap baseball-refe
 I plan on using Nightmare to scrap baseball-reference.
 
 #### Wireframes  
-Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your app. You can include these by adding additional files to your submissions directory, or linking to an imgur account. You're asked to use Sketch, or Balsamiq, or a different digital wireframe/comp application but if you choose to use pen/paper please let your instructors know and bring those to class Monday.  
+![Imgur](http://i.imgur.com/6ugcysV.png)
+![Imgur](http://i.imgur.com/XXYGYKE.png)
+![Imgur](http://i.imgur.com/CTlNxTZ.png)
 
 #### Waffle.io
 
-Link to your waffle.io account with at least 10 cards indicating baby steps to how you want to structure your attack.  
+https://waffle.io/jonwille/fantasy-baseball-helper
 
 ### Reflection  
 
