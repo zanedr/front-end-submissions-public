@@ -1,6 +1,10 @@
 ### Student:
 
+Jon Willemain
+
 ### Project Name:  
+
+Fantasy Baseball Helper
 
 #### Check In: 1  
 
@@ -19,8 +23,8 @@ I plan on using Nightmare to scrap baseball-reference.
 Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your app. You can include these by adding additional files to your submissions directory, or linking to an imgur account. You're asked to use Sketch, or Balsamiq, or a different digital wireframe/comp application but if you choose to use pen/paper please let your instructors know and bring those to class Monday.  
 
 #### Waffle.io
-Link to your waffle.io account with at least 10 cards indicating baby steps to how you want to structure your attack.  
 
+Link to your waffle.io account with at least 10 cards indicating baby steps to how you want to structure your attack.  
 
 ### Reflection  
 
@@ -29,6 +33,7 @@ First thing I have to do is figure out how to scrap baseball-reference and figur
 
 #### Nice To Haves   
 
+Be able to have the user select the categories displayed.
 
 #### Biggest Challenges  
-What do you forsee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
+Scraping the web. I have a few videos to look over, and I plan on reaching out to some individuals in mod4.
