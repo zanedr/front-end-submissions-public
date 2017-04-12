@@ -49,6 +49,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Wednesday Student Spike](https://github.com/DanGrund/JWT-lesson)
 * [1hr Design Challenge](http://codepen.io/dangrund/pen/qrYGVN?editors=1010)
 
+**Week 5**
+* [react native blog post](https://medium.com/@dangrund./react-vs-react-native-first-exposure-1afaf2068092)
+
 ### Devin Marie Beliveau
 **Week 1**
 [Express Tutorial](https://github.com/devinmarieb/Node-Express-Tutorial)
