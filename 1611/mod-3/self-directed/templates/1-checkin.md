@@ -21,7 +21,6 @@ Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your 
 #### Waffle.io
 Link to your waffle.io account with at least 10 cards indicating baby steps to how you want to structure your attack.  
 
-
 ### Reflection  
 
 #### Order Of Attack  
