@@ -81,6 +81,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Wk 2 Design Challenge](https://codepen.io/gabitron/pen/MpGdeL)🌴🌴🌴
 [Webscraping Workshop ReadMe](https://github.com/gprocell927/web-scraping-workshop)🍕🍕🍕
 [Vending Machine Challenge](https://github.com/gprocell927/vending-machine-challenge)🍭🍭🍭
+[Wk 5 Lesson Review - Data storage](https://medium.com/@gab17ron/a-second-pass-at-comprehending-data-storage-theory-5196dd40c64f)
 
 ### Jeff Buss
 
