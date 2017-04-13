@@ -58,6 +58,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [JWT Tutorial](https://github.com/devinmarieb/jwt-mini-project)
 * [Codepen Card Challenge](https://codepen.io/devinmarieb/pen/PpevwK)
 
+**Week 4**
+* [Vending Machine Challenge](https://github.com/devinmarieb/vending-machine)
+
 ### Dylan Avery
 
 * [Express Tutorial](https://github.com/dylanavery720/express-mod4-tut)
