@@ -50,10 +50,10 @@
 
 #### Data Types
 
-|Novice             | Can articulate the definitions of primitive data types: strings, booleans, numbers, null, and undefined. Can articulate and describe object types: objects, arrays.|
-|Advanced Beginner  | Can diagnose when issues of data-type mismatch are present and appropriately redirect their coding and/or research efforts accordingly to solve the problem.|
-|Proficient         | Can identify and track data types through any variety of functions, understanding their affect and result on each line of code. Knows which scenarios are better suited for objects vs. arrays and employs them accordingly.|
-|Exceptional        | Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.|
+* __Novice__ Can articulate the definitions of primitive data types: strings, booleans, numbers, null, and undefined. Can articulate and describe object types: objects, arrays.
+* __Advanced Beginner__ Can diagnose when issues of data-type mismatch are present and appropriately redirect their coding and/or research efforts accordingly to solve the problem.
+* __Proficient__ Can identify and track data types through any variety of functions, understanding their affect and result on each line of code. Knows which scenarios are better suited for objects vs. arrays and employs them accordingly.
+* __Exceptional__ Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.
 
 #### Conditional Logic
 
@@ -71,10 +71,10 @@
 
 #### Arrays
 
-|Novice             | Can create array and use array indexing to extract data from array or modify array. Comfortable using arrays to store simple data types: numbers, booleans, or strings.|
-|Advanced Beginner  | Can modify arrays by adding or removing specific elements - uses array methods such as push or shift. Can use a for loop to iterate through array.|
-|Proficient         | Does not use for loops for arrays - uses array prototypes, such as forEach, to iterate through or manipulate arrays. Can use array to store more complicated data structures such as objects or nested arrays. Is comfortable/efficient with reading array prototype documentation and can efficiently test/apply array prototype methods they have not worked with before.|
-|Exceptional        | Uses variety array prototypes to iterate through arrays and manipulate/create new arrays without using documentation as a resource.|
+* __Novice__ Can create array and use array indexing to extract data from array or modify array. Comfortable using arrays to store simple data types: numbers, booleans, or strings.|
+* __Advanced Beginner__ Can modify arrays by adding or removing specific elements - uses array methods such as push or shift. Can use a for loop to iterate through array.|
+* __Proficient__ Does not use for loops for arrays - uses array prototypes, such as forEach, to iterate through or manipulate arrays. Can use array to store more complicated data structures such as objects or nested arrays. Is comfortable/efficient with reading array prototype documentation and can efficiently test/apply array prototype methods they have not worked with before.|
+* __Exceptional__ Uses variety array prototypes to iterate through arrays and manipulate/create new arrays without using documentation as a resource.|
 
 #### DOM Manipulation
 
@@ -96,16 +96,16 @@
 
 #### Git
 
-|Novice             | Can use commits and can articulate what a commit is and why we use them. Makes large, infrequent commits directly to master branch. |
-|Advanced Beginner  | Can create branches and willingly attempts to incorporate branches into their workflow. Commits, while infrequent, are increased in volume and show improvements in description. |
-|Proficient         | Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.|
-|Exceptional        | Knows how to reset to previous commits, rebase large sets of small commits, if applicable, and other advanced Git maneuvers. |
+* __Novice__ Can use commits and can articulate what a commit is and why we use them. Makes large, infrequent commits directly to master branch. 
+* __Advanced Beginner__ Can create branches and willingly attempts to incorporate branches into their workflow. Commits, while infrequent, are increased in volume and show improvements in description. |
+* __Proficient__ Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.
+* __Exceptional__ Knows how to reset to previous commits, rebase large sets of small commits, if applicable, and other advanced Git maneuvers. 
 
 #### Github
 
-|Novice             | Can articulate what GitHub is, how it is different from Git, and why it is important. Can comfortably push and/or pull changes from master.|
-|Advanced Beginner  | Can execute basic pull requests with context about changes in description. Can keep local and GitHub repositories in sync.|
-|Proficient         | Is comfortable with resolving merge conflicts. Asks for review/merge of their pull requests from teammates. Is comfortable editing code based on review feedback from a pull request and resubmitting the branch code.|
-|Exceptional        | Uses issues as resource for project management. There are comments on specific lines of pull requests with discussion about the implementation.|
+* __Novice__ Can articulate what GitHub is, how it is different from Git, and why it is important. Can comfortably push and/or pull changes from master.
+* __Advanced Beginner__ Can execute basic pull requests with context about changes in description. Can keep local and GitHub repositories in sync.
+* __Proficient__ Is comfortable with resolving merge conflicts. Asks for review/merge of their pull requests from teammates. Is comfortable editing code based on review feedback from a pull request and resubmitting the branch code.|
+* __Exceptional__ Uses issues as resource for project management. There are comments on specific lines of pull requests with discussion about the implementation.
 
 <br>
