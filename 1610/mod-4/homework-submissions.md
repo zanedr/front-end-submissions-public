@@ -93,6 +93,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Codepen](http://codepen.io/jksmall0631/pen/LWmoeb?editors=1010)
 * [Webscraping](https://github.com/jksmall0631/webscraping)
 * [Vending Machine](https://github.com/jksmall0631/vending-machine)
+* [Gear Up](https://github.com/turingschool/gear-up/pull/20#issuecomment-293752437)
 
 ### Justin Wood
 * [Express Toot](https://github.com/jwood11atx/express-toot)
