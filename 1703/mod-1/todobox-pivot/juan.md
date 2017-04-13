@@ -1,5 +1,4 @@
 ## Evaluator: Bree
-## Optional Notes: 
 
 ### Functional Expectations
 
