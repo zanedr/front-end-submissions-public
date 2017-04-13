@@ -129,7 +129,16 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Webscraping] (https://github.com/noahpeden/webscraping)
 
 ### Bekah Lundy
+**Week 1**
 * [Express Tutorial](https://github.com/bekahlundy/node-express)
+
+**Week 2**
+* [Web Scraping](https://github.com/bekahlundy/find-my-dog-costume)
+* [JWTs Homework](https://github.com/bekahlundy/jwt-tutorial)
+* [Code Pen](https://codepen.io/reblundy/pen/wJjbZR)
+
+**Week 4**
+* [Vending Machine](https://github.com/bekahlundy/vending-machine-challenge)
 
 ### Samuel Johnson
 [Node/Express Tutorial REPO](https://github.com/sljohnson32/express-node-tutorial)
