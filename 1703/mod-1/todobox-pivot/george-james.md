@@ -10,11 +10,11 @@
 
 #### Accessibility
 
-* __Proficient:__ Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns. 
+* __Advanced Beginner:__ Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags. 
 
 #### Style
 
-* __Proficient:__ Crafts lean, efficient markup that is easy to read and follow across naming conventions, structure, and solid formatting that follows industry best practices.  
+* __Proficient:__ Crafts lean, efficient markup that is easy to read and follow across naming conventions, structure, and solid formatting that follows industry best practices. 
 
 ------------------------------------------------------------------
 
@@ -22,11 +22,11 @@
 
 #### Structure of Code
 
-* __Proficient__ : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS. 
+* __Advanced Beginner:__ Can cleanly and logically organize CSS rules according to similar categories (i.e. typography, layout, components), and then logically organize the remaining CSS rules based on flow of the markup. Organizes properties within rules alphabetically.
 
 #### Implementation
 
-* __Proficient:__ Develops layouts that work cross-browser, are responsive, and can logically defend the choices made in implementation approach for layout. 
+* __Advanced Beginner:__ Can articulate the differences between the approaches of absolute/relative positioning, flex-box, floats, and can appropriately apply the approaches to solve a variety of layout problems.
 
 ------------------------------------------------------------------
 
@@ -34,8 +34,7 @@
 
 #### Data Types
 
-* __Proficient__ Can identify and track data types through any variety of functions, understanding their affect and result on each line of code. Knows which scenarios are better suited for objects vs. arrays and employs them accordingly.|
-
+* __Proficient__ Can identify and track data types through any variety of functions, understanding their affect and result on each line of code. Knows which scenarios are better suited for objects vs. arrays and employs them accordingly.
 
 #### Conditional Logic
 
@@ -51,11 +50,11 @@
 
 #### DOM Manipulation
 
-* __Exceptional__ Understands the potential performance impact imposed by leveraging vanilla JavaScript vs. jQuery in their implementation and will make choices accordingly based on the problem to solve.
+* __Proficient:__ Able to extract information, modify attributes, or append/prepend data in the DOM easily regardless of whether they are employing vanilla JavaScript or jQuery. Understands how to harness event bubbling.
 
 #### Style
 
-* __Proficient:__ Code is logically organized, such that reader can easily follow the progression of the app because variable and function names are descriptive and follow a single responsibility approach. There are no major bugs and minimal duplication.
+* __Advanced Beginner:__ Code shows strong effort toward organization, but suffers from long functions, unnecessary or poorly named variables, and requires significant refactoring. Application may have some duplication and minor bugs.  
 
 ------------------------------------------------------------------
 
@@ -63,7 +62,7 @@
 
 #### Git
 
-* Proficient__ Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.
+* __Proficient__ Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.
 
 #### Github
 

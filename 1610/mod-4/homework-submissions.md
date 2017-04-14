@@ -49,6 +49,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Wednesday Student Spike](https://github.com/DanGrund/JWT-lesson)
 * [1hr Design Challenge](http://codepen.io/dangrund/pen/qrYGVN?editors=1010)
 
+**Week 5**
+* [react native blog post](https://medium.com/@dangrund./react-vs-react-native-first-exposure-1afaf2068092)
+
 ### Devin Marie Beliveau
 **Week 1**
 [Express Tutorial](https://github.com/devinmarieb/Node-Express-Tutorial)
@@ -57,6 +60,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Web Scraping](https://github.com/devinmarieb/webscraping-workshop)
 * [JWT Tutorial](https://github.com/devinmarieb/jwt-mini-project)
 * [Codepen Card Challenge](https://codepen.io/devinmarieb/pen/PpevwK)
+
+**Week 4**
+* [Vending Machine Challenge](https://github.com/devinmarieb/vending-machine)
 
 ### Dylan Avery
 
@@ -81,6 +87,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [Wk 2 Design Challenge](https://codepen.io/gabitron/pen/MpGdeL)🌴🌴🌴
 [Webscraping Workshop ReadMe](https://github.com/gprocell927/web-scraping-workshop)🍕🍕🍕
 [Vending Machine Challenge](https://github.com/gprocell927/vending-machine-challenge)🍭🍭🍭
+[Wk 5 Lesson Review - Data storage](https://medium.com/@gab17ron/a-second-pass-at-comprehending-data-storage-theory-5196dd40c64f)
 
 ### Jeff Buss
 
@@ -89,6 +96,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Joshua Small
 
 * [Express Tutorial](https://github.com/jksmall0631/express-tut)
+* [JWT Tutorial](https://github.com/jksmall0631/jwt-tutorial)
+* [Codepen](http://codepen.io/jksmall0631/pen/LWmoeb?editors=1010)
+* [Webscraping](https://github.com/jksmall0631/webscraping)
+* [Vending Machine](https://github.com/jksmall0631/vending-machine)
+* [Gear Up](https://github.com/turingschool/gear-up/pull/20#issuecomment-293752437)
 
 ### Justin Wood
 * [Express Toot](https://github.com/jwood11atx/express-toot)
@@ -112,11 +124,21 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 [ui](https://codepen.io/mziccard/pen/EWBgjo)
 ### Noah Peden
 [Node/Express Tutorial] (https://github.com/noahpeden/node-express-tutorial)
-[JWT Tutorial](https://github.com/noahpeden/Securing-SPAs-with-JWTs)
+[JWT Tutorial] (https://github.com/noahpeden/Securing-SPAs-with-JWTs)
 [UI Challenge] (http://codepen.io/noahpeden/pen/dvwbZQ)
+[Webscraping] (https://github.com/noahpeden/webscraping)
 
 ### Bekah Lundy
+**Week 1**
 * [Express Tutorial](https://github.com/bekahlundy/node-express)
+
+**Week 2**
+* [Web Scraping](https://github.com/bekahlundy/find-my-dog-costume)
+* [JWTs Homework](https://github.com/bekahlundy/jwt-tutorial)
+* [Code Pen](https://codepen.io/reblundy/pen/wJjbZR)
+
+**Week 4**
+* [Vending Machine](https://github.com/bekahlundy/vending-machine-challenge)
 
 ### Samuel Johnson
 [Node/Express Tutorial REPO](https://github.com/sljohnson32/express-node-tutorial)
@@ -129,6 +151,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 2**
 
-* [Web Scraping](https://github.com/bekahlundy/find-my-dog-costume/blob/master/README.md) - Link to README.md for your web scraping workshop
+* [Web Scraping](https://github.com/bekahlundy/find-my-dog-costume/blob/master/README.md) - Link to README.md for web scraping workshop
 * [Wednesday Student Spike](https://github.com/StephanieEA/jwt-tutorial) - Link to completed repo from the tutorial
 * [Link to UI Challenge CodePen](http://codepen.io/StephanieEA/pen/vxjMqK) - [Here is the comp](http://frontend.turing.io/projects/mod4-guest-design-challenge.html)
+
+**Week 4**
+
+* [Vending Machine Interview Challenge](https://github.com/StephanieEA/vending_machine_challenge)
