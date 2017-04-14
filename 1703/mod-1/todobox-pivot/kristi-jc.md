@@ -24,7 +24,7 @@
 
 #### Structure of Code
 
-* __Proficient__ : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
+* __Proficient:__ Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
 
 #### Implementation
 
@@ -36,11 +36,11 @@
 
 #### Data Types
 
-|Exceptional        | Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.|
+* __Exceptional:__ Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.
 
 #### Conditional Logic
 
-* __Proficient:__ Can use an if/esle statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.
+* __Proficient:__ Can use an if/else statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.
 
 #### Functions & Scope
 
@@ -48,7 +48,7 @@
 
 #### Arrays
 
-|Exceptional        | Uses variety array prototypes to iterate through arrays and manipulate/create new arrays without using documentation as a resource.|
+* __Exceptional:__ Uses variety array prototypes to iterate through arrays and manipulate/create new arrays without using documentation as a resource.
 
 #### DOM Manipulation
 
@@ -64,8 +64,8 @@
 
 #### Git
 
-|Proficient         | Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.|
+* __Proficient:__ Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.
 
 #### Github
 
-|Proficient         | Is comfortable with resolving merge conflicts. Asks for review/merge of their pull requests from teammates. Is comfortable editing code based on review feedback from a pull request and resubmitting the branch code.|
+* __Proficient:__ Is comfortable with resolving merge conflicts. Asks for review/merge of their pull requests from teammates. Is comfortable editing code based on review feedback from a pull request and resubmitting the branch code.

@@ -40,7 +40,7 @@
 
 #### Conditional Logic
 
-* __Proficient:__ Can use an if/esle statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.
+* __Proficient:__ Can use an if/else statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.
 
 #### Functions & Scope
 
@@ -64,10 +64,8 @@
 
 #### Git
 
-|Proficient         | Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.|
+* __Proficient:__ Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.
 
 #### Github
 
-|Proficient         | Is comfortable with resolving merge conflicts. Asks for review/merge of their pull requests from teammates. Is comfortable editing code based on review feedback from a pull request and resubmitting the branch code.|
-
-<br>
+* __Proficient:__ Is comfortable with resolving merge conflicts. Asks for review/merge of their pull requests from teammates. Is comfortable editing code based on review feedback from a pull request and resubmitting the branch code.
