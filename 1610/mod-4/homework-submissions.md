@@ -71,6 +71,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [UX Challenge 3/23](http://codepen.io/kidhum/pen/xqjeyN?editors=0000)
 * [Vending Machine](https://github.com/dylanavery720/VendingMachine)
 * [Web Scraping](https://github.com/gprocell927/web-scraping-workshop)
+* [Gear Up Reformat](https://github.com/turingschool/gear-up/pull/20#issuecomment-293752437)
+* [Wk 5 Lesson Review - DevDependencies](https://medium.com/@dylanavery720/npmmmm-1-dev-dependencies-dependencies-8931c2583b0c)
 
 ### Elijah Williams
 
