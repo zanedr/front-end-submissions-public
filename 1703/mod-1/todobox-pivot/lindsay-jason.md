@@ -4,7 +4,6 @@
 
 ### Functional Expectations
 
-* __Advanced Beginner:__  Application meets all of the functional expectations in Phase Two.
 * __Proficient:__ Application meets all of the functional expectations in Phase Three.
 
 ------------------------------------------------------------------
@@ -13,7 +12,6 @@
 
 #### Accessibility
 
-* __Advanced Beginner:__ Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags.
 * __Proficient:__ Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns.
 
 #### Style
