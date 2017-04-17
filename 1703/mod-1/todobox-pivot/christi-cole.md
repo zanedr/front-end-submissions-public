@@ -1,0 +1,70 @@
+## Evaluator: Louisa
+## Optional Notes:
+
+### Functional Expectations
+
+* __Proficient:__ Application meets all of the functional expectations in Phase Three.
+
+------------------------------------------------------------------
+
+## HTML
+
+#### Accessibility
+
+* __Advanced Beginner:__ Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags.
+
+#### Style
+
+* __Proficient:__ Crafts lean, efficient markup that is easy to read and follow across naming conventions, structure, and solid formatting that follows industry best practices.
+
+------------------------------------------------------------------
+
+## CSS
+
+#### Structure of Code
+
+* __Proficient__ : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
+
+#### Implementation
+
+* __Proficient:__ Develops layouts that work cross-browser, are responsive, and can logically defend the choices made in implementation approach for layout.
+
+------------------------------------------------------------------
+
+## JAVASCRIPT
+
+#### Data Types
+
+* __Exceptional__ Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.
+
+#### Conditional Logic
+
+* __Proficient:__ Can use an if/else statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.
+
+#### Functions & Scope
+
+* __Exceptional__ Comfortable with using callback functions where applicable. Comfortable returning collections from functions (objects, arrays).
+
+#### Arrays
+
+* __Proficient__ Does not use for loops for arrays - uses array prototypes, such as forEach, to iterate through or manipulate arrays. Can use array to store more complicated data structures such as objects or nested arrays. Is comfortable/efficient with reading array prototype documentation and can efficiently test/apply array prototype methods they have not worked with before
+
+#### DOM Manipulation
+
+* __Proficient:__ Able to extract information, modify attributes, or append/prepend data in the DOM easily regardless of whether they are employing vanilla JavaScript or jQuery. Understands how to harness event bubbling.
+
+#### Style
+
+* __Exceptional__ Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring. Application has exceptionally well-factored code with little or no duplication.
+
+------------------------------------------------------------------
+
+## GIT & GITHUB
+
+#### Git
+
+* __Proficient__ Commits changes frequently with detailed commit messages. Uses feature branches to keep master branch free of incomplete features or bugs.
+
+#### Github
+
+* __Proficient__ Is comfortable with resolving merge conflicts. Asks for review/merge of their pull requests from teammates. Is comfortable editing code based on review feedback from a pull request and resubmitting the branch code.
