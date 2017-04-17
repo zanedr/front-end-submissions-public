@@ -116,6 +116,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Webscrape Tutorial](https://github.com/mlimberg/web-scrape-tutorial)
 * [Codepen to Carousel](http://codepen.io/SirBimbus/pen/YZLbeQ)
 * [Vending Machine](https://github.com/mlimberg/vending-machine)
+* [Blog Post of Lesson Review (JWT)](https://medium.com/@limbergmike/understanding-json-web-tokens-jwt-3509349f53ed)
 
 ### Mike Ziccardi
 
