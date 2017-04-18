@@ -1,4 +1,4 @@
-# Instructor Evaluation Points: Sorting Sweet
+# Instructor Evaluation Points: weathrly
 # Instructor:
 # Comments:
 
