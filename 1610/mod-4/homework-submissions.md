@@ -64,6 +64,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 **Week 4**
 * [Vending Machine Challenge](https://github.com/devinmarieb/vending-machine)
 
+**Week 5**
+* [Blog Post](https://medium.com/@devinmarieb/the-last-homework-assignment-595dcaf1cfb5)
+
 ### Dylan Avery
 
 * [Express Tutorial](https://github.com/dylanavery720/express-mod4-tut)
