@@ -16,9 +16,7 @@
 
 ### 4. Functional Expectations
 
-
-<!-- * 3: Application meets all requirements as laid out per the specification. -->
-* 2.5: Application runs, but does not work properly, or does not meet specifications.
+* 3: Application meets all requirements as laid out per the specification.
 
 ### 5. Code Sanitation
 
