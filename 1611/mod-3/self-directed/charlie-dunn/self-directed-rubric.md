@@ -1,19 +1,12 @@
-### Project Scope
+Notes:
 
-A good project idea should:
-
-* Break down into logical iterations so that you can deliver a strong product on every check-in
-* Be something that real people would want to use to solve a problem
-* Have enough *technical* challenge to be worth your time (as opposed to a *content* challenge)
 
 ### Feature Delivery
 
 **1. Completion**
 
-* 4: Developer completed all the user stories and requirements set in check-ins in timely manner.
-* 3: Developer completed all the user stories and requirements set during check-ins.
-* 2: Developer completed most of the user stories and requirements set during check-ins.
-* 1: Developer completed the user stories and requirements partially.
+* 4: Developer completed all the user stories and requirements set in check-ins in timely
+manner.  
 
 **2. Organization**
 
@@ -26,10 +19,8 @@ A good project idea should:
 
 **1. Test-Driven Development**
 
-* 4: Project shows exceptional use of testing at different layers (above 95% coverage).
 * 3: Project shows adequate testing (90% - 95% coverage).
-* 2: Project shows gaps in test usage/coverage/design (85 - 90% coverage).
-* 1: Project lacks sufficient testing (under 85% coverage).
+
 
 **2. Code Quality**
 
@@ -43,13 +34,3 @@ A good project idea should:
 **1. User Experience**
 
 * 4: Project exhibits a production-ready and polished UX.
-* 3: Project exhibits a production-ready user experience.
-* 2: Project exhibits some gaps in the UX.
-* 1: Project exhibits inattention to the user experience.
-
-**2. Performance**
-
-* 4: Project pages load on average under 300 milliseconds.
-* 3: Project pages load on average under 400 milliseconds.
-* 2: Project pages load on average under 500 milliseconds.
-* 1: Project pages load on average over 500 milliseconds.
