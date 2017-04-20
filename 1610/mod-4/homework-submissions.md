@@ -117,6 +117,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Lauren Pesce
 [Express Tutorial](https://github.com/pescel/express-tutorial)
+[JWT](https://github.com/pescel/JWT/commits/begin)
 [CodePen Challenge](http://codepen.io/lpesce/pen/VpGQMw)
 [Vending Machine](https://github.com/pescel/vending-machine)
 [Gear Up](https://github.com/chelletuerk/gear-up)
