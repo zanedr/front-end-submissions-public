@@ -86,6 +86,13 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Eric Sayler
 * [Express Tutorial](https://github.com/esayler/node-express-tutorial)
+* [Web Scraping](https://github.com/esayler/web-scrape-tutorial)
+* [JWT Tutorial](https://github.com/esayler/jwt-tutorial)
+* [UI challenge Code Pen](http://codepen.io/esayler/pen/aJGxQr)
+* [Vending Machine Interview Challenge](https://github.com/esayler/vending-machine-react)
+* [Wk 5 Marble Game React Native WebGL](https://snack.expo.io/SkHUcza6l)
+
+
 
 ### Gabi Procell
 [Express Tutorial](https://github.com/gprocell927/NodeExpressPrework)
