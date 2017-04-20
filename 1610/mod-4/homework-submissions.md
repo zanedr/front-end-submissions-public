@@ -57,6 +57,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [ui](https://codepen.io/mziccard/pen/EWBgjo)
 * [blog](https://medium.com/@mikeziccardi/revisiting-react-router-d7f0d06bd6b3)
 * [webscrape](https://github.com/mziccardi/websrape)
+* [vendingmachine](https://github.com/mziccardi/vending-machine-challenge)
+
 ### Noah Peden
 [Node/Express Tutorial] (https://github.com/noahpeden/node-express-tutorial)
 ### Bekah Lundy
