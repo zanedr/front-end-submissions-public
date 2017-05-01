@@ -19,6 +19,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Vending Machine Interview Challenge](https://github.com/turingschool-examples/vending_machine_challenge)
 
 
-### Your Name
+### (Your Name)
 
-* Links to your assignments
+* (Links to your completed homework assignments)
