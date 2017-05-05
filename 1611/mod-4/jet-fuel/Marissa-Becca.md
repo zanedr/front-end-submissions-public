@@ -50,7 +50,7 @@ We felt great that Brittany had us make a new migration even though it scared us
 ![Testing](http://g.recordit.co/oeDYGy0Yrl.gif)
 
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
-![Imgur](http://i.imgur.com/lQbKQcJ.png)
+[Unhappy](https://github.com/becs919/jet-fuel/blob/master/test/routes.spec.js#L184-L223)
 
 -----
 
