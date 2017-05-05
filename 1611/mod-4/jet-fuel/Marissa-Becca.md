@@ -44,7 +44,7 @@ We're really proud that we set up our testing environment and wrote sad/happy te
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-We felt great that Brittany had us make a new migration even though it scared us, but now we know how to do it. We weren't proud that we named our columns with dashes at first resulting in us having to make a new migration. We learned to never use dashes in column names. 
+We felt great that Brittany had us make a new migration even though it scared us, but now we know how to do it. We weren't proud that we named our columns with dashes at first resulting in us having to make a new migration. We learned to never use dashes in column names. We also made 2 more migrations to drop timestamps and add it back in with the arguments of true,true.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 ![Testing](http://g.recordit.co/oeDYGy0Yrl.gif)
