@@ -14,54 +14,52 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[Your projects's repo URL](https://github.com/)
+(https://github.com/ActionJonny/jet-fuel)
 
 #### Link to the Deployed Application
-[Your project's production URL](https://github.com/)
+(https://shorten-your-url-with-us.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
--[Partner 1](https://github.com)
+(https://github.com/ActionJonny/jet-fuel/commits/master?author=ActionJonny)
 
--[Partner 2](hhttps://github.com/)
+(https://github.com/ActionJonny/jet-fuel/commits/master?author=tbrandle)
 
 #### Provide a Screenshot of your Application
-
+![](http://g.recordit.co/a55Zog1SzR.gif)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-* Yes / No
+* Yes
 
 #### Which extensions, if any, did you complete?
 
-- List extensions completed or N/A
+- We were not able to get to neither of the extentions
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[Link to code block in repo](https://github.com)
+(https://github.com/ActionJonny/jet-fuel/blob/master/server.js)#L28-L40
 
-* Why were you proud of this piece of code?
-
-Reason you are proud of code
+* We were happy to be able to increment the visits - on the server side - and figure out how to redirect the user in the same get method. We are also pretty happy with our css fade-in/fade-out, and the input animation used for the sidebar.
 
 #### Link to a specific block of your code on Github that you feel not great about
-[Link to code block in repo](https://github.com)
+(https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js)#L52-L67
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-
-Reason you don't feel awesome about this code.
+* We did not have a chance to refactor this code block using semantic html.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
+![](http://g.recordit.co/zvn4gSIswj.gif)
 
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
 
+* None
 -----
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say!
+* We have some, but need to get lunch before gear-up
 
 -----
 
