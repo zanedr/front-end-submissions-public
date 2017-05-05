@@ -19,12 +19,12 @@
 -[Marissa](https://github.com/becs919/jet-fuel/commits?author=marissa27)
 
 #### Provide a Screenshot of your Application
-
+![recordit](http://recordit.co/kYu7VC2Rea)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-* Yes - Brittany said that we could focus on testing and not complete date/visited and sorting. We have the date created and visits displaying but no sorting. The visited doesn't increment. 
+* Yes - Brittany said that we could focus on testing and not complete date/visited and sorting. We have the date created and visits displaying but no sorting. The visited increments but does not instantly update on page. 
 
 #### Which extensions, if any, did you complete?
 
@@ -56,9 +56,9 @@ We felt great that Brittany had us make a new migration even though it scared us
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-We strayed a lot from our wireframes. We were focusing too much at the beginning of our project on UX/UI and not focusing on the database itself. When we started putting our energy into our database, the UX/UI was left behind. We aren't very proud of our front-end but our database is doing the thing and we have tested it! 
+We strayed a lot from our wireframes. We were focusing too much at the beginning of our project on UX/UI and not focusing on the database itself. When we started putting our energy into our database, the UX/UI was left behind. We aren't very proud of our front-end but our database is doing the thing and we have tested it! Also, our visited increments but doesn't automatically load on page when you redirect. That is something we would have liked to finish. 
 
-Questions: How do we practice/learn how to test better? We tried to make a patch request to update the visitedc count. Couldn't figure it out in time so left it commented out. How would you implement a patch request for something like visited? 
+Questions: How do we practice/learn how to test better? 
 
 -----
 
