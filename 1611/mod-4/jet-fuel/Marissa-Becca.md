@@ -33,7 +33,7 @@
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[Link to code block in repo - Testing for server-side](hhttps://github.com/becs919/jet-fuel/blob/37aeda6718b027f94f5a93ba408cd0a5cf7b5f0b/server.js)
+[Link to code block in repo - Testing for server-side](https://github.com/becs919/jet-fuel/blob/37aeda6718b027f94f5a93ba408cd0a5cf7b5f0b/server.js)
 
 * Why were you proud of this piece of code?
 
