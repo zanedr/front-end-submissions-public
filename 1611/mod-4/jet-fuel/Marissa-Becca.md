@@ -19,8 +19,7 @@
 -[Marissa](https://github.com/becs919/jet-fuel/commits?author=marissa27)
 
 #### Provide a Screenshot of your Application
-![Record](http://g.recordit.co/K04xEcAwG7.gif)
-![Recordit](http://recordit.co/JoS54woQgQ.gif)
+
 
 ## Completion
 
@@ -57,7 +56,7 @@ We felt great that Brittany had us make a new migration even though it scared us
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say!
+We strayed a lot from our wireframes. We were focusing too much at the beginning of our project on UX/UI and not focusing on the database itself. When we started putting our energy into our database, the UX/UI was left behind. We aren't very proud of our front-end but our database is doing the thing and we have tested it! 
 
 -----
 
