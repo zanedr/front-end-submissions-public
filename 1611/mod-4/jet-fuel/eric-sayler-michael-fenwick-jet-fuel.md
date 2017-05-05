@@ -27,7 +27,6 @@
 
 ![](http://i.imgur.com/184DMfa.png)
 
-
 ## Completion
 
 #### Were you able to complete the base functionality?
@@ -37,33 +36,27 @@
 
 - Added ability to delete individual folders and Urls
 
-
-Reason you don't feel awesome about this code.
-
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[Link to code block in repo](https://github.com)
+[FE query to backend for sort functionality](https://github.com/Mickyfen17/jet-fuel/blob/master/public/lib/app.js#L65)
 
-* Why were you proud of this piece of code?
-
-Reason you are proud of code
+- Utilized the backend (knex's `orderBy()`) to sort our URLs based on query params passed through in the GET request.
 
 #### Link to a specific block of your code on Github that you feel not great about
-[Link to code block in repo](https://github.com)
+[Giant IIFE for toggling filter](https://github.com/Mickyfen17/jet-fuel/blob/master/public/lib/app.js#L37)
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+- Could be cleaned up to seperate the state logic from DOM manipulation. Multiple nested if statements are hard to follow.
+
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
+
+![](http://i.imgur.com/Mb2nvaG.png)
 
 #### Provide a link to an example, if you have one, of a test that covers an 'edge case' or 'unhappy path'
 
+- [Link to unhappy path example](https://github.com/Mickyfen17/jet-fuel/blob/master/test/routes.spec.js#L232)
 -----
 
-#### Please feel free to ask any other questions or make any other statements below!
-
-Anything else you wanna say!
-
------
 
 # Instructor Feedback
 
