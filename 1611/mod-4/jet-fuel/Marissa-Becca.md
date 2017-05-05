@@ -10,7 +10,7 @@
 [Your projects's repo URL](https://github.com/becs919/jet-fuel)
 
 #### Link to the Deployed Application
-[Your project's production URL](https://github.com/)
+[Your project's production URL](https://jetfuelshorturl.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
@@ -20,7 +20,7 @@
 
 #### Provide a Screenshot of your Application
 ![Record](http://g.recordit.co/K04xEcAwG7.gif)
-![Recordit](http://recordit.co/JoS54woQgQ)
+![Recordit](http://recordit.co/JoS54woQgQ.gif)
 
 ## Completion
 
