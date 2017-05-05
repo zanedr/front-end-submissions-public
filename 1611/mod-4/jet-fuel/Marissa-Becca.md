@@ -19,7 +19,7 @@
 -[Marissa](https://github.com/becs919/jet-fuel/commits?author=marissa27)
 
 #### Provide a Screenshot of your Application
-![recordit](http://recordit.co/kYu7VC2Rea)
+![recordit](http://recordit.co/kYu7VC2Rea.gif)
 
 ## Completion
 
