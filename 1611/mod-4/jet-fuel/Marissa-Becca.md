@@ -20,6 +20,7 @@
 
 #### Provide a Screenshot of your Application
 ![Record](http://g.recordit.co/K04xEcAwG7.gif)
+![Recordit](http://recordit.co/JoS54woQgQ)
 
 ## Completion
 
