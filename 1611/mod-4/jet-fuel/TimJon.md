@@ -95,6 +95,8 @@
 
 * Nice consistent style and use of ES6. Functions are broken out in a modular way and each have a single responsibility.
 
+* Code Your Proud Of: Yep this looks good! Just remember to send along a proper status code with your [redirect](https://github.com/ActionJonny/jet-fuel/blob/master/server.js#L35). You might also consider saving `request.params.short_url` to a variable since you're referencing it twice in [three lines](https://github.com/ActionJonny/jet-fuel/blob/master/server.js#L29-L31). (Makes it less likely you'll have an error due to a typo, is generally good practice so you only have to grab that value once from a single point rather than repeatedly)
+
 * I would try to implement [this](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L8) with your `appendFolders` function rather than duplicating that code.
 
 * Additionally, when appending elements to the DOM, especially in a loop ([like here](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L13)), you'll want to take advantage of [DocumentFragments](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment). DOM Manipulation is the most expensive part of client-side code, and document fragments allow you to build up all the HTML you need before adding it to directly to the DOM.
