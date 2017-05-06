@@ -93,15 +93,15 @@
 
 **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
-Nice consistent style and use of ES6. Functions are broken out in a modular way and each have a single responsibility.
+* Nice consistent style and use of ES6. Functions are broken out in a modular way and each have a single responsibility.
 
-I would try to implement [this](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L8) with your `appendFolders` function rather than duplicating that code.
+* I would try to implement [this](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L8) with your `appendFolders` function rather than duplicating that code.
 
-Additionally, when appending elements to the DOM, especially in a loop ([like here](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L13)), you'll want to take advantage of [DocumentFragments](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment). DOM Manipulation is the most expensive part of client-side code, and document fragments allow you to build up all the HTML you need before adding it to directly to the DOM.
+* Additionally, when appending elements to the DOM, especially in a loop ([like here](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L13)), you'll want to take advantage of [DocumentFragments](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment). DOM Manipulation is the most expensive part of client-side code, and document fragments allow you to build up all the HTML you need before adding it to directly to the DOM.
 
-Always remember to include a .catch() when working with [promises](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L26-L33).
+* Always remember to include a .catch() when working with [promises](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L26-L33).
 
-[This](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L140) is one of those clever one-liners that might read a bit easier if broken out into an `if else`.
+* [This](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L140) is one of those clever one-liners that might read a bit easier if broken out into an `if else`.
 
 
 ## Workflow
