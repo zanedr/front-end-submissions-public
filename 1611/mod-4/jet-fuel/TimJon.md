@@ -65,7 +65,7 @@
 
 # Instructor Feedback (Brittany)
 
-### Specification Adherence
+## Specification Adherence
 
 **45 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
 
@@ -73,7 +73,7 @@
 
 * Minor Missing Feature: Users should be able to sort URLs in ascending or descending order. I would expect to be able to double-click the sort buttons and have the sort order reversed, with some sort of visual indicator (up/down arrows?) telling me the current sort.
 
-### User Interface
+## User Interface
 
 **15 points** - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
 
@@ -81,15 +81,15 @@
 
 * If I type in a URL, then select a folder, I would expect the submit button to be enabled. Instead, the submit button remains disabled until you key into the input field again.
 
-### Data Persistence with SQL Database
+## Data Persistence with SQL Database
 
-**20 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+**20 points** - The application persists data in a SQL database with correct relationships between folders and URLs.
 
-### Testing
+## Testing
 
 **10 points** - Project has server-side happy tests but no sad path tests. Since the server is only handling errors with console.logs, I understand it would've been difficult to implement these. This is something I would definitely go back and try to complete as it will be good practice for future projects this module.
 
-### JavaScript Style
+## JavaScript Style
 
 **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
@@ -104,14 +104,14 @@ Always remember to include a .catch() when working with [promises](https://githu
 [This](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L140) is one of those clever one-liners that might read a bit easier if broken out into an `if else`.
 
 
-### Workflow
+## Workflow
 
 **15 points** - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
 
 Nice, tiny commits and use of feature branches. Make sure not to commit commented out code or [console.logs](https://github.com/ActionJonny/jet-fuel/blob/master/server.js#L79) to master. You can stash these types of changes with `git create stash` so that you can make a commit without them, but pop them back onto your local copy whenever you need.
 
 
-## To get a 3 on this project, you need to score 110 points or higher
-## To get a 4 on this project, you need to score 135 points or higher
+### To get a 3 on this project, you need to score 110 points or higher
+### To get a 4 on this project, you need to score 135 points or higher
 
 # Final Score: 120 / 150
