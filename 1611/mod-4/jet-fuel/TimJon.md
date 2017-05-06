@@ -99,6 +99,8 @@
 
 * I would try to implement [this](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L8) with your `appendFolders` function rather than duplicating that code.
 
+* It's a good idea to store your `$('.current')` selector in a variable [here](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L39-L40) rather than referencing it twice. e.g. `const currentFolder = $('.current');`. That way jQuery only has to traverse the DOM once to retrieve that element rather than searching for it every time you want to manipulate it. You could also chain those `text` and `attr` methods together to do all your manipulations in one shot. 
+
 * Additionally, when appending elements to the DOM, especially in a loop ([like here](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L13)), you'll want to take advantage of [DocumentFragments](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment). DOM Manipulation is the most expensive part of client-side code, and document fragments allow you to build up all the HTML you need before adding it to directly to the DOM.
 
 * Always remember to include a .catch() when working with [promises](https://github.com/ActionJonny/jet-fuel/blob/master/public/script.js#L26-L33).
