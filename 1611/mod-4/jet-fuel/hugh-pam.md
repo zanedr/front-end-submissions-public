@@ -80,6 +80,87 @@ Cool project. Quite enjoyable. Back end code isn't so scary after all.
 
 -----
 
-# Instructor Feedback
+## Instructor Evaluation Points (Robbie)
 
-- Points: x / 150
+The following set of points are distributed at the discretion of the instructor.
+
+### Specification Adherence
+
+**45 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+
+* Didn't quite get to date being sorted, but saw number of visits able to sort
+* Folder names should be unique, but currently I can submit two folders with the same name - can do this client side and/or server side
+
+### User Interface
+
+**15 points** - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
+
+* The UI leaves some things to be desired design wise...but not bad. Not sure about the background color and title color selection (hence the white background on "folders"). Would be nice to have an indication on the right blank section to select a folder before I try to add a new shortened URL.
+* Would like to see the number of visits incremented on the client side
+* Good job adding some URL validation!
+* Errors just keep getting prepended to the page until a refresh - just replace errors with the most recent error
+
+### Data Persistence with SQL Database
+
+**20 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+* Can add uniqueness to folder name in the [schema setup](https://github.com/thatPamIAm/jet-fuel/blob/master/db/migrations/20170503160117_initial.js#L9)
+* Try to get away from hard-coding in primary keys in [your seed files](https://github.com/thatPamIAm/jet-fuel/blob/master/db/seeds/test/folders.js#L10), hence the value of returning the `'id'` as a second argument for `insert()`
+* [Jhun would be proud](https://github.com/thatPamIAm/jet-fuel/blob/master/db/seeds/test/folders.js#L44)
+
+### Testing
+
+**12 points** - Project has a running test suite that tests and multiple levels but fails to cover some features. All controller actions are covered by tests. The application makes some use of integration testing.
+
+* Need to resolve the [seed promise](https://github.com/thatPamIAm/jet-fuel/blob/master/test/routes.spec.js#L14-L22) with a `.then()` or `return`.
+* Why all the spaces before the `done()`?
+* For [this route's sad path](https://github.com/thatPamIAm/jet-fuel/blob/master/test/routes.spec.js#L101-L110), would be great to see a test for a folder id that doesn't exist in the database.
+* Would be great to test for a foreign key [here](https://github.com/thatPamIAm/jet-fuel/blob/master/test/routes.spec.js#L124) to make sure the database got the correct set of URLs
+* Good status code [response](https://github.com/thatPamIAm/jet-fuel/blob/master/test/routes.spec.js#L150).
+* Can also test, in many/all of these API routes the type of response body you expect (JSON)
+* Good sad path [here](https://github.com/thatPamIAm/jet-fuel/blob/master/test/routes.spec.js#L168), should probably respond with a different status code - probably 400 since the POST body needs to be modified.
+* Great to see a [redirect server-side test](https://github.com/thatPamIAm/jet-fuel/blob/master/test/routes.spec.js#L229) - sad path is always good too!
+* Would like to see a sad path for [this route](https://github.com/thatPamIAm/jet-fuel/blob/master/test/routes.spec.js#L207) similar to what you have in above tests
+
+### JavaScript Style
+
+**15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Haha:
+> Actually shortening the urls, then redirecting to their respective longer URLs seemed to be the crux of this project. It was, however, not.
+
+* Awesome:
+> Back end code isn't so scary after all.
+
+* In general, it's a good practice to bring your API routes into a separate router file to make your [server file](https://github.com/zkc/JetFuel/blob/master/server.js) more readable - see [express.Router](https://expressjs.com/en/guide/routing.html#express-router)
+* Not sure that you need [this here](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L19) since you're not sending data directly through forms, only with `fetch`
+* Keep in mind to handle the occurrence where there is a request for an `id` that doesn't exist in the database, like in [this route](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L33-L39)
+* [Using `moment` is good](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L104-L105) - time is difficult...
+* Be sure to specify a response code for [the redirect](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L89) - there are a few different kinds of redirects depending on if the redirect is permanent, temporary, or if you want the browser to cache it.
+* Always have a `catch` in [a promise](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L53-L59) to catch errors - there are other instances of this in your server file
+* Good use of status code 201 for [creating a URL](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L77)
+* Not sure why you want to pass in another `id` [here](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L74) to create a URL, you have the `folder_id` and you want the URL's primary key (id) to auto increment
+* Cool use of `increment()` [here](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L83)
+* [This line](https://github.com/thatPamIAm/jet-fuel/blob/master/server.js#L95) seems redundant, why not just use `app.get('port')` again? Then you don't have to save the server to a variable
+
+* Like above in server code, your [client-side](https://github.com/thatPamIAm/jet-fuel/blob/master/public/index.js#L33) `fetch` code should always have a catch for errors
+* When appending elements to the DOM, especially in a loop ([like here](https://github.com/thatPamIAm/jet-fuel/blob/master/public/index.js#L47)), you'll want to take advantage of [DocumentFragments](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment). DOM Manipulation is the most expensive part of client-side code, and document fragments allow you to build up all the HTML you need before adding it to directly to the DOM.
+* Make sure you remove [`console.log`](https://github.com/thatPamIAm/jet-fuel/blob/master/public/index.js#L28) from your production code
+* Can also use the `input` event [here](https://github.com/thatPamIAm/jet-fuel/blob/master/public/index.js#L99) instead of `keyup` to reduce the number of times this check runs
+* Seems like you're trying to avoid a nested `if/else` [here](https://github.com/thatPamIAm/jet-fuel/blob/master/public/index.js#L113-L114), but a ternary really is just that and much less readable in this case. However, [this](https://github.com/thatPamIAm/jet-fuel/blob/master/public/index.js#L223-L228) ould be a good place for a ternary
+* Good refactoring for the helper functions
+* Good use of `sort()` for the number of visits
+* If the argument, `input`, is a string [here](https://github.com/thatPamIAm/jet-fuel/blob/master/public/index.js#L213), then you shouldn't have to interpolate it in the jQuery selector
+
+
+### Workflow
+
+**15 points** - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
+
+* Good, small commits but would like to see more conversation in the PR workflow - adding context to your PRs for the reviewer (in the description).
+
+## To get a 3 on this project, you need to score 110 points or higher
+
+## To get a 4 on this project, you need to score 135 points or higher
+
+# Final Score: 122 / 150
