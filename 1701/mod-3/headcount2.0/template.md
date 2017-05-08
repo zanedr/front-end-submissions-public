@@ -1,6 +1,5 @@
 ## Students:
 ## Evaluator:
-## Link to Repo:
 ## Notes: 
 
 ## Specification Adherence
@@ -14,6 +13,11 @@
 - 3 - Developer appears comfortable in React demonstrated gaps in knowledge of how the tools should be used and/or the app contains unrefactored code.
 - 2 - Developer selected appropriate libraries and frameworks to build the app but did not use them as intended. Significant refactoring necessary.
 - 1 - Developer did not make any effort to use React effectively or refactor code.
+
+## PropType Implementation
+
+- Pass - Proptype validation is implemented for any component receiving props.
+- Fail - There are components missing proptype validation.
 
 ## CSS/Design
 - 4 - Developer has made a targeted effort to make the app appealing and user friendly. Evaluator has minimal recommendations for design changes.
