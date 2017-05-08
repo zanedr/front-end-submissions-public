@@ -86,7 +86,17 @@ Anything else you wanna say!
 
 ## JavaScript Style
 
-TKTK
+**15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Wonderful job making sure to always include `.catch()` blocks when working with promises. One day we will do a lesson on more proper/useful error handling, but this is a good first step.
+
+* You can and should still send along an appropriate status code for your [redirect](https://github.com/kfarias/jet-fuel/blob/master/server.js#L67).
+
+* The URL endpoint [here](https://github.com/kfarias/jet-fuel/blob/master/server.js#L84-L94) is a little off. I know it still works, but you want to try to match up your POST request URLs with your GET request URLs. i.e. to get the links for a particular folder, you have an endpoint that's like [/api/v1/folders/:id/links](https://github.com/kfarias/jet-fuel/blob/master/server.js#L53). I would stay consistent with this format and use it for your POST request as well. Otherwise it's a little tricky to tell where exactly that new URL is getting POSTed to. It does not clearly demonstrate that any new URL is going to be POSTed under a specific folder.
+
+* The functionality within your [document.ready](https://github.com/kfarias/jet-fuel/blob/master/public/app.js#L4) doesn't actually need to be wrapped in `document.ready`. A fetch request doesn't depend on the DOM existing, so you could actually kick off that GET request immediately. Only functions that are intended to be executed right away **and** depend on a DOM element should be wrapped in `document.ready`.
+
+* Make sure you understand the convention of prefixing variables with the dollar sign as you've done [here](https://github.com/kfarias/jet-fuel/blob/master/public/app.js#L25-L26). Neither of these actually reference a jQuery element, which is when you'd want to prefix with a dollar sign. They both represent an ID attribute or an element value - not the elements themselves.
 
 
 ## Workflow
@@ -103,4 +113,4 @@ TKTK
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: xx / 150
+# Final Score: 128 / 150
