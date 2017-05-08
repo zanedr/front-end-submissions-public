@@ -78,6 +78,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [JWT Tutorial](https://github.com/ejwill04/JWT-tutorial)
 * [Codepen Card Challenge](http://codepen.io/ejwill04/pen/WpJBqW?editors=0110)
 * [Vending Machine Challenge](https://github.com/ejwill04/vending-machine)
+* [Vending-Machine Challenge](https://github.com/ejwill04/vending-machine)
+* [Client-side Security (blog post)](https://medium.com/@ejwill04/client-side-security-a019fd4f46b4)
 
 ### Eric Sayler
 * [Express Tutorial](https://github.com/esayler/node-express-tutorial)
