@@ -24,7 +24,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Franklin
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/Obleo33/elevator)
 
 ### Staci
 
