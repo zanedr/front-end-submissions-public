@@ -16,7 +16,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Charlie
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/dunncl15/elevator-challenge)
 
 ### Kenia
 
