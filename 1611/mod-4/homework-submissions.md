@@ -65,7 +65,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Tim
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/tbrandle/Elevator)
 
 ### Jon
 
