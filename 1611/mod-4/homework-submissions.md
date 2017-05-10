@@ -33,7 +33,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Eric
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/esayler/elevator)
 
 ### Michael
 
