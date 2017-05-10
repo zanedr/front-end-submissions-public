@@ -41,7 +41,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Hugh
 
-* (Links to your completed homework assignments)
+* [elevator](https://github.com/hmorri32/elevator-algorithm)
 
 ### Pam
 
