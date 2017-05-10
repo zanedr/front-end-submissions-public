@@ -44,7 +44,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Pam
 
-* (Links to your completed homework assignments)
+[Elevator Challenge](https://github.com/thatPamIAm/elevator-challenge)
 
 ### Julian
 
