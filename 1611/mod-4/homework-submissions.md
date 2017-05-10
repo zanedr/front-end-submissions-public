@@ -36,7 +36,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Michael
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/Mickyfen17/elevator-challenge)
 
 ### Hugh
 
