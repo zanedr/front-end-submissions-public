@@ -56,7 +56,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Marissa
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/marissa27/elevator-challenge)
 
 ### Becca
 
