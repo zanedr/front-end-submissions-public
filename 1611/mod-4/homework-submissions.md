@@ -72,4 +72,4 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Sam
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/sljohnson32/elevator-challenge)
