@@ -10,15 +10,66 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 2**
 
-* [Web Scraping](http://frontend.turing.io/lessons/web-scraping-workshop.html) - Link to README.md for your web scraping workshop
 * [Wednesday Student Spike](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
-* [Link to UI Challenge CodePen](http://codepen.io/atideman/pen/MpGRMP) - [Here is the comp](http://frontend.turing.io/projects/mod4-guest-design-challenge.html)
-
-**Week 4**
-
-* [Vending Machine Interview Challenge](https://github.com/turingschool-examples/vending_machine_challenge)
+* [Elevator Challenge](https://github.com/turingschool-examples/elevator-challenge) - Link to your codebase of what you've completed so far
 
 
-### (Your Name)
+### Charlie
+
+* (Links to your completed homework assignments)
+
+### Kenia
+
+* (Links to your completed homework assignments)
+
+### Franklin
+
+* (Links to your completed homework assignments)
+
+### Staci
+
+* (Links to your completed homework assignments)
+
+### Eric
+
+* (Links to your completed homework assignments)
+
+### Michael
+
+* (Links to your completed homework assignments)
+
+### Hugh
+
+* (Links to your completed homework assignments)
+
+### Pam
+
+* (Links to your completed homework assignments)
+
+### Julian
+
+* (Links to your completed homework assignments)
+
+### Kyle
+
+* (Links to your completed homework assignments)
+
+### Marissa
+
+* (Links to your completed homework assignments)
+
+### Becca
+
+* (Links to your completed homework assignments)
+
+### Tim
+
+* (Links to your completed homework assignments)
+
+### Jon
+
+* (Links to your completed homework assignments)
+
+### Sam
 
 * (Links to your completed homework assignments)
