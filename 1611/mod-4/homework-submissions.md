@@ -38,6 +38,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Michael
 
 * [Elevator Challenge](https://github.com/Mickyfen17/elevator-challenge)
+* [JWT Workshop](https://github.com/Mickyfen17/JWT-workshop)
 
 ### Hugh
 
