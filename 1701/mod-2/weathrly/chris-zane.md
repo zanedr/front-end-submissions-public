@@ -34,8 +34,6 @@
 
 4 - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
 
-
-
 ## Code Sanitation
 
 The output from a code sanitizer (either JSHint or ESLint) shows…
