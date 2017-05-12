@@ -2,6 +2,10 @@
 # Instructor:
 # Comments:
 
+- some long functions
+- could merge some classes together / move responsibility
+- for the most part i liked the design 
+
 ## Functional Expectations
 
 * 4 - Application is fully playable and exceeds the expectations set by instructors
@@ -21,10 +25,6 @@
 ### Workflow
 
 * 4 - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
-* 3 - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
-* 2 - The developer makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application.
-* 1 - The developer committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-* 0 - The application was not checked into version control.
 
 ### Code Sanitation
 

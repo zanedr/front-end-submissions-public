@@ -33,6 +33,4 @@ tests. The application makes some use of integration testing.
 
 The output from JSHint shows…
 
-<!-- * 4 - Zero complaints
-* 3 - Five or fewer complaints -->
-* 2 - Six to ten complaints
+* 4 - Zero complaints
