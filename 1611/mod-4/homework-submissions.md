@@ -48,7 +48,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Pam
 
-[Elevator Challenge](https://github.com/thatPamIAm/elevator-challenge)
+* [Elevator Challenge](https://github.com/thatPamIAm/elevator-challenge)
 
 ### Julian
 
@@ -76,6 +76,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Jon
 
 * [Elevator](https://github.com/ActionJonny/elevator)
+* [JWT Tutorial](https://github.com/ActionJonny/jwt-tutorial)
+* [Express](https://github.com/ActionJonny/express-workshop)
 
 ### Sam
 
