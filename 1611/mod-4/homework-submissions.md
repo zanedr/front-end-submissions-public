@@ -30,6 +30,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Elevator Challenge](https://github.com/stacimcwilliams/elevator_challenge)
 * [Node Tutorial](https://github.com/stacimcwilliams/prework_node_tutorial)
+* [JWT Tutorial](https://github.com/stacimcwilliams/jwt-tutorial)
 
 ### Eric
 
