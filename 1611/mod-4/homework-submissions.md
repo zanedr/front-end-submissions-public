@@ -45,6 +45,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Pam
 
 [Elevator Challenge](https://github.com/thatPamIAm/elevator-challenge)
+[JWT Tutorial](https://github.com/thatPamIAm/jwt-tutorial)
+[Node Tutorial](https://github.com/thatPamIAm/node-express-prework)
+
 
 ### Julian
 
