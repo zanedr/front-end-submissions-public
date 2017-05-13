@@ -62,7 +62,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Kyle
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/zkc/elevator-challange)
+* [JWT Trains](https://github.com/zkc/jwt-trains)
 
 ### Marissa
 
