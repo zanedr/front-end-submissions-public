@@ -21,6 +21,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Kenia
 
 * [Elevator](https://github.com/kfarias/elevator-challenge)
+* [JWT Tutorial](https://github.com/kfarias/jwt-turorial)
 
 ### Franklin
 
