@@ -17,6 +17,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Charlie
 
 * [Elevator](https://github.com/dunncl15/elevator-challenge)
+* [JWT](https://github.com/dunncl15/JWT-workshop)
 
 ### Kenia
 
