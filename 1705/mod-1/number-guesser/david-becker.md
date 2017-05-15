@@ -1,9 +1,7 @@
 ## Evaluator: Louisa
 ## Optional Notes:
 
-Is feeling a bit shaky with version control, had multiple versions of the project in multiple directories. Good attention to details like indentation and organization.
-
-Overall, well done! Definitely keep working on version control!
+Obvious passion for the work, loves writing code and trying things out. HTML is a bit of a mess, CSS needs a tidying pass. Overall, more attention to organization and writing clean, DRY code. Spend time really digging into and understanding best practices.
 
 ### Functional Expectations
 
@@ -15,11 +13,11 @@ Overall, well done! Definitely keep working on version control!
 
 #### Accessibility
 
-* __Advanced Beginner:__ Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags.
+* __Novice:__ Knows what a semantic tag is and leverages the HTML5 structural tags to organize the content of their markup.
 
 #### Style
 
-* __Proficient:__ Crafts lean, efficient markup that is easy to read and follow across naming conventions, structure, and solid formatting that follows industry best practices.
+* __Novice:__ Crafts markup with proper indentation and opening/closing tags.
 
 ------------------------------------------------------------------
 
@@ -27,11 +25,11 @@ Overall, well done! Definitely keep working on version control!
 
 #### Structure of Code
 
-* __Proficient__ : Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
+* __Novice:__ Can effectively target DOM elements via tag, class, and/or id and write CSS rules around each element to create the desired style.
 
 #### Implementation
 
-* __Advanced Beginner:__ Can articulate the differences between the approaches of absolute/relative positioning, flex-box, floats, and can appropriately apply the approaches to solve a variety of layout problems.
+* __Novice:__ Can articulate how the CSS box model works and apply it appropriately in a static layout.
 
 ------------------------------------------------------------------
 
