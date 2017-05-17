@@ -8,9 +8,7 @@
 
 
 ### 2. Test-Driven Development
-// add tests to make sure nodes are being created (i.e. children of trie)
-// need a test for select --> 3
-* 2.5: Application makes some use of tests, but the coverage is insufficient
+* 3:  Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality
 
 ### 3. Encapsulation / Breaking Logic into Components
 
