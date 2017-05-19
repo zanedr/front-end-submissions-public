@@ -80,7 +80,7 @@ This project was sweet as heck! Seriously. I enjoyed it tremendously.
 ### Data Persistence with SQL Database
 **40 points**: The application contains 2 tables with a proper relationship between data sources.
 
-### Testing and Linting
+## Testing and Linting
 
 **30 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. The project has a linting configuration that passes with no errors.
 
