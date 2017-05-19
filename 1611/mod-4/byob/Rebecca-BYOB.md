@@ -1,4 +1,4 @@
-+# BYOB Submission Form
+# BYOB Submission Form
 
 [Project Spec](http://frontend.turing.io/projects/build-your-own-backend.html)
 	
