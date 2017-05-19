@@ -106,15 +106,15 @@ test:
 
 * [You](https://github.com/hmorri32/byo-backend/blob/master/routes/index.js#L120) [are](https://github.com/hmorri32/byo-backend/blob/master/test/server.spec.js#L15) [weird](https://github.com/hmorri32/byo-backend/blob/master/test/server.spec.js#L35)
 
-* [I beg to differ.]('https://github.com/hmorri32/byo-backend/blob/master/routes/index.js#L14-L15')
+* [I beg to differ.](https://github.com/hmorri32/byo-backend/blob/master/routes/index.js#L14-L15)
 
 * 13 endpoints! 🎉
 
-* Very nice organization of your [require statements]('https://github.com/hmorri32/byo-backend/blob/master/server.js#L1-L8')
+* Very nice organization of your [require statements](https://github.com/hmorri32/byo-backend/blob/master/server.js#L1-L8)
 
-* I like that you split out your server configuration and your routes. We prematurely added `/api/v1/` to the start of all of our routes. If you were really working with an API that was going to be versioned, [this]('http://stackoverflow.com/questions/26040329/how-do-you-handle-api-version-in-a-node-express-app') is a solid strategy. Just FYI.
+* I like that you split out your server configuration and your routes. We prematurely added `/api/v1/` to the start of all of our routes. If you were really working with an API that was going to be versioned, [this](http://stackoverflow.com/questions/26040329/how-do-you-handle-api-version-in-a-node-express-app) is a solid strategy. Just FYI.
 
-* [Here]('https://github.com/hmorri32/byo-backend/blob/master/routes/index.js#L26-L27') you likely want to refactor a little bit. If there are no sharks as a result of your `select` you are likely getting back an empty array. In your `.then()`, I would write a conditional that checks for a length on the sharks returned. If there's a length, respond with the 200, otherwise respond with a 404. In your `.catch()`, you would respond with a 500/503 (generic, internal server error) because it would mean something went wrong with the database - but we don't know exactly what. Any number of things can go wrong, and we can't determine that ahead of time. A 404 on the other hand, we know would be a result of an empty sharks array. So for example:
+* [Here](https://github.com/hmorri32/byo-backend/blob/master/routes/index.js#L26-L27) you likely want to refactor a little bit. If there are no sharks as a result of your `select` you are likely getting back an empty array. In your `.then()`, I would write a conditional that checks for a length on the sharks returned. If there's a length, respond with the 200, otherwise respond with a 404. In your `.catch()`, you would respond with a 500/503 (generic, internal server error) because it would mean something went wrong with the database - but we don't know exactly what. Any number of things can go wrong, and we can't determine that ahead of time. A 404 on the other hand, we know would be a result of an empty sharks array. So for example:
 
 ```js
 database('sharks').select()
