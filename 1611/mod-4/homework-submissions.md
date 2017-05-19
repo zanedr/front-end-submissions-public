@@ -16,35 +16,48 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Charlie
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/dunncl15/elevator-challenge)
+* [JWT](https://github.com/dunncl15/JWT-workshop)
 
 ### Kenia
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/kfarias/elevator-challenge)
+* [JWT Tutorial](https://github.com/kfarias/jwt-turorial)
+* [Node Tutorial](https://github.com/kfarias/node-tutorial)
 
 ### Franklin
 
-* (Links to your completed homework assignments)
+* [Wednesday Student Spike](https://github.com/Obleo33/jwt-tutorial)
+* [Elevator Challenge](https://github.com/Obleo33/elevator)
 
 ### Staci
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/stacimcwilliams/elevator_challenge)
+* [Node Tutorial](https://github.com/stacimcwilliams/prework_node_tutorial)
+* [JWT Tutorial](https://github.com/stacimcwilliams/jwt-tutorial)
 
 ### Eric
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/esayler/elevator)
 
 ### Michael
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/Mickyfen17/elevator-challenge)
+* [JWT Workshop](https://github.com/Mickyfen17/JWT-workshop)
 
 ### Hugh
 
-* (Links to your completed homework assignments)
+* [elevator](https://github.com/hmorri32/elevator-algorithm)
+* [jason's web tokens](https://github.com/hmorri32/jwt-trains)
+* [express tutoiral](https://github.com/hmorri32/m4-pw-express)
 
 ### Pam
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/thatPamIAm/elevator-challenge)
+* [JWT Tutorial](https://github.com/thatPamIAm/jwt-tutorial)
+* [Node Tutorial](https://github.com/thatPamIAm/node-express-prework)
+
+
 
 ### Julian
 
@@ -54,24 +67,33 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Kyle
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/zkc/elevator-challange)
+* [JWT Trains](https://github.com/zkc/jwt-trains)
 
 ### Marissa
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/marissa27/elevator-challenge)
+* [JWT Tutorial](https://github.com/marissa27/jwt-tut)
+* [Express](https://github.com/marissa27/express-tutorial)
 
 ### Becca
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/becs919/elevator)
+* [Node Tutorial](https://github.com/becs919/prework)
+* [JWT Tutorial](https://github.com/becs919/jwt-tutorial)
+
 
 ### Tim
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/tbrandle/Elevator)
+* [JWT Tutorial](https://github.com/tbrandle/Train)
 
 ### Jon
 
-* (Links to your completed homework assignments)
+* [Elevator](https://github.com/ActionJonny/elevator)
+* [JWT Tutorial](https://github.com/ActionJonny/jwt-tutorial)
+* [Express](https://github.com/ActionJonny/express-workshop)
 
 ### Sam
 
-* (Links to your completed homework assignments)
+* [Elevator Challenge](https://github.com/sljohnson32/elevator-challenge)
