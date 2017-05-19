@@ -17,7 +17,7 @@
 [Your projects's repo URL](https://github.com/ActionJonny/BYOB)
 
 #### Link to the Deployed Application
-[Your project's production URL](https://dashboard.heroku.com/apps/fantasy-baseball-backend)
+[Your project's production URL](https://fantasy-baseball-backend.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
