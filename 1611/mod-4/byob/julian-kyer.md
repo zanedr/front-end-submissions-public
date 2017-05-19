@@ -31,4 +31,8 @@ I like [this](https://github.com/juliankyer/db-edm/blob/8053c4c5cda31df2ff72b0d7
 
 I'm not crazy about [this](https://github.com/juliankyer/db-edm/blob/8053c4c5cda31df2ff72b0d7d9fd0c9b0caf12ff/server.js#L63-L72) chunk of code because error handling is still a thorn in my side, and I'd like to see more on how to do that correctly.
 
+### Linter
+[Sad Panda](http://imgur.com/a/yMY0r)
 
+### Testing
+[Another Sad Panda](http://imgur.com/a/HnRu3)
