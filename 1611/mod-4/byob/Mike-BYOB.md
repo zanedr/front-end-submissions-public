@@ -57,17 +57,24 @@ It gets the job done but the nested if/else's can be hard to follow.
 
 ## Testing
 
-[Test Suite](http://i.imgur.com/L79duMy.png)
+![](http://i.imgur.com/L79duMy.png)
 
 ## Linting
 
-[Linting](http://i.imgur.com/9xmNZXA.png)
+![](http://i.imgur.com/9xmNZXA.png)
 
 -----
 
 #### Please feel free to ask any other questions or make any other statements below!
 
 Cool project and quite enjoyed the time spent in the terminal and with Postman. TDD was in full flow for this one.
+
+## Note on foreign ID's
+
+The csv files that I decided to use already had ID's which linked to each other. When seeding I found the the ID's weren't being added to the correct row.
+I decided to to create a new ID for each table which ended up linking to the correct foreign tables.
+This is why in the POST requests I have to find the max value of a column and add a +=1 to pretty much auto increment the ID.
+Primary key still auto increments is expected.
 
 -----
 
