@@ -151,6 +151,6 @@ database('sharks').select()
 * Cool favicon +1
 
 
-- Points: 146 / 150
+## Points: 146 / 150
 
 You absolutely crushed it. Great work. Keep it up.
