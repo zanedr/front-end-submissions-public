@@ -61,7 +61,15 @@ Reason you are proud of code
 
 Reason you don't feel awesome about this code.
 
-#### Attach a screenshot or paste the output from your terminal of the result of your test-suite running **and** your linter.
+## Testing
+
+Attach a screenshot or paste the output from your terminal of the result of your test-suite running
+
+## Linting
+
+Attach a screenshot or paste the output from your terminal of the result of your linter running
+
+
 
 -----
 
