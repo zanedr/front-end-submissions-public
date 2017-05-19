@@ -72,7 +72,7 @@ Attach a screenshot or paste the output from your terminal of the result of your
 ## Linting
 
 Attach a screenshot or paste the output from your terminal of the result of your linter running
-[Linting image](http://imgur.com/eIuG7p6)
+[Linting image](http://recordit.co/IBJ5kD5fyE)
 
 
 
