@@ -26,8 +26,24 @@
 ## Completion
 
 #### Were you able to complete the base functionality?
-* Yes / No
 
+* **Seeded a database with at least 2 tables and 1 relationship?**
+Yes / No
+
+* **Had at least 10 endpoints that returned responses with appropriate status codes?**
+Yes / No
+
+* **Secured at least 4 endpoints with JWTs?**
+Yes / No
+
+* **Enforced a linter and wrote code that conformed to it?**
+Yes / No
+
+* **Wrote tests for both happy and sad paths for each endpoint?**
+Yes / No
+
+* **Setup automatic deployments with CircleCI to a production app on Heroku?**
+Yes / No
 
 # Code Quality
 
