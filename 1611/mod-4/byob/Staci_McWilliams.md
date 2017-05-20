@@ -24,7 +24,7 @@
 
 * Enforced a linter and wrote code that conformed to it? (Yes)
 
-* Wrote tests for both happy and sad paths for each endpoint? (Yes)
+* Wrote tests for both happy and sad paths for each endpoint? (Some)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku? (Yes)
 
