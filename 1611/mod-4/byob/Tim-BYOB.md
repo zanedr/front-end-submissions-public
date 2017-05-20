@@ -14,15 +14,18 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[BYOB Mountains](https://github.com/tbrandle/mountains_backend/tree/master/turing/mod-4-projects/BYOB-mountains)
+[BYOB Mountains](https://github.com/tbrandle/mountains_backend_BYOB)
 
 #### Link to the Deployed Application
 
-Couldn't get the project deployed. I'm having trouble with my eslinter not recognizing the mocha syntax in my testing files.
+[BYOB Mountains](https://mountains-api.herokuapp.com/)
+
+Still having issues with this. It passes circleCI, but when you go to the heroku site, you get an error for all of the routes.
 
 #### Link to Your Commits in the Github Repository for the Project
 
 -[Commits](https://github.com/tbrandle/mountains_backend/commits/master)
+This is pointing to a different repo. I had to remake a repo for the one on heroku due to some mistakes I made in the beginning. The old repo has all my commits.
 
 ## Completion
 
@@ -44,19 +47,19 @@ Yes
 Yes
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-No
+Yes
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[Link to code block in repo](https://github.com/tbrandle/mountains_backend/blob/master/turing/mod-4-projects/BYOB-mountains/db/seeds/dev/mountains.js#L19)
+[Link to code block in repo](https://github.com/tbrandle/mountains_backend_BYOB/blob/master/db/seeds/dev/mountains.js#L19)
 
 * Why were you proud of this piece of code?
 
 The file seeding took forever to solve, but I think this solution is a clever one. I paired with Brittany to solve it, but walking away, I feel I have a much better understanding of how knex works with promises.
 
 #### Link to a specific block of your code on Github that you feel not great about
-[Link to code block in repo](https://github.com/tbrandle/mountains_backend/blob/master/turing/mod-4-projects/BYOB-mountains/server.js#L141)
+[Link to code block in repo](https://github.com/tbrandle/mountains_backend_BYOB/blob/master/server.js#L142)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
@@ -82,7 +85,7 @@ Attach a screenshot or paste the output from your terminal of the result of your
 
 Anything else you wanna say!
 
-I had some very strange issues with eslint and my testing suite. That was the only thing keeping me from deploying. Everything else on circleCI seems to be set up correctly, but it wont let me deploy with the error in the test.  I found a snippet of code for eslint to ignore the testing suite, but it won't work if it is commented out.  If I un comment the line, all my testing errors go away except for the snippet itself.
+The only issue with the app currently is that I can't actualy get data back in the deloped heroku URL. Everything is passing, so I'm not sure what is going on there.
 
 -----
 
