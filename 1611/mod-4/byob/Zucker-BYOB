@@ -14,14 +14,14 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[Your projects's repo URL](https://github.com/)
+[Your projects's repo URL](https://github.com/zkc/antiqueBox)
 
 #### Link to the Deployed Application
-[Your project's production URL](https://github.com/)
+[Your project's production URL](https://antiquebox-stage.herokuapp.com/)
 
 #### Link to Your Commits in the Github Repository for the Project
 
--[Commits](https://github.com)
+-[Commits - build branch](https://github.com/zkc/antiqueBox/commits/kz-build)
 
 ## Completion
 
@@ -31,16 +31,16 @@
 (Yes)
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-(No) (currently have 9 completed)
+(Yes)
 
 * Secured at least 4 endpoints with JWTs?
 (No) 
 
 * Enforced a linter and wrote code that conformed to it?
-(No)
+(Yes)
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(No)
+(~75% of current ep)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
 (Yes)
@@ -65,13 +65,13 @@ This is kind of a bug with knex, ultimately I want to reorganize this promise fl
 
 Attach a screenshot or paste the output from your terminal of the result of your test-suite running
 
-Testing is not completed. I have a couple baseline tests but still need to build the majority of them.
-
+<img width="533" alt="screen shot 2017-05-20 at 11 52 08 am" src="https://cloud.githubusercontent.com/assets/5368526/26278243/da8e614e-3d52-11e7-94ba-d34b1ffbc17f.png">
 ## Linting
 
 Attach a screenshot or paste the output from your terminal of the result of your linter running
 
-Linting is not completed
+current lint output: 
+<img width="654" alt="screen shot 2017-05-20 at 11 54 23 am" src="https://cloud.githubusercontent.com/assets/5368526/26278260/18e49e22-3d53-11e7-8638-112687cf6ee2.png">
 
 -----
 
@@ -79,7 +79,9 @@ Linting is not completed
 
 Anything else you wanna say!
 
-I'm obviously not done with the project as of May 19. I will be continuing to work on this as I plan on building a front end and launching this site. This plan put me into a mindset where I felt compelled to make sure I was confident in my design decisions before progressing. Ultimately this created a reduction in priority of some elements of the assignment. Additionally I've had major job stress this week that I've yet to handle well and which hindered my progress. Overall I’m ecstatic to have a functioning pipeline, now I’m in a great place to be building up significantly more this weekend.
+May 20 - Built up more remaining base requirements besides JWT. Work continues. 
+
+May 19 - I'm obviously not done with the project as of May 19. I will be continuing to work on this as I plan on building a front end and launching this site. This plan put me into a mindset where I felt compelled to make sure I was confident in my design decisions before progressing. Ultimately this created a reduction in priority of some elements of the assignment. Additionally I've had major job stress this week that I've yet to handle well and which hindered my progress. Overall I’m ecstatic to have a functioning pipeline, now I’m in a great place to be building up significantly more this weekend.
 
 -----
 
