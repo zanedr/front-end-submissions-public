@@ -34,7 +34,7 @@
 (Yes)
 
 * Secured at least 4 endpoints with JWTs?
-(No) 
+(Yes) - This is the first time I've ever had the problem where my tests PASS when they definitely should not. The JWT endpoints do function properly with manual testing.
 
 * Enforced a linter and wrote code that conformed to it?
 (Yes)
