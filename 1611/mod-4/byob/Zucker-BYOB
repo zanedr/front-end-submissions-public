@@ -79,6 +79,8 @@ current lint output:
 
 Anything else you wanna say!
 
+May 21 - Added JWT. Came across a very wierd behavior where my tests pass despite the data clearly being different. 
+
 May 20 - Built up more remaining base requirements besides JWT. Work continues. 
 
 May 19 - I'm obviously not done with the project as of May 19. I will be continuing to work on this as I plan on building a front end and launching this site. This plan put me into a mindset where I felt compelled to make sure I was confident in my design decisions before progressing. Ultimately this created a reduction in priority of some elements of the assignment. Additionally I've had major job stress this week that I've yet to handle well and which hindered my progress. Overall I’m ecstatic to have a functioning pipeline, now I’m in a great place to be building up significantly more this weekend.
