@@ -104,5 +104,44 @@ test:
 ### JavaScript Style
 **10 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+* Remember that any number of things can go wrong within a request to a database, and we might not always be able to anticipate the error. In cases like [this](https://github.com/marissa27/trivia-time/blob/master/server.js#L55-L63) a 404 is a predictable error that we can use to respond with when we realize we have no results or an empty array. The `.catch()`, in that case, would have to handle literally every other thing that could have possibly gone wrong. Because we can't anticipate what went wrong, we'd want to respond with a 500 and the error message. Refactored, a proper way to handle this type of request and any errors might look like this:
 
-## Points: x / 150
+```js
+  database('quizzes').select()
+  .then((quizzes) => {
+    if (quizzes.length) {
+      response.status(200).json(quizzes);
+    } else {
+      response.status(404);
+    }
+  })
+  .catch((error) => {
+    response.status(500).send({ error })
+  });
+```
+
+* Status code [here](https://github.com/marissa27/trivia-time/blob/master/server.js#L129) should be a 500 rather than a 403 (unauthorized).
+
+* You can shorten [this](https://github.com/marissa27/trivia-time/blob/master/server.js#L142-L149) up a bit by creating an array of required parameters and changing the error messages based on what's missing. Something like this:
+
+```js
+const queryObj = {
+  question: request.body.question,
+  answer: request.body.answer,
+  quiz_id: request.params.quiz_id,
+};
+
+for (let requiredParameter of ['question', 'answer']) {
+  if (!queryObject[requiredParameter]) {
+    return response
+      .status(422)
+      .send({ error: `Expected format: { question: <String>, answer: <String> }. You're missing a "${requiredParameter}" property.` });
+  }
+}
+```
+
+* Again, [here](https://github.com/marissa27/trivia-time/blob/master/server.js#L159) we can't assume the `.catch()` block was caught because of missing data. In fact, it most likely wouldn't be caught here because you're doing all that logic right away before you even try a database transaction. So we already verified that there is no missing data. Make this error handling more generic and return a simple 500 with the error that was actually thrown. (e.g. one of the fields might have been sent in as an incorrect data type!)
+
+* Again, [here](https://github.com/marissa27/trivia-time/blob/master/server.js#L194-L197), you're already checking authentication and returning a 403 when the request enters the `checkAuth` function, so if it made it through that entire function, we know that the authorization has succeeded and there's 0 chance that the error that's ultimately thrown here would be related to invalid credentials.
+
+## Points: 120 / 150
