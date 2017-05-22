@@ -89,6 +89,8 @@ May 19 - I'm obviously not done with the project as of May 19. I will be continu
 
 # Instructor Feedback [Brittany]
 
+* I evalled your master branch as that's what is linked to in the submission template. If you want credit for the changes you've made over the weekend, please make sure all your most recent code is pushed to master.
+
 * Given that there is no front-end to this project, it would be nice to have a README that outlines all of the possible endpoints you can hit and each method they accept as mentioned in the [spec](http://frontend.turing.io/projects/build-your-own-backend.html).
 
 ## Feature Completion
