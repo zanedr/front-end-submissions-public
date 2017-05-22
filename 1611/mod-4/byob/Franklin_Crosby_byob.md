@@ -60,7 +60,7 @@ This code feels pretty hackey. I particularly dont like the nested ifs. The main
 
 Attach a screenshot or paste the output from your terminal of the result of your linter running
 
-![](eslint-config-airbnb-base)
+![](http://i.imgur.com/G2hfxM5.png)
 
 -----
 
