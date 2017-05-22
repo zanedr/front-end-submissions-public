@@ -141,7 +141,7 @@ test:
 * [Roar](https://github.com/tbrandle/mountains_backend_BYOB/blob/master/test/routes.spec.js#L131)
 
 ### JavaScript Style
-**12 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+**12 points**: Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
 
 * A better [conditional](https://github.com/tbrandle/mountains_backend_BYOB/blob/master/server.js#L18-L20) here would check for `process.env.CLIENT_SECRET` rather than checking if the environment is `development`. This would help you recognize if you were getting errors because you forgot to specify an environment variable in CircleCI or Heroku. e.g. I would refactor to something like this:
 
