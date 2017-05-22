@@ -12,6 +12,8 @@ Now that you've had a few more days to dig into your project ideas, summarize yo
 
 ### Deliverables  
 
+#### Stack:
+
 #### APIs:  
 Links to any API docs that you have decided to use
 
@@ -25,6 +27,8 @@ Link to your waffle.io account with at least 10 cards indicating baby steps to h
 
 #### Order Of Attack  
 Based on your wireframes, in what order are you going to approach building out this application?
+
+#### MVP
 
 #### Nice To Haves   
 What are your reach features? Ie: "Web Sockets & 3D Animations!"
