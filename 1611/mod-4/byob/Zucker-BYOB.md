@@ -87,6 +87,73 @@ May 19 - I'm obviously not done with the project as of May 19. I will be continu
 
 -----
 
-# Instructor Feedback
+# Instructor Feedback [Brittany]
 
-- Points: x / 150
+* Given that there is no front-end to this project, it would be nice to have a README that outlines all of the possible endpoints you can hit and each method they accept as mentioned in the [spec](http://frontend.turing.io/projects/build-your-own-backend.html).
+
+## Feature Completion
+
+### Endpoints
+**25 points**: Developer has implemented 9 of 10 endpoints and did not secure 4 of them with JWTs and/or have a custom endpoint based on query params. Error handling was also very [weak](https://github.com/zkc/antiqueBox/blob/master/server.js#L29)/non-existent.
+
+### Data Persistence with SQL Database
+**40 points**: The application contains at least 2 tables with a proper relationship between data sources.
+
+## Testing and Linting
+
+**10 points**: Project has significant lack of testing for happy and sad paths of endpoints; Linter is failing on multiple lines.
+
+* Even if you've run a `migrate:latest` locally to get your tests running, you still want to have that in your test file for other users that might want to pull down and run your tests. Your [beforeEach](https://github.com/zkc/antiqueBox/blob/master/test/routes.spec.js#L12-L16) should be refactored to look something more like this:
+
+```js
+before((done) => {
+  database.migrate.latest()
+    .then(() => {
+      done();
+    })
+});
+
+beforeEach((done) => {
+  database.seed.run()
+    .then(() => {
+      done();
+    })
+});
+```
+
+* We didn't go over this in class, but in the future you could add linting to your CircleCI builds by adding the following to your `circle.yml` file (pretty common convention):
+
+```json
+test:
+  override:
+    - ./node_modules/.bin/mocha
+    - ./node_modules/.bin/eslint
+```
+
+### JavaScript Style
+**12 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* [Roar](https://github.com/zkc/antiqueBox/blob/master/server.js#L12)
+
+* Remember that any number of things can go wrong within a request to a database, and we might not always be able to anticipate the error. In cases like [this](https://github.com/zkc/antiqueBox/blob/master/server.js#L24-L30) a 404 is a predictable error that we can use to respond with when we realize we have no results or an empty array. The `.catch()`, in that case, would have to handle literally every other thing that could have possibly gone wrong. Because we can't anticipate what went wrong, we'd want to respond with a 500 and the error message. Refactored, a proper way to handle this type of request and any errors might look like this:
+
+```js
+  database('listings').select()
+  .then((listings) => {
+    if (listings.length) {
+      response.status(200).json(listings);
+    } else {
+      response.status(404);
+    }
+  })
+  .catch((error) => {
+    response.status(500).send({ error })
+  });
+```
+
+* I'm a little confused about what's being returned [here](https://github.com/zkc/antiqueBox/blob/master/server.js#L39). Listing appears to be an object based on the line directly following your `.then()`, but you are wrapping it in an array?
+
+* Even if you're not doing anything but console logs, make sure you always always have a `.catch()` block for [every](https://github.com/zkc/antiqueBox/blob/master/server.js#L103-L105) [single](https://github.com/zkc/antiqueBox/blob/master/server.js#L114-L119) [promise](https://github.com/zkc/antiqueBox/blob/master/server.js#L128-L130) [used](https://github.com/zkc/antiqueBox/blob/master/server.js#L162-L166)
+
+
+## Points: 87 / 150
