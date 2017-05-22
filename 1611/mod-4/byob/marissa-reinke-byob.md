@@ -73,7 +73,9 @@ Still having a hard time with testing and would like some extra resources for le
 ## Feature Completion
 
 ### Endpoints
-**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params.
+**50 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params.
+
+* Your implementation of JWTs is slightly off -- you should not be committing your [.env](https://github.com/marissa27/trivia-time/blob/master/.env) file. The only reason [this line](https://github.com/marissa27/trivia-time/blob/master/server.js#L30) works is because you have pushed up your secret & token in the .env file. The proper way to do this would be to .gitignore the .env file, and swap out any instances of `config.CLIENT_SECRET` with `process.env.CLIENT_SECRET || config.CLIENT_SECRET`. Essentially, CircleCI and Production environments should not be able to read your config because it's generated from a hidden `.env` file. You would need to set CLIENT_SECRET at an environment variable in both CircleCI and Heroku.
 
 ### Data Persistence with SQL Database
 **40 points**: The application contains at least 2 tables with a proper relationship between data sources.
@@ -81,6 +83,14 @@ Still having a hard time with testing and would like some extra resources for le
 ## Testing and Linting
 
 **20 points**: Project has a running test suite that covers most happy/sad paths but is missing some coverage.
+
+* Your authorized endpoint tests aren't working because you need to give the test suite a token variable to pass in. You are trying to access [process.env.TOKEN](https://github.com/marissa27/trivia-time/blob/master/test/routes.spec.js#L239), but that is likely undefined unless you run your test script like so:
+
+```bash
+TOKEN=<yourTokenValue> ./node_modules/.bin/mocha
+```
+
+In CircleCI, when they get to the testing portion, you need to have created TOKEN as an environment variable. There is a link for documentation on this in the slack channel posted last week.
 
 * We didn't go over this in class, but in the future you could add linting to your CircleCI builds by adding the following to your `circle.yml` file (pretty common convention):
 
