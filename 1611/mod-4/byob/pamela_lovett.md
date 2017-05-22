@@ -76,6 +76,33 @@ Anything else you wanna say!
 
 -----
 
-# Instructor Feedback
+## Instructor Evaluation Points (Robbie)
+
+The following set of points are distributed at the discretion of the instructor.
+
+### Endpoints
+
+* **60 points** - Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params.
+* **40 points** - Developer has implemented all 10 endpoints but did not secure 4 of them with JWTs or have a custom endpoint based on query params.
+* **20 points** - Developer is missing endpoints and has not secured or customized any of the ones that have been implemented.
+
+### Data Persistence with SQL Database
+
+* **40 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+* **20 points** - The application persists data in a SQL database but with some incorrect relationships between folders and URLs.
+* **0 points** - The application does not persist data in a SQL database.
+
+### Testing & Linting
+
+* **30 points** - Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. The project has a linting configuration that passes with no errors.
+* **20 points** - Project has a running test suite that covers most happy and sad paths for each endpoint. Linter has some errors that need fixing.
+* **10 points** - Project has significant lack of testing for happy and sad paths of endpoints; Linter is failing on multiple lines.
+
+### JavaScript Style
+
+* **20 points** - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There _zero_ instances where an instructor would recommend taking a different approach.
+* **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+* **12 points** - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
+* **5 points** - Your application has a significant amount of duplication and one or more major bugs. Developer cannot speak to most choices and does not know what every line of code is doing.
 
 - Points: x / 150
