@@ -105,4 +105,6 @@ The following set of points are distributed at the discretion of the instructor.
 * **12 points** - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
 * **5 points** - Your application has a significant amount of duplication and one or more major bugs. Developer cannot speak to most choices and does not know what every line of code is doing.
 
+To get a 3 on this project, you need to score 110 points or higher.
+
 - Points: x / 150

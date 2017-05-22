@@ -89,7 +89,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting
 
-* **28 points** - Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. The project has a linting configuration that passes with some errors.
+* **25 points** - Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. The project has a linting configuration that passes with some errors.
 
 * The linting image you submitted in this form is not working - show show me the linting, and I will adjust the points
 * [This line](https://github.com/Obleo33/byob/blob/master/test/routes.spec.js#L4) is redundant since you can just get the environment from you environment variable you declared at the top
@@ -97,7 +97,7 @@ The following set of points are distributed at the discretion of the instructor.
 * It's a good idea to test the type of response in [each test](https://github.com/Obleo33/byob/blob/master/test/routes.spec.js#L40-L46) too - to test if you expect `html` or `json`
 * Since [this route](https://github.com/Obleo33/byob/blob/master/test/routes.spec.js#L92) is for retrieving a single resource, then you typically do not send the resource within an array, but just send the single object as JSON
 * Why the deletion of the user in [this test](https://github.com/Obleo33/byob/blob/master/test/routes.spec.js#L166-L170)? Your `beforeEach` should delete and re-seed the users for each test
-* Ideally, in addition to testing for the [response code](https://github.com/Obleo33/byob/blob/master/test/routes.spec.js#L203), there would be some text that the user would see to knwo that the email cannot change
+* Ideally, in addition to testing for the [response code](https://github.com/Obleo33/byob/blob/master/test/routes.spec.js#L203), there would be some text that the user would see to know that the email cannot change
 * Nice sad path test [here](https://github.com/Obleo33/byob/blob/master/test/routes.spec.js#L332-L342)
 * I'm curious about why you're doing [this](https://github.com/Obleo33/byob/blob/master/test/routes.spec.js#L357-L366)
 
@@ -111,4 +111,6 @@ The following set of points are distributed at the discretion of the instructor.
 * If for some reason there was an error for [this catch](https://github.com/Obleo33/byob/blob/master/server.js#L113), it would most likely be an internal server error (code 500), and not anything to do with something not found in the database or it couldn't update (you should get an empty array back). Good job with `catch()` errors like [these](https://github.com/Obleo33/byob/blob/master/server.js#L158) though
 * Are you using [this chunk](https://github.com/Obleo33/byob/blob/master/server.js#L195-L201) still?
 
-- Points: 123 / 150
+To get a 3 on this project, you need to score 110 points or higher.
+
+- Points: 120 / 150
