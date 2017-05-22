@@ -2,8 +2,6 @@
 
 [Project Spec](http://frontend.turing.io/projects/build-your-own-backend.html)
 
-* Secondary Pro Tip: [Here's how to link to specific line number(s) in Github](http://stackoverflow.com/questions/23821235/how-to-link-to-specific-line-number-on-github)
-
 ------
 
 # Basics
@@ -29,16 +27,16 @@
 (Yes)
 
 * Secured at least 4 endpoints with JWTs?
-(No)
+(Yes)
 
 * Enforced a linter and wrote code that conformed to it?
 (Yes)
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(No)
+(Yes)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-(No)
+(Yes)
 
 # Code Quality
 
@@ -53,16 +51,13 @@
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-- Lots of repetive code. Hard to refactor unless split out into different endpoints. Body of patch for recipe has same nested shape
-as returned recipe data, making it hard to process a patch when some things are optional. 
+- Lots of repetive code. Could refactor using knex's `.modify()` 
 
 ## Testing
 
-Attach a screenshot or paste the output from your terminal of the result of your test-suite running
+![](http://i.imgur.com/2wUjAPK.png)
 
 ## Linting
-
-Attach a screenshot or paste the output from your terminal of the result of your linter running
 
 ![](http://i.imgur.com/wLHR6bb.png)
 
@@ -70,7 +65,14 @@ Attach a screenshot or paste the output from your terminal of the result of your
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Spent lots of time scraping data during the first part of the week. Will finish testing, CircleCI and JWT and update with a PR.
+**Updates:**
+
+1. Add happy and sad path tests for all endpoints
+2. Deploy to Heroku
+3. Set up CircleCI and auto deployments to Heroku
+4. Secure all POST/PATCH/DELETE endpoints with JWTs
+5. Added query param support to filter `/materials` endpoint by attribute
+
 
 -----
 
