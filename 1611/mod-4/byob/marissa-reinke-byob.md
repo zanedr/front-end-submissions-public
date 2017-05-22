@@ -68,6 +68,31 @@ Still having a hard time with testing and would like some extra resources for le
 
 -----
 
-# Instructor Feedback
+# Instructor Feedback [Brittany]
 
-- Points: x / 150
+## Feature Completion
+
+### Endpoints
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params.
+
+### Data Persistence with SQL Database
+**40 points**: The application contains at least 2 tables with a proper relationship between data sources.
+
+## Testing and Linting
+
+**20 points**: Project has a running test suite that covers most happy/sad paths but is missing some coverage.
+
+* We didn't go over this in class, but in the future you could add linting to your CircleCI builds by adding the following to your `circle.yml` file (pretty common convention):
+
+```json
+test:
+  override:
+    - ./node_modules/.bin/mocha
+    - ./node_modules/.bin/eslint
+```
+
+### JavaScript Style
+**10 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+
+## Points: x / 150
