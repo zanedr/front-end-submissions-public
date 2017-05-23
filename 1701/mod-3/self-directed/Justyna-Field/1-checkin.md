@@ -26,7 +26,7 @@ Redux, React, React Router
 #### APIs:  
 Links to any API docs that you have decided to use
 
-http://api.wunderground.com 
+https://www.wunderground.com/personal-weather-station/dashboard?ID=KCOLONGM164#history
 
 #### Wireframes  
 Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your app. You can include these by adding additional files to your submissions directory, or linking to an imgur account. You're asked to use Sketch, or Balsamiq, or a different digital wireframe/comp application but if you choose to use pen/paper please let your instructors know and bring those to class Monday.  
