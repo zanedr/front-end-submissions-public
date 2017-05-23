@@ -84,3 +84,20 @@ What do you forsee being the biggest challenges of this project? List at least 3
 * Taylor and Meeka
 * Kyle, alum from backend that used Strava API
 * Other folks in class using google maps (John, Bucket, Dave)
+
+Taylor:
+
+MVP:
+Google Maps API, React, Jest, Enzyme
+Create, delete a collection of routes
+UI/UX
+Test
+
+Extension:
+Edit, Route
+
+Check In 2, Thursday 5/25:
+Are you using React-Router & Redux?
+Be able to display map on page, and draw on it?
+
+
