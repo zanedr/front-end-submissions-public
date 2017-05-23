@@ -18,15 +18,15 @@ Purpose of project is to learn how to incorporate google maps or leaflet into a 
 
 #### Stack:
 GoogleMaps API <br />
-UFO API< br/>
-React< br/>
-Router <-- If I make it to my nice to haves< br/>
+UFO API<br />
+React<br />
+Router <-- If I make it to my nice to haves<br />
 Maybe Backend??? <-- API call error mentioning coors <-- postman returns the correct json object
 
 #### APIs:  
 Links to any API docs that you have decided to use
 
-https://ufo-api.herokuapp.com/api#home < br/>
+https://ufo-api.herokuapp.com/api#home <br />
 https://developers.google.com/maps/documentation/javascript/tutorial
 
 #### Wireframes  
@@ -53,11 +53,11 @@ A functioning map that renders ufo sighting claims from api. User should have ab
 #### Nice To Haves   
 What are your reach features? Ie: "Web Sockets & 3D Animations!"
 
-Different pages that have different forms of data visualization maybe some chart.js < br/>
+Different pages that have different forms of data visualization maybe some chart.js <br />
 Different map layers such as heat maps.
 
 #### Biggest Challenges  
 What do you forsee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
 
-Learning how to manipulate the google maps tile and displaying pins based on data from an api. < br/>
+Learning how to manipulate the google maps tile and displaying pins based on data from an api. <br />
 Building a backend if it is needed.
