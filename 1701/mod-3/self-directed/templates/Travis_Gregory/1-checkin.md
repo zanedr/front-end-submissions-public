@@ -32,9 +32,14 @@ As a woodworker I frequently find myself stumped on what to do next or how to pe
 #### Wireframes  
 
 - [Main Page](http://framebox.org/ABwFg-TCYPbL)
+  [Screenshot](https://github.com/tlgreg86/front-end-submissions-public/1701/mod-3/self-directed/templates/Travis_Gregory/main-page.png)
 - [Projects Page](http://framebox.org/ABwGj-DSCYyz)
+  [Screenshot](https://github.com/tlgreg86/front-end-submissions-public/1701/mod-3/self-directed/templates/Travis_Gregory/projects-page.png)
 - [Favorites Page](http://framebox.org/ABwHk-RjxwKg)
+  [Screenshot](https://github.com/tlgreg86/front-end-submissions-public/1701/mod-3/self-directed/templates/Travis_Gregory/favorites-page.png)
 - [Interests Stream Page](http://framebox.org/ABwHo-wEECiB)
+  [Screenshot](https://github.com/tlgreg86/front-end-submissions-public/1701/mod-3/self-directed/templates/Travis_Gregory/interests-page.png)
+
 
 
 #### Waffle.io
