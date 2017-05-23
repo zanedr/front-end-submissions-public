@@ -24,8 +24,7 @@ check mockup folder.
 Redux, React, Express, node.js
 
 #### Waffle.io
-Link to your waffle.io account with at least 10 cards indicating baby steps to how you want to structure your attack.  
-
+https://waffle.io/cjorda15/NewNews
 ### Reflection  
 
 #### Order Of Attack  
@@ -42,7 +41,7 @@ Link to your waffle.io account with at least 10 cards indicating baby steps to h
 
 
 ### MVP
-Backend basically 
+Backend basically
 
 #### Nice To Haves   
 visual indication of articles or sources on how liberal/conservative/trustworthy they are
