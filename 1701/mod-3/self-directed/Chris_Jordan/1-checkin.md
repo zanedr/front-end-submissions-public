@@ -48,3 +48,23 @@ visual indication of articles or sources on how liberal/conservative/trustworthy
 
 #### Biggest Challenges  
 creating a database for use for this app
+
+Taylor:
+
+MVP: 
+Express, Node, Enzyme, React, Redux, React-router, PSQL(KNEX), API
+
+Set up news source table that holds up/down votes for conservative vs liberal
+React view that displays all the new news and news sources can be up/down voted. Persist
+Test
+UI/UX
+
+Check in 2, Thursday 5/25:
+You've set up your KNEX and looked into it. Set up one table? 
+newSources:
+  name:
+  liberal votes:
+  conservative votes:
+  fact votes:
+  false votes: 
+
