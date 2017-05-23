@@ -74,3 +74,22 @@ I might also not get enough information back from the Full Contact search and ma
 4: Full Contact has a fairly short API limit for Person with 250 user returns. Can slightly get around this using other calls but the Person api seems to have the most crucial data. 
 Maybe Jeff or an instructor knows someone there?
 
+
+Taylor: 
+
+MVP:
+Express API, React front-end using Router and Redux
+A user should be able to:
+Search emails/twitter handles and be redirected to a users page. 
+~Favoriting a user for later lookups.
+Tested application
+UI/UX
+
+Extension: 
+Saving favorites inside a database. -> This would require you to flush out your api to use a backend database like PSQL. 
+Look into KNEX.
+
+Check In 2, Thursday 5/25:
+* Express setup.
+* Creating your endpoint for your api `/api/v1/user?email=tman2272@aol.com
+* Using Request try and hit FullContact api. 
