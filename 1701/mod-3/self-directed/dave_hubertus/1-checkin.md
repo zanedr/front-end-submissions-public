@@ -7,6 +7,8 @@
 #### Collaborators:  
 Are you working with anyone else?
 
+Solo
+
 #### Project Pitch  
 Now that you've had a few more days to dig into your project ideas, summarize your newly finalized plan.
 
