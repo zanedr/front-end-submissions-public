@@ -46,13 +46,12 @@ Based on your wireframes, in what order are you going to approach building out t
 I will start with setting up redux, make a fetch call to feed in the needed data. Then I will build out my React components. I will test as I go.
 
 #### MVP
-Weather/Wind Forecast
-Sailing Log
+Weather/Wind Forecast; Sailing Log
 
 #### Nice To Haves   
 What are your reach features?
 
-Login/Logout Functionality, Page Router, Carousel for images
+Login/Logout Functionality; Page Router; Carousel for images
 
 #### Biggest Challenges  
 What do you forsee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
