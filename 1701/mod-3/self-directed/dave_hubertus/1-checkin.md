@@ -32,6 +32,8 @@ https://developers.google.com/maps/documentation/javascript/tutorial
 #### Wireframes  
 Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your app. You can include these by adding additional files to your submissions directory, or linking to an imgur account. You're asked to use Sketch, or Balsamiq, or a different digital wireframe/comp application but if you choose to use pen/paper please let your instructors know and bring those to class Monday.  
 
+![pp wireframe](https://cloud.githubusercontent.com/assets/25044263/26360098/70c3858e-3f94-11e7-822e-e13ca3e30a31.jpg)
+
 #### Github Issues
 Link to your github account with at least 10 issues indicating baby steps to how you want to structure your attack.
 
