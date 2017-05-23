@@ -56,3 +56,13 @@ Link to your waffle.io account with at least 10 cards indicating baby steps to h
     -   https://p5js.org/tutorials/
     -   Coding Train p5.js tutorials
     -   Personal Interaction w/Creative Developers on the topic
+    
+    
+ Taylor:
+ 
+ MVP:
+ P5, JS. Look into getUserMediaAPI. Tracking.js
+ 
+ 
+ 
+ 
