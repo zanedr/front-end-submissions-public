@@ -20,12 +20,12 @@ react-redux
 * [Google Vision in javascript tutorial](http://terrenceryan.com/blog/index.php/working-with-cloud-vision-api-from-javascript/)
 
 #### Wireframes  
-* ![Create Account](./wire-frames/Create Account Desktop.png)
-* ![LogIn](./wire-frames/Login Desktop HD.png)
-* ![Homepage and Flash Card Decks](./wire-frames/Flash Card Deck.png)
-* ![Settings Menu](./wire-frames/Settings Menu.png)
-* ![Translation Options](./wire-frames/Translation Options.png)
-* ![Flash Cards](./wire-frames/Flash Cards.png)
+* ![Create Account](./wire-frames/Create-Account.png)
+* ![LogIn](./wire-frames/Login.png)
+* ![Homepage and Flash Card Decks](./wire-frames/Flash-Card-Deck.png)
+* ![Settings Menu](./wire-frames/Settings.png)
+* ![Translation Options](./wire-frames/Translation-Options.png)
+* ![Flash Cards](./wire-frames/Flash-Cards.png)
 
 #### Waffle.io
 [waffle.io](https://waffle.io/lauraturk/flash-cards)
@@ -51,7 +51,7 @@ advanced language options (separate API?) that offer monolingual definitions in 
 I believe my biggest challenges will be:
 - learning/building express/backend
 - not falling down rabbit holes
-- google vision API 
+- google vision API
 
 1. My mentor
 2. Express docs/tutorials
