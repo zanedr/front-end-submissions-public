@@ -7,7 +7,7 @@
 #### Collaborators:  
 Are you working with anyone else?
 
-Solo < br/>
+Solo
 
 #### Project Pitch  
 Now that you've had a few more days to dig into your project ideas, summarize your newly finalized plan.
@@ -17,7 +17,7 @@ Purpose of project is to learn how to incorporate google maps or leaflet into a 
 ### Deliverables  
 
 #### Stack:
-GoogleMaps API< br/>
+GoogleMaps API <br />
 UFO API< br/>
 React< br/>
 Router <-- If I make it to my nice to haves< br/>
