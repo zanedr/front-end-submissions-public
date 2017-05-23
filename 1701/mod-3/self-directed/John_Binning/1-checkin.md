@@ -101,3 +101,11 @@ What do you forsee being the biggest challenges of this project? List at least 3
 2. youtube and Anders/Bucket who are also using the Google maps API
 
 3. Trello/Waffle/GitHub issues for organization
+
+## Instructor Notes
+
+- get data on map
+- get location data from user input
+
+Stretch
+- let user input a dream to map
