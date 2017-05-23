@@ -26,7 +26,8 @@ For map feature - I would likely use BART api because it is well known and easy 
 
 #### Wireframes  
 Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your app. You can include these by adding additional files to your submissions directory, or linking to an imgur account. You're asked to use Sketch, or Balsamiq, or a different digital wireframe/comp application but if you choose to use pen/paper please let your instructors know and bring those to class Monday.  
-[Imgur](http://i.imgur.com/Fq5KCEo.png)
+[Imgur - handdrawn](http://i.imgur.com/Fq5KCEo.png)
+[Imgur - balsamiq](http://i.imgur.com/DN1JLlm.png)
 
 #### Waffle.io
 Link to your waffle.io account with at least 10 cards indicating baby steps to how you want to structure your attack.  
