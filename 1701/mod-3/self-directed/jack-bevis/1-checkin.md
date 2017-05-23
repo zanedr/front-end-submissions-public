@@ -13,19 +13,19 @@ Get Out There will be a web application for people who what to find amazing plac
 
 #### APIs:
 Primary API for iteration 0:
-(Mountain Project API)[https://www.mountainproject.com/data]
+[Mountain Project API](https://www.mountainproject.com/data)
 
 Pending or others for future iterations:
-(The Crag API)[https://www.thecrag.com/article/API]
-(Campground API)[http://developer.active.com/docs/read/Campground_APIs]
-(National Park Service API)[https://www.nps.gov/subjects/digital/nps-data-api.htm]
-(Google Maps API)[https://developers.google.com/maps/documentation/javascript/]
+[The Crag API](https://www.thecrag.com/article/API)
+[Campground API](http://developer.active.com/docs/read/Campground_APIs)
+[National Park Service API](https://www.nps.gov/subjects/digital/nps-data-api.htm)
+[Google Maps API](https://developers.google.com/maps/documentation/javascript/)
 
 #### Wireframes  
-(Wireframes)[https://getoutthere.mybalsamiq.com/projects/getoutthere/grid]
+[Wireframes](https://drive.google.com/open?id=0BwVmMWZvRBbXWmtaQkIxT2FXd3M)
 
 #### Waffle.io
-(Get Out There Waffle)[https://waffle.io/jbevis/Get-Out-There]
+[Get Out There Waffle](https://waffle.io/jbevis/Get-Out-There)
 
 ### Reflection  
 
