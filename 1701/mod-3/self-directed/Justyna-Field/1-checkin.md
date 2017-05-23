@@ -56,5 +56,4 @@ Login/Logout Functionality; Page Router; Carousel for images
 #### Biggest Challenges  
 What do you forsee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
 
-Redux and testing
-Resources: Turing lectures, class small projects, MovieTracker project, swapibox for testing reference, Wes Bos tutorial
+Redux and testing | Resources: Turing lectures, class small projects, MovieTracker project, swapibox for testing reference, Wes Bos tutorial
