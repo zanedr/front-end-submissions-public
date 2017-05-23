@@ -33,10 +33,10 @@ Links to any API docs that you have decided to use
 Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your app. You can include these by adding additional files to your submissions directory, or linking to an imgur account. You're asked to use Sketch, or Balsamiq, or a different digital wireframe/comp application but if you choose to use pen/paper please let your instructors know and bring those to class Monday.  
 
 Desktop Start Page
-![Desktop Start Page](path 'optional title')
+![Desktop Start Page](https://github.com/anderswood/front-end-submissions-public/blob/master/1701/mod-3/self-directed/anders-wood/images/Desktop%20Start%20Page.png 'optional title')
 
 Desktop Tracks Added Page
-![Desktop Track Added Page](path 'optional title')
+![Desktop Track Added Page](https://github.com/anderswood/front-end-submissions-public/blob/master/1701/mod-3/self-directed/anders-wood/images/Desktop%20Tracks%20Page.png 'optional title')
 
 
 #### Waffle.io
