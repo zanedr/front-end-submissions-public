@@ -39,3 +39,7 @@ Animated menus, ability to save tour dates that will persist
 
 #### Biggest Challenges  
 Coordinating all the data and making dynamic API calls
+
+## Instructor Notes
+
+- Getting the Google API connected and running
