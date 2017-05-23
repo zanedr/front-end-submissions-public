@@ -36,6 +36,7 @@ Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your 
 
 #### Waffle.io
 Link to your waffle.io account with at least 10 cards indicating baby steps to how you want to structure your attack.  
+https://waffle.io/JustynaField/Self-Directed-Project
 
 ### Reflection  
 
@@ -51,9 +52,7 @@ Sailing Log
 #### Nice To Haves   
 What are your reach features?
 
-Login/Logout Functionality
-Page Router
-Carousel for images
+Login/Logout Functionality, Page Router, Carousel for images
 
 #### Biggest Challenges  
 What do you forsee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
