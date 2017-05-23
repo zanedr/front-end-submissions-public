@@ -24,7 +24,11 @@ Ever see a car driving down the street that you wish you could find out more on?
 (if limits on the Edmunds Vehicle API) use [NHTSA Vehicle API for Makes](https://vpic.nhtsa.dot.gov/api/)
 
 #### Wireframes  
-Include screenshots to wireframes or comps of **EVERY PAGE** of the MVP of your app. You can include these by adding additional files to your submissions directory, or linking to an imgur account. You're asked to use Sketch, or Balsamiq, or a different digital wireframe/comp application but if you choose to use pen/paper please let your instructors know and bring those to class Monday.  
+![Homepage](./images/homepage.png)
+![Active Searching](./images/searching.png)
+![Results](./images/results.png)
+![Selected Vehicle](./images/no-matches.png)
+![No Matches](./images/selected-vehicle.png)
 
 #### Waffle.io
 https://waffle.io/cbandrow/personal-project  
