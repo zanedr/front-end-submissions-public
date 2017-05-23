@@ -87,3 +87,8 @@ This app has room to grow.  I have already hinted at some extensions.  Other tha
 One big challenge is to deal with the coordination of user location with the location of the api pinball location data.  My mentor deals with commercial real estate apps and is well versed in traversing geographical data/databases.  I have also reached out to the moderator of the pinball map api and feel he will be a good resource.
 
 I think another big challenge will be to figure out how to send a notification to the user.  Ideally I want a little notification icon to show up in the notification bar of the user's phone.  Initially the only resource that I have to get this accomplished is the interwebs.
+
+## Instructor Notes
+
+- Good concrete plan for push requests (research spike)
+  - Commit on Thursday to go for push or revert back
