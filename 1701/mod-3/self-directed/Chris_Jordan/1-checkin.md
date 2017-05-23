@@ -20,6 +20,8 @@ https://newsapi.org
 #### Wireframes  
 check mockup folder.
 
+#### Stack
+Redux, React, Express, node.js
 
 #### Waffle.io
 Link to your waffle.io account with at least 10 cards indicating baby steps to how you want to structure your attack.  
@@ -27,8 +29,20 @@ Link to your waffle.io account with at least 10 cards indicating baby steps to h
 ### Reflection  
 
 #### Order Of Attack  
-Based on your wireframes, in what order are you going to approach building out this application?
--- going to start with finishing the backend portion. Then get Redux working with the backend and api and build out from there.
+1.) Finish the backend portion setup.
+2.) App working with Api call from news-api
+3.) App updating backend database
+4.) App utilizing backend database for search criteria that renders list differently
+5.) stats shown on card
+6.) Setup React Router
+7.) User Sign-in/log-in/log-out
+8.) Setup Articles to be saved
+9.) setup comment section
+10.) visual effects of stats on card
+
+
+### MVP
+Backend basically 
 
 #### Nice To Haves   
 visual indication of articles or sources on how liberal/conservative/trustworthy they are
