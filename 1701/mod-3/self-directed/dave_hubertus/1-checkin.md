@@ -63,3 +63,15 @@ What do you forsee being the biggest challenges of this project? List at least 3
 
 Learning how to manipulate the google maps tile and displaying pins based on data from an api. <br />
 Building a backend if it is needed.
+
+Taylor:
+React, React-Router, Google Maps API, Enzyme, Jest
+
+MVP:
+Searching by city, location.
+Mapping out the major points.
+Searching by clicking on those points. Pop up info.
+Testing, UX/UI
+
+Check In 2, Thursday 5/25:
+You can recieve data from your API and display it.
