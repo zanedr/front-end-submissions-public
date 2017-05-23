@@ -52,3 +52,7 @@ What are your reach features? Ie: "Web Sockets & 3D Animations!"
 #### Biggest Challenges  
 What do you foresee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
   Catching up on the last three weeks of class. Knowing when and how to fetch data. And implementing a backend server.
+
+## Instructor Notes
+
+Decide tonight to keep fighting maps or do another Movie Tracker
