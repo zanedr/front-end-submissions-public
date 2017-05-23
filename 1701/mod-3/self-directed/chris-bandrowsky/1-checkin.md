@@ -20,8 +20,10 @@ Ever see a car driving down the street that you wish you could find out more on?
 
 #### APIs:  
 -Google Cloud Vision API [Google Cloud Vision API](https://cloud.google.com/vision/)
+
 -Edmunds Vehicle API : [Edmunds Vehicle API](http://edmunds.mashery.com/io-docs)
-(if limits on the Edmunds Vehicle API) use [NHTSA Vehicle API for Makes](https://vpic.nhtsa.dot.gov/api/)
+
+-(if limits on the Edmunds Vehicle API) use [NHTSA Vehicle API for Makes](https://vpic.nhtsa.dot.gov/api/)
 
 #### Wireframes  
 Homepage: 
