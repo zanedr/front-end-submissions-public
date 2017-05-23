@@ -56,3 +56,10 @@ I believe my biggest challenges will be:
 1. My mentor
 2. Express docs/tutorials
 3. google cloud platform documentation
+
+
+## Instructor Notes: Meeka
+
+#### Goals for next checkins 
+
+- Hit API and create dummy data structure
