@@ -37,3 +37,22 @@ What are your reach features? Login and map of shows, venue ratings
 
 #### Biggest Challenges  
 What do you forsee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
+
+Taylor:
+
+React, React-Router, Redux, Enzyme
+
+MVP:
+Search by location, user location, city or state, to see Venue. Link to contact info.
+Favorites / Played At.
+Testing
+UX/UI
+
+Extensions: 
+  Adding google maps API, add tags based on city. 
+
+Check in 2, Thursday 5/25:
+* Dive in quick to Google. 
+* Be able to search by city or state.
+
+
