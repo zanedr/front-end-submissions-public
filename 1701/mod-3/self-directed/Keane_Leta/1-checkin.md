@@ -59,3 +59,7 @@ An app in which a user can select an emotion to try to match, using the webcam t
 
 #### Biggest Challenges  
 I foresee the API call being the largest challenge, since it also inherently involves the webcam, video elements, and canvas elements all at once.
+
+## Instructor Notes
+
+- Get webcam hooked up and displaying with a video tag
