@@ -51,3 +51,15 @@ At the very least, the app should allow users to see the events in their area an
 * Interaction between users
 * Dynamic routing from event picture to event details
 * Storing event information under specific user in the backend
+
+Taylor:
+
+MVP: 
+React, React-Router, Redux, Jest, Enzyme, Express, Node, KNEX(PSQL)
+Testing, UX/UI
+
+Check In 2, Thursday 5/25:
+KNEX?
+Else {
+  Search functionality. 
+}
