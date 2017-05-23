@@ -24,10 +24,19 @@ Ever see a car driving down the street that you wish you could find out more on?
 (if limits on the Edmunds Vehicle API) use [NHTSA Vehicle API for Makes](https://vpic.nhtsa.dot.gov/api/)
 
 #### Wireframes  
+Homepage: 
 ![Homepage](./images/homepage.png)
+
+Active Searching for matching vehicles: 
 ![Active Searching](./images/searching.png)
+
+Results: 
 ![Results](./images/results.png)
+
+Select one of the results: 
 ![Selected Vehicle](./images/no-matches.png)
+
+No matches to image: 
 ![No Matches](./images/selected-vehicle.png)
 
 #### Waffle.io
@@ -36,17 +45,16 @@ https://waffle.io/cbandrow/personal-project
 ### Reflection  
 
 #### Order Of Attack  
-
 First things first, I need to get working on the API call to Google Cloud Vision. Which also means, I need to research the best way to host the application: either on Firebase, or using an Express mini server. With that comes the issue of authentication, and the solving that problem.
 Once these two steps are set, I can begin working on the actual API call by uploading an image. The image will need changed to Base64 so that the API can translate the data into usable identifiers.
 In the meantime, I can also focus on making a couple of calls to the Edmunds API to pull data on makes/models of vehicles. Initially, these calls or stubbed data can be used as matcher for identifying proper vehicles to the image upload.
 Once I have the promise back from the Google Cloud call, I can match that to the data, iterate through, and display the most accurate results.
 
 #### MVP
-The app takes an image and displays the accurate results of what kind of vehicle has been shown.
+The app takes an image and displays the accurate results of what kind of vehicle has been shown. Results can be clicked and would link one to a search of the make/model. 
 
 #### Nice To Haves   
-The main goal is making the Google Vision API work with coordination of an Edmunds API call. If the API calls don't come through, mocking/stubbing the data for that half of the project seems to be the best idea.
+If the Edmunds API calls don't come through, mocking/stubbing the data for that half of the project seems to be the best idea.
 Additional "nice to haves" include a login system where users can save the cars they were interested in.
 
 #### Biggest Challenges  
