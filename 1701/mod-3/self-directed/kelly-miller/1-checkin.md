@@ -5,13 +5,16 @@
 #### Check In: 1  
 
 #### Collaborators:  
+
 Are you working with anyone else? - No
 
 #### Project Pitch  
+
 An app for foster parents to organize all the information for case-workers, children, and bio families
 that the receive.
 Includes a calendar for keeping track of visits, contact logs, and behavioral struggles/milestones.
 Maybe a map program that allows foster parents to set up visits with bio family based of public transit.
+
 ### Deliverables  
 
 #### Stack:
@@ -56,6 +59,7 @@ Based on your wireframes, in what order are you going to approach building out t
 -map features
 
 #### Biggest Challenges  
+
 What do you forsee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
 1. Learning about encryption and safety for an app like this that will hold sensitive data
 [iqrypt with firebase](http://iqrypt.com/blog/2016/05/13/searchable-encryption-applied-to-firebase-database/)
@@ -64,3 +68,13 @@ also firebase docs
 [calendar](https://code.tutsplus.com/tutorials/common-react-native-app-layouts-calendar-page--cms-27641)
 3. Learning and using React Native and Router with React Native
 [native](https://facebook.github.io/react-native/)
+
+### instructor notes
+
+For checkin:
+
+* you have firebase hooked up
+* a user can login
+* figuring out if you're going to use native or not
+* have component architecture setup.
+* start proccess of IQrypt hookup

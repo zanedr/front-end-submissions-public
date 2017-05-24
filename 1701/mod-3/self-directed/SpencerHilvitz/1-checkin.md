@@ -73,3 +73,13 @@ What are your reach features? Ie: "Web Sockets & 3D Animations!"
 What do you foresee being the biggest challenges of this project? List at least 3 resources you've thought of to help overcome these challenges.
 
 I think Redux will be one of my biggest challenges. I also think that having the user be able to add and delete only some questions will be difficult as well. The docs and previous projects will be helpful for that aspect. I am also using a tutorial on Redux that I think will be helpful.
+
+
+#### Instructor Notes
+
+Deliverables for next checkin:
+
+* have components built out (rough layout)
+* have the root route and the new route set up
+* have redux hooked up as well.
+* for new component have the api console.loging response || displaying on the dom.
