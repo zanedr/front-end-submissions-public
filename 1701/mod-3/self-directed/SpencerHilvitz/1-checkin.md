@@ -14,7 +14,7 @@ Are you working with anyone else?
 No.
 
 #### Project Pitch  
-Now that you've had a few more days to dig into your project ideas, summarize your newly finalized plan.
+I am creating an App in which people can upload an issue or an argument and then other people can vote on whose side they agree with. I am planning on bringing in some news API's as well so that people can vote on whether or not they agree with the article. 
 
 ### Deliverables  
 
