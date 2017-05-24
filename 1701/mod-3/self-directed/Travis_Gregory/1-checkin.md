@@ -33,10 +33,13 @@ As a woodworker I frequently find myself stumped on what to do next or how to pe
 
 - [Main Page](http://framebox.org/ABwFg-TCYPbL)
   [Screenshot](https://github.com/tlgreg86/front-end-submissions-public/1701/mod-3/self-directed/templates/Travis_Gregory/main-page.png)
+
 - [Projects Page](http://framebox.org/ABwGj-DSCYyz)
   [Screenshot](https://github.com/tlgreg86/front-end-submissions-public/1701/mod-3/self-directed/templates/Travis_Gregory/projects-page.png)
+
 - [Favorites Page](http://framebox.org/ABwHk-RjxwKg)
   [Screenshot](https://github.com/tlgreg86/front-end-submissions-public/1701/mod-3/self-directed/templates/Travis_Gregory/favorites-page.png)
+
 - [Interests Stream Page](http://framebox.org/ABwHo-wEECiB)
   [Screenshot](https://github.com/tlgreg86/front-end-submissions-public/1701/mod-3/self-directed/templates/Travis_Gregory/interests-page.png)
 
@@ -64,6 +67,7 @@ My MVP will allow the user to search the YouTube API, create a project, and add 
 I'd like to have a page where the user can just type in a search and have the result stream continuously as if it were a tv channel based on their interests.
 
 #### Biggest Challenges  
+
 I can see OAuth being an issue since I've never used it.
 
 - [Resource 1](https://developers.google.com/identity/protocols/OAuth2?csw=1)
@@ -71,4 +75,14 @@ I can see OAuth being an issue since I've never used it.
 - [Resource 3](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 
 
-####
+#### instructor notes
+
+* you're going to need a backend
+* look into firebase
+
+deliverable for next checkin: 
+
+* have firebase tutorial finished
+* have firebase / react  hooked up for your project.
+* make first requests to API
+* have a user saved to firebase
