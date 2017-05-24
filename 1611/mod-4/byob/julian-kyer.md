@@ -15,20 +15,22 @@ Yes
 Yes 
 
 ##### Secured at least 4 endpoints with JWTs?
-No
+Yes
 
 ##### Enforced a linter and wrote code that conformed to it?
-No
+Yes
 
 ##### Wrote tests for both happy and sad paths for each endpoint? 
-No
+Yes
 
 ##### Setup automatic deployments with CircleCI to a production app on Heroku? 
-Something in there is broken but I don't know what. Yet.
+Yes
 
 ### Code Quality
-I like [this](https://github.com/juliankyer/db-edm/blob/8053c4c5cda31df2ff72b0d7d9fd0c9b0caf12ff/server.js#L122-L129) chunk of code because it was where these requests started making sense to me.
+I like [this](https://github.com/juliankyer/db-edm/blob/f01be61d33bcbafbad13f7d51422b5ba5c50eb24/server.js#L129-L141) chunk of code because I learned a lot in terms of figuring out how to handle errors and do some basic authorization checks. The if/else also caused some linter errors and I liked having to dig into that to figure out why.
 
-I'm not crazy about [this](https://github.com/juliankyer/db-edm/blob/8053c4c5cda31df2ff72b0d7d9fd0c9b0caf12ff/server.js#L63-L72) chunk of code because error handling is still a thorn in my side, and I'd like to see more on how to do that correctly.
+I'm not crazy about [this](https://github.com/juliankyer/db-edm/blob/f01be61d33bcbafbad13f7d51422b5ba5c50eb24/server.js#L37-L54) chunk of code because it is from a lesson, so it wasn't something I wrote or struggled with, it was something I implemented. But I really like what it allows me to do in my project.
+
+
 
 
