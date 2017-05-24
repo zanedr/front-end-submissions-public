@@ -33,4 +33,8 @@ I'm not crazy about [this](https://github.com/juliankyer/db-edm/blob/f01be61d33b
 
 
 
+### Linter
+[Sad Panda](http://imgur.com/a/yMY0r)
 
+### Testing
+[Another Sad Panda](http://imgur.com/a/HnRu3)
