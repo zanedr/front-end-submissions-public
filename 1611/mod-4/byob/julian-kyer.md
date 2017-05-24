@@ -33,8 +33,8 @@ I'm not crazy about [this](https://github.com/juliankyer/db-edm/blob/f01be61d33b
 
 
 
-### Linter
-[Sad Panda](http://imgur.com/a/yMY0r)
+### Linter and Testing
+[Linter and Test results](http://imgur.com/FpF4PNW)
 
-### Testing
-[Another Sad Panda](http://imgur.com/a/HnRu3)
+...looks like if you don't have linter errors in eslint, there's no "congratulations, you have no errors" message. Which is BS.
+
