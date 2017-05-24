@@ -5,6 +5,7 @@
 #### Check In: 1  
 
 #### Project Pitch  
+
 Get Out There will be a web application for people who what to find amazing places to climb, hike, bike, camp, etc. and who are looking for people to join them. The app will allow users to create their own account in order to search for trailheads, campgrounds, or crags, as well as let them indicate where they plan on heading on a given day. I hope to eventually incorporate some features to map areas and times that are most popular so users can view that data in order to help them plan their next adventure. The application will be built using React and React-Router, with the potential for Redux depending on final scale of the project. The intent is to incorporate mapbox/leaflet for the mapping aspect, as well as Victory for data visualization of most popular areas over time. I would like to incorporate a backend database for users, as well as a potential slackbot feature in future iterations, that would help people meet up and plan trips utilizing the front-end site.
 
 ### Deliverables  
@@ -41,3 +42,10 @@ Backend database for users.
 
 #### Biggest Challenges  
 I believe the most challenging part of this project will be sourcing all of the necessary data I want to use, and making sure all the different api calls work well with each other. Incorporating the maps, both location and heat I also imagine will present a unique challenge. I plane on reviewing quite a few tutorials on how to accomplish these things as well as leverage other members of my cohort who are trying to accomplish similar things in their projects. Ultimately, I hope to incorporate a slack bot feature that will allow people to pair up via slack based on activity interest parameters e.g. distance from current location, time to finish trail, difficulty, etc etc.
+
+### Deliverables for Next checkin
+
+* Get needed hike data back to the dom. At the very least have the dom rendering the names and difficulty of the hikes
+* have filter actions and reducer set up for your store
+* hook up router and have the routes rendering the specific components
+* redo wireframes 

@@ -26,19 +26,20 @@ Ever see a car driving down the street that you wish you could find out more on?
 -(if limits on the Edmunds Vehicle API) use [NHTSA Vehicle API for Makes](https://vpic.nhtsa.dot.gov/api/)
 
 #### Wireframes  
-Homepage: 
+
+Homepage:
 ![Homepage](./images/homepage.png)
 
-Active Searching for matching vehicles: 
+Active Searching for matching vehicles:
 ![Active Searching](./images/searching.png)
 
-Results: 
+Results:
 ![Results](./images/results.png)
 
-Select one of the results: 
+Select one of the results:
 ![Selected Vehicle](./images/no-matches.png)
 
-No matches to image: 
+No matches to image:
 ![No Matches](./images/selected-vehicle.png)
 
 #### Waffle.io
@@ -53,13 +54,22 @@ In the meantime, I can also focus on making a couple of calls to the Edmunds API
 Once I have the promise back from the Google Cloud call, I can match that to the data, iterate through, and display the most accurate results.
 
 #### MVP
-The app takes an image and displays the accurate results of what kind of vehicle has been shown. Results can be clicked and would link one to a search of the make/model. 
+
+The app takes an image and displays the accurate results of what kind of vehicle has been shown. Results can be clicked and would link one to a search of the make/model.
 
 #### Nice To Haves   
+
 If the Edmunds API calls don't come through, mocking/stubbing the data for that half of the project seems to be the best idea.
 Additional "nice to haves" include a login system where users can save the cars they were interested in.
 
 #### Biggest Challenges  
+
 Absolutely, the biggest problem (personally) is understanding how to properly set up the back end. I have a great idea of how to iterate through the data properly once I have it, it's just the hosting, authentication, and nature of trying to make those calls to the Google Cloud Vision API that seems to be the biggest challenge.
 
 In order to get through this, I need to definitely leverage my connections with individuals I know in the industry who have worked on backend applications before. Additionally, I feel like the internet has (relatively) detailed documentation on the API and making those calls. I hope these resources will initially help propel me in the right direction.
+
+### Deliverables
+
+* get image and google api call working
+* have your components set up
+* start working on the backend and importing the sql database to your project if you're goin to use it
