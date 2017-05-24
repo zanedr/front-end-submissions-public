@@ -76,6 +76,40 @@
 
 -----
 
-# Instructor Feedback
+## Instructor Evaluation Points (Robbie)
 
-- Points: x / 150
+The following set of points are distributed at the discretion of the instructor.
+
+### Endpoints
+
+* **60 points** - Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params.
+
+### Data Persistence with SQL Database
+
+* **40 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+* Be more descriptive in your [migration files](https://github.com/esayler/byob/blob/master/db/migrations/20170517115622_initial.js) ("initial" doesn't really mean a whole lot)
+* Great use of a joins table for `ingredients`
+
+### Testing & Linting
+
+* **30 points** - Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. The project has a linting configuration that passes with no errors.
+
+* Watch out for [typos](https://github.com/esayler/byob/blob/master/test/server.spec.js#L242) - no big deal
+* Is [this](https://github.com/esayler/byob/blob/master/test/server.spec.js#L250) really what you want for the `catch()`?
+* Very thorough testing, nice job
+
+### JavaScript Style
+
+* **15 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Nice job breaking out endpoints into a router file
+* I'm sure there is a fancier SQL way to [do this](https://github.com/esayler/byob/blob/master/server/router.js#L125) without iterating...but I applaud you for presenting this data int he recipes view
+* Oh dear...not sure how best to tell you this. _[This](https://github.com/esayler/byob/blob/master/server/router.js#L410-L578) is ridiculously too long._
+* Don't forget your `catch()` [on promises](https://github.com/esayler/byob/blob/master/server/router.js#L151)
+* An easy refactor would be to break out the common queries into a helper (`queries.js`) which requires knex in the file and can be a "library" of your app's queries
+* Any particular reason for the `andWhere()`? You can give `where()` an object literal: http://knexjs.org/#Builder-where
+
+To get a 3 on this project, you need to score 110 points or higher.
+
+- Points: 145 / 150

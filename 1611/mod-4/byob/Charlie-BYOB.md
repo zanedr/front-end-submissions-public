@@ -78,6 +78,64 @@ Thanks for your help this week!
 
 -----
 
-# Instructor Feedback
 
-- Points: x / 150
+# Instructor Feedback [Brittany]
+
+* Thank you for having a README with your available endpoints.
+
+## Feature Completion
+
+### Endpoints
+**60 points**: Developer has implemented 11 of 10 endpoints and secured 4 of them with JWTs or have a custom endpoint based on query params.
+
+* Error handling is a bit off, but a solid effort nonetheless.
+
+### Data Persistence with SQL Database
+**40 points**: The application contains at least 2 tables with a proper relationship between data sources.
+
+## Testing and Linting
+
+**25 points**: Project has a running test suite that covers happy and sad paths for the appropriate endpoints. The project has a linting configuration that passes with few errors.
+
+* Nice [before blocks](https://github.com/dunncl15/BYOB/blob/master/test/routes.spec.js#L14-L22)
+
+* We didn't go over this in class, but in the future you could add linting to your CircleCI builds by adding the following to your `circle.yml` file (pretty common convention):
+
+```json
+test:
+  override:
+    - ./node_modules/.bin/mocha
+    - ./node_modules/.bin/eslint
+```
+* The few remaining errors in your linter could be quickly and easily cleaned up to get the entire thing passing.
+
+### JavaScript Style
+**15 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* A better [conditional](https://github.com/dunncl15/BYOB/blob/master/server.js#L17-L19) here would check for `process.env.CLIENT_SECRET` rather than checking if the environment is `development`. This would help you recognize if you were getting errors because you forgot to specify an environment variable in CircleCI or Heroku. e.g. I would refactor to something like this:
+
+```js
+let CLIENT_SECRET = process.env.CLIENT_SECRET || config.CLIENT_SECRET
+// same thing for username and password
+
+
+if (!CLIENT_SECRET) {
+  throw { error: 'Make sure you have a CLIENT_SECRET, USERNAME and PASSWORD' }
+}
+```
+
+* You could return plain text [here](https://github.com/dunncl15/BYOB/blob/master/server.js#L24), or better yet your README file that documents all the data endpoints that you **can** hit.
+
+* [Nice error handling here](https://github.com/dunncl15/BYOB/blob/master/server.js#L38-L45)
+
+* You don't have to send back the park deleted message [here](https://github.com/dunncl15/BYOB/blob/master/server.js#L139). Sending a 204 without any type of data or message is perfectly fine, as a 204 implies success **and** no response body.
+
+* Nice job breaking out errors and authentication [logic](https://github.com/dunncl15/BYOB/blob/master/server.js#L6-L7).
+
+* [403](https://github.com/dunncl15/BYOB/blob/master/server.js#L211) status code doesn't make sense here. That one is reserved for authentication issues, this looks like it would be handling a generic user error which would return a 422 instead.
+
+* Some [duplicate](https://github.com/dunncl15/BYOB/blob/master/server.js#L169-L175) code [here](https://github.com/dunncl15/BYOB/blob/master/server.js#L192-L198) that could probably be cleaned up by breaking the logic out into a helper function.
+
+## Points: 140 / 150
+
+Great job!
