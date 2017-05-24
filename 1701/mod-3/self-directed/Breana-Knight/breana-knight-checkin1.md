@@ -62,7 +62,10 @@ Link to your waffle.io account with at least 10 cards indicating baby steps to h
  
  MVP:
  P5, JS. Look into getUserMediaAPI. Tracking.js
+ Testing
+ UX/UI
  
- 
+ Check In 2, Thursday 5/25: 
+ You have camera hooked up, and you can detect their faces. 
  
  
