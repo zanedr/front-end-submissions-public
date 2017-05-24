@@ -32,5 +32,4 @@ tests. The application makes some use of integration testing.
 ### Code Sanitation
 
 The output from JSHint shows…
-
-* 4 - Zero complaints
+git p* 4 - Zero complaints
