@@ -93,3 +93,7 @@ Check In 2, Thursday 5/25:
 * Express setup.
 * Creating your endpoint for your api `/api/v1/user?email=tman2272@aol.com
 * Using Request try and hit FullContact api. 
+
+Check In 3, Tuesday 
+React Router setup
+5 Tests
