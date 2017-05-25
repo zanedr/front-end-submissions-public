@@ -75,3 +75,9 @@ Testing, UX/UI
 
 Check In 2, Thursday 5/25:
 You can recieve data from your API and display it.
+
+Check In 3, Tuesday: 
+
+Create different endpoints in backend to fetch new info. 
+Some testing started. 
+Loading bar / page.
