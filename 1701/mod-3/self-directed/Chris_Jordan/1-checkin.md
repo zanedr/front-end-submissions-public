@@ -68,3 +68,7 @@ newSources:
   fact votes:
   false votes: 
 
+Check In 3, Tuesday:
+  Full incrementing between news sources.
+  Tests for all reducers and actions.
+  Users?
