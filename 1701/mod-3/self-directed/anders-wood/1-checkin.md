@@ -100,4 +100,6 @@ Check In 2, Thursday 5/25:
 Are you using React-Router & Redux?
 Be able to display map on page, and draw on it?
 
+Check In 3, Tuesday:
+Grab all information from one route.
 
