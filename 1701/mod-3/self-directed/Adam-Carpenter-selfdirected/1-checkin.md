@@ -51,8 +51,10 @@ UX/UI
 Extensions: 
   Adding google maps API, add tags based on city. 
 
-Check in 2, Thursday 5/25:
+Check In 2, Thursday 5/25:
 * Dive in quick to Google. 
 * Be able to search by city or state.
 
-
+Check In 3, Tuesday:
+Maps to link up with that state, count, and clean up the UX/UI
+5 tests total
