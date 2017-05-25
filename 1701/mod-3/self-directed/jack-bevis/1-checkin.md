@@ -23,7 +23,7 @@ Pending or others for future iterations:
 [Google Maps API](https://developers.google.com/maps/documentation/javascript/)
 
 #### Wireframes  
-[Wireframes](https://drive.google.com/open?id=0BwVmMWZvRBbXWmtaQkIxT2FXd3M)
+[Wireframes](https://drive.google.com/open?id=0BwVmMWZvRBbXeFhwX1JBWXdTNzg)
 
 #### Waffle.io
 [Get Out There Waffle](https://waffle.io/jbevis/Get-Out-There)
