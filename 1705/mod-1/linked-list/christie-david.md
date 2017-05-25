@@ -1,5 +1,13 @@
-## Evaluator:
+## Evaluator: Louisa
 ## Optional Notes:
+
+through phase 4
+
+Great work building out the UI! Really nicely done, extremely solid execution, very nice responsive solution.
+
+Paired very effectively together. Used github really well, leveraged all the tools (commits, issues, etc). Great team work!
+
+Very clean code, well structured, they both owned the entire code base, very even distribution of work/effort
 
 ### Functional Expectations
 

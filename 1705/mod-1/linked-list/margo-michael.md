@@ -1,5 +1,9 @@
-## Evaluator:
+## Evaluator: Louisa
 ## Optional Notes:
+
+Great job!
+
+Got into Phase 4
 
 ### Functional Expectations
 

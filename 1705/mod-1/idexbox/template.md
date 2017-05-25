@@ -1,26 +1,20 @@
-## Evaluator: Louisa
+## Evaluator:
 ## Optional Notes:
 
-through phase 4
-
-
-
-### Functional Expectations
-
-* __Novice:__ Application meets all of the functional expectations in Phase One.
-* __Advanced Beginner:__  Application meets all of the functional expectations in Phase Two.
-* __Proficient:__ Application meets all of the functional expectations in Phase Three.
-* __Exceptional__ You completed Phase Three and did something with Phase Four.
 
 ------------------------------------------------------------------
 
+## Rubric
+
 ### Functional Expectations
 
-|Novice | Application meets all of the functional expectations in Phase One. |
-|Advanced Beginner  | Application meets all of the functional expectations in Phase Two. |
-|Proficient         | Application meets all of the functional expectations in Phase Three. |
-|Exceptional| You completed Phase Three and did something with Phase Four. |
+|Novice             | Application meets all of the basic functional expectations of create, edit, delete, persist in local storage. |
+|Advanced Beginner  | Application allows for upvote/downvote and enables searching/filtering as defined in the spec. |
+|Proficient         | The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. |
+|Exceptional        | The application meets all of the requirements listed above and implements one or more of the extensions. |
 
+
+------------------------------------------------------------------
 
 ## HTML
 
@@ -39,6 +33,8 @@ through phase 4
 |Exceptional        | Crafts lean, efficient markup and can speak directly to choices made to improve performance, including but not limited to, page load times, css/js optimizations, image optimizations. |
 
 
+------------------------------------------------------------------
+
 ## CSS
 
 #### Structure of Code
@@ -56,14 +52,16 @@ through phase 4
 |Exceptional        | Can articulate rationale for all parts of the CSS implementation (each line of code/CSS rule) specifically in regards to the balance of: structure of code, design integrity, performance.|
 
 
+------------------------------------------------------------------
+
 ## JAVASCRIPT
 
-#### Conditional Logic
+#### Data Types
 
-|Novice             | Can understand when an expression evaluates to true or false.|
-|Advanced Beginner  | Uses if/else statements, but there are multiple levels of nesting, which makes the paths through the code difficult to follow. Understands what is "truthy" and "falsey" in JavaScript.|
-|Proficient         | Can use an if/else statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.|
-|Exceptional        | Can write conditional logic that is succinct and easy to read. Logic can handle all situations where user gives incorrect/unexpected input.|
+|Novice             | Can articulate the definitions of primitive data types: strings, booleans, numbers, null, and undefined. Can articulate and describe object types: objects, arrays.|
+|Advanced Beginner  | Can diagnose when issues of data-type mismatch are present and appropriately redirect their coding and/or research efforts accordingly to solve the problem.|
+|Proficient         | Can identify and track data types through any variety of functions, understanding their affect and result on each line of code. Knows which scenarios are better suited for objects vs. arrays and employs them accordingly.|
+|Exceptional        | Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.|
 
 #### Conditional Logic
 
@@ -79,6 +77,19 @@ through phase 4
 |Proficient         | Functions have single responsibility. The entirety of the function is easy to read what functionality it contains. Function is generally shorter than 8 lines. Uses functions to eliminate repeated code. Comfortable refactoring any piece of code and extracting it to a function.|
 |Exceptional        | Comfortable with using callback functions where applicable. Comfortable returning collections from functions (objects, arrays).|
 
+#### Arrays
+
+|Novice             | Can create array and use array indexing to extract data from array or modify array. Comfortable using arrays to store simple data types: numbers, booleans, or strings.|
+|Advanced Beginner  | Can modify arrays by adding or removing specific elements - uses array methods such as push or shift. Can use a for loop to iterate through array.|
+|Proficient         | Does not use for loops for arrays - uses array prototypes, such as forEach, to iterate through or manipulate arrays. Can use array to store more complicated data structures such as objects or nested arrays. Is comfortable/efficient with reading array prototype documentation and can efficiently test/apply array prototype methods they have not worked with before.|
+|Exceptional        | Uses variety array prototypes to iterate through arrays and manipulate/create new arrays without using documentation as a resource.|
+
+#### Objects & Prototypes
+
+|Novice             | Can declare an object literal and define/articulate properties vs. methods for an object. Can extract values of an object's property, and assign new properties and/or reassign values of existing properties on an object.|
+|Advanced Beginner  | Can use object constructor functions and is comfortable with extracting values of properties on different object instances.|
+|Proficient         | Can use object prototypes. Can articulate the definition and the "why" of an object prototype - the best use cases for prototypes.|
+|Exceptional        | Can identify and apply best use cases for constructor functions vs object literals in their code, and leverages more advanced object prototype methods.|
 
 #### DOM Manipulation
 
@@ -94,6 +105,8 @@ through phase 4
 |Proficient         | Code is logically organized, such that reader can easily follow the progression of the app because variable and function names are descriptive and follow a single responsibility approach. There are no major bugs and minimal duplication.|
 |Exceptional        | Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring. Application has exceptionally well-factored code with little or no duplication. |
 
+
+------------------------------------------------------------------
 
 ## GIT & GITHUB
 
@@ -112,15 +125,19 @@ through phase 4
 |Exceptional        | Uses issues as resource for project management. There are comments on specific lines of pull requests with discussion about the implementation.|
 
 
+------------------------------------------------------------------
+
 ## DESIGN
 
 #### Comp Recreation
 
 |Novice             | Can establish a complementary color palette, integrate font(s), and execute a handful of the large comp details. |
 |Advanced Beginner  | Can accomplish about 50-75% of the large and small design details and can logically rework them on at least 1 breakpoint. |
-|Proficient         | Developer captures the spirit and design intent of the comp. Some small details need polish to achieve a pixel-perfect match to the comp, but developer is clearly mindful of details and has made a conscious and careful effort to match the comp. Any design decisions left open to interpretation are handled thoughtfully and are well executed, but are more noticable and/or unintuative than they would be if the designer had provided the solution, or may not be totally seamless during screen-size transitions.|
+|Proficient         | Developer captures the spirit and design intent of the comp. Some small details need polish to achieve a pixel-perfect match to the comp, but developer is clearly mindful of details and has made a conscious and careful effort to match the comp. Any design decisions left open to interpretation are handled thoughtfully and are well executed, but are more noticeable and/or unintuitive than they would be if the designer had provided the solution, or may not be totally seamless during screen-size transitions.|
 |Exceptional        | Developer skillfully captures the spirit and design intent of all comp details. Execution is pixel-perfect and any design decisions left open to interpretation are solved intentionally, are as seamless as if the designer had provided the solution, are handled gracefully, and enhance the overall design.|
 
+
+------------------------------------------------------------------
 
 ## PAIRING
 

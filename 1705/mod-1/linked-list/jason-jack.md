@@ -1,5 +1,12 @@
-## Evaluator:
+## Evaluator: Louisa
 ## Optional Notes:
+
+Through phase 4
+
+Nicely done! Really good job, good distribution of
+
+UI is a little bit too wide on big screens, so have a max-width
+
 
 ### Functional Expectations
 

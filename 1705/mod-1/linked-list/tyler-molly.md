@@ -1,5 +1,9 @@
-## Evaluator:
+## Evaluator: Louisa
 ## Optional Notes:
+
+into phase 4
+
+split work pretty equally
 
 ### Functional Expectations
 
