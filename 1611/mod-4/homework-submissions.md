@@ -61,7 +61,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Julian
 
+* [Express Tutorial](https://github.com/juliankyer/node-prework)
 * [Elevator Challenge](https://github.com/juliankyer/elevator-challenge)
+* [Wednesday Student Spike](https://github.com/juliankyer/jwt-tutorial)
 
 ### Kyle
 
