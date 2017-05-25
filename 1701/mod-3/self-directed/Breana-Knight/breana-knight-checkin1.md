@@ -68,4 +68,9 @@ Link to your waffle.io account with at least 10 cards indicating baby steps to h
  Check In 2, Thursday 5/25: 
  You have camera hooked up, and you can detect their faces. 
  
+ Check In 3, Tuesday:
+ Drawing based off the X & Ys.
+ Testing seperate funcitons.
+ UI/UX
+ 
  
