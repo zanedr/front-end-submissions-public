@@ -70,3 +70,9 @@ Check In 3, Tuesday:
 - Search functionality
 - Tests on actions, reducers, component(maybe just one) —> don’t expect components to be done
 
+Check In 4, Thursday: 
+- User tables
+- User able to sign in and out
+- Search functionality
+- Tests on actions, reducers, component(maybe just one) —> don’t expect components to be done
+
