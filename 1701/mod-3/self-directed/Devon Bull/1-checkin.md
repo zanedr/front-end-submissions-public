@@ -99,6 +99,8 @@ React Router setup
 5 Tests
 
 Check In 4, Thursday
-Implement a database/improve the UI.
-Knex database. TESTS, implement redux
+
+* Implement a database Knex database
+* TESTS
+* Implement redux
 
