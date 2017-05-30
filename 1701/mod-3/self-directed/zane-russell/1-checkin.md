@@ -43,3 +43,13 @@ Coordinating all the data and making dynamic API calls
 ## Instructor Notes
 
 - Getting the Google API connected and running
+
+
+## Nate Checkin
+Add Google Maps, routing locations, updating distance between various locations.
+validation on submitted locations (valid location)
+gas price
+
+issues
+edit card is not updating immediately, state issue?
+
