@@ -97,3 +97,8 @@ Check In 2, Thursday 5/25:
 Check In 3, Tuesday 
 React Router setup
 5 Tests
+
+Check In 4, Thursday
+Implement a database/improve the UI.
+Knex database. TESTS, implement redux
+
