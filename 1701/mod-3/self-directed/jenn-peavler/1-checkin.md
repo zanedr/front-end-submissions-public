@@ -92,3 +92,10 @@ I think another big challenge will be to figure out how to send a notification t
 
 - Good concrete plan for push requests (research spike)
   - Commit on Thursday to go for push or revert back
+
+## checkin with Nathaniel
+wants push notifications, working on implementing push notifications
+click pins to show info
+click links to show more info - or remove hove effect
+
+eventually push to heroku for testing in the wild
