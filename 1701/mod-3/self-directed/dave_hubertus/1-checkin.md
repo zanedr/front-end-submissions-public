@@ -81,3 +81,9 @@ Check In 3, Tuesday:
 Create different endpoints in backend to fetch new info. 
 Some testing started. 
 Loading bar / page.
+
+Check In 4, Thursday:
+  Testing figured, close to full coverage.
+  Add favorites and get more info about specific day.
+
+
