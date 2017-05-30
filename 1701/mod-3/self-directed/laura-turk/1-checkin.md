@@ -63,3 +63,18 @@ I believe my biggest challenges will be:
 #### Goals for next checkins 
 
 - Hit API and create dummy data structure
+
+## Instructor Notes: Nathaniel
+
+UI Design of showing deck and cards
+-- change decks to list, click deck to go to deck view and show cards
+-- card functionality
+-- add router
+
+add some instructions
+split image words into clickable buttons
+only show definition button if spanish is selected
+modify css of uploaded image, max-width, max-height (media-query - responsive second)
+
+
+
