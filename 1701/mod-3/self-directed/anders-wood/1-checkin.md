@@ -103,3 +103,14 @@ Be able to display map on page, and draw on it?
 Check In 3, Tuesday:
 Grab all information from one route.
 
+Check In 4, Thursday: 
+  [ 
+   Clear Map on save,
+   Delete Routes,
+   Display individual routes,
+   TESTS,
+   UI/UX 
+  ]
+BY MONDAY, PICK OUT 2 FOR THURSDAY
+  
+
