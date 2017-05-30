@@ -58,3 +58,8 @@ Check In 2, Thursday 5/25:
 Check In 3, Tuesday:
 Maps to link up with that state, count, and clean up the UX/UI
 5 tests total
+
+Check In 4, Thursday:
+Cleaning up UI
+TESTS!!!!!
+Find some fun feature to implement.
