@@ -1,12 +1,13 @@
-## Evaluator:
+## Evaluator: Brenna
 ## Optional Notes:
-
-
+  - Significant refactoring necessary
 ------------------------------------------------------------------
 
 ## Rubric
 
 ### Functional Expectations
+
+- All main functionality done
 
 |Novice             | Application meets all of the basic functional expectations of create, edit, delete, persist in local storage. |
 |Advanced Beginner  | Application allows for upvote/downvote and enables searching/filtering as defined in the spec. |

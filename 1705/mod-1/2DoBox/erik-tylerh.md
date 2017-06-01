@@ -1,19 +1,14 @@
-## Evaluator: Brenna
+## Evaluator:
 ## Optional Notes:
 
- - Full functionality except for search
- 
 ------------------------------------------------------------------
 
-## Rubric
+## Functional Expectations
 
-### Functional Expectations
-
-|Novice             | Application meets all of the basic functional expectations of create, edit, delete, persist in local storage. |
-|Advanced Beginner  | Application allows for upvote/downvote and enables searching/filtering as defined in the spec. |
-|Proficient         | The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. |
-|Exceptional        | The application meets all of the requirements listed above and implements one or more of the extensions. |
-
+|Novice             | Application meets all of the expectations of phase one. |
+|Advanced Beginner  | Application meets __most__ of the expectations of phase two. |
+|Proficient         | Application meets __all__ of the expectations of phase two. |
+|Exceptional        | Application meets all of the expectations of both phases and one or more of the extensions. |
 
 ------------------------------------------------------------------
 
@@ -33,7 +28,6 @@
 |Proficient         | Crafts lean, efficient markup that is easy to read and follow across naming conventions, structure, and solid formatting that follows industry best practices. |
 |Exceptional        | Crafts lean, efficient markup and can speak directly to choices made to improve performance, including but not limited to, page load times, css/js optimizations, image optimizations. |
 
-
 ------------------------------------------------------------------
 
 ## CSS
@@ -52,7 +46,6 @@
 |Proficient         | Develops layouts that work cross-browser, are responsive, and can logically defend the choices made in implementation approach for layout. |
 |Exceptional        | Can articulate rationale for all parts of the CSS implementation (each line of code/CSS rule) specifically in regards to the balance of: structure of code, design integrity, performance.|
 
-
 ------------------------------------------------------------------
 
 ## JAVASCRIPT
@@ -68,7 +61,7 @@
 
 |Novice             | Can understand when an expression evaluates to true or false.|
 |Advanced Beginner  | Uses if/else statements, but there are multiple levels of nesting, which makes the paths through the code difficult to follow. Understands what is "truthy" and "falsey" in JavaScript.|
-|Proficient         | Can use an if/else statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.|
+|Proficient         | Can use an if/esle statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.|
 |Exceptional        | Can write conditional logic that is succinct and easy to read. Logic can handle all situations where user gives incorrect/unexpected input.|
 
 #### Functions & Scope
@@ -106,7 +99,6 @@
 |Proficient         | Code is logically organized, such that reader can easily follow the progression of the app because variable and function names are descriptive and follow a single responsibility approach. There are no major bugs and minimal duplication.|
 |Exceptional        | Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring. Application has exceptionally well-factored code with little or no duplication. |
 
-
 ------------------------------------------------------------------
 
 ## GIT & GITHUB
@@ -125,18 +117,16 @@
 |Proficient         | Is comfortable with resolving merge conflicts. Asks for review/merge of their pull requests from teammates. Is comfortable editing code based on review feedback from a pull request and resubmitting the branch code.|
 |Exceptional        | Uses issues as resource for project management. There are comments on specific lines of pull requests with discussion about the implementation.|
 
-
 ------------------------------------------------------------------
 
 ## DESIGN
 
-#### Comp Recreation
+#### Design Concepts
 
-|Novice             | Can establish a complementary color palette, integrate font(s), and execute a handful of the large comp details. |
-|Advanced Beginner  | Can accomplish about 50-75% of the large and small design details and can logically rework them on at least 1 breakpoint. |
-|Proficient         | Developer captures the spirit and design intent of the comp. Some small details need polish to achieve a pixel-perfect match to the comp, but developer is clearly mindful of details and has made a conscious and careful effort to match the comp. Any design decisions left open to interpretation are handled thoughtfully and are well executed, but are more noticeable and/or unintuitive than they would be if the designer had provided the solution, or may not be totally seamless during screen-size transitions.|
-|Exceptional        | Developer skillfully captures the spirit and design intent of all comp details. Execution is pixel-perfect and any design decisions left open to interpretation are solved intentionally, are as seamless as if the designer had provided the solution, are handled gracefully, and enhance the overall design.|
-
+|Novice             | Can integrate typography, color choices, and layout in ways that do not detract from legibility.  |
+|Advanced Beginner  | Can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of responsiveness, layout, "noise". |
+|Proficient         | Can apply fundamental design concepts in a comp that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.  |
+|Exceptional        | Typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.|
 
 ------------------------------------------------------------------
 
