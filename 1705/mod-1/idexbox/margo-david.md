@@ -1,6 +1,9 @@
-## Evaluator:
+## Evaluator: Louisa
 ## Optional Notes:
 
+Good work! Very tidy code, execution of comp was nicely done, really great work as a team. Wins for Most Enthusiastic Pair!
+
+JS is in a great place for refactoring! Some pretty long functions that are in a good place to refactor and make more concise. Both partners totally understand all the code, great example of shared ownership of the project.
 
 ------------------------------------------------------------------
 

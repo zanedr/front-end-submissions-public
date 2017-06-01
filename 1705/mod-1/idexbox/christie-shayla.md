@@ -1,5 +1,14 @@
-## Evaluator:
+## Evaluator: Louisa
 ## Optional Notes:
+
+Worked separately, so will break out scores
+
+Christie:
+
+Great job! Intentionally wrote things in a more verbose way so she could understand everything really clearly. She's got a refactor plan all figured out
+
+Shayla:
+
 
 
 ------------------------------------------------------------------

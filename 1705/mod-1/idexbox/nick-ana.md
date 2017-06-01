@@ -1,5 +1,11 @@
-## Evaluator:
+## Evaluator: Louisa
 ## Optional Notes:
+
+Worked well together, paired most of the project
+
+nicely done HTML and CSS, solid implementation
+
+ideaBuilder, the Mega Function! Have some functions that are pretty long, could use a refactor pass to make things a bit more concise. In a great place to dig in and refactor.
 
 
 ------------------------------------------------------------------
@@ -8,10 +14,7 @@
 
 ### Functional Expectations
 
-|Novice             | Application meets all of the basic functional expectations of create, edit, delete, persist in local storage. |
-|Advanced Beginner  | Application allows for upvote/downvote and enables searching/filtering as defined in the spec. |
 |Proficient         | The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. |
-|Exceptional        | The application meets all of the requirements listed above and implements one or more of the extensions. |
 
 
 ------------------------------------------------------------------
