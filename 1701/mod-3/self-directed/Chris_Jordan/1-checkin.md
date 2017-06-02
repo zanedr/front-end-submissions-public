@@ -76,3 +76,8 @@ Check In 3, Tuesday:
 Check In 4, Thursday: 
  get favorites to be saved onto the database by user and render that in a seperate component
  get most of the components tested
+ 
+ Check In 5, Monday: 
+ Testing, UI/UX
+ Email for signup uses only emails.
+ 
