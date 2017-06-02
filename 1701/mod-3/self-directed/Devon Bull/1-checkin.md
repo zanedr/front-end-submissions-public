@@ -104,3 +104,6 @@ Check In 4, Thursday
 * TESTS
 * Implement redux
 
+Check In 5, Monday
+Testing, UI, Refactoring
+
