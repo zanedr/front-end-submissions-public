@@ -112,5 +112,7 @@ Check In 4, Thursday:
    UI/UX 
   ]
 BY MONDAY, PICK OUT 2 FOR THURSDAY
-  
+
+Monday:
+polish UI/UX a little more, testing, refactor
 
