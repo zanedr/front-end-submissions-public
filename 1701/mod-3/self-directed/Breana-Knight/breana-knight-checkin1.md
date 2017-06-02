@@ -78,7 +78,11 @@ Link to your waffle.io account with at least 10 cards indicating baby steps to h
   Details about what this does.
   Draw more relavent things. :D
 
- 
+ Check In 5, Monday:
+    - UI
+    - Further Drawing Elaboration
+    - Testing
+    - extension: further drawing off p5 sound based on         frequency from live input
  
  
  
