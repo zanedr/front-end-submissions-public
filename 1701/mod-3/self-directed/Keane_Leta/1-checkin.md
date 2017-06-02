@@ -70,3 +70,9 @@ Get environment variables working to store key
 Show learn component
 
 roadblock: need help setting up environmental variables for Node
+
+Last Check In for Monday:
+ - Testing
+ - Fixing little bugs, like if all emotions come back undefined
+ - The Instruction component
+ - Execute the last bullet point above
