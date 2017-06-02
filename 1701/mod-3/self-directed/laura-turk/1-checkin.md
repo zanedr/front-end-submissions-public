@@ -76,5 +76,8 @@ split image words into clickable buttons
 only show definition button if spanish is selected
 modify css of uploaded image, max-width, max-height (media-query - responsive second)
 
-
+For Monday:
+Improve UI/UX
+Testing
+Refactoring
 
