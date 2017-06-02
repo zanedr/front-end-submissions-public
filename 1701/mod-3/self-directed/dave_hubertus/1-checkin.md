@@ -86,4 +86,9 @@ Check In 4, Thursday:
   Testing figured, close to full coverage.
   Add favorites and get more info about specific day.
 
-
+Check In 5, Monday:
+TESTINIG
+User should get visual indicator they favorited a sighting
+User should be able to remove a sighting from favorites
+UI hover states
+Refactor
