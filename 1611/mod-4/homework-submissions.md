@@ -81,6 +81,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Elevator](https://github.com/becs919/elevator)
 * [Node Tutorial](https://github.com/becs919/prework)
 * [JWT Tutorial](https://github.com/becs919/jwt-tutorial)
+* [Pattrn Party](https://becs919.github.io/pattrnparty/)
 
 
 ### Tim
