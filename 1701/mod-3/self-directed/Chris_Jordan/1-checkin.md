@@ -72,3 +72,12 @@ Check In 3, Tuesday:
   Full incrementing between news sources.
   Tests for all reducers and actions.
   Users?
+  
+Check In 4, Thursday: 
+ get favorites to be saved onto the database by user and render that in a seperate component
+ get most of the components tested
+ 
+ Check In 5, Monday: 
+ Testing, UI/UX
+ Email for signup uses only emails.
+ 

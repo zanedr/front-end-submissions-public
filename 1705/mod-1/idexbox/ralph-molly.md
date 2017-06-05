@@ -1,6 +1,8 @@
-## Evaluator:
+## Evaluator: Brenna
 ## Optional Notes:
 
+  - Significant refactoring
+  - Great first iterations
 
 ------------------------------------------------------------------
 
@@ -8,10 +10,9 @@
 
 ### Functional Expectations
 
-|Novice             | Application meets all of the basic functional expectations of create, edit, delete, persist in local storage. |
+- Search works once you refresh
+
 |Advanced Beginner  | Application allows for upvote/downvote and enables searching/filtering as defined in the spec. |
-|Proficient         | The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals. |
-|Exceptional        | The application meets all of the requirements listed above and implements one or more of the extensions. |
 
 
 ------------------------------------------------------------------
@@ -22,7 +23,7 @@
 
 |Novice             | Knows what a semantic tag is and leverages the HTML5 structural tags to organize the content of their markup. |
 |Advanced Beginner  | Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags. |
-|Proficient         | Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns. |
+|Proficient         | Employs detxailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns. |
 |Exceptional        | Can run markup through a variety of online accessibility tools and score well for content, color, screen readers, etc. |
 
 #### Style

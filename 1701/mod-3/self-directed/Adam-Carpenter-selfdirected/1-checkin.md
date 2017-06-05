@@ -58,3 +58,11 @@ Check In 2, Thursday 5/25:
 Check In 3, Tuesday:
 Maps to link up with that state, count, and clean up the UX/UI
 5 tests total
+
+Check In 4, Thursday:
+Cleaning up UI
+TESTS!!!!!
+Find some fun feature to implement.
+
+Check In 5, Monday:
+Testing map and venueGrid as well as containers and improved ux, map clustering or adding a button to only display cities with more then 5-10 venues. No auto complete. For testing make sure to just test the components. I’m not to concerned about containers just basic stuff that the props are being passed
