@@ -28,8 +28,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Franklin
 
+* [Express Tutorial](https://github.com/Obleo33/express-tutorial.git)
 * [Wednesday Student Spike](https://github.com/Obleo33/jwt-tutorial)
 * [Elevator Challenge](https://github.com/Obleo33/elevator)
+* [Pattrn Party](https://github.com/Obleo33/pattrn-party.git)
 
 ### Staci
 
