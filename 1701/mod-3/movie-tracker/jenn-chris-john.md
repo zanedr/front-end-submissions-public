@@ -21,6 +21,16 @@
 
 ### JavaScript Style
 
+[This doesn't actually reassign in the way that you expect](https://github.com/jennPeavler/movieTracker/blob/master/app/reducers/favorites-reducer.js#L7) - This is actually mutating state
+
+[May need to be removed](https://github.com/jennPeavler/movieTracker/blob/master/app/actions/index.js#L1)
+
+[Key of name](https://github.com/jennPeavler/movieTracker/blob/master/app/components/NavBar/NavBarContainer.js#L6)  - could be changed to user to avoid 'name.name'
+
+Remember that 'return' will break you out of things - so you can avoid long 'if else' statements by just returning on the first if - [like this one](https://github.com/jennPeavler/movieTracker/blob/master/app/components/MovieCard/MovieCard.js#L7)
+
+This should probably be [3 different functions at minimum](https://github.com/jennPeavler/movieTracker/blob/master/app/components/MovieCard/MovieCard.js#L5-L50)
+
 * 4: Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach.
 * 3: Application is thoughtfully put together with some duplication and no major bugs. Group can speak to choices made in the code and knows what every line of code is doing.
 * 2: Application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
@@ -29,12 +39,16 @@
 
 ### Testing
 
+Be careful with what you put in the scope of a test - for example - [these variables](https://github.com/jennPeavler/movieTracker/blob/master/app/components/MovieCard/MovieCard.test.js#L29-L35) for a mock function and wrapper are declared in the top describe block - you would want these to always be in a before block because of collision. The mock function will track calls across all of your tests - so if you add more than one test with a mock, your tests will start to break randomly.
+
 * 4: Project has a running test suite that exercises the application using Enzyme. The test suite covers almost all aspects of the application including the Redux actions and reducers.
 * 3: Project has a running test suite that tests multiple levels but fails to cover some features.
 * 2: Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 * 1: There is little or no evidence of testing in this application.
 
 ### Workflow
+
+Good start on refactoring - but keep cleaning up things like [comments here](https://github.com/jennPeavler/movieTracker/blob/master/app/components/apiCalls.js#L11) - Also, this code probaby isn't being used since it isn't exported so you would need to remove this file
 
 * 4: The group effectively uses different Git branches, submits pull requests and reviews each other’s code. The evolution of the application and who was responsible for what features is clearly documented through github.
 * 3: The group makes a series of small, atomic commits that document the evolution of their application and it is clear who was responsible for what features.
