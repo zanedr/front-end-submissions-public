@@ -59,7 +59,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [elevator](https://github.com/hmorri32/elevator-algorithm)
 * [jason's web tokens](https://github.com/hmorri32/jwt-trains)
-* [express tutoiral](https://github.com/hmorri32/m4-pw-express)
+* [express tutorial](https://github.com/hmorri32/m4-pw-express)
+* [ptrnPrty](https://github.com/hmorri32/patTRNT-party)
 
 ### Pam
 
