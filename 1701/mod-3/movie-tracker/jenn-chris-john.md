@@ -1,6 +1,6 @@
 ## EVAL REDO:
 
-The Style on the site looks _excellent_ - good attention to responsive design. Really like what you did with the favoriting - the fade in and out is a nice touch which makes the app much friendlier.
+The styling on the site looks _excellent_ - good attention to responsive design. Really like what you did with the favoriting - the fade in and out is a nice touch which makes the app much friendlier. The view per movie is also pleasing - the data coming back from the api is displayed with care which makes the app feel more valuable to the user.
 
 Appologies for missing the extensions that were completed day of eval!
 
