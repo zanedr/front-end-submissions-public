@@ -1,25 +1,28 @@
 ## EVAL REDO:
 
+The Style on the site looks _excellent_ - good attention to responsive design. Really like what you did with the favoriting - the fade in and out is a nice touch which makes the app much friendlier.
+
+Appologies for missing the extensions that were completed day of eval!
+
 ### Specification Adherence  
 
 * 4: The application meets all of the requirements listed above and implements one or more of the extensions.
 
 ### Redux Architecture
 
+The app redux structure is very clean and definitely matches the letter of this rubric to be a 4
+
 * 4: Appropriate components are wrapped in connected Redux container components. The Redux store contains all necessary application data and nothing more. All state changes are handled through Redux actions and reducers.
-* 3: At least one component is not connected with Redux appropriately. Application state is mutated by more than just Redux. The Redux store is missing application data that it should be handling.
-* 2: Application state is mostly outside the control of Redux. Application did not make use of Redux actions and reducers to mutate state. Components do not demonstrate a clear understanding of stateful vs. statelessness.
-* 1: Application does not make use of Redux to manage state. There are little or no connected components.
 
 ### Routing
 
-* 4: Application is a single page and uses the React Router to display appropriate components based on URL.
-* 3: Application is a single page and uses the React Router but does not display the appropriate components upon navigating.
-* 2: Application does not render/cannot find additional routes.
-* 1: Application did not use a Router
+Route to the actual movie should probably be namespaced - so `http://localhost:5000/297762` should probably actually be `http://localhost:5000/movies/297762`
 
+* 4: Application is a single page and uses the React Router to display appropriate components based on URL.
 
 ### JavaScript Style
+
+Biggest thing is that all API calls should live outside of the component. At minimum they should be in a seperate file that is pulled into the component. Jhun recommends this [blog post](https://medium.com/@learnreact/container-components-c0e67432e005)
 
 [This doesn't actually reassign in the way that you expect](https://github.com/jennPeavler/movieTracker/blob/master/app/reducers/favorites-reducer.js#L7) - This is actually mutating state
 
@@ -31,31 +34,19 @@ Remember that 'return' will break you out of things - so you can avoid long 'if 
 
 This should probably be [3 different functions at minimum](https://github.com/jennPeavler/movieTracker/blob/master/app/components/MovieCard/MovieCard.js#L5-L50)
 
-* 4: Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach.
-* 3: Application is thoughtfully put together with some duplication and no major bugs. Group can speak to choices made in the code and knows what every line of code is doing.
-* 2: Application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
-* 1: Application has a significant amount of duplication and one or more major bugs. Group cannot speak to most choices and does not know what every line of code is doing.
-
+* 3 (soft): Application is thoughtfully put together with some duplication and no major bugs. Group can speak to choices made in the code and knows what every line of code is doing.
 
 ### Testing
 
 Be careful with what you put in the scope of a test - for example - [these variables](https://github.com/jennPeavler/movieTracker/blob/master/app/components/MovieCard/MovieCard.test.js#L29-L35) for a mock function and wrapper are declared in the top describe block - you would want these to always be in a before block because of collision. The mock function will track calls across all of your tests - so if you add more than one test with a mock, your tests will start to break randomly.
 
-* 4: Project has a running test suite that exercises the application using Enzyme. The test suite covers almost all aspects of the application including the Redux actions and reducers.
 * 3: Project has a running test suite that tests multiple levels but fails to cover some features.
-* 2: Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
-* 1: There is little or no evidence of testing in this application.
 
 ### Workflow
 
 Good start on refactoring - but keep cleaning up things like [comments here](https://github.com/jennPeavler/movieTracker/blob/master/app/components/apiCalls.js#L11) - Also, this code probaby isn't being used since it isn't exported so you would need to remove this file
 
-* 4: The group effectively uses different Git branches, submits pull requests and reviews each other’s code. The evolution of the application and who was responsible for what features is clearly documented through github.
 * 3: The group makes a series of small, atomic commits that document the evolution of their application and it is clear who was responsible for what features.
-* 2: The group makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application and who worked on what features.
-* 1: The group committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-* 0: The application was not checked into version control.
-
 
 
 ## PREVIOUS EVAL: MOVIE SPEC:
