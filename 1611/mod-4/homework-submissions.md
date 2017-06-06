@@ -46,6 +46,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Elevator Challenge](https://github.com/Mickyfen17/elevator-challenge)
 * [JWT Workshop](https://github.com/Mickyfen17/JWT-workshop)
+##### Pattern Parties....
+* [Accordion Tabs](https://github.com/Mickyfen17/accordion-tabs)
+* [Flexible Cards](https://github.com/Mickyfen17/flexible-cards)
+* [Header Bar](https://github.com/Mickyfen17/header-bar)
+
+
 
 ### Hugh
 
