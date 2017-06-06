@@ -81,6 +81,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Elevator](https://github.com/zkc/elevator-challange)
 * [JWT Trains](https://github.com/zkc/jwt-trains)
+* [Express Tutorial](https://github.com/zkc/expressTut)
+* [CSS comps](https://github.com/zkc/design-comps)
+
 
 ### Marissa
 
