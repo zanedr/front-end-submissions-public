@@ -117,6 +117,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [JWT Tutorial](https://github.com/ActionJonny/jwt-tutorial)
 * [Express](https://github.com/ActionJonny/express-workshop)
 
+Pattrn Party:
+* [Accordion Tabs](https://github.com/ActionJonny/ACCORDION-TABS)
+* [Flex Cards](https://github.com/ActionJonny/Flex-Cards)
+* [Header Bar](https://github.com/ActionJonny/Header-Bar)
+
 ### Sam
 
 * [Elevator Challenge](https://github.com/sljohnson32/elevator-challenge)
