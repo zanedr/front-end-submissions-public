@@ -107,6 +107,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Elevator](https://github.com/tbrandle/Elevator)
 * [JWT Tutorial](https://github.com/tbrandle/Train)
+* [Pattrn Party](https://tbrandle.github.io/PattrnParty/)
 
 ### Jon
 
