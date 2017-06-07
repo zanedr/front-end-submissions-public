@@ -1,9 +1,8 @@
 ## Evaluator: Louisa
 ## Optional Notes:
 
-Good work! Very tidy code, execution of comp was nicely done, really great work as a team. Wins for Most Enthusiastic Pair!
+Great job! Intentionally wrote things in a more verbose way so she could understand everything really clearly. She's got a refactor plan all figured out
 
-JS is in a great place for refactoring! Some pretty long functions that are in a good place to refactor and make more concise. Both partners totally understand all the code, great example of shared ownership of the project.
 
 ------------------------------------------------------------------
 
@@ -20,11 +19,11 @@ JS is in a great place for refactoring! Some pretty long functions that are in a
 
 #### Accessibility
 
-|Proficient         | Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns. |
+|Exceptional        | Can run markup through a variety of online accessibility tools and score well for content, color, screen readers, etc. |
 
 #### Style
 
-|Proficient         | Crafts lean, efficient markup that is easy to read and follow across naming conventions, structure, and solid formatting that follows industry best practices. |
+|Exceptional        | Crafts lean, efficient markup and can speak directly to choices made to improve performance, including but not limited to, page load times, css/js optimizations, image optimizations. |
 
 
 ------------------------------------------------------------------
@@ -33,11 +32,11 @@ JS is in a great place for refactoring! Some pretty long functions that are in a
 
 #### Structure of Code
 
-|Proficient         | Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS. |
+|Exceptional        | Understands the performance implications surrounding cascading/specificity and crafts CSS that is mindful of reducing complexity and increasing performance.|
 
 #### Implementation
 
-|Proficient         | Develops layouts that work cross-browser, are responsive, and can logically defend the choices made in implementation approach for layout. |
+|Exceptional        | Can articulate rationale for all parts of the CSS implementation (each line of code/CSS rule) specifically in regards to the balance of: structure of code, design integrity, performance.|
 
 
 ------------------------------------------------------------------
@@ -92,7 +91,7 @@ JS is in a great place for refactoring! Some pretty long functions that are in a
 
 #### Comp Recreation
 
-|Proficient         | Developer captures the spirit and design intent of the comp. Some small details need polish to achieve a pixel-perfect match to the comp, but developer is clearly mindful of details and has made a conscious and careful effort to match the comp. Any design decisions left open to interpretation are handled thoughtfully and are well executed, but are more noticeable and/or unintuitive than they would be if the designer had provided the solution, or may not be totally seamless during screen-size transitions.|
+|Exceptional        | Developer skillfully captures the spirit and design intent of all comp details. Execution is pixel-perfect and any design decisions left open to interpretation are solved intentionally, are as seamless as if the designer had provided the solution, are handled gracefully, and enhance the overall design.|
 
 
 ------------------------------------------------------------------
@@ -101,4 +100,4 @@ JS is in a great place for refactoring! Some pretty long functions that are in a
 
 #### Collaboration
 
-|Proficient         | Can diplomatically handle issues that arise between the pair through respectful, focused, targeted feedback and implement changes to positively adapt the working relationship and keep the project on track. Can effectively implement tactics to support their partner's learning and project goals, while also honoring their own personal learning and project goals, should the two be different or at different levels due to skill delta. |
+N/A worked solo
