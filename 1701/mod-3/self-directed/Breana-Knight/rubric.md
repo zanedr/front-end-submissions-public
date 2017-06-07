@@ -14,23 +14,23 @@ A good project idea should:
 
 **2. Organization**
 
-* 3.5: Developer used a project management tool to keep their project organized.
+* 3: Developer used a project management tool to keep their project organized.
 
 ### Technical Quality
 
 **1. Test-Driven Development**
 
-* 4: Project shows exceptional use of testing at different layers (above 95% coverage).
+* 2: Project shows gaps in test usage/coverage/design (85 - 90% coverage).
 
 **2. Code Quality**
 
-* 3: Project demonstrates solid code quality, proper abstractions, and reduced duplication.
+* 2: Project demonstrates some gaps in code quality..
 
 ### Product Experience
 
 **1. User Experience**
 
-* 3: Project exhibits a production-ready user experience.
+* 2: Project exhibits some gaps in the UX.
 
 **2. Performance**
 

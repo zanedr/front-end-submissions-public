@@ -48,11 +48,11 @@ Favorites / Played At.
 Testing
 UX/UI
 
-Extensions: 
-  Adding google maps API, add tags based on city. 
+Extensions:
+  Adding google maps API, add tags based on city.
 
 Check In 2, Thursday 5/25:
-* Dive in quick to Google. 
+* Dive in quick to Google.
 * Be able to search by city or state.
 
 Check In 3, Tuesday:
@@ -66,3 +66,9 @@ Find some fun feature to implement.
 
 Check In 5, Monday:
 Testing map and venueGrid as well as containers and improved ux, map clustering or adding a button to only display cities with more then 5-10 venues. No auto complete. For testing make sure to just test the components. I’m not to concerned about containers just basic stuff that the props are being passed
+
+Extra Issues:
+* Cluster on the map
+* Refactoring App
+* Clean up tests
+* Redux

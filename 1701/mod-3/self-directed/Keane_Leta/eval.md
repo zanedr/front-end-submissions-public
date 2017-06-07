@@ -1,3 +1,8 @@
+## Info
+
+Student: Leta
+Instructor: Meeka
+
 ### Project Scope
 
 A good project idea should:
@@ -10,17 +15,17 @@ A good project idea should:
 
 **1. Completion**
 
-* 3: Developer completed all the user stories and requirements set during check-ins.
+* 4: Developer completed all the user stories and requirements set in check-ins in timely manner.
 
 **2. Organization**
 
-* 3.5: Developer used a project management tool to keep their project organized.
+* 4: Developer used a project management tool and updated their progress in real-time.
 
 ### Technical Quality
 
 **1. Test-Driven Development**
 
-* 4: Project shows exceptional use of testing at different layers (above 95% coverage).
+* 3: Project shows adequate testing (90% - 95% coverage).
 
 **2. Code Quality**
 
@@ -30,8 +35,8 @@ A good project idea should:
 
 **1. User Experience**
 
-* 3: Project exhibits a production-ready user experience.
+* 4: Project exhibits a production-ready and polished UX.
 
 **2. Performance**
 
-* 3: Project pages load on average under 400 milliseconds.
+* 4: Project pages load on average under 300 milliseconds.

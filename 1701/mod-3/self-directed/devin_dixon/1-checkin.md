@@ -54,25 +54,32 @@ At the very least, the app should allow users to see the events in their area an
 
 Taylor:
 
-MVP: 
+MVP:
 React, React-Router, Redux, Jest, Enzyme, Express, Node, KNEX(PSQL)
 Testing, UX/UI
 
 Check In 2, Thursday 5/25:
 KNEX?
 Else {
-  Search functionality. 
+  Search functionality.
 }
 
-Check In 3, Tuesday: 
+Check In 3, Tuesday:
 - User tables
 - User able to sign in and out
 - Search functionality
 - Tests on actions, reducers, component(maybe just one) —> don’t expect components to be done
 
-Check In 4, Thursday: 
+Check In 4, Thursday:
 - User tables
 - User able to sign in and out
 - Search functionality
 - Tests on actions, reducers, component(maybe just one) —> don’t expect components to be done
 
+Extra Issues:
+* Redirect after saving
+* Change text if I'm saved
+* Testing be fixed
+* README
+* Refactoring slightly
+* Show users going to similar Events

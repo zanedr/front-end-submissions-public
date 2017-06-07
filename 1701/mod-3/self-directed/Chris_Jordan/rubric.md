@@ -14,7 +14,7 @@ A good project idea should:
 
 **2. Organization**
 
-* 3.5: Developer used a project management tool to keep their project organized.
+* 3: Developer used a project management tool to keep their project organized.
 
 ### Technical Quality
 
