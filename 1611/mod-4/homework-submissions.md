@@ -50,6 +50,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Elevator Challenge](https://github.com/Mickyfen17/elevator-challenge)
 * [JWT Workshop](https://github.com/Mickyfen17/JWT-workshop)
+* [Express Tutorial](https://github.com/Mickyfen17/express-tutorial)
 ##### Pattern Parties....
 * [Accordion Tabs](https://github.com/Mickyfen17/accordion-tabs)
 * [Flexible Cards](https://github.com/Mickyfen17/flexible-cards)
@@ -108,6 +109,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Elevator](https://github.com/tbrandle/Elevator)
 * [JWT Tutorial](https://github.com/tbrandle/Train)
 * [Express](https://github.com/tbrandle/Express-tutorial)
+* [Pattrn Party](https://tbrandle.github.io/PattrnParty/)
 
 ### Jon
 
