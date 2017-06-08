@@ -44,7 +44,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Eric
 
+* [Express Tutorial](https://github.com/esayler/node-express-tutorial)
 * [Elevator Challenge](https://github.com/esayler/elevator)
+* [JWT Tutorial](https://github.com/esayler/jwt-tutorial)
+* [Pattrn Party](https://github.com/esayler/pattrn-party)
 
 ### Michael
 
