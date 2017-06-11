@@ -6,7 +6,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 1**
 
-* Intermission Homework - [Express Tutorial](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm)
+* [Express Tutorial](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm) - Link to completed intermission express tutorial
 
 **Week 2**
 
