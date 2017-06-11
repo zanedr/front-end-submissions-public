@@ -47,17 +47,17 @@
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-## Testing
+## Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-![]()
+[test suite]()
 
-## Linting
+## Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-![]()
+[linter output]()
 
-## CircleCI Build
+## Attach a screenshot of your CircleCI build passing
 
-![]()
+[circleCI build]()
 
 -----
 
