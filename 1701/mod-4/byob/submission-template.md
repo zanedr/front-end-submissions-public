@@ -47,15 +47,15 @@
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-## Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
+#### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
 [test suite]()
 
-## Attach a screenshot or paste the output from your terminal of the result of your linter running.
+#### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
 [linter output]()
 
-## Attach a screenshot of your CircleCI build passing
+#### Attach a screenshot of your CircleCI build passing
 
 [circleCI build]()
 
