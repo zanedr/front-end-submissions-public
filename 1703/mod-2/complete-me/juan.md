@@ -1,5 +1,5 @@
 # Instructor Evaluation Points: Complete-me
-# Instructor:
+# Instructor: Limbo
 # Comments:
 * Testing had some confusing logic set to variables, strive towards making tests extremely readable and straightforward
 * That said, the logic I saw in your tests showed a great understanding of the array prototypes and es6

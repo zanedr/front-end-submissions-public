@@ -1,5 +1,5 @@
 # Instructor Evaluation Points: Complete-me
-# Instructor:
+# Instructor: Limbo
 # Comments:
 * Awesome job creating a simple UI with your published node module!
 * Testing suite is robust, good work breaking it out
