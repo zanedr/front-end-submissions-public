@@ -7,6 +7,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 **Week 1**
 
 * [Express Tutorial](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm) - Link to completed intermission express tutorial
+* [Promise Practice Exercises](https://gist.github.com/robbiejaeger/dc8f55c1f9462741090862f736b82cab) - Link to completed intermission exercises
 
 **Week 2**
 
@@ -21,6 +22,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Anders Wood
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -28,6 +30,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Jenn Peavler
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -35,6 +38,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### John Binning
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -42,6 +46,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Leta Keane
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -49,6 +54,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Devin Dixon
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -56,6 +62,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Laura Turk
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -63,6 +70,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Chris Bandrowsky
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -70,6 +78,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Spencer Hilvitz
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -77,6 +86,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Kelly Miller
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -84,6 +94,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Keji Amos
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -91,6 +102,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Jack Bevis
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -98,6 +110,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Devon Bull
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -105,6 +118,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Christopher Jordan
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -112,6 +126,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Adam Carpenter
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -119,6 +134,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Zane Russell
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
@@ -126,6 +142,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Dave Hubertus
 
 * [Express Tutorial]()
+* [Promise Practice Exercises]()
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
