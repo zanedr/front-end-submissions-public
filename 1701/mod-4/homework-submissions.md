@@ -77,9 +77,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Spencer Hilvitz
 
-* [Express Tutorial]()
+* [Express Tutorial](https://github.com/hilvitzs/express-tutorial)
 * [Promise Practice Exercises](https://github.com/hilvitzs/promises)
-* [Elevator Challenge](https://github.com/hilvitzs/express-tutorial)
+* [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
