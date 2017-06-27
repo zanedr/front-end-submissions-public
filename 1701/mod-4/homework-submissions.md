@@ -38,7 +38,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### John Binning
 
 * [Express Tutorial](https://gist.github.com/JohnBinning/d661be74fcbc63f777f669b56f1ab4ba)
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises1](https://repl.it/JDEP/0)
+* [Promise Practice Exercises2](https://repl.it/JDGv/1)
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
