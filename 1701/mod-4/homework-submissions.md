@@ -86,8 +86,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Kelly Miller
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](http://imgur.com/Xen1NJA)
+* [Promise Practice Exercises](https://repl.it/JCu7/2)
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
