@@ -94,8 +94,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Keji Amos
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/kamos1/express-tut)
+* [Promise Practice Exercises](https://repl.it/JB4q/4)
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
