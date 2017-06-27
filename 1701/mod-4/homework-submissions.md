@@ -53,8 +53,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Devin Dixon
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://gist.github.com/devthehuman/89b8ca98980ccf73a8a0653422ea354e)
+* [Promise Practice Exercises](https://gist.github.com/devthehuman/53859cabf66b88d23b283b361327f9f3)
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
