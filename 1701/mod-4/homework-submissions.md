@@ -46,8 +46,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Leta Keane
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://gist.github.com/letakeane/bfc765bd97da8d27ac95f59ff3c78a68)
+* [Promise Practice Exercises](https://repl.it/JCv4/9)
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
