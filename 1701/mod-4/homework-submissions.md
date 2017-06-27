@@ -101,8 +101,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jack Bevis
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/jbevis/express-tutorial)
+* [Express Screen Shots](http://imgur.com/a/CS3LN)
+* [Promise Practice Exercises](https://gist.github.com/jbevis/1a1ab8304b70d474f5924fa6cdf41f7a)
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
