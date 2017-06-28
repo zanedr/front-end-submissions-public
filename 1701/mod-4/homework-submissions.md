@@ -70,8 +70,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Chris Bandrowsky
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://gist.github.com/cbandrow/81b0a262c43d76fdddf14c63d60bfcf3)
+* [Promise Practice Exercises](https://repl.it/JAaF/2)
 * [Elevator Challenge]()
 * [JWT Tutorial]()
 * [Pattern Party]()
