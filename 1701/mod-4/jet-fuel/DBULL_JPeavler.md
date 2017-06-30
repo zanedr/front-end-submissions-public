@@ -60,7 +60,9 @@ Comment from Devon Bull:  Wanted to have a more complete lesson on how to set up
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
+
+NEEDS TO BE FIXED BEFORE EVAL
 
 ## Specification Adherence
 
