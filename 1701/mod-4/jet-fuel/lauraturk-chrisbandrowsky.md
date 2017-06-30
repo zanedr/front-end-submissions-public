@@ -54,7 +54,7 @@ Chris did a great job doing a lot of last minute heavy lifting as I was busy/pre
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
