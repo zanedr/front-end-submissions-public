@@ -20,8 +20,7 @@
 At the current state, base functionality is complete. A user can log on to the website, create a folder, take a url, and shorten it. 
 Urls redirect to their original website. They are displayed on the DOM and can be copied and for redirecting shortened URLs. 
 Multiple urls can be added to created folders.
-Folders are default sorted by created date and popularity. 
-Missing Functionality includes sorting by Popularity, number of times the link has been clicked. 
+Folders are default sorted by created date. The can be sorted by created date and popularity. 
 
 #### Which extensions, if any, did you complete?
 All of them?
@@ -43,7 +42,6 @@ We found that making migrations and adding data to a database was a lot of fun. 
 In the last few minutes, as we pushed to production, we ran into a serious bug trying to implement a suggestion from Brittany that disabled us from redirecting our links. It worked. And then it didn't. After struggling with it for a good while, we've fixed the bug, but lost valuable time on doing additional tests to our suite. 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](http://i.imgur.com/p4Xyz4x.png)
 ![test suite](http://i.imgur.com/p4Xyz4x.png)
 
 #### Please feel free to ask any other questions or make any other statements below!
