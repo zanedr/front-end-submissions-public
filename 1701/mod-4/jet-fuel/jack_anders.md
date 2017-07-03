@@ -16,21 +16,19 @@
 ## Completion
 
 #### Were you able to complete the base functionality?
-
 Yes.
 
 #### Which extensions, if any, did you complete?
-
 None... it looks nice?
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[happy code](https://github.com/anderswood/jetfuel/blob/master/public/helper.js#L57-L63)
+[happy code](https://github.com/anderswood/jetfuel/blob/master/public/javascript.js#L87-L102)
 
 * Why were you proud of this piece of code?
 
-This sort function consolidates a lot of the radio button functionality into a few, slick lines.
+This sort function consolidates a lot of the sorting functionality into a few, slick lines.
 
 #### Link to a specific block of your code on Github that you feel not great about
 [sad code](https://github.com/anderswood/jetfuel/blob/master/public/helper.js#L1-L18)
@@ -47,10 +45,12 @@ The code is very coupled/nested and therefore hard to follow, debug and test. It
 
 Anything else you wanna say!
 
+Loved the emphasis on the UI
+
 -----
 
 
-# Instructor Feedback (Brittany)
+# Instructor Feedback (Instructor Name)
 
 ## Specification Adherence
 
