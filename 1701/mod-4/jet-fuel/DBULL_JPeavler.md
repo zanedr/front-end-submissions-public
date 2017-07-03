@@ -8,7 +8,7 @@
 [jetfuel](https://github.com/jennPeavler/jetFuel)
 
 #### Link to the Deployed Application
-[heroku](https://jet-fuel-turing.herokuapp.com/)
+[a.shrtee.co](http://a.shrtee.co/)
 
 #### Provide a Screenshot of your Application
 ![screenshot](https://drive.google.com/open?id=0B3ItQVupdvvgbHk1cWdYRXp4aHM)
