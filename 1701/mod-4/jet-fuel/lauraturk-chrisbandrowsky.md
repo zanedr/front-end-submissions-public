@@ -55,7 +55,7 @@ Laura killed it with the UI reformatting and refactoring the ridiculousness that
 -----
 
 
-# Instructor Feedback (Brittany)
+# Instructor Feedback (Instructor Name)
 
 ## Specification Adherence
 

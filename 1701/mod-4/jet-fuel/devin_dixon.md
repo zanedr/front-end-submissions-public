@@ -48,9 +48,7 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Brittany)
-
-NEEDS TO BE FIXED BEFORE EVAL
+# Instructor Feedback (Instructor Name)
 
 ## Specification Adherence
 
