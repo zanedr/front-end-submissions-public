@@ -23,7 +23,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/anderswood/mod-4-hw/blob/master/express-server.js)
 * [Promise Practice Exercises](https://github.com/anderswood/mod-4-hw/blob/master/promises.js)
-* [CircleCI & Git Hooks]()
+* [CircleCI & Git Hooks](https://gist.github.com/anderswood/43b05e613346722058858d7a65b2f3e6)
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -105,7 +105,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jbevis/express-tutorial)
 * [Express Screen Shots](http://imgur.com/a/CS3LN)
 * [Promise Practice Exercises](https://gist.github.com/jbevis/1a1ab8304b70d474f5924fa6cdf41f7a)
-* [CircleCI & Git Hooks]()
+* [CircleCI & Git Hooks](https://gist.github.com/anderswood/43b05e613346722058858d7a65b2f3e6)
 * [JWT Tutorial]()
 * [Pattern Party]()
 
