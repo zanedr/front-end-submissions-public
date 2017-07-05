@@ -78,7 +78,25 @@ Loved the emphasis on the UI
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
+
+* [Javascript.js](https://github.com/anderswood/jetfuel/blob/master/public/javascript.js) is a...not great name...for a javascript file.
+
+* What happens if you rename your `index.html` [file](https://github.com/anderswood/jetfuel/blob/master/server.js#L15-L17)? What kind of response would be given back here? Would be nice to put some error handling or a 404 in those cases.
+
+* We can't guarantee that the [error here](https://github.com/anderswood/jetfuel/blob/master/server.js#L80) is because the topic ID can't be found. What if the topic **was** found, but it just happened to not have any links associated with it yet? Quick fix is to make this error message a bit more vague, proper fix is to check for that topic ID first before going to fetch its links.
+
+* I would avoid putting [.](https://github.com/anderswood/jetfuel/blob/master/server.js#L89)'s in your endpoints. It doesn't technically break anything, but it's not common you'll see that and it's a bit disorienting. The . in URLs is usually used to denote a subdomain or some other heirarchical structure of your endpoints. It could also cause problems when parsing urls to access specific parts because a lot of times you'll split on that character.
+
+* When creating a new link, you know the [click count](https://github.com/anderswood/jetfuel/blob/master/server.js#L108) is going to start off at 0. This shouldn't be something you make the user pass in as part of the request. Set a variable on the server-side that says `let clickCount = 0;` and use that in your database insert rather than making a user pass in the count. 0 is falsey in JavaScript and it will always hit that error handler if you make the user pass it in.
+
+* You could also do a patch instead of a [put](https://github.com/anderswood/jetfuel/blob/master/server.js#L127) for a change like this. If you're not updating the entire record, don't force the user to send the entire record through in the request.
+
+* Why is your [moment.js](https://github.com/anderswood/jetfuel/blob/master/public/moment.js) file within your public directory and your [jquery file](https://github.com/anderswood/jetfuel/blob/master/jquery-3.1.1.min.js) at the root of your application? Directory structure is a bit off.
+
+* Every promise you use should have a [catch block](https://github.com/anderswood/jetfuel/blob/master/public/helper.js#L4).
+
+* You shouldn't need a [click handler](https://github.com/anderswood/jetfuel/blob/master/public/javascript.js#L57-L76) to handle the request for a short url. If you simply have a link tag with an href that goes to the short URL, the default behavior of clicking that link will be to do a GET request on that url. On the server-side, you could then do your redirect and update your visits counter.
 
 ## Workflow
 
@@ -92,4 +110,4 @@ Loved the emphasis on the UI
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+# Final Score: 121 / 150
