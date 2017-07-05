@@ -47,7 +47,7 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
