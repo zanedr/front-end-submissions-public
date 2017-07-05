@@ -54,15 +54,27 @@ Loved the emphasis on the UI
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**17 points**: The application is pleasant, logical, and easy to use. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
+
+* I can't really tell what's happening when I enter an invalid URL. Sometimes it looks like it works and goes through anyway, and then the link redirect is just broken, other times it looks like nothing happens but I also don't get any user feedback or error handling that tells me so.
+
+## Data Persistence with SQL Database
+
+**20 points**:  The application persists data in a SQL database with correct relationships between folders and URLs.
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**: Project has a running test suite that tests at multiple levels but fails to cover some features.
+
+* No client-side tests but good coverage of happy/sad paths on server-side routes.
+
+* You never want to [rollback](https://github.com/anderswood/jetfuel/blob/master/tests/routes.spec.js#L37) your database during tests. That would potentially put your schema in an out-of-date state and you'd be testing against the wrong data structure. You're essentially undo-ing the rollback right away by calling `migrate.latest` on line [39](https://github.com/anderswood/jetfuel/blob/master/tests/routes.spec.js#L39) so what good is this doing you anyway?
+
+* I'd pick a less confusing sad [endpoint](https://github.com/anderswood/jetfuel/blob/master/tests/routes.spec.js#L68) for this test. It sounds like it could be a legitimate endpoint.
 
 ## JavaScript Style
 
@@ -70,7 +82,11 @@ Loved the emphasis on the UI
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base and some commits are handling more than they should be.
+
+* There are a lot of [duplicate](https://github.com/anderswood/jetfuel/commit/1a5d4a048a7cd2ce879c4711c5d1c6865dfed191) [commit](https://github.com/anderswood/jetfuel/commit/c42cc34ff58d6626cf8e176bb178108250f582b6) messages in [your](https://github.com/anderswood/jetfuel/commit/52b9ba470092f6838e76fcf5c995ad5d052fd6b4) [history](https://github.com/anderswood/jetfuel/commit/da21a19ed59fd6ae0bd1f6489cb9ab11019ccea4) that make it hard to recognize what changes are being made where. Not all of the logic in each commit maps well to its message. There are irrelevant/unrelated changes.
+
+* Console.logs and commented out code have been committed to master and shouldn't be. Use `git stash` or `git add --patch` to avoid committing those to master.
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
