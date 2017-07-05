@@ -113,6 +113,7 @@ Comment from Devon Bull:  Wanted to have a more complete lesson on how to set up
 * Not totally sure what's going on [here](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L22-L26), given that there's a 'test' variable I'd imagine you're playing around a bit, but the big beneft of `async/await` is so that you can write asynchronous code synchronously. e.g. instead of calling `.then()` here you would write something like:
 
 ```js
+try {
   let response = await fetch(url);
   let data = await response.json();
   console.log(data);
