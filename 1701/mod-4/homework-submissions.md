@@ -11,8 +11,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 2**
 
+* [CircleCI & Git Hooks](https://gist.github.com/brittanystoroz/16b1a223d70dc6b73e8313cb7c9666c5) - Link to gist with all deliverables 
 * [JWTs Tutorial](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
-* [Elevator Challenge](https://github.com/turingschool-examples/elevator-challenge) - Link to your codebase of what you've completed
 
 **Week 5**
 
@@ -23,7 +23,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/anderswood/mod-4-hw/blob/master/express-server.js)
 * [Promise Practice Exercises](https://github.com/anderswood/mod-4-hw/blob/master/promises.js)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -31,7 +31,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -40,7 +40,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://gist.github.com/JohnBinning/d661be74fcbc63f777f669b56f1ab4ba)
 * [Promise Practice Exercises1](https://repl.it/JDEP/2)
 * [Promise Practice Exercises2](https://repl.it/JDGv/4)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -48,7 +48,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://gist.github.com/letakeane/bfc765bd97da8d27ac95f59ff3c78a68)
 * [Promise Practice Exercises](https://repl.it/JCv4/9)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -56,7 +56,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://gist.github.com/devthehuman/89b8ca98980ccf73a8a0653422ea354e)
 * [Promise Practice Exercises](https://gist.github.com/devthehuman/53859cabf66b88d23b283b361327f9f3)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -64,7 +64,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -72,7 +72,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://gist.github.com/cbandrow/81b0a262c43d76fdddf14c63d60bfcf3)
 * [Promise Practice Exercises](https://repl.it/JAaF/2)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -80,7 +80,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/hilvitzs/express-tutorial)
 * [Promise Practice Exercises](https://github.com/hilvitzs/promises)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -88,7 +88,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](http://imgur.com/Xen1NJA)
 * [Promise Practice Exercises](https://repl.it/JCu7/2)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -96,7 +96,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/kamos1/express-tut)
 * [Promise Practice Exercises](https://repl.it/JB4q/4)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -105,7 +105,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jbevis/express-tutorial)
 * [Express Screen Shots](http://imgur.com/a/CS3LN)
 * [Promise Practice Exercises](https://gist.github.com/jbevis/1a1ab8304b70d474f5924fa6cdf41f7a)
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -113,7 +113,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -121,7 +121,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -129,7 +129,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -137,7 +137,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -145,6 +145,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [Elevator Challenge]()
+* [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
