@@ -113,7 +113,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [CircleCI & Git Hooks]()
+* [CircleCI & Git Hooks](https://gist.github.com/DBULL7/5d344f5432a8703902f217deba13772d)
 * [JWT Tutorial]()
 * [Pattern Party]()
 
