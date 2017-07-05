@@ -64,15 +64,27 @@ Comment from Devon Bull:  Wanted to have a more complete lesson on how to set up
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**48 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+
+* I can't actually see the date created or the visit count on the UI anywhere so it's difficult to tell from a user perspective whether the sorting functionality is accurate or not.
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: The application has many strong pages/interactions, but a few holes in lesser-used functionality.
+
+* Using alert messages for error handling is a really out-dated and painful method for the user. When I enter an incorrect URL, I'd rather get a notification at the top of the screen with an error message rather than have to click out of an alert box.
+
+* I can't see the date added or visit count for URLs and there is no visual indicator for what the sort order is of URLs at any given moment.
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**: Project has a running test suite that tests at multiple levels but fails to cover some features.
+
+* No client-side tests but good coverage of happy/sad paths on server-side routes.
+
+* You never want to [rollback](https://github.com/jennPeavler/jetFuel/blob/master/test/routes.spec.js#L28-L30) your database during tests. That would potentially put your schema in an out-of-date state and you'd be testing against the wrong data structure. You're essentially undo-ing the rollback right away by calling `migrate.latest` on line 30, so what good is this doing you anyway?
+
+* [No](https://github.com/jennPeavler/jetFuel/blob/8b3e1ca5108aef731355ade3b4f2a947bb158e03/test/routes.spec.js#L86-L89)
 
 ## JavaScript Style
 
@@ -80,8 +92,11 @@ Comment from Devon Bull:  Wanted to have a more complete lesson on how to set up
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base and some commits are handling more than they should be.
 
+* Committed some commented out code and console.logs throughout the history
+
+* Some commits have fairly large changesets with unrelated [changes](https://github.com/jennPeavler/jetFuel/commit/93c99ac5d6afb98d2a7f8d511afcf827912cb1f6). Split these things out into separate commits rather than lumping them into a general 'refactor' commit.
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
