@@ -50,7 +50,7 @@ Loved the emphasis on the UI
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 

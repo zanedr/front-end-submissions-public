@@ -46,7 +46,7 @@ this hard. brain hurt.
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
