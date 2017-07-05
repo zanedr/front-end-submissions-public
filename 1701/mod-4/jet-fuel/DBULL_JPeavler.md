@@ -76,6 +76,10 @@ Comment from Devon Bull:  Wanted to have a more complete lesson on how to set up
 
 * I can't see the date added or visit count for URLs and there is no visual indicator for what the sort order is of URLs at any given moment.
 
+### Data Persistence with SQL Database
+
+* **20 points** - The application persists data in a SQL database but with correct relationships between folders and URLs.
+
 ## Testing
 
 **10 points**: Project has a running test suite that tests at multiple levels but fails to cover some features.
@@ -88,8 +92,41 @@ Comment from Devon Bull:  Wanted to have a more complete lesson on how to set up
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing.
 
+* Be consistent with the way you handle errors. They should [all](https://github.com/jennPeavler/jetFuel/blob/master/server/api.js#L23) send back a status code of some sort.
+
+* How about [now](https://github.com/jennPeavler/jetFuel/blob/master/server/api.js#L39-L40)?
+
+* All promises should have [catch](https://github.com/jennPeavler/jetFuel/blob/master/server/api.js#L87-L90) blocks.
+
+* [This](https://github.com/jennPeavler/jetFuel/blob/master/server/api.js#L27-L48) is a little hard to follow and is handling a bit more than it should be. I would have separated out the logic for submitting a folder and url into two separate endpoints. The way this is written now is technically not 'RESTful' as the operation of adding a folder has the potential side effect of adding a URL. While this might have been a nice shortcut for users on the front-end, you still could have mimicked the same functionality by making two fetch requests on the client-side rather than putting a conditional in the server.
+
+* Continuing from the last message, this logic also makes your client-side code much more [complicated](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L282-L324). I don't think the code complexity is worth the shortcut for the user.
+
+* A relative url in places like [this](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L14) would have eliminated the need for concatenating a root variable.
+
+* Is there a reason you're setting [this](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L1-L2) as host and then setting `root` to host?
+
+* [catches please](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L16-L18)
+
+* Not totally sure what's going on [here](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L22-L26), given that there's a 'test' variable I'd imagine you're playing around a bit, but the big beneft of `async/await` is so that you can write asynchronous code synchronously. e.g. instead of calling `.then()` here you would write something like:
+
+```js
+  let response = await fetch(url);
+  let data = await response.json();
+  console.log(data);
+} catch (e) {
+  console.log(e)
+}
+```
+
+* Error handling should be [consistent](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L43-L60) regardless of the error message. If you're using an HTML element to display an error for one case, you should use it for both rather than an alert.
+
+* You can use a PATCH request rather than a [put](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L73-L75) for incrementing the popularity count. If you're not updating the entire record, don't force the user to send through the entire record.
+
+* Be consistent with single vs. double [quotes](https://github.com/jennPeavler/jetFuel/blob/master/client/assets/scripts/script.js#L96-L100)
+ 
 ## Workflow
 
 **12 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base and some commits are handling more than they should be.
@@ -101,4 +138,4 @@ Comment from Devon Bull:  Wanted to have a more complete lesson on how to set up
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+# Final Score: 117 / 150
