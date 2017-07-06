@@ -11,7 +11,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 2**
 
-* [CircleCI & Git Hooks](https://gist.github.com/brittanystoroz/16b1a223d70dc6b73e8313cb7c9666c5) - Link to gist with all deliverables 
+* [CircleCI & Git Hooks](https://gist.github.com/brittanystoroz/16b1a223d70dc6b73e8313cb7c9666c5) - Link to gist with all deliverables
 * [JWTs Tutorial](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
 
 **Week 5**
@@ -145,6 +145,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [CircleCI & Git Hooks]()
+* [CircleCI & Git Hooks](https://gist.github.com/dhubertus/46bde017d79302c0c95c5c3b1cd3a4c0)
 * [JWT Tutorial]()
 * [Pattern Party]()
