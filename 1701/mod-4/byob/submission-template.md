@@ -75,6 +75,10 @@ Anything else you wanna say
 
 The following set of points are distributed at the discretion of the instructor.
 
+### Documentation
+
+**x points**: Lorem ipsum dolor set amet
+
 ### Feature Completion
 
 **x points**: Lorem ipsum dolor set amet
@@ -88,9 +92,9 @@ The following set of points are distributed at the discretion of the instructor.
 **x points**: Lorem ipsum dolor set amet
 
 
-## Project is worth 140 points
+## Project is worth 150 points
 
-## To get a 3 on this project, you need to score 105 points or higher
-## To get a 4 on this project, you need to score 120 points or higher
+## To get a 3 on this project, you need to score 110 points or higher
+## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 140
+# Final Score: x / 150
