@@ -1,52 +1,38 @@
-## Student: 
-## Evaluator:
+## Student: John Michael
+## Evaluator: Meeka
 ## Notes/What To Work On:
+
+Great first project 
+
+Keep an eye on spacing, etc. Already a strong effort there though. Think about removing comments in your workflow slowly in places where the code is clear enough to tell its own story.
+
+High level, think about function names and make sure that they encompass all of the functionality - so for example if you clear a button AND disable buttons, make sure the function name doesn't make it sound like you only do one thing
+
+Keep on keeping on, great approach to refacting on all levels
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+When you add new features, make sure they match the style - for example the input field should have the same text styling most likely
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
-
-*   
+* Unicorn Rainbows
