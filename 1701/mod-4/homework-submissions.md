@@ -29,10 +29,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jenn Peavler
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://gist.github.com/jennPeavler/e1a8d6f4e4d64c2a00f91b7e7fb03aec)
+* [Promise Practice Exercises](https://gist.github.com/jennPeavler/1f47b49f861e850b509fe685eb8e2d26)
 * [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [JWT Tutorial](https://github.com/jennPeavler/jwt-lesson)
 * [Pattern Party]()
 
 ### John Binning
