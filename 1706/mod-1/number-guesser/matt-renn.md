@@ -1,7 +1,10 @@
-## Student: 
-## Evaluator:
+## Student:
+## Evaluator: Louisa
 ## Notes/What To Work On:
 
+- Project not completed.
+
+<!-- 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
@@ -49,4 +52,4 @@
 * Sparkles  
 * Magic  
 
-*   
+*    -->

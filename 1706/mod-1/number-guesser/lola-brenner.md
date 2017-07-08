@@ -1,52 +1,35 @@
-## Student: 
-## Evaluator:
+## Student:
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- needs a pass to clean up HTML, avoid unnecessary nesting
+- Be mindful of small details of comp
+- alphabetize CSS properties within CSS rules
+- work on locking in understanding and implementation of CSS positioning
+- work to lock in HTML and CSS best practices and understanding
+- good refactoring instincts in JS, keep it up!
+- it was clear that the most care and craft was focused on the JS, make sure that HTML and CSS don't fall by the wayside -- they're important, too
+- good work!
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Novice
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
-
-*   
+* Proficient
