@@ -1,52 +1,34 @@
-## Student: 
-## Evaluator:
+## Student:
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- pay attention to alignment, spacing, and indentation in HTML
+- Be mindful of details of comp
+- work on locking in understanding and implementation of CSS positioning
+- work to lock in HTML and CSS best practices and understanding
+- good work! You are always very open to feedback and immediately work to incorporate suggestions and ideas -- that is really fantastic!
+- JS seems to be where the most focus went for this project, which is ok for the first project. Just make sure that HTML and CSS don't fall by the wayside, they're important too.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Novice   
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
-
-*   
+* Proficient
