@@ -8,7 +8,7 @@
 |Novice             | Application meets all of the expectations of phase one. |
 |Advanced Beginner  | Application meets __most__ of the expectations of phase two. |
 |Proficient         | Application meets __all__ of the expectations of phase two. |
-|Exceptional        | Application meets all of the expectations of both phases and one or more of the extensions. |
+|Exceptional        |m setting Application meets all of the expectations of both phases and one or more of the extensions. |
 
 ------------------------------------------------------------------
 
