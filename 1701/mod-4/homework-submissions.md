@@ -129,7 +129,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [CircleCI & Git Hooks]()
+* [CircleCI Passing Stage Build](http://imgur.com/SnYWzum)
+* [CircleCI Passing Production Build](http://imgur.com/Q9kjfRV)
+* [Heroku Pipeline](http://imgur.com/IxY3vZ4)
+* [Github Repo JetFuel - Staging Branch with validate-nlf file](https://github.com/Adamj1232/Jet-Fuel/tree/staging)
 * [JWT Tutorial]()
 * [Pattern Party]()
 
@@ -137,7 +140,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [CircleCI & Git Hooks]()
+* [CircleCI Passing Stage Build](http://imgur.com/SnYWzum)
+* [CircleCI Passing Production Build](http://imgur.com/Q9kjfRV)
+* [Heroku Pipeline](http://imgur.com/IxY3vZ4)
+* [Github Repo JetFuel - Staging Branch with validate-nlf file](https://github.com/Adamj1232/Jet-Fuel/tree/staging)
 * [JWT Tutorial]()
 * [Pattern Party]()
 
