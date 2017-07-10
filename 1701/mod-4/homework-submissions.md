@@ -63,7 +63,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Laura Turk
 
 * [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://repl.it/JQcD/1)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial](https://github.com/lauraturk/jwt-practice)
 * [Pattern Party]()
