@@ -106,7 +106,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Screen Shots](http://imgur.com/a/CS3LN)
 * [Promise Practice Exercises](https://gist.github.com/jbevis/1a1ab8304b70d474f5924fa6cdf41f7a)
 * [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [JWT Tutorial](https://github.com/jbevis/jwt-tutorial)
 * [Pattern Party]()
 
 ### Devon Bull
