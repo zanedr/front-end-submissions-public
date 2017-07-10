@@ -1,52 +1,37 @@
-## Student: 
-## Evaluator:
+## Student:  Luke
+## Evaluator: Brenna
 ## Notes/What To Work On:
+
+- Start reducing redundant HTML container elements
+- Clean up comments/console logs
+- Consolidate the repetitive CSS rules that you can do in one line
+- Leverage JS data structures to reduce code (if/else vs objects vs switch)
+- Aria roles - great work using them, just watch redundancy
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
+<!-- * Unicorn Rainbows  
 * Hot Fire  
 * Sparkles  
-* Magic  
-
-*   
+* Magic   -->
