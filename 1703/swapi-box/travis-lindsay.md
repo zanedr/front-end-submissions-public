@@ -1,8 +1,8 @@
 ##SWAPIbox
 
-Students:
+Students: Travis & Lindsay
 
-Instructor:
+Instructor: Taylor
 
 ### Specification Adherence
 
