@@ -72,8 +72,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://gist.github.com/cbandrow/81b0a262c43d76fdddf14c63d60bfcf3)
 * [Promise Practice Exercises](https://repl.it/JAaF/2)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [CircleCI & Git Hooks](https://gist.github.com/cbandrow/2f65f7e1bba71c02c93281a3eda6f6f9)
+* [JWT Tutorial](https://github.com/cbandrow/jvt-practice)
 * [Pattern Party]()
 
 ### Spencer Hilvitz
