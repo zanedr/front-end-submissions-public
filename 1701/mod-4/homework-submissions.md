@@ -40,7 +40,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://gist.github.com/JohnBinning/d661be74fcbc63f777f669b56f1ab4ba)
 * [Promise Practice Exercises1](https://repl.it/JDEP/2)
 * [Promise Practice Exercises2](https://repl.it/JDGv/4)
-* [CircleCI & Git Hooks]()
+* [CircleCI & Git Hooks](https://gist.github.com/JohnBinning/cf5e15a9dabedcdb02c45a44d795db2d)
 * [JWT Tutorial](https://github.com/JohnBinning/jwt-tutorial)
 * [Pattern Party]()
 
@@ -48,7 +48,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://gist.github.com/letakeane/bfc765bd97da8d27ac95f59ff3c78a68)
 * [Promise Practice Exercises](https://repl.it/JCv4/9)
-* [CircleCI & Git Hooks]()
+* [CircleCI & Git Hooks](https://gist.github.com/JohnBinning/cf5e15a9dabedcdb02c45a44d795db2d)
 * [JWT Tutorial]()
 * [Pattern Party]()
 
