@@ -1,64 +1,37 @@
-## Student:
-## Evaluator:
+## Student: Mike and Rufus
+## Evaluator: Meeka
 ## Notes/What To Work On:
+
+Awesome, awesome work. Really great workflow. A few small tweaks on the comp matching and there are places you can easily refactor some JS. Only refactoring recommended is around breaking out functions not actually the code itself. 
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-* Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient  && * Exceptional  
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional
 
-
 ## GIT & GITHUB
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
+ 
 * Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
+* Sparkles  & * Magic
