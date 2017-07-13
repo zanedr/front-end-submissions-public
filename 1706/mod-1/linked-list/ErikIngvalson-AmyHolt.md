@@ -1,64 +1,40 @@
-## Student:
-## Evaluator:
+## Student: Erik & Amy
+## Evaluator: Meeka
 ## Notes/What To Work On:
+
+Continue the refactoring of functions - really great start. When making comp changes, it's a good safty practice to send the proposed or made changes to the 'client'.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-* Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
+
+Bug with the regex, instructor was not able to fix therefor doesn't count (haha).
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## JS/jQuery
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional
-
+ 
+* Advanced Beginner & Proficient
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Novice
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
+* Sparkles
