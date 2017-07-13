@@ -1,64 +1,45 @@
-## Student:
-## Evaluator:
-## Notes/What To Work On:
+## Student: Matt A & Alex
+## Evaluator: Brenna
+## Notes/What To Work On: 
 
 ## Functional Expectations
-
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-* Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
+// Only comment was about padding in input fields and some space between the link and border in the bookmark.
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
+// Start getting into the habit of alphabetizing the properties
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
+// Inconsistency with event listener naming conventions
+// Nested if/else statements
+// Opportunities to simplify what a function is doing/pull pieces of functionality out into their own functions
+// Interesting choice to use an object to format the HTML/Link divs but would prefer functionality to be in small functions
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
+// Cursor pops back up to title input field on link submit
 
 * Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  

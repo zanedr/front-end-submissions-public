@@ -6,6 +6,7 @@
 
 * Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Be: Application meets all of the functional expectations in Phase Two.
+  // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
 
