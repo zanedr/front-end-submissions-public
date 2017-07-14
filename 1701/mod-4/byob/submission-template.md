@@ -17,26 +17,26 @@
 
 #### Were you able to complete the base functionality?
 
-* Documented all available endpoints and their usage in the README?
+* Documented all available endpoints and their usage in the README? </br>
 (Yes)
 
-* Seeded a database with at least 2 tables and 1 relationship?
-(No) #####
+* Seeded a database with at least 2 tables and 1 relationship?</br>
+(No)
 
 
-* Had at least 10 endpoints that returned responses with appropriate status codes?
+* Had at least 10 endpoints that returned responses with appropriate status codes?</br>
 (Yes)
 
-* Secured at least 4 endpoints with JWTs?
+* Secured at least 4 endpoints with JWTs?</br>
 (Yes)
 
-* Enforced a linter and wrote code that conformed to it?
+* Enforced a linter and wrote code that conformed to it?</br>
 (Yes)
 
-* Wrote tests for both happy and sad paths for each endpoint?
+* Wrote tests for both happy and sad paths for each endpoint?</br>
 (Yes)
 
-* Setup automatic deployments with CircleCI to a production app on Heroku?
+* Setup automatic deployments with CircleCI to a production app on Heroku?</br>
 (Yes)
 
 # Code Quality
