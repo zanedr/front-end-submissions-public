@@ -70,7 +70,10 @@ All my sad path tests need to be more thorough and my error messages that go alo
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say
+Here's the token you can use for authorized access points.
+```JavaScript
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZvbyIsInBhc3N3b3JkIjoiYmFyIiwiaWF0IjoxNTAwMDAyNDg3LCJleHAiOjE1MDA4NjY0ODd9.K8aKPKad7bmfOvmPYrSnNT4ve34py4IrbMKKQNwFTcg'
+  ```
 
 -----
 
