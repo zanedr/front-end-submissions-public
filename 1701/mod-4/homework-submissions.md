@@ -42,6 +42,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises2](https://repl.it/JDGv/4)
 * [CircleCI & Git Hooks](https://gist.github.com/JohnBinning/cf5e15a9dabedcdb02c45a44d795db2d)
 * [JWT Tutorial](https://github.com/JohnBinning/jwt-tutorial)
+* [Web Sockets Tutorial](https://github.com/JohnBinning/web-socket-tutorial)
 * [Pattern Party]()
 
 ### Leta Keane
