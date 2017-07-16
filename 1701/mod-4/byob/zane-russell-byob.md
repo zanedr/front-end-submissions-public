@@ -45,7 +45,7 @@
 #### Link to a specific block of your code on Github that you feel not great about
 [sad code](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L290)
 
-* the exact same code.  There has to be a better and more concise way to do it.
+* The same code.  There must surely be a better and more concise way to do this.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
@@ -54,7 +54,7 @@
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
 [linter output](https://imgur.com/a/MOcTi)
-lots of dangling commas from responses, but got a hook up for the linter at least.  I'll try to resolve this
+got a hook up for the linter at least.  I'll try to resolve this
 
 #### Attach a screenshot of your CircleCI build passing
 
