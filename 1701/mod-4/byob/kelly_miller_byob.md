@@ -7,10 +7,10 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[BYOB]()
+[BYOB](https://github.com/kellymiller6/byob)
 
 #### Link to the Deployed Application
-[Heroku]()
+[Heroku](https://km-build-your-own-backend.herokuapp.com/)
 
 
 ## Completion
@@ -18,49 +18,53 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-(Yes/No)
+Yes
 
 * Seeded a database with at least 2 tables and 1 relationship?
-(Yes/No)
+Yes
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-(Yes/No)
+Yes
 
 * Secured at least 4 endpoints with JWTs?
-(Yes/No)
+Yes
 
 * Enforced a linter and wrote code that conformed to it?
-(Yes/No)
+Yes
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(Yes/No)
+Yes
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-(Yes/No)
+Yes
 
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[happy code]()
+[happy code](https://github.com/kellymiller6/byob/blob/master/test/routes.spec.js#L433-L451)
 
 * Why were you proud of this piece of code?
 
+Honestly not that proud of any of my code, it's all super repetitive and needs to be
+refactored. This test was perhaps my favorite problem I solved.
+
 #### Link to a specific block of your code on Github that you feel not great about
-[sad code]()
+[sad code](https://github.com/kellymiller6/byob/blob/master/test/routes.spec.js#L288-L299)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+All my sad path tests need to be more thorough and my error messages that go along with them.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite]()
+[test suite](http://i.imgur.com/yyvJTsc.png)
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output]()
+[linter output](http://i.imgur.com/EPKXMje.png)
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI build]()
+[circleCI build](http://i.imgur.com/V2vyvj4.png)
 
 -----
 
