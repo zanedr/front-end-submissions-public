@@ -59,6 +59,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/devthehuman/4dc0004d8ba60ec7019e2f4fedca6e76)
 * [JWT Tutorial]()
 * [Pattern Party]()
+* [Web Socket Tutorial](https://github.com/devthehuman/web-socket-workshop)
 
 ### Laura Turk
 
