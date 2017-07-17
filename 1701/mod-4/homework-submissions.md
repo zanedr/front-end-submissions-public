@@ -121,8 +121,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Christopher Jordan
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/cjorda15/expressFun)
+* [Promise Practice Exercises](https://gist.github.com/cjorda15/1da8cdf2985589ee07f8152142cbfa7a)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
