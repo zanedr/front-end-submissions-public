@@ -83,6 +83,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
+* [Web Sockets](https://github.com/hilvitzs/chat-example)
 
 ### Kelly Miller
 
