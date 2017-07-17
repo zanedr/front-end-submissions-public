@@ -100,6 +100,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/kellymiller6/3b8894127bd1c4b8b2a7ff4ff6e4c4e5)
 * [JWT Tutorial](https://github.com/kamos1/jwt)
 * [Pattern Party]()
+* [Websocket Tutorial](https://github.com/kamos1/chat-app)
 
 ### Jack Bevis
 
