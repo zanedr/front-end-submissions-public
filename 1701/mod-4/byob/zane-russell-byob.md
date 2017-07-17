@@ -33,7 +33,7 @@
 (For all except the delete points)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-(In progress)
+(Yes)
 
 # Code Quality
 
@@ -58,7 +58,7 @@ got a hook up for the linter at least.  I'll try to resolve this
 
 #### Attach a screenshot of your CircleCI build passing
 
-still working on it
+[circleCI](https://imgur.com/a/fEvi8)
 
 -----
 
