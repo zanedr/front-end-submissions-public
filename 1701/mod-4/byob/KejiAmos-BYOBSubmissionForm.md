@@ -18,25 +18,25 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-(Yes/No)
+(Yes)
 
 * Seeded a database with at least 2 tables and 1 relationship?
-(Yes/No)
+(Yes)
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-(Yes/No)
+(Yes)
 
 * Secured at least 4 endpoints with JWTs?
-(Yes/No)
+(Yes)
 
 * Enforced a linter and wrote code that conformed to it?
-(Yes/No)
+(Yes)
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(Yes/No)
+(Yes)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-(Yes/No)
+(Yes)
 
 # Code Quality
 
@@ -68,6 +68,7 @@
 
 Anything else you wanna say
 
+I feel like the data returned by some of my endpoints could have been more useful.
 Here's a json web token for you to use ```eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZvbyIsInBhc3N3b3JkIjoiYmFyIiwiaWF0IjoxNTAwMDU0MDA2LCJleHAiOjE1MDEyNjQwMDZ9.HPH9BJhuHHdyQakmlwxYcuO-wz28MulivnWz1batCwk```
 
 -----
