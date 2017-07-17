@@ -1,5 +1,5 @@
-## Students:
-## Evaluator:
+## Students: George, Lindsay & JC
+## Evaluator: Taylor
 ## Notes:
 
 **MOVIE SPEC**:
