@@ -87,5 +87,8 @@ A working smart mirror that displays the weather and daily news.
 - How to put app on Raspberry Pi, node.js?
 
 #### Instructor Notes
-
+  * NewsAPI
+  * WeatherAPI
 #### Deliverables for next checkin:
+  * NewsAPI 
+  * WeatherAPI
