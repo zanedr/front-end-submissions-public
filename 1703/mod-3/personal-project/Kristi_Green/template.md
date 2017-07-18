@@ -16,9 +16,9 @@ Thunk
 
 #### APIs:  
 Activity Tracker
-
+Kristi_Green/TeenScenePP.png
 #### Wireframes  
-![Teen Scene] (./TeenScenePP.png)
+![Teen Scene] (Kristi_Green/TeenScenePP.png?raw=true "Teen Scene")
 
 #### Waffle & Github
 Waffle (https://waffle.io/kristing40/TeenScene)
