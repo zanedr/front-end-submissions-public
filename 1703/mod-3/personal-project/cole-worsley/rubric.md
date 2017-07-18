@@ -1,53 +1,56 @@
-## Project Name: Workout App (Pending Title)  
+### Project Scope
 
-#### Check In: 1  
+A good project idea should:
 
-#### Project Pitch  
-A workout app that generates randomized exercises from the WGER API. As you build your history, you will have the option to choose which workouts you enjoy more than others. The app will be more likely to repeat those preferred exercises while adding in similar ones.
+* Break down into logical iterations so that you can deliver a strong product on every check-in
+* Be something that real people would want to use to solve a problem
+* Have enough *technical* challenge to be worth your time (as opposed to a *content* challenge)
 
-### Deliverables  
+### Feature Delivery
 
-#### Stack:
-* React
-* Redux
-* Router
-* Express
-* Postgres
+**1. Completion**
 
-#### APIs:  
-[WGER](https://wger.de/en/software/api)
+* 4: Developer completed all the user stories and requirements set in check-ins in timely manner.
+* 3: Developer completed all the user stories and requirements set during check-ins.
+* 2: Developer completed most of the user stories and requirements set during check-ins.
+* 1: Developer completed the user stories and requirements partially.
 
+**2. Organization**
 
-#### Wireframes  
-![WireFrams](https://github.com/coleworsley/front-end-submissions-public/1703/mod-3/personal-project/cole-worsley/Wireframes/WorkUp.pdf)
+* 4: Developer used a project management tool and updated their progress in real-time.
+* 3: Developer used a project management tool to keep their project organized.
+* 2: Developer used a project management tool but didn't update the progress frequently.
+* 1: Developer failed to use a project management tool to track its progress.
 
+### Technical Quality
 
-#### Waffle & Github
-[Waffle](https://waffle.io/coleworsley/Work-Up)
-[GitHub](https://github.com/coleworsley/Work-Up)
+**1. Test-Driven Development**
 
-#### Order Of Attack  
-* Start by making fetch calls to the API and building out main workout page
-* Display individual exercises detail page
-* learn express and build out backend to hold workout history and likes and dislikes logic.
-* Add in user authentication for sign in to make Challenges
-* build out main dashboard on home page
-* Add logic to make the randomizer smart
+* 4: Project shows exceptional use of testing at different layers (above 95% coverage).
+* 3: Project shows adequate testing (90% - 95% coverage).
+* 2: Project shows gaps in test usage/coverage/design (85 - 90% coverage).
+* 1: Project lacks sufficient testing (under 85% coverage).
 
+**2. Code Quality**
 
-#### MVP
-* Project displays randomized workouts and exercises
+* 4: Project demonstrates exceptionally well factored code.
+* 3: Project demonstrates solid code quality, proper abstractions, and reduced duplication.
+* 2: Project demonstrates some gaps in code quality..
+* 1: Project demonstrates poor factoring.
 
+### Product Experience
 
-#### Nice To Haves   
-* Graphs built with D3. Will start with RE-Charts and if I feel up to it, will attempt to build them with D3.
-* Maybe a map component? Not sure but could be cool and everyone likes maps apparently
+**1. User Experience**
 
-#### Biggest Challenges  
-* Building the backend
-* Potentially the Graphs
-* Design
+* 4: Project exhibits a production-ready and polished UX.
+* 3: Project exhibits a production-ready user experience.
+* 2: Project exhibits some gaps in the UX.
+* 1: Project exhibits inattention to the user experience.
 
-#### Instructor Notes
+**2. Performance**
 
-#### Deliverables for next checkin:
+* 4: Project pages load on average under 300 milliseconds.
+* 3: Project pages load on average under 400 milliseconds.
+* 2: Project pages load on average under 500 milliseconds.
+* 1: Project pages load on average over 500 milliseconds.
+
