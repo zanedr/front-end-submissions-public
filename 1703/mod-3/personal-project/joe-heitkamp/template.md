@@ -49,12 +49,16 @@ In the minds of most people, comic books are only full of brightly colored, span
 - Use a users location to allow them to find stores where they may be able to purchase the comics they have saved (Goodzer API)
 
 #### MVP
-A user friendly search portal that returns a dynamic list of comic book series that map to a users chosen interests.
+- A user friendly search portal that returns a dynamic list of comic book series that map to a users chosen interests.
+- application has a user saved in the backend along with favorites 
+- user can filter comics by 10 genres
+- slick UI
 
 #### Nice To Haves   
 
  * Additional search/filter metrics - Superpowers, date ranges, writers/artists, etc
-
+ * dynamically pass in genre 
+ 
 #### Biggest Challenges  
 
 The Comicvine API is overwhelmingly large with no easily defined keywords or genre markers to map to a users interests.
@@ -62,3 +66,10 @@ The Comicvine API is overwhelmingly large with no easily defined keywords or gen
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+- have wireframes done. this will keep you accountable so that when you come up with new ideas you'll stick to what you've got 
+- have backend setup (Node.js, express, knex, bookshelf)
+    - frontend has a walk through on setting up the backend with knex and express thats great 
+    - look into testing 
+- Have initial app setup (react, redux, router) 
+- either get the API to give you comics related to genres || scrape. 
+    - nightmare.js, cheerio, selenium. 
