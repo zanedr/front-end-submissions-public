@@ -9,19 +9,19 @@
 * web app where users can create an account and keep track of all their bets.
 
 #### Stack:
-* some DB
-* API to access db
-* authO?
+* Knex
+* Express API to access db
 * react
 
 #### APIs:  
-* build my own
+* Express to interact with own DB
 
 #### Wireframes  
-* based on venmo
+* https://drive.google.com/file/d/0B3LKD3DcSzVjOHJWdzg5RVpLb1E/view?usp=sharing
 
 #### Waffle & Github
 * https://github.com/Ggoering/Silly-Bets-App
+* https://waffle.io/Ggoering/Silly-Bets-App
 
 #### Order Of Attack  
 * build DB / build API, build front end
@@ -33,10 +33,18 @@
 * email notifications on bet cash in
 * activity feed
 * actually connecting to the internet
+* Invites
 
 #### Biggest Challenges  
-* building a backend
+* building a dbase with join tables
 
 #### Instructor Notes
+* Knex for DB => Postgresql => sql
+* Backend, Node, Express API
+* User sign in
+* User Bets
+* Front facing website that allows users to sign in & out.
 
 #### Deliverables for next checkin:
+DB with tables. No join
+If unsuccessful with join will pivot to firebase.
