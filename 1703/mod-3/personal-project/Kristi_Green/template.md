@@ -25,12 +25,21 @@ Waffle (https://waffle.io/kristing40/TeenScene)
 Github (https://github.com/kristing40/TeenScene)
 
 #### Order Of Attack  
+work on sketch
+set up mock dataset
+set up project files
+continue working
 
 #### MVP
+interface is functional with some initial styling
+inputs and submit functionality working
+can get to data and render to page
 
 #### Nice To Haves   
+Able to favorite activities
 
 #### Biggest Challenges  
+TBD
 
 #### Instructor Notes
 
