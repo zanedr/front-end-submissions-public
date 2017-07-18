@@ -17,6 +17,11 @@
 * [The Cocktail DB](http://www.thecocktaildb.com/)
 
 #### Wireframes  
+![Landing Page](https://github.com/the-oem/bearded-bartender/blob/master/comps/landing-page.jpg?raw=true)
+
+![Filter Results](https://github.com/the-oem/bearded-bartender/blob/master/comps/filter-results.jpg?raw=true)
+
+![Detail View](https://github.com/the-oem/bearded-bartender/blob/master/comps/detail-view.jpg?raw=true)
 
 #### Waffle & Github
 * [GitHub Repository](https://github.com/the-oem/bearded-bartender)
