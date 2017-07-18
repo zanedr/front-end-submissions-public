@@ -33,10 +33,17 @@
 * email notifications on bet cash in
 * activity feed
 * actually connecting to the internet
+* Invites
 
 #### Biggest Challenges  
 * building a backend
 
 #### Instructor Notes
+* Knex for DB => Postgresql => sql
+* Backend, Node, Express API
+* User sign in
+* User Bets
+* Front facing website that allows users to sign in & out.
 
 #### Deliverables for next checkin:
+
