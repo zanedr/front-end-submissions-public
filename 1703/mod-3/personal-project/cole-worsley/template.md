@@ -19,8 +19,8 @@ A workout app that generates randomized exercises from the WGER API. As you buil
 
 
 #### Wireframes  
-![Dashboard](https://github.com/coleworsley/front-end-submissions-public/1703/mod-3/personal-project/cole-worsley/Dashboard.png)
-![MainPage](https://github.com/coleworsley/front-end-submissions-public/1703/mod-3/personal-project/cole-worsley/DesktopHD.png)
+![Dashboard](https://github.com/coleworsley/front-end-submissions-public/blob/master/1703/mod-3/personal-project/cole-worsley/Dashboard.png)
+![MainPage](https://github.com/coleworsley/front-end-submissions-public/blob/master/1703/mod-3/personal-project/cole-worsley/DesktopHD.png)
 
 
 #### Waffle & Github
