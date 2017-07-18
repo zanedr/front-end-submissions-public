@@ -11,7 +11,9 @@ A workout app that generates randomized exercises from the WGER API. As you buil
 * React
 * Redux
 * Router
+* Node
 * Express
+* Knex / Bookshelf
 * Postgres
 
 #### APIs:  
@@ -39,6 +41,7 @@ A workout app that generates randomized exercises from the WGER API. As you buil
 
 #### MVP
 * Project displays randomized workouts and exercises
+* Project saves a user and gives prefered workouts to the front-end 
 
 
 #### Nice To Haves   
@@ -51,5 +54,14 @@ A workout app that generates randomized exercises from the WGER API. As you buil
 * Design
 
 #### Instructor Notes
+- nice to haves: OAuth
 
 #### Deliverables for next checkin:
+
+- Have node backend setup with knex, maybe bookshelf, 
+    - have user table and the workout table setup 
+    - go through front end lessons on knex, node / express
+    - look into backend unit-testing. (it's super easy i Promise.all)
+- bare bones of the front-end 
+    - react, redux, router, 
+ - tighten up your wireframes. 
