@@ -19,7 +19,7 @@ Provide an environment in which to view various architectural and interior desig
 [Houzz](https://www.houzz.com/)
 
 #### Wireframes  
-![alt text](https://github.com/lindsaywparker/back-home/blob/master/comp-summary.png "Back Home Static Comps")
+![alt text](https://github.com/lindsaywparker/back-home/blob/master/comps/comp-summary.png "Back Home Static Comps")
 
 #### Waffle & Github
 [Waffle](https://waffle.io/lindsaywparker/back-home)
