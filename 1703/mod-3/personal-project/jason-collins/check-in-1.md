@@ -72,5 +72,17 @@ Favoriting & favorite listing tests
 * Testing. Because...testing.
 
 #### Instructor Notes
+* Search
+* Favorite drinks - KNEX
+* Sign in user -> KNEX
+* Filtering, by class, drink - extension
+
+
+* Maintain own ingredients - Stretch
+* What cocktails can you make from you cabinet - Stretch
 
 #### Deliverables for next checkin:
+* KNEX tables up and running
+* Node api set up?
+* Frontend can hit api endpoints
+
