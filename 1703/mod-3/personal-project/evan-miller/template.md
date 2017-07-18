@@ -28,7 +28,8 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 - Microphone
 - Speaker
 
-#### Wireframes  
+#### Wireframes
+![Main](http://imgur.com/Ew6zuJL "Magic Mirror wireframe")
 
 #### Waffle & Github
 [github repo](https://github.com/EvanSays/magic-mirror)
