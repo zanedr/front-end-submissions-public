@@ -28,6 +28,7 @@ A workout app that generates randomized exercises from the WGER API. As you buil
 [GitHub](https://github.com/coleworsley/Work-Up)
 
 #### Order Of Attack  
+* Build out boilerplate code. Perhaps set up express to start and begin by making a couple of fetch calls.
 * Start by making fetch calls to the API and building out main workout page
 * Display individual exercises detail page
 * learn express and build out backend to hold workout history and likes and dislikes logic.
