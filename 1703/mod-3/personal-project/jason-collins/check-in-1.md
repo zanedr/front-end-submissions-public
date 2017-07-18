@@ -14,6 +14,7 @@
 
 #### APIs:
 * [Absolut Drinks Database API](https://addb.absolutdrinks.com/docs/)
+* [The Cocktail DB](http://www.thecocktaildb.com/)
 
 #### Wireframes  
 
@@ -32,18 +33,20 @@
 * Create account and login tests
 
 ##### Iteration 3
-* Hooked up to ADDb and pulling drink recipes from user Search
-* Search and drink rendering tests
+* Hooked up to ADDb and pulling drink recipes from user filters
+* Filter and drink rendering tests
 
-##### Iteration 3
+##### Iteration 4
 * Displaying drink with image, ingredients and instructions
 * Drink details rendering tests
 * Users can favorite drink recipes & view their favorites list
 Favoriting & favorite listing tests
+* Users can view embedded videos teaching how to make the drink
 
 #### MVP
 * Users can register for an account & login
-* Users can Search drink recipes (by name)
+* Users can filter drink recipes by ingredients
+* Users can filter drink recipes by occasion
 * Users can view drink recipe details
 * Users can favorite recipes, which show up in a favorites list
 
@@ -56,6 +59,7 @@ Favoriting & favorite listing tests
 * Users can share their favorite recipes on social media
 * Users can search drink recipes (by any ingredient)
 * Users can login using a social media account
+* Integrate with Drizly to allow for users to do one-time orders for ingredients or set up a recurring schedule to be delivered.
 
 #### Biggest Challenges  
 * Building a proper data model for the backend API's
