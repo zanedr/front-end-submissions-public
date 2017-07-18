@@ -35,7 +35,7 @@
 * Hooked up to ADDb and pulling drink recipes from user Search
 * Search and drink rendering tests
 
-##### Iteration 3
+##### Iteration 4
 * Displaying drink with image, ingredients and instructions
 * Drink details rendering tests
 * Users can favorite drink recipes & view their favorites list
