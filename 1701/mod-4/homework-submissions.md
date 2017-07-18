@@ -34,6 +34,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://gist.github.com/jennPeavler/1f47b49f861e850b509fe685eb8e2d26)
 * [CircleCI & Git Hooks](https://gist.github.com/DBULL7/5d344f5432a8703902f217deba13772d)
 * [JWT Tutorial](https://github.com/jennPeavler/jwt-lesson)
+* [Web Sockets](https://github.com/jennPeavler/web-socket-tutorial)
 * [Pattern Party]()
 
 ### John Binning
@@ -60,8 +61,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://gist.github.com/devthehuman/89b8ca98980ccf73a8a0653422ea354e)
 * [Promise Practice Exercises](https://gist.github.com/devthehuman/53859cabf66b88d23b283b361327f9f3)
 * [CircleCI & Git Hooks](https://gist.github.com/devthehuman/4dc0004d8ba60ec7019e2f4fedca6e76)
-* [JWT Tutorial]()
+* [JWT Tutorial](https://github.com/devthehuman/jwt-tutorial)
 * [Pattern Party]()
+* [Web Socket Tutorial](https://github.com/devthehuman/web-socket-workshop)
 
 ### Laura Turk
 
@@ -87,6 +89,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Pattern Party]()
+* [Web Sockets](https://github.com/hilvitzs/chat-example)
 
 ### Kelly Miller
 
@@ -113,6 +116,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://gist.github.com/jbevis/1a1ab8304b70d474f5924fa6cdf41f7a)
 * [CircleCI & Git Hooks](https://gist.github.com/anderswood/43b05e613346722058858d7a65b2f3e6)
 * [JWT Tutorial](https://github.com/jbevis/jwt-tutorial)
+* [Web Socket Tutorial](https://github.com/jbevis/websockets-chatroom)
 * [Pattern Party]()
 
 ### Devon Bull
@@ -140,7 +144,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI Passing Production Build](http://imgur.com/Q9kjfRV)
 * [Heroku Pipeline](http://imgur.com/IxY3vZ4)
 * [Github Repo JetFuel - Staging Branch with validate-nlf file](https://github.com/Adamj1232/Jet-Fuel/tree/staging)
-* [JWT Tutorial]()
+* [JWT Tutorial](https://github.com/Adamj1232/jwt-tutorial)
+* [Socket-Chat](https://github.com/Adamj1232/web-sockets-chat)
 * [Pattern Party]()
 
 ### Zane Russell
