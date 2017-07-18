@@ -50,3 +50,10 @@
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- have boilerplate set up (react, redux, router)
+    - application should be pulling in data 
+    - have one chart built out for me 
+    - have 2 routes 
+    - have cards rendering data with name and location. 
+- look into getting images. 
