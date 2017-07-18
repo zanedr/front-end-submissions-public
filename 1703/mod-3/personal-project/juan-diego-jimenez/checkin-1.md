@@ -81,6 +81,9 @@ Own backend (firebase or express)
 * See other players scores and progress
 * Add challenges
 * See other peoples challenges
+* user is saved in backend
+* tests for your backend 
+* tests for the front end 
 
 ###### Dashboard
 
@@ -114,3 +117,11 @@ Own backend (firebase or express)
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- Have your backend set up 
+    - look into Node.js / express 
+    - Knex with PG && Bookshelf 
+    - look into testing (it's super easy I Promise.all)
+    - have your tables set up 
+        - look into OAuth -> [auth0]('https://auth0.com/docs/quickstart/spa/react/01-login')
+- Have your initial react, redux, router setup (boiler plate) 
