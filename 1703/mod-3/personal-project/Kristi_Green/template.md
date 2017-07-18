@@ -18,7 +18,7 @@ Thunk
 Activity Tracker
 
 #### Wireframes  
-![Teen Scene] (TeenScenePP.png)
+![Teen Scene] (./TeenScenePP.png)
 
 #### Waffle & Github
 Waffle (https://waffle.io/kristing40/TeenScene)
