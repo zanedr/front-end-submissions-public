@@ -37,7 +37,13 @@ learning express backend,
 many different APIs being used  
 
 #### Instructor Notes
-
-
-
+  * React, Router, Redux, if(api.cors()) return Node, Express
+  * AutoComplete search field.
+  * Looking for Good design.
+  * Jest/Enzyme
+  
+  
 #### Deliverables for next checkin:
+ * Display bands
+ * Search for Locations
+  
