@@ -63,5 +63,8 @@ Grid of random category-by-style representations with ability to click style or 
  - API Calls / Web Scraping
 
 #### Instructor Notes
-
+ * Scraper =>  Node, Express.
+ * React, Redux, Router, Enzyme/Jest
+ * Favorite? 
+ 
 #### Deliverables for next checkin:
