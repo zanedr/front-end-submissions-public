@@ -29,6 +29,7 @@ In the minds of most people, comic books are only full of brightly colored, span
 #### Order Of Attack  
 
 ##### **Iteration 0**
+- Postgres DB setup
 - Api call to Comicvine that takes a dynamic user entry to determine the call endpoint
 - Helper function to process and clean API data(will most likely need Promise.all)
 - Display top 5 comic matches in a comic card w/ series synopsis
@@ -40,7 +41,6 @@ In the minds of most people, comic books are only full of brightly colored, span
 - Saved/favorites will have the search keyword as a header so you know right away what type of interest it matches
 
 ##### **Iteration 2**
-- Postgres DB setup
 - New user signup form
 - User login that allows favorites/saved to persist b/w sessions
 - User must sign in to favorite/save a comic
