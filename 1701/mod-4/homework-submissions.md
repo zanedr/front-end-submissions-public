@@ -144,7 +144,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI Passing Production Build](http://imgur.com/Q9kjfRV)
 * [Heroku Pipeline](http://imgur.com/IxY3vZ4)
 * [Github Repo JetFuel - Staging Branch with validate-nlf file](https://github.com/Adamj1232/Jet-Fuel/tree/staging)
-* [JWT Tutorial]()
+* [JWT Tutorial](https://github.com/Adamj1232/jwt-tutorial)
+* [Socket-Chat](https://github.com/Adamj1232/web-sockets-chat)
 * [Pattern Party]()
 
 ### Zane Russell
