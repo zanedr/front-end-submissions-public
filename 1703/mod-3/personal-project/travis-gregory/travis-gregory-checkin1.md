@@ -29,11 +29,16 @@
 
 - Visualize data with googlemaps 
 
-- Print report
+- filter by params (state, sex, address) 
+
+- generate a link to the filtered data.
 
 #### Nice To Haves
 
+- Print report
+
 - Multiple different visualizations that can be filtered by the user.
+
 - Have images.
 
 #### Biggest Challenges
