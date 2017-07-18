@@ -1,4 +1,4 @@
-## Students: George, Lindsay & JC
+## Students: Cole Worsley & Kristi Green & Juan Diego Jimenez & Daniel Ludwick
 ## Evaluator: Taylor
 ## Notes:
 
@@ -28,19 +28,21 @@ Iteration 2: Favorites
 
 ### Specification Adherence  
 
-* 3.5: The application consists of one page with all of the major functionality being provided by React. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+* 4: The application meets all of the requirements listed above and implements one or more of the extensions.
 
 ### Redux Architecture
 
-* 3: At least one component is not connected with Redux appropriately. Application state is mutated by more than just Redux. The Redux store is missing application data that it should be handling.
+* 4: Appropriate components are wrapped in connected Redux container components. The Redux store contains all necessary application data and nothing more. All state changes are handled through Redux actions and reducers.
 
 ### Routing
 
 * 4: Application is a single page and uses the React Router to display appropriate components based on URL.
 
+
 ### JavaScript Style
 
-* 3.5: Application is thoughtfully put together with some duplication and no major bugs. Group can speak to choices made in the code and knows what every line of code is doing.
+* 3: Application is thoughtfully put together with some duplication and no major bugs. Group can speak to choices made in the code and knows what every line of code is doing.
+
 
 ### Testing
 
