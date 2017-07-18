@@ -4,7 +4,12 @@
 
 #### Project Pitch  
 
+   Create an app that hooks up a text message line with Twilio and analyzes the text message content with the Watson API
+
 ### Deliverables  
+
+   By next Thursday I want to have a back end that sends and receives text messages with Twilio and can get and receive data from 
+   Watson.
 
 #### Stack:
 
