@@ -87,7 +87,9 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**8 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+
+* It would be nice to format the write requests with the data they require in a JSON object rather than just listing the property names. This would allow you to also specify the data type for each property which can sometimes be difficult to guess.
 
 ### Feature Completion
 
