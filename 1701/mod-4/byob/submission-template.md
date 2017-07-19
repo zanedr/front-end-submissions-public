@@ -1,6 +1,6 @@
 # BYOB Submission Form
 
-[Project Spec](http://frontend.turing.io/projects/build-your-own-backend.html)
+[Project Spec]()
 
 ------
 
@@ -37,6 +37,7 @@
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
 (Yes/No)
+
 
 # Code Quality
 
