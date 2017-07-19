@@ -7,10 +7,10 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[byob](https://github.com/zanedr/build-your-own-backend)
+[GitHub -BYOB](https://github.com/Adamj1232/Build-Your-Own-Backend)
 
 #### Link to the Deployed Application
-[heroku](https://guarded-temple-79046.herokuapp.com/)
+[heroku-BYOB](https://b-y-o-b.herokuapp.com/api/v1/venues/all)
 
 
 ## Completion
@@ -21,16 +21,16 @@
 (Yes)
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-(Yes)
+(No) - I had a ton of trouble getting my put and patches work
 
 * Secured at least 4 endpoints with JWTs?
 (Yes)
 
 * Enforced a linter and wrote code that conformed to it?
-(Kind of, used airbnb's and didn't have time to complete the linting)
+(No)
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(For all except the delete points)
+(Yes)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
 (Yes)
@@ -38,33 +38,32 @@
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[happy code](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L290)
+[happy code](https://github.com/Adamj1232/Build-Your-Own-Backend/blob/master/db/migrations/20170710180907_initial.js#L1)
 
-* Most intricate server request I've ever made
+* Why were you proud of this piece of code? Only one migration needed!
 
 #### Link to a specific block of your code on Github that you feel not great about
-[sad code](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L290)
+[sad code](https://github.com/Adamj1232/Build-Your-Own-Backend/blob/master/server.js#L286)
 
-* The same code.  There must surely be a better and more concise way to do this.
+* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it? I couldn't get insert to work inside my put method, I rewrote multiple times and looked through the docs
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](https://imgur.com/a/8diD1)
+[test suite](http://imgur.com/KhtXibI)
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output](https://imgur.com/a/MOcTi)
-got a hook up for the linter at least.  I'll try to resolve this
+[linter output]() Wasn't able to implement this in time
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI](https://imgur.com/a/fEvi8)
+[circleCI build](http://imgur.com/a/sSZt0) 
 
 -----
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say!
+I recieved my first interview this week, it was on tuesday so I spent a lot of time preparing for that as well as my portfolio. Crushed the interview and the tech challenge but it put me way behind on this project and the pattrn party. I have been struggling ince to get back on track in class.
 
 -----
 
