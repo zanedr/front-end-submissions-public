@@ -69,19 +69,19 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
-### Endpoints
+### Documentation
 
 **x points**: Lorem ipsum dolor set amet
 
-### Data Persistence with SQL Database
+### Feature Completion
 
 **x points**: Lorem ipsum dolor set amet
 
-### Testing & Linting
+### Testing & Linting & Error Handling
 
 **x points**: Lorem ipsum dolor set amet
 
@@ -89,7 +89,10 @@ The following set of points are distributed at the discretion of the instructor.
 
 **x points**: Lorem ipsum dolor set amet
 
-### To get a 3 on this project, you need to score 115 points or higher
-### To get a 4 on this project, you need to score 140 points or higher
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+## To get a 4 on this project, you need to score 130 points or higher
 
 # Final Score: x / 150

@@ -86,19 +86,23 @@ I didn't get much sleep last night. I'm more pleased with how this project turne
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
-### Endpoints
+### Documentation
+
+**7 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+
+* Formatting is a little hard to read. I would make the URL endpoints a little more prominent either by wrapping them in grave tags or making them headers.
+
+* I'd also like a formatted example of what kind of JSON object I need to pass through for POST requests. The list of properties is nice but let's make it a little more readable.
+
+### Feature Completion
 
 **x points**: Lorem ipsum dolor set amet
 
-### Data Persistence with SQL Database
-
-**x points**: Lorem ipsum dolor set amet
-
-### Testing & Linting
+### Testing & Linting & Error Handling
 
 **x points**: Lorem ipsum dolor set amet
 
@@ -106,7 +110,10 @@ The following set of points are distributed at the discretion of the instructor.
 
 **x points**: Lorem ipsum dolor set amet
 
-### To get a 3 on this project, you need to score 115 points or higher
-### To get a 4 on this project, you need to score 140 points or higher
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+## To get a 4 on this project, you need to score 130 points or higher
 
 # Final Score: x / 150

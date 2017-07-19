@@ -81,7 +81,7 @@ Feels great to have finally done it.
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
@@ -108,3 +108,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 4 on this project, you need to score 130 points or higher
 
 # Final Score: x / 150
+

@@ -73,7 +73,7 @@ It might just be the adrenaline backwash after staying up very late last night, 
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
