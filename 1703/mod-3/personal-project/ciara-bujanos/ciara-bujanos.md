@@ -52,3 +52,13 @@
         
 - look into [node.js]('http://frontend.turing.io/lessons/module-4/node.html') , [express]('http://frontend.turing.io/lessons/module-4/intro-to-express.html'), and [knex]('http://frontend.turing.io/lessons/module-4/knex-postgres.html')
   * havent had time to do this yet. trying to get api stuff going before I mess with backend. 
+
+
+### Deliverables for Checkin 2 
+
+- We need to figure out if the Node backend piece is worth it. I think it might be wise to consider cutting the user. 
+I'm on the fence about that so I think if we you have everything with the API sorted out by friday we can still give this thing a run. If not you might have to do a lot of this stuff on the front end 
+
+- Have API data coming through so that you can work with it. Even if it's just a single get requeste 
+- have Tests set up so that you don't have to do this last minute. 
+- It would be cool to have a random cooking quote appear on the page as the application is loading. 
