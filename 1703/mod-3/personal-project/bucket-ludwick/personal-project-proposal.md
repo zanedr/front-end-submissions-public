@@ -37,4 +37,11 @@ React, React Router, Express || Postgres
 
 #### Instructor Notes
 
-#### Deliverables for next checkin:
+#### Deliverables for next checkin 7/24 [late]:
+
+- have application styled so that there is a front end 
+- pull in book data have cards rendering so that they're on the page 
+   - have a card component 
+   - have seperate bookList component 
+- It seems like you're going to need a user so we'll need a back-end for this. You'll either user Firebase || Node. Both will have learning curves but I think you'll get a lot of support with Node. FB will be easy to get going but you'll have to really read the docs. *Have this set up by Monday (choose one)*
+- have testing setup
