@@ -9,6 +9,7 @@
 ### Deliverables  
 
 #### Stack:
+React, React Router, Express || Postgres
 
 #### APIs:  
   * Google Books
