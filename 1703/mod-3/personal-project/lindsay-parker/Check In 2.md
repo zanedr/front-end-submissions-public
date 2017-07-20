@@ -75,3 +75,9 @@ Grid of random category-by-style representations with ability to click style or 
  * Favorite? 
  
 #### Deliverables for next checkin:
+ - Built out comp
+ - Properly routing buttons on `/`
+ - Hooked up cheerio functionality
+ - `/styles` displaying accurately
+ - Tests
+
