@@ -97,7 +97,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**35 points**: Project has a running test suite that covers happy and sad paths for each endpoint. Error handling has been implemented and linter is passing.
+**30 points**: Project has a running test suite that covers happy and sad paths for each endpoint. Error handling has been implemented and linter is passing.
 
 * We want to use an environment variable [here](https://github.com/dhubertus/byob/blob/master/test/routes.spec.js#L12) rather than hard-coding the JWT.
 
@@ -117,4 +117,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: 114 / 150
+# Final Score: 109 / 150
