@@ -69,3 +69,6 @@
 * hit watson
 
 #### Deliverables for next checkin:
+   - Messages displayed
+   - Tone for single message 
+   - somes tests
