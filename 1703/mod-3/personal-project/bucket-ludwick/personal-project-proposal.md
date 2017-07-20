@@ -13,7 +13,8 @@
 #### APIs:  
   * Google Books
 
-#### Wireframes  
+#### Wireframes 
+[ImgurAlbum](http://imgur.com/a/SozMK)
 
 #### Waffle & Github
 [GitHub Repo](https://github.com/danielbucket/BookLibrary)
