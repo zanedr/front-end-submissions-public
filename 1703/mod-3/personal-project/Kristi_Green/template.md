@@ -25,15 +25,15 @@ Waffle (https://waffle.io/kristing40/TeenScene)
 Github (https://github.com/kristing40/TeenScene)
 
 #### Order Of Attack  
-work on sketch
-set up mock dataset
-set up project files
-continue working
+work on sketch,
+set up mock dataset,
+set up project files,
+continue working toward completion of project.
 
 #### MVP
-interface is functional with some initial styling
-inputs and submit functionality working
-can get to data and render to page
+interface is functional with some initial styling,
+inputs and submit functionality working,
+can get to data to render to page.
 
 #### Nice To Haves   
 Able to favorite activities
@@ -47,6 +47,6 @@ TBD
 
 - have mock data somewhat completed 
 - build out skelton of initial application 
-    - have redux and react setup 
+- have redux and react setup 
 - look into favoriting and getting router set up for a show view of the event. 
  
