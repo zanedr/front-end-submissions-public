@@ -85,11 +85,17 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**40 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* [This](https://github.com/letakeane/faceEmotionAPI/blob/master/test/routes.spec.js#L51) is a scenario where we would also use environment variables rather than hard-coding the accurate values in. Not a huge deal in this case since the credentials aren't actually  sensitive data but just for future reference.
+
+* [Clever](https://github.com/letakeane/faceEmotionAPI/blob/master/test/routes.spec.js#L81)
+
+* Your recordit for linting shows you linting your server.js file but in the future I'd also include your test files in that linting process ;)
 
 ### JavaScript Style
 

@@ -106,7 +106,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints, works locally but not in CircleCI - linter passes with no errors.
 
 * Linter passes with solid error handling in all the endpoints. Never resolved failing authenticated CircleCI tests but valiant effort regardless.
 

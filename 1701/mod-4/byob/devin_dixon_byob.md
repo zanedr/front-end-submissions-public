@@ -91,16 +91,21 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints, works locally but not in CircleCI - linter passes but is pretty weak and still allows for a lot of inconsistencies in style.
+
+* I would use `it.skip` rather than [commenting out](https://github.com/devthehuman/build-your-own-backend/blob/master/test/routes.spec.js#L111-L125) an entire test for the sake of CircleCI.
+
+* [These two lines](https://github.com/devthehuman/build-your-own-backend/blob/master/test/routes.spec.js#L71-L72) shouldn't pass a linter. Your jshintrc file is pretty weak and allows a lot of inconsistencies in your code style.
 
 ### JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
 
+* Endpoint URLs don't need to have words like 'new' or 'delete' or [all](https://github.com/devthehuman/build-your-own-backend/blob/master/test/routes.spec.js#L34) in [them](https://github.com/devthehuman/build-your-own-backend/blob/master/test/routes.spec.js#L129). You can overload a single URL with multiple HTTP methods (e.g. use `/api/v1/roles` for GET and POST, `api/v1/roles/2` for DELETE, PATCH, PUT). Usually those types of words are put in client-side routes as an indicator to the user about what they should be doing on that page.
 
 ## Project is worth 150 points
 
