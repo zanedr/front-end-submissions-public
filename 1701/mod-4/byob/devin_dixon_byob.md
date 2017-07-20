@@ -103,13 +103,21 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * Endpoint URLs don't need to have words like 'new' or 'delete' or [all](https://github.com/devthehuman/build-your-own-backend/blob/master/test/routes.spec.js#L34) in [them](https://github.com/devthehuman/build-your-own-backend/blob/master/test/routes.spec.js#L129). You can overload a single URL with multiple HTTP methods (e.g. use `/api/v1/roles` for GET and POST, `api/v1/roles/2` for DELETE, PATCH, PUT). Usually those types of words are put in client-side routes as an indicator to the user about what they should be doing on that page.
+
+* You shouldn't commit your `.env` file and [this](https://github.com/devthehuman/build-your-own-backend/blob/master/server.js#L18-L20) should not work. You need to set these values as environment variables in CircleCI and Heroku and fallback to the `config` values if you are in development.
+
+* It's difficult to tell that [this endpoint](https://github.com/devthehuman/build-your-own-backend/blob/master/server.js#L104-L105) is for getting a **specific** champion. I see you're using it for when people pass in a name as a query param. This is something I would build into your get request for all champions -- Loop through the `Object.keys(request.query)` and chain any found query parameters as where conditions in knex. You could do this chaining with [whereIn](http://knexjs.org/#Builder-whereIn).
+
+* Generally you wouldn't return the entire array of roles from a [post request](https://github.com/devthehuman/build-your-own-backend/blob/master/server.js#L144). Either return the single newly created role, or return nothing with just a successful 204.
+
+* When deleting a record, you should use the primary key id in the URL of the endpoint rather than making a user [pass in a name property](https://github.com/devthehuman/build-your-own-backend/blob/master/server.js#L294-L315). e.g. this should be rewritten `app.delete('api/v1/champions/:id')` and make your where condition based on `req.params.id` rather than a value in the body.
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 118 / 150
