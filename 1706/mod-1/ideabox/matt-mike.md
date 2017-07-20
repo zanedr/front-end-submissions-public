@@ -1,14 +1,14 @@
-Student:
-Evaluator:
-Notes:
+Student: Matt & Mike
+
+Evaluator: Meeka
+
+Notes: 
+
+
 
 Functional Expectations
 
-Novice	Application meets all of the basic functional expectations of create, edit, delete, persist in local storage.
 Advanced Beginner	Application allows for upvote/downvote and enables searching/filtering as defined in the spec.
-Proficient	The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals.
-Exceptional	The application meets all of the requirements listed above and implements one or more of the extensions.
-
 
 HTML
 
@@ -18,6 +18,7 @@ Novice	Knows what a semantic tag is and leverages the HTML5 structural tags to o
 Advanced Beginner	Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags.
 Proficient	Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns.
 Exceptional	Can run markup through a variety of online accessibility tools and score well for content, color, screen readers, etc.
+
 Style
 
 Novice	Crafts markup with proper indentation and opening/closing tags.
@@ -30,38 +31,29 @@ CSS
 
 Structure of Code
 
-Novice	Can effectively target DOM elements via tag, class, and/or id and write CSS rules around each element to create the desired style.
 Advanced Beginner	Can cleanly and logically organize CSS rules according to similar categories (i.e. typography, layout, components), and then logically organize the remaining CSS rules based on flow of the markup. Organizes properties within rules alphabetically.
-Proficient	Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
-Exceptional	Understands the performance implications surrounding cascading/specificity and crafts CSS that is mindful of reducing complexity and increasing performance.
+
 Implementation
 
-Novice	Can articulate how the CSS box model works and apply it appropriately in a static layout.
-Advanced Beginner	Can articulate the differences between the approaches of absolute/relative positioning, flex-box, floats, and can appropriately apply the approaches to solve a variety of layout problems.
 Proficient	Develops layouts that work cross-browser, are responsive, and can logically defend the choices made in implementation approach for layout.
-Exceptional	Can articulate rationale for all parts of the CSS implementation (each line of code/CSS rule) specifically in regards to the balance of: structure of code, design integrity, performance.
-
 
 JAVASCRIPT
 
 Data Types
 
-Novice	Can articulate the definitions of primitive data types: strings, booleans, numbers, null, and undefined. Can articulate and describe object types: objects, arrays.
-Advanced Beginner	Can diagnose when issues of data-type mismatch are present and appropriately redirect their coding and/or research efforts accordingly to solve the problem.
 Proficient	Can identify and track data types through any variety of functions, understanding their affect and result on each line of code. Knows which scenarios are better suited for objects vs. arrays and employs them accordingly.
-Exceptional	Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.
+
 Conditional Logic
 
-Novice	Can understand when an expression evaluates to true or false.
-Advanced Beginner	Uses if/else statements, but there are multiple levels of nesting, which makes the paths through the code difficult to follow. Understands what is “truthy” and “falsey” in JavaScript.
 Proficient	Can use an if/esle statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.
-Exceptional	Can write conditional logic that is succinct and easy to read. Logic can handle all situations where user gives incorrect/unexpected input.
+
 Functions & Scope
 
 Novice	Can write a simple function that takes at least one input argument.
 Advanced Beginner	Developer is comfortable using multiple arguments to pass data into functions. Understands how variables are scoped at the function level and global level. Functions are named descriptively. Knows when and why to use return in a function.
 Proficient	Functions have single responsibility. The entirety of the function is easy to read what functionality it contains. Function is generally shorter than 8 lines. Uses functions to eliminate repeated code. Comfortable refactoring any piece of code and extracting it to a function.
 Exceptional	Comfortable with using callback functions where applicable. Comfortable returning collections from functions (objects, arrays).
+
 Arrays
 
 Novice	Can create array and use array indexing to extract data from array or modify array. Comfortable using arrays to store simple data types: numbers, booleans, or strings.
