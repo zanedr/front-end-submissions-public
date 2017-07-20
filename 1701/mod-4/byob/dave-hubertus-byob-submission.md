@@ -100,6 +100,8 @@ The following set of points are distributed at the discretion of the instructor.
 **30 points**: Project has a running test suite that covers happy and sad paths for each endpoint. Error handling has been implemented and linter is passing.
 
 * We want to use an environment variable [here](https://github.com/dhubertus/byob/blob/master/test/routes.spec.js#L12) rather than hard-coding the JWT.
+'
+* Error handling in places like [this](https://github.com/dhubertus/byob/blob/master/server.js#L218) [this](https://github.com/dhubertus/byob/blob/master/server.js#L180) and [this](https://github.com/dhubertus/byob/blob/master/server.js#L198) could be more specific. Are they missing the required selection parameter? Tell them so and show them how to format their request appropriately or point them to the documentation that makes sense here.
 
 ### JavaScript Style
 

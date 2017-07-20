@@ -91,6 +91,9 @@ The following set of points are distributed at the discretion of the instructor.
 
 * You're explicitly setting the NODE_ENV to test [here](https://github.com/zanedr/build-your-own-backend/blob/master/test/routes.spec.js#L8-L10) but then also explicitly setting the environment variable to 'test'. You should have a single variable that looks for a `process.env.NODE_ENV` and if it can't find it, falls back to 'test'.
 
+* Would be useful to send back exactly what [artist](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L117) and [song](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L154) they typed in here. Would give them an indicator if they just had a typo or if that artist doesn't actually exist in the dataset.
+
+
 ### JavaScript Style
 
 **20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
@@ -104,9 +107,6 @@ The following set of points are distributed at the discretion of the instructor.
 * We should have fallbacks for using the config'ed .env file [here](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L23-L26) for development purposes. If not, we should at least change the error message that's coming through since none of your environments are currently reading a .env file.
 
 * You don't need [this](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L56-L75) authentication endpoint. You could have just did a `jwt.sign()` and logged the value the first time around then taken this completely out of the server.
-
-* Would be useful to send back exactly what [artist](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L117) they typed in here. Would give them an indicator if they just had a typo or if that artist doesn't actually exist in the dataset.
-
 
 ## Project is worth 150 points
 
