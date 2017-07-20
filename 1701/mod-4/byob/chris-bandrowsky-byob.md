@@ -100,11 +100,15 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
+
+* Lots of complex data relationships that likely made you feel more overwhelmed than you needed to be, but it was good practice for you and still executed well. You understand this stuff better than you think.
 
 ### Testing & Linting & Error Handling
 
 **x points**: Lorem ipsum dolor set amet
+
+* Linter passes with solid error handling in all the endpoints. Never resolved failing authenticated CircleCI tests but valiant effort regardless.
 
 ### JavaScript Style
 
