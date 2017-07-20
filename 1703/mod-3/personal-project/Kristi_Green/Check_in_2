@@ -37,3 +37,14 @@ interface is functional with some initial styling
 
 #### Nice To Haves   
 Able to favorite activities
+
+### Deliverables for 7/24
+
+- we need to get some sort of API call into this project. So I think we need to start considering other types of data to get in here 
+    - even if its weather data for that particular day / places to eat around the specific address 
+    - look into what matters to you. Pick one and start implementing / pulling the data down 
+ -  get interfaced with initial style up 
+ - start favoriting 
+    - it doesn't have to be on the backend but get the css working 
+      - extra credit: get it persisting through local storage 
+ - have testing suite hooked up.
