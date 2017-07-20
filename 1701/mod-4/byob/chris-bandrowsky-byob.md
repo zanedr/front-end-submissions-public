@@ -86,27 +86,38 @@ I didn't get much sleep last night. I'm more pleased with how this project turne
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
-### Endpoints
+### Documentation
+
+**7 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+
+* Formatting is a little hard to read. I would make the URL endpoints a little more prominent either by wrapping them in grave tags or making them headers.
+
+* I'd also like a formatted example of what kind of JSON object I need to pass through for POST requests. The list of properties is nice but let's make it a little more readable.
+
+### Feature Completion
+
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
+
+* Lots of complex data relationships that likely made you feel more overwhelmed than you needed to be, but it was good practice for you and still executed well. You understand this stuff better than you think.
+
+### Testing & Linting & Error Handling
 
 **x points**: Lorem ipsum dolor set amet
 
-### Data Persistence with SQL Database
-
-**x points**: Lorem ipsum dolor set amet
-
-### Testing & Linting
-
-**x points**: Lorem ipsum dolor set amet
+* Linter passes with solid error handling in all the endpoints. Never resolved failing authenticated CircleCI tests but valiant effort regardless.
 
 ### JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
 
-### To get a 3 on this project, you need to score 115 points or higher
-### To get a 4 on this project, you need to score 140 points or higher
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+## To get a 4 on this project, you need to score 130 points or higher
 
 # Final Score: x / 150

@@ -7,18 +7,15 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[BYOB](http://github.com/devthehuman/build-your-own-backend)
+[BYOB](https://github.com/cjorda15/brob)
 
 #### Link to the Deployed Application
-[Heroku](https://byob-dd-lol.herokuapp.com/)
+[Heroku](https://intense-taiga-19330.herokuapp.com/)
 
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-
-* Documented all available endpoints and their usage in the README?
-(Yes)
 
 * Seeded a database with at least 2 tables and 1 relationship?
 (Yes)
@@ -33,7 +30,7 @@
 (Yes)
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(Yes)
+(Yes(if you include sad path as unauthorized, will do proper sad paths for bad validation for last remaining few by tomorrow ))
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
 (Yes)
@@ -41,40 +38,38 @@
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[happy code](https://github.com/devthehuman/build-your-own-backend/blob/master/scraper.js#L1-L42)
-
+[happy code](https://github.com/cjorda15/brob/blob/master/server/router.js)
+--lines 137-152
 * Why were you proud of this piece of code?
-  * This was my first time implementing a web scraper in a project and I really enjoyed how simple it was to learn and 
-  the ability to scrape a site for specific data I wanted. The recursive calls took some fiddling with to get the scraper
-  to run all the way through, but I got it. 
+
+Not a whole lot I'm truly proud of really, this once had a loop doing a lame id generator(there's already things for that??). oh boie.  
 
 #### Link to a specific block of your code on Github that you feel not great about
-[sad code](https://github.com/devthehuman/build-your-own-backend/blob/master/test/routes.spec.js#L111-L125)
+[sad code](https://github.com/cjorda15/brob/blob/master/server/router.js)
+
+Pretty much the whole thing
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-  * This code is a bummer because the test itself works in the terminal and the endpoint is fine in Postman, but for some 
-  reason it doesn't like it in CircleCI. I've tried a bunch of different ways to refactor it and I'm honestly stumped as to 
-  why it doesn't pass the build.
 
+Just want to reflect a true blue RESTful api
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](https://github.com/devthehuman/build-your-own-backend/blob/master/screenshots/test-suite-ss.png)
+[test suite](https://github.com/cjorda15/brob/blob/master/sc.png)
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output](https://github.com/devthehuman/build-your-own-backend/blob/master/screenshots/linter-ss.png)
+[linter output](https://github.com/cjorda15/brob/blob/master/bb.png)
+can't output if no errors, but certainly will when there is some..
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI build](https://github.com/devthehuman/build-your-own-backend/blob/master/screenshots/circle-ci-ss.png)
+[circleCI build](https://github.com/cjorda15/brob/blob/master/ss.png)
 
 -----
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say
-* After completing this project and looking back on it, I would definitely make a more complex database with many-to-many 
-  relationships implemented. 
+Anything else you wanna say! (Nope!)
 
 -----
 
@@ -85,9 +80,9 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**8 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+**6 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
 
-* I'd like a formatted example of what kind of JSON object I need to pass through for POST requests. The list of properties is nice but let's make it a little more readable.
+* Formatting is really difficult to read here. Make use of headings and break things out a bit better. Format the write request requirements in code blocks rather than plain text.
 
 ### Feature Completion
 

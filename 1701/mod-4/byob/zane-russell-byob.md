@@ -33,7 +33,7 @@
 (For all except the delete points)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-(In progress)
+(Yes)
 
 # Code Quality
 
@@ -45,7 +45,7 @@
 #### Link to a specific block of your code on Github that you feel not great about
 [sad code](https://github.com/zanedr/build-your-own-backend/blob/master/server.js#L290)
 
-* the exact same code.  There has to be a better and more concise way to do it.
+* The same code.  There must surely be a better and more concise way to do this.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
@@ -54,11 +54,11 @@
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
 [linter output](https://imgur.com/a/MOcTi)
-lots of dangling commas from responses, but got a hook up for the linter at least.  I'll try to resolve this
+got a hook up for the linter at least.  I'll try to resolve this
 
 #### Attach a screenshot of your CircleCI build passing
 
-still working on it
+[circleCI](https://imgur.com/a/fEvi8)
 
 -----
 
@@ -69,19 +69,21 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
-### Endpoints
+### Documentation
+
+**8 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+
+* I'd like a formatted example of what kind of JSON object I need to pass through for POST requests. The list of properties is nice but let's make it a little more readable and tell me what data types each property requires. (e.g. what should be passed in as a string, what should be an integer, etc).
+
+### Feature Completion
 
 **x points**: Lorem ipsum dolor set amet
 
-### Data Persistence with SQL Database
-
-**x points**: Lorem ipsum dolor set amet
-
-### Testing & Linting
+### Testing & Linting & Error Handling
 
 **x points**: Lorem ipsum dolor set amet
 
@@ -89,7 +91,10 @@ The following set of points are distributed at the discretion of the instructor.
 
 **x points**: Lorem ipsum dolor set amet
 
-### To get a 3 on this project, you need to score 115 points or higher
-### To get a 4 on this project, you need to score 140 points or higher
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+## To get a 4 on this project, you need to score 130 points or higher
 
 # Final Score: x / 150

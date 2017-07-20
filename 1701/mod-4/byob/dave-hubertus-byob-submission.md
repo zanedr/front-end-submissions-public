@@ -76,13 +76,18 @@ I originally planned on scrapping bets from ESPN and betting odds for MLB, NBA, 
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**9 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+
+* I'd like a formatted example of what kind of JSON object I need to pass through for write requests (POST/PATCH/PUTs). You can make a block of code by doing a line of 3 grave marks before and after the code block. This would also give you more room to tell me what data types each property requires. (e.g. what should be passed in as a string, what should be an integer, etc).
+
+* I like that you added layouts for the data tables as images as well. Gives nice insight into what the data structure looks like.
+
 
 ### Feature Completion
 

@@ -44,3 +44,9 @@ TBD
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- have mock data somewhat completed 
+- build out skelton of initial application 
+    - have redux and react setup 
+- look into favoriting and getting router set up for a show view of the event. 
+ 
