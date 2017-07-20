@@ -67,7 +67,7 @@
 
 #### Instructor Notes
 
-#### Deliverables for next checkin: 7/24/17
+#### what was completed:
 
 - have boilerplate set up (react, redux, router)
 
@@ -82,3 +82,14 @@
     - [√] have cards rendering data with name and location.
 
 - look into getting images.
+
+#### Deliverables for next checkin 7/24
+
+* router should be completely hooked up 
+   - do this first! 
+   - you'll need this for the transferable link 
+* have atleast 2 - 3 charts built out for me. 
+    - this is the crux of your project so I would assume we have this going 
+* app should be styled. 
+* fetch mock tests
+ 
