@@ -41,5 +41,6 @@ App that displays a list of artist names and info about event for concerts in yo
   
   
 #### Deliverables for next checkin:
-
-  
+  Search location
+  Map and plotting of points.
+  Tests
