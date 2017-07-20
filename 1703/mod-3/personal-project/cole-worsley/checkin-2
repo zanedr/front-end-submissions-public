@@ -59,3 +59,13 @@ A workout app that generates randomized exercises from the WGER API. As you buil
 - backend is complete with some tests (not fully tested but at least a couple)
 - Wireframe finalized (by Friday)
 - Front-end has some information displaying and requests to API
+
+
+#### Instructor notes 
+
+- I think that for the most part creating a user and a 
+workout associated with them looks like it won't be too difficult. 
+Your code is looing good. I think setting up associations with bookshelf will be extremly helfpul for you 
+
+- once you have that set up i think getting info on the front-end will be a breeze for you. 
+- as it looks right now lets hold off on OAuth. You're moving in the right directions with the seed data BTW
