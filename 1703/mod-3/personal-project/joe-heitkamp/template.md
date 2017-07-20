@@ -80,3 +80,17 @@ The Comicvine API is overwhelmingly large with no easily defined keywords or gen
 - either get the API to give you comics related to genres || scrape. 
  * *this is the big focus for today.  By EOD, the data will either be properly cleaned or scraped, but I am leaning towards applying logic to the API object to get what I need.* 
     - nightmare.js, cheerio, selenium. 
+
+
+### Deliverables 7/24
+
+- Have data cleaned / scraped 
+   - for the most part we just need a small data set. If this sets you back too far it might make sense to just go with something small for now. We can build the rest of it out once we have something working 
+   
+ - have back-end tests! 
+   - mocha is the way to go for this! 
+ - have front-end styled and ready to go
+   - once you have your small data-set it shouldn't be too difficult to get this going. 
+ - Start testing. 
+   - this is probably the hardest part. 
+ - Have favorites table / endpoint built out. 
