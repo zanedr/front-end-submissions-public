@@ -112,12 +112,23 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+* Nice clean server [setup](https://github.com/cbandrow/byob/blob/master/server.js#L1-L20). I'd maybe move the `app.us(express.static)` up next to the other `app.uses` for body parser, and set the port near the sets for secret/username/password.
+
+* [CheckAuth](https://github.com/cbandrow/byob/blob/master/server.js#L24-L25) isn't part of your endpoints ;) Move this comment out or break this piece of middleware out into a separate file.
+
+* As we discussed, (no points off for this), we probably wouldn't return a 404 in places like [this](https://github.com/cbandrow/byob/blob/master/server.js#L59-L61). The endpoint is accurate and exists, there just is no data. So an empty array would be a better return here.
+
+* Leave off the [trailing slash](https://github.com/cbandrow/byob/blob/master/server.js#L74) at the end of your endpoint URLs.
+
+* [This check](https://github.com/cbandrow/byob/blob/master/server.js#L104-L108) isn't actually going to get caught -- if a user forgets to put in a make name in the URL, it will likely direct them to a completely different endpoint. Doing checks for missing data is more important for when a user is actually passing data through in the body of the request.
+
+* [q](https://github.com/cbandrow/byob/blob/master/server.js#L132) is not a good name for a query parameter lol
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 117 / 150
