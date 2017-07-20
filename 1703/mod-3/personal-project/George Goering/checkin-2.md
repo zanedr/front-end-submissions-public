@@ -46,4 +46,6 @@
 * Front facing website that allows users to sign in & out.
 
 #### Deliverables for next checkin:
-completed API
+- completed API
+- frontend can hit endpoints
+- Test dumb component
