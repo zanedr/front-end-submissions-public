@@ -86,8 +86,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/hilvitzs/express-tutorial)
 * [Promise Practice Exercises](https://github.com/hilvitzs/promises)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [CircleCI & Git Hooks](https://gist.github.com/hilvitzs/4dab991836d99e3ff08919e0e84df9cb)
+* [JWT Tutorial](https://github.com/hilvitzs/jwt-tutorial)
 * [Pattern Party]()
 * [Web Sockets](https://github.com/hilvitzs/chat-example)
 
