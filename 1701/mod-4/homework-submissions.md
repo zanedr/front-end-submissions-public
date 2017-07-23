@@ -149,7 +149,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Dave Hubertus
 
-* [Express Tutorial]()
+* [Express Tutorial](https://github.com/dhubertus/express-pre-work)
 * [Promise Practice Exercises]()
 * [CircleCI & Git Hooks](https://gist.github.com/dhubertus/46bde017d79302c0c95c5c3b1cd3a4c0)
 * [JWT Tutorial]()
