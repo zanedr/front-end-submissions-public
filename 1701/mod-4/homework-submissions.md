@@ -154,4 +154,4 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/dhubertus/46bde017d79302c0c95c5c3b1cd3a4c0)
 * [JWT Tutorial]()
 * [Pattern Party](https://github.com/dhubertus/pattrn)
-* [Chat-Sockets]()
+* [Chat-Sockets](https://github.com/dhubertus/chat-web-sockets-demo)
