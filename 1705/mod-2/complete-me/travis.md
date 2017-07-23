@@ -1,6 +1,9 @@
 Project: Complete-me
+
 Instructor: Limbo
+
 Student: Travis
+
 Comments:
 * More testing! Test the simplest things, edge cases, etc.
   * Break out tests into step-by-step assertions
