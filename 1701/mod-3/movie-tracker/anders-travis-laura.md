@@ -24,7 +24,8 @@ Iteration 2: Favorites
 
 ### Specification Adherence  
 
-* 2.5: The application is in a usable state, but is missing 1 or more of the features outlined in the specification above.
+* 3: Fixed missing features that needed to be finished. Squad.
+* // 2.5: The application is in a usable state, but is missing 1 or more of the features outlined in the specification above.
 
 ### Redux Architecture
 

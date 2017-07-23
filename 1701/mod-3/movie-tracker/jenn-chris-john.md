@@ -1,4 +1,55 @@
-** MOVIE SPEC **:
+## EVAL REDO:
+
+The styling on the site looks _excellent_ - good attention to responsive design. Really like what you did with the favoriting - the fade in and out is a nice touch which makes the app much friendlier. The view per movie is also pleasing - the data coming back from the api is displayed with care which makes the app feel more valuable to the user.
+
+Appologies for missing the extensions that were completed day of eval!
+
+### Specification Adherence  
+
+* 4: The application meets all of the requirements listed above and implements one or more of the extensions.
+
+### Redux Architecture
+
+The app redux structure is very clean and definitely matches the letter of this rubric to be a 4
+
+* 4: Appropriate components are wrapped in connected Redux container components. The Redux store contains all necessary application data and nothing more. All state changes are handled through Redux actions and reducers.
+
+### Routing
+
+Route to the actual movie should probably be namespaced - so `http://localhost:5000/297762` should probably actually be `http://localhost:5000/movies/297762`
+
+* 4: Application is a single page and uses the React Router to display appropriate components based on URL.
+
+### JavaScript Style
+
+Biggest thing is that all API calls should live outside of the component. At minimum they should be in a seperate file that is pulled into the component. Jhun recommends this [blog post](https://medium.com/@learnreact/container-components-c0e67432e005)
+
+[This doesn't actually reassign in the way that you expect](https://github.com/jennPeavler/movieTracker/blob/master/app/reducers/favorites-reducer.js#L7) - This is actually mutating state
+
+[May need to be removed](https://github.com/jennPeavler/movieTracker/blob/master/app/actions/index.js#L1)
+
+[Key of name](https://github.com/jennPeavler/movieTracker/blob/master/app/components/NavBar/NavBarContainer.js#L6)  - could be changed to user to avoid 'name.name'
+
+Remember that 'return' will break you out of things - so you can avoid long 'if else' statements by just returning on the first if - [like this one](https://github.com/jennPeavler/movieTracker/blob/master/app/components/MovieCard/MovieCard.js#L7)
+
+This should probably be [3 different functions at minimum](https://github.com/jennPeavler/movieTracker/blob/master/app/components/MovieCard/MovieCard.js#L5-L50)
+
+* 3 (soft): Application is thoughtfully put together with some duplication and no major bugs. Group can speak to choices made in the code and knows what every line of code is doing.
+
+### Testing
+
+Be careful with what you put in the scope of a test - for example - [these variables](https://github.com/jennPeavler/movieTracker/blob/master/app/components/MovieCard/MovieCard.test.js#L29-L35) for a mock function and wrapper are declared in the top describe block - you would want these to always be in a before block because of collision. The mock function will track calls across all of your tests - so if you add more than one test with a mock, your tests will start to break randomly.
+
+* 3: Project has a running test suite that tests multiple levels but fails to cover some features.
+
+### Workflow
+
+Good start on refactoring - but keep cleaning up things like [comments here](https://github.com/jennPeavler/movieTracker/blob/master/app/components/apiCalls.js#L11) - Also, this code probaby isn't being used since it isn't exported so you would need to remove this file
+
+* 3: The group makes a series of small, atomic commits that document the evolution of their application and it is clear who was responsible for what features.
+
+
+## PREVIOUS EVAL: MOVIE SPEC:
 
 Notes: Chris Jordan late for eval
 

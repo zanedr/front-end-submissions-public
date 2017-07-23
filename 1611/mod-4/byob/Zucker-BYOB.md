@@ -159,3 +159,22 @@ test:
 
 
 ## Points: 87 / 150
+
+
+-------
+
+Secondary Eval
+
+* Testing is still very sparse
+* Error handling is weak despite initial feedback in the first eval
+* Has completed 10 endpoints
+* Completed JWTs
+* Master repo still contains a number of console.logs and commented out code
+* Cannot determine if linter is passing or errors still remain as submission file has not been updated
+
+* Endpoints: 60
+* Data Persistence: 40
+* Testing: 10
+* JavaScript Style: 10
+
+## Points: 120 / 150

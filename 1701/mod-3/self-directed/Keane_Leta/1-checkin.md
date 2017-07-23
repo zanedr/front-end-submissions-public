@@ -63,3 +63,16 @@ I foresee the API call being the largest challenge, since it also inherently inv
 ## Instructor Notes
 
 - Get webcam hooked up and displaying with a video tag
+
+## Checkin with Nate
+
+Get environment variables working to store key 
+Show learn component
+
+roadblock: need help setting up environmental variables for Node
+
+Last Check In for Monday:
+ - Testing
+ - Fixing little bugs, like if all emotions come back undefined
+ - The Instruction component
+ - Execute the last bullet point above

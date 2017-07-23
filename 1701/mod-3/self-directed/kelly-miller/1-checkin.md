@@ -50,10 +50,12 @@ Based on your wireframes, in what order are you going to approach building out t
 -integrating calendar and contact logs on children bio
 
 #### MVP
+
 -Parent and child profile pages
--interactive calendar for events
+- redux :D
 
 #### Nice To Haves   
+
 -Behavioral log through calendar that shows up on childs profile
 -contact log through calendar that shows up on childs profile
 -map features

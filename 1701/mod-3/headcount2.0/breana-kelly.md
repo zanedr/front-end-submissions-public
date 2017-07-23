@@ -10,9 +10,9 @@
 
 ## PropType Implementation
 
-** Pending ** 
+- Pass! - https://github.com/kellymiller6/headcount2.0/commit/8bd59e8fd5748ff8cae181acbbdca2c029f047b2
 
-- Fail - There are components missing proptype validation.
+ - There are components missing proptype validation.
 
 ## CSS/Design
 

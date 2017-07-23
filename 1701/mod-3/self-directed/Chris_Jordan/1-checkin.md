@@ -51,7 +51,7 @@ creating a database for use for this app
 
 Taylor:
 
-MVP: 
+MVP:
 Express, Node, Enzyme, React, Redux, React-router, PSQL(KNEX), API
 
 Set up news source table that holds up/down votes for conservative vs liberal
@@ -60,11 +60,30 @@ Test
 UI/UX
 
 Check in 2, Thursday 5/25:
-You've set up your KNEX and looked into it. Set up one table? 
+You've set up your KNEX and looked into it. Set up one table?
 newSources:
   name:
   liberal votes:
   conservative votes:
   fact votes:
-  false votes: 
+  false votes:
 
+Check In 3, Tuesday:
+  Full incrementing between news sources.
+  Tests for all reducers and actions.
+  Users?
+
+Check In 4, Thursday:
+ get favorites to be saved onto the database by user and render that in a seperate component
+ get most of the components tested
+
+ Check In 5, Monday:
+ Testing, UI/UX
+ Email for signup uses only emails.
+
+Extra Issues:
+* Favorites reducer being synced with database
+* Refactoring Article
+* Testing CreateUser, thoroughly
+* Routing is secure
+* UX/UI
