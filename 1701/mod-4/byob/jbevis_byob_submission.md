@@ -18,25 +18,25 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-(Yes)
+Yes
 
 * Seeded a database with at least 2 tables and 1 relationship?
-(Yes)
+Yes
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-(Yes)
+Yes
 
 * Secured at least 4 endpoints with JWTs?
-(Yes)
+Yes
 
 * Enforced a linter and wrote code that conformed to it?
-(Yes)
+Yes
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(Yes)
+Yes
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-(Yes)
+Yes
 
 # Code Quality
 
@@ -77,30 +77,52 @@ This project was much harder that I was expecting. The types of bugs encountered
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+* **5 points** -  The README documentation is out-of-date or inaccurate in some places. Instructor can not successfully use every endpoint based on following the documentation.
+
+- I wanted to see more about possible values that you could send in the body for say earthquake `DEPTH` (what units is the depth in)
+- Would like to see one helpful part of API documentation which is showing sample output from an API call
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+* **60 points** - Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+* **30 points** - Project has a running test suite that covers most happy and sad paths for each endpoint. Error handling has been implemented but does not cover all possible scenarios or is unhelpful for the end-user. Linter has some errors that need fixing.
+
+- Stick to the convention of naming your test environment `test` instead of [testing](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L2)
+- You're doing a lot of extra work [here](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L39-L50) with the `beforeEach`. In your implementation, you are rolling back your schema, migrating, and then seeding data for every test. This is overkill since all you want to do is delete the records from your tables and reseed, not run a migration.
+  - Instead, have a `before`, which only runs once before all the tests which runs the migrations, and then a `beforeEach` that clears records and reseeds the tables
+- [This](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L58) is good so you can actually test content
+- [Good](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L155) sad path here
+- I would expect [this response](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L397) to be related to the `badDepth`, but the error talks about not being authorized
+- Good sad-path test [here](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L459)
+- Why do you need [this](https://github.com/jbevis/build-your-own-backend/blob/master/server.js#L330-L333)?
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+* **20 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+- For the earthquakes, you want to keep the auto incrementing primary key, and then if you have another ID associated with an earthquake, use another column
+- [This route](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L195) is not nested in a RESTful way
+  - It should be something like `'/api/v1/region/5/earthquakes'`or `/api/v1/earthquakes?region=5` using a query param
+- Same idea with [this route's](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L211) nesting
+  - You have the query param structure right, but you don't need the additional `filterMag` in the URL (`/api/v1/earthquakes/filterMag?magLow=4.5&magHi=8.0`) - you can just use `/api/v1/earthquakes?magLow=4.5&magHi=8.0`
+- I see most endpoints for POST and PUT/PATCH using non-RESTful formats like described above
+- [This endpoint](https://github.com/jbevis/build-your-own-backend/blob/master/test/routes.spec.js#L466) lists the region ID in reverse order. Instead of `/api/v1/:id/regions`, it should be `/api/v1/regions/:id`.
+- You're not serving any static files, so you don't need this [line](https://github.com/jbevis/build-your-own-backend/blob/master/server.js#L11) other than for your `/` route, which is not needed for this project
+- Were you having CORS issues? I doubt you need [this](https://github.com/jbevis/build-your-own-backend/blob/master/server.js#L14) either?
+- [Here](https://github.com/jbevis/build-your-own-backend/blob/master/server.js#L292-L328) you are sending two sets of responses, which will probably not happen successfully because the connection to the client will close after the first response is successful (this is why you're seeing the errors in your test suite)
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 115 / 150
