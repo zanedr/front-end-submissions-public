@@ -76,25 +76,42 @@ I originally planned on scrapping bets from ESPN and betting odds for MLB, NBA, 
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**9 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+
+* I'd like a formatted example of what kind of JSON object I need to pass through for write requests (POST/PATCH/PUTs). You can make a block of code by doing a line of 3 grave marks before and after the code block. This would also give you more room to tell me what data types each property requires. (e.g. what should be passed in as a string, what should be an integer, etc).
+
+* I like that you added layouts for the data tables as images as well. Gives nice insight into what the data structure looks like.
+
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: Completed almost all features, but lacking a relationship between the two data tables.
+
+* The relationship is a pretty big part of the challenge for this project, would have been nice to find a way to join these tables in some way or create another one that linked up to either of them.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Project has a running test suite that covers happy and sad paths for each endpoint. Error handling has been implemented and linter is passing.
+
+* We want to use an environment variable [here](https://github.com/dhubertus/byob/blob/master/test/routes.spec.js#L12) rather than hard-coding the JWT.
+'
+* Error handling in places like [this](https://github.com/dhubertus/byob/blob/master/server.js#L218) [this](https://github.com/dhubertus/byob/blob/master/server.js#L180) and [this](https://github.com/dhubertus/byob/blob/master/server.js#L198) could be more specific. Are they missing the required selection parameter? Tell them so and show them how to format their request appropriately or point them to the documentation that makes sense here.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* You shouldn't be accessing questions based on their question value, use the primary key (an ID) [here](https://github.com/dhubertus/byob/blob/master/test/routes.spec.js#L76) instead. You can't guarantee that these long question strings are formatted in a URL-friendly way and also unique. (The spaces in these questions is alone enough to be too sloppy to use as an endpoint parameter)
+
+* You don't actually need this authenticate [endpoint](https://github.com/dhubertus/byob/blob/master/test/routes.spec.js#L94-L125) it was there for new users getting their own API tokens. You could have just done a `jwt.sign()` and logged the value once, then remove all of this code.
+
+* Having a `newQuestion` [endpoint](https://github.com/dhubertus/byob/blob/master/test/routes.spec.js#L129) isn't generally how you would structure your URLs. Instead you would overload the `api/v1/questions` endpoint with GET and POST requests. There's no need to denote in the URL what it is you're doing with it, as that will get passed in as the method from the fetch request itself. Adding things like 'new' to the URL are generally preserved for client-side routes so that an end user knows what they should actually be doing on a particular page.
 
 
 ## Project is worth 150 points
@@ -102,4 +119,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 109 / 150

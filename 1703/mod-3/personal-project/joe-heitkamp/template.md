@@ -15,12 +15,15 @@ In the minds of most people, comic books are only full of brightly colored, span
 * Webpack
 * Jest/Enzyme
 * PostgreSQL
+* Express
+* Knex
 
 #### APIs:  
 * [ComicVine](https://comicvine.gamespot.com/api/)
 * [Goodzer](https://developer.goodzer.com/)
 
 #### Wireframes  
+* [Sketch mobile through HD desktop](https://www.dropbox.com/sh/21vyitjm9juz79g/AADYuJZMccnvVqGJeczWd__1a?dl=0)
 
 #### Waffle & Github
 * [Waffle](https://waffle.io/noetic97/comic-connection)
@@ -66,10 +69,28 @@ The Comicvine API is overwhelmingly large with no easily defined keywords or gen
 #### Instructor Notes
 
 #### Deliverables for next checkin:
-- have wireframes done. this will keep you accountable so that when you come up with new ideas you'll stick to what you've got 
+- have wireframes done. this will keep you accountable so that when you come up with new ideas you'll stick to what you've got  * *initial wireframes are finished and a link to the images is above.* 
 - have backend setup (Node.js, express, knex, bookshelf)
-    - frontend has a walk through on setting up the backend with knex and express thats great 
+    - frontend has a walk through on setting up the backend with knex and express thats great
+     * *knex and postgres are set up and seeding initial user data.  I am still working through storing and retrieving favorites linked to a user ID though.*
     - look into testing 
+     * *will have a full suite of tests written by the end of the weekend for written components and helper logic*
 - Have initial app setup (react, redux, router) 
+ * *The initial framework is in place and working.  Simple rendering of a controlled input and home page is being handled by router.  The app will continue to be nuilt out in react/redux.* 
 - either get the API to give you comics related to genres || scrape. 
+ * *this is the big focus for today.  By EOD, the data will either be properly cleaned or scraped, but I am leaning towards applying logic to the API object to get what I need.* 
     - nightmare.js, cheerio, selenium. 
+
+
+### Deliverables 7/24
+
+- Have data cleaned / scraped 
+   - for the most part we just need a small data set. If this sets you back too far it might make sense to just go with something small for now. We can build the rest of it out once we have something working 
+   
+ - have back-end tests! 
+   - mocha is the way to go for this! 
+ - have front-end styled and ready to go
+   - once you have your small data-set it shouldn't be too difficult to get this going. 
+ - Start testing. 
+   - this is probably the hardest part. 
+ - Have favorites table / endpoint built out. 

@@ -74,19 +74,21 @@ Anything else you wanna say! (Nope!)
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
-### Endpoints
+### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**6 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
 
-### Data Persistence with SQL Database
+* Formatting is really difficult to read here. Make use of headings and break things out a bit better. Format the write request requirements in code blocks rather than plain text.
 
-**x points**: Lorem ipsum dolor set amet
+### Feature Completion
 
-### Testing & Linting
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
+
+### Testing & Linting & Error Handling
 
 **x points**: Lorem ipsum dolor set amet
 
@@ -94,7 +96,10 @@ The following set of points are distributed at the discretion of the instructor.
 
 **x points**: Lorem ipsum dolor set amet
 
-### To get a 3 on this project, you need to score 115 points or higher
-### To get a 4 on this project, you need to score 140 points or higher
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+## To get a 4 on this project, you need to score 130 points or higher
 
 # Final Score: x / 150

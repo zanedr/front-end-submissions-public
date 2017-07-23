@@ -9,12 +9,13 @@
 
 #### Stack:
 * React/Redux/Router/CSS3 for the front-end application
-* Node.js for the backend server
+* Node.js/Express/KNEX for the backend server
 * postgres for the database
 
 #### APIs:
-* [Absolut Drinks Database API](https://addb.absolutdrinks.com/docs/)
-* [The Cocktail DB](http://www.thecocktaildb.com/)
+* MVP: [Absolut Drinks Database API](https://addb.absolutdrinks.com/docs/)
+* Future: [The Cocktail DB](http://www.thecocktaildb.com/)
+* Future: Drizly
 
 #### Wireframes  
 ![Landing Page](https://github.com/the-oem/bearded-bartender/blob/master/comps/landing-page.jpg?raw=true)
@@ -29,17 +30,17 @@
 
 #### Order Of Attack  
 ##### Iteration 0
-* Database Schema for users and favorites
-* Wireframes for application
-* Running Node API with end-points for creating account, validating user (login), getting favorites, adding favorite, deleting favorite
+* (complete) Database Schema for users and favorites
+* (complete) Wireframes for application
+* (complete) Running Node API with end-points for creating account, validating user (login), getting favorites, adding favorite, deleting favorite
 
 ##### Iteration 2
 * Base application with ability to create account & login
 * Create account and login tests
 
 ##### Iteration 3
-* Hooked up to ADDb and pulling drink recipes from user filters
-* Filter and drink rendering tests
+* Hooked up to ADDb and pulling drink recipes from user search
+* Search and drink rendering tests
 
 ##### Iteration 4
 * Displaying drink with image, ingredients and instructions
@@ -50,13 +51,13 @@ Favoriting & favorite listing tests
 
 #### MVP
 * Users can register for an account & login
-* Users can filter drink recipes by ingredients
-* Users can filter drink recipes by occasion
+* Users can search drinks (by name)
 * Users can view drink recipe details
-* Users can favorite recipes, which show up in a favorites list
+* Users can favorite drink recipes, which show up in a favorites list
 
 #### Nice To Haves   
-* Users can Search ingredients (by name)
+* Users can search ingredients (by name)
+* Users can filter drink recipes by occasion/ingredient
 * Users can maintain a list of ingredients they own
 * Users can find out what recipes they can make based on their stock of ingredients
 * Users can enter their own personal recipes
@@ -68,7 +69,7 @@ Favoriting & favorite listing tests
 
 #### Biggest Challenges  
 * Building a proper data model for the backend API's
-* Learning Node.js
+* Learning Node.js/Express/KNEX
 * Testing. Because...testing.
 
 #### Instructor Notes
@@ -82,7 +83,9 @@ Favoriting & favorite listing tests
 * What cocktails can you make from you cabinet - Stretch
 
 #### Deliverables for next checkin:
-* KNEX tables up and running
-* Node api set up?
-* Frontend can hit api endpoints
-
+* Users can create an account
+* Users can login / logout
+* Login persists to local storage
+* User can see all drinks pulled from ADDb
+* User can favorite / unfavorite a drinks
+* Tests for all the above

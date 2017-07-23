@@ -1,26 +1,26 @@
-## Project Name:  
+## Project Name:
 
-#### Check In: 1  
+#### Check In: 1
 
-#### Project Pitch  
+#### Project Pitch
 
-### Deliverables  
+### Deliverables
 
 #### Stack:
 
-#### APIs:  
+#### APIs:
 
-#### Wireframes  
+#### Wireframes
 
 #### Waffle & Github
 
-#### Order Of Attack  
+#### Order Of Attack
 
 #### MVP
 
-#### Nice To Haves   
+#### Nice To Haves
 
-#### Biggest Challenges  
+#### Biggest Challenges
 
 #### Instructor Notes
 
