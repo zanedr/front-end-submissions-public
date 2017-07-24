@@ -1,6 +1,6 @@
 ## Project Magic Mirror:  
 
-#### Check In: 1  
+#### Check In: 3  
 
 #### Project Pitch
 A Magic Mirror, is a reflective monitor that will show data to the participant on top of a mirror. Positioned to be a unit the user would see during their daily routine, it can include the current date, daily weather outside, travel information, music currently playing, and daily schedule.
@@ -46,20 +46,20 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 ##### iteration 1 : Order BOM / Build Boilerplate / Harness Data
 - ~~Order BOM~~
 - ~~Create React/Redux boilerplate~~
-- Wireframe and position data/mock content, which includes routing content, and some CSS styling **(in progress)**
-- Connect to Weather Underground and NewsAPI, create cleaner functions to harness data needed **(in progress)**
+- ~~Wireframe and position data/mock content, which includes routing content, and some CSS styling~~ 
+- ~~Connect to Weather Underground and NewsAPI, create cleaner functions to harness data needed~~ 
 - Add Youtube playlist to play
-- Show APIs information
+- ~~Show APIs information~~
 
 ##### iteration 2 : Initial App Tests / Build Hardware & Test
-- Write tests for first stage
+- Write tests for first stage **In Progress**
 - ~~Install Rasp Pi software~~
 - Test all hardware together, make sure it works
 - **Test project on Raspberry, bundle with electron**
 
 ##### iteration 3 : Connect Alexa
-- Create API key, test Alexa on local computer.
-- Connect Alexa with project, injecting JS to do so, find tutorials, ask for help.
+- ~~Create API key, test Alexa on local computer~~
+- Connect Alexa with project, injecting JS to do so, find tutorials, ask for help **In Progress**
 - Test, can Alexa turn features/information on/off? Can Alexa toggle a container on/off by voice command?
 
 ##### iteration 4 : App Test on Raspberry Pi
@@ -89,8 +89,7 @@ A working smart mirror that displays the weather and daily news.
 #### Instructor Notes
 
 #### Deliverables for next checkin:
-- A working MVP, in regard to software.
-- All hardware ordered
-- Progress made with using Alexa
-- Iteration 0, 1, 2 complete
-- Iteration 3 in progress
+- Get app working with Electron
+- Find an Alexa Mentor
+- Start the build process
+
