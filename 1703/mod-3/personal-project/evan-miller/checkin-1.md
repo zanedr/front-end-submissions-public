@@ -13,7 +13,7 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 - React
 - Redux
 - React Router
-- CSS
+- Electron
 
 #### APIs: 
 - Weather Underground 
@@ -29,7 +29,8 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 - Speaker
 
 #### Wireframes
-![Main](http://imgur.com/Ew6zuJL "Magic Mirror wireframe")
+
+![Main](https://www.dropbox.com/s/s1ob3b07ej1n2vf/magic_mirror_mock.png?dl=1)
 
 #### Waffle & Github
 [github repo](https://github.com/EvanSays/magic-mirror)
