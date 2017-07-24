@@ -83,9 +83,8 @@ Favoriting & favorite listing tests
 * What cocktails can you make from your cabinet - Stretch
 
 #### Deliverables for next checkin:
-* Users can create an account (done)
-* Users can login / logout (done)
-* Login persists to local storage (carry-over)
-* User can see all drinks pulled from ADDb (done, with added search)
-* User can favorite / unfavorite a drinks (carry-over)
-* Tests for all the above (some carry-over)
+* Login persists to local storage
+* Search pagination implemented
+* User can favorite / unfavorite a drink
+* Users can browse by 3 additional categories, Drinks by Occasion, Drinks by Taste, Drinks with How-To Videos
+* Tests
