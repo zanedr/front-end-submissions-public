@@ -70,4 +70,5 @@ Grid of random category-by-style representations with ability to click style or 
  * Favorite? 
  
 #### Deliverables for next checkin:
-
+ * Finish iteration 2 by Thursday and have written more tests / worked on UI/UX.
+   * Tests might be hard due to the nature of react router so do as much as you can!
