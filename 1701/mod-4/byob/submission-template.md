@@ -1,6 +1,6 @@
 # BYOB Submission Form
 
-[Project Spec]()
+[Project Spec](http://frontend.turing.io/projects/build-your-own-backend.html)
 
 ------
 
