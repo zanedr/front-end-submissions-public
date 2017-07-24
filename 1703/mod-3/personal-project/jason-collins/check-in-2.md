@@ -85,7 +85,7 @@ Favoriting & favorite listing tests
 #### Deliverables for next checkin:
 * Users can create an account (done)
 * Users can login / logout (done)
-* Login persists to local storage (carry-over)
+* Login persists to local storage (done)
 * User can see all drinks pulled from ADDb (done, with added search)
 * User can favorite / unfavorite a drinks (carry-over)
 * Tests for all the above (some carry-over)
