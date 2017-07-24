@@ -33,7 +33,8 @@ Provide an environment in which to view various architectural and interior desig
 
 ##### Iteration 1 - By Style or Category
  - :white_check_mark: The user should see a random representation of each major style by category
- - When the user clicks a button to view individual style or category, they should be brought to `/:style` or `/all/:category`
+ - :white_check_mark: When the user clicks a button to view individual style, **they should be brought to `/style/:style`** *(split into two items, based on the way I'm now displaying the styles matrix)*
+ - When the user clicks a button to view individual **category, they should be brought to `/all/:category`** *(not sure on this one anymore..)*
  - These routes should display a random assortment of representative cards
 
 ##### Iteration 2 - By Style & Category
