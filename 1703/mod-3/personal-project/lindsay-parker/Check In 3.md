@@ -32,7 +32,7 @@ Provide an environment in which to view various architectural and interior desig
  - :white_check_mark: There should be a button to view user favorites
 
 ##### Iteration 1 - By Style or Category
- - The user should see a random representation of each major style by category
+ - :white_check_mark: The user should see a random representation of each major style by category
  - When the user clicks a button to view individual style or category, they should be brought to `/:style` or `/all/:category`
  - These routes should display a random assortment of representative cards
 
