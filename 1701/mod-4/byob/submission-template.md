@@ -38,7 +38,6 @@
 * Setup automatic deployments with CircleCI to a production app on Heroku?
 (Yes/No)
 
-
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
