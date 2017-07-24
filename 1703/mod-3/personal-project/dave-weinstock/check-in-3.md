@@ -41,3 +41,4 @@ App that displays a list of artist names and info about event for concerts in yo
   
   
 #### Deliverables for next checkin:
+dynamic routing, single event page built out. ux/ui and tests
