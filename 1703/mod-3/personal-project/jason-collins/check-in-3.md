@@ -83,7 +83,6 @@ Favoriting & favorite listing tests
 * What cocktails can you make from your cabinet - Stretch
 
 #### Deliverables for next checkin:
-* Search pagination implemented
 * User can favorite / unfavorite a drink, and view list of favorites
 * Users can browse by 3 additional categories, Drinks by Occasion, Drinks by Taste, Drinks with How-To Videos
 * Tests
