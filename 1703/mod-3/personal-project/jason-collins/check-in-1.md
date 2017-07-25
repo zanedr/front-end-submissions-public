@@ -79,10 +79,9 @@ Favoriting & favorite listing tests
 
 
 * Maintain own ingredients - Stretch
-* What cocktails can you make from you cabinet - Stretch
+* What cocktails can you make from your cabinet - Stretch
 
 #### Deliverables for next checkin:
-* KNEX tables up and running
-* Node api set up?
-* Frontend can hit api endpoints
-
+* KNEX tables up and running (done)
+* Node api set up? (done)
+* Frontend can hit api endpoints (done)
