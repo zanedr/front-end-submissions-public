@@ -162,10 +162,11 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
+- Changed name and style to represent the pivot
+- Does not filter on complete is the only bug (bug?)
+- Really nice usability features added such as cursor index being on the top and all buttons are toggles
 
 <br>
 
@@ -175,16 +176,10 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient (really strong effort and usage of the class taught yesterday)
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 <br>
@@ -195,16 +190,10 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
+ 
 * Exceptional  
 
 <br>
@@ -215,51 +204,30 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Exceptional
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner  &   * Proficient
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner  &   * Proficient
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 <br>
@@ -270,17 +238,11 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient  &  * Exceptional
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient  &  * Exceptional  
 
 <br>
 
@@ -290,10 +252,7 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Exceptional
 
 <br>
 
@@ -303,9 +262,6 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Exceptional
 
 <br>
