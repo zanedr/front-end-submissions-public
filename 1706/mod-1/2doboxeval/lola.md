@@ -162,10 +162,7 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient (!!!) (SOLO PROJECT)
 
 <br>
 
@@ -175,16 +172,10 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 #### Style
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
+ 
 * Exceptional  
 
 <br>
@@ -195,17 +186,11 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 <br>
 
@@ -214,53 +199,32 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+ 
+* Exceptional
 
 #### Conditional Logic
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
+ 
 * Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient    
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient to * Exceptional  
 
 <br>
 
@@ -270,17 +234,11 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 <br>
 
@@ -290,22 +248,6 @@ Note: TimeZones are hard - consider using a library like [MomentJS](http://momen
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-<br>
-
-------------------------------------------------------------------
-
-## PAIRING
-
-#### Collaboration
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner &  * Proficient
 
 <br>
