@@ -18,31 +18,24 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-
 Yes
 
 * Seeded a database with at least 2 tables and 1 relationship?
-
 Yes
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-
 Yes
 
 * Secured at least 4 endpoints with JWTs?
-
 Yes
 
 * Enforced a linter and wrote code that conformed to it?
-
 Yes
 
 * Wrote tests for both happy and sad paths for each endpoint?
-
 No - I tested most happy and sad paths but for some I wasn't entirely sure how to get an error.
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-
 Yes
 
 # Code Quality
@@ -83,30 +76,45 @@ My token for this project is: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFt
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+* **5 points** -  The README documentation is out-of-date or inaccurate in some places. Instructor can not successfully use every endpoint based on following the documentation. 
+
+- Would like to see one helpful part of API documentation which is showing sample output from an API call
+- I don't see any documentation about the endpoint that uses a query parameter
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+* **55 points** - Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
+
+- The relationship between wines and attributes seems to be a many-to-many relationship, but your schema uses a one-to-many relationship. It works here, but there is a lot of data redundancy in the attributes table. Ideally, you would have a wines, attributes, and wines_attributes table to join the many-to-many relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+* **25 points** - Project has a running test suite that covers most happy and sad paths for each endpoint. Error handling has been implemented but does not cover all possible scenarios or is unhelpful for the end-user. Linter has some errors that need fixing.
+
+- I don't see a test for the wines query parameter
+- Your `before` function does not need to [seed data](https://github.com/hilvitzs/byob/blob/master/test/routes.spec.js#L19) because your `beforeEach` will take care of the seeding
+- Even if you can't test for exact content (values in the array) in the test, for instance [here](https://github.com/hilvitzs/byob/blob/master/test/routes.spec.js#L47-L50), you can at least test for properties of the objects in the array
+- Good sad path test [here](https://github.com/hilvitzs/byob/blob/master/test/routes.spec.js#L124)
+- Overall, good happy path tests, but like you said, some sad path tests are missing - always make sure you're testing for structure of data if you can't test for exact content
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+* **30 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+- Were you actually having CORS issues with your own API to need [this code](https://github.com/hilvitzs/byob/blob/master/server.js#L7)?
+- In the future, when your server file contains a lot endpoints, you can extract these endpoints to their own router file, [see the docs](https://expressjs.com/en/guide/routing.html#express-router)
+- Missing a couple `.catch()` for handling errors if promises are not resolved
+- You want to make sure you check the properties that are being passed in [here](https://github.com/hilvitzs/byob/blob/master/server.js#L189) just in case there isn't anything malicious in the body if someone was changing a property that was not supposed to change
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 115 / 150

@@ -86,27 +86,49 @@ I didn't get much sleep last night. I'm more pleased with how this project turne
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
-### Endpoints
+### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**7 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
 
-### Data Persistence with SQL Database
+* Formatting is a little hard to read. I would make the URL endpoints a little more prominent either by wrapping them in grave tags or making them headers.
 
-**x points**: Lorem ipsum dolor set amet
+* I'd also like a formatted example of what kind of JSON object I need to pass through for POST requests. The list of properties is nice but let's make it a little more readable.
 
-### Testing & Linting
+### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
+
+* Lots of complex data relationships that likely made you feel more overwhelmed than you needed to be, but it was good practice for you and still executed well. You understand this stuff better than you think.
+
+### Testing & Linting & Error Handling
+
+**30 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints, works locally but not in CircleCI - linter passes with no errors.
+
+* Linter passes with solid error handling in all the endpoints. Never resolved failing authenticated CircleCI tests but valiant effort regardless.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
-### To get a 3 on this project, you need to score 115 points or higher
-### To get a 4 on this project, you need to score 140 points or higher
+* Nice clean server [setup](https://github.com/cbandrow/byob/blob/master/server.js#L1-L20). I'd maybe move the `app.us(express.static)` up next to the other `app.uses` for body parser, and set the port near the sets for secret/username/password.
 
-# Final Score: x / 150
+* [CheckAuth](https://github.com/cbandrow/byob/blob/master/server.js#L24-L25) isn't part of your endpoints ;) Move this comment out or break this piece of middleware out into a separate file.
+
+* As we discussed, (no points off for this), we probably wouldn't return a 404 in places like [this](https://github.com/cbandrow/byob/blob/master/server.js#L59-L61). The endpoint is accurate and exists, there just is no data. So an empty array would be a better return here.
+
+* Leave off the [trailing slash](https://github.com/cbandrow/byob/blob/master/server.js#L74) at the end of your endpoint URLs.
+
+* [This check](https://github.com/cbandrow/byob/blob/master/server.js#L104-L108) isn't actually going to get caught -- if a user forgets to put in a make name in the URL, it will likely direct them to a completely different endpoint. Doing checks for missing data is more important for when a user is actually passing data through in the body of the request.
+
+* [q](https://github.com/cbandrow/byob/blob/master/server.js#L132) is not a good name for a query parameter lol
+
+## Project is worth 150 points
+
+## To get a 3 on this project, you need to score 110 points or higher
+## To get a 4 on this project, you need to score 130 points or higher
+
+# Final Score: 117 / 150
