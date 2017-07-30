@@ -107,7 +107,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**25 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+**30 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * I'd file issues for comments like [this](https://github.com/DBULL7/VoterData/blob/master/server/controllers/districtController.js#L59) rather than storing them directly in your codebase
 
