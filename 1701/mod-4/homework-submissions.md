@@ -54,7 +54,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/JohnBinning/cf5e15a9dabedcdb02c45a44d795db2d)
 * [Web Sockets](https://gist.github.com/letakeane/33cb23433702957c42e7e5b5e58580c5)
 * [JWT Tutorial](https://github.com/letakeane/jwt-homework)
-* [Pattern Party](https://github.com/letakeane/pattrnparty)
+* [Pattrn Party - repo](https://github.com/letakeane/pattrnparty)
+* [Pattrn Party - gh-pages](https://letakeane.github.io/pattrnparty/)
+* [Blog post for House of Vars assignment](https://medium.com/@letakeane/contributing-to-open-source-the-sharks-are-photoshopped-47e22db1ab86)
 
 ### Devin Dixon
 
