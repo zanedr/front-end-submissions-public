@@ -117,7 +117,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/anderswood/43b05e613346722058858d7a65b2f3e6)
 * [JWT Tutorial](https://github.com/jbevis/jwt-tutorial)
 * [Web Socket Tutorial](https://github.com/jbevis/websockets-chatroom)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/jbevis/pattrn-party)
 
 ### Devon Bull
 
