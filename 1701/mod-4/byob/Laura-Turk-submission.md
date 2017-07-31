@@ -18,25 +18,25 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-(Yes)
+Yes
 
 * Seeded a database with at least 2 tables and 1 relationship?
-(Yes)
+Yes
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-(Yes)
+Yes
 
 * Secured at least 4 endpoints with JWTs?
-(Yes)
+Yes
 
 * Enforced a linter and wrote code that conformed to it?
-(Yes) - with githooks for linting and testing
+Yes - with githooks for linting and testing
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(Yes)
+Yes
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-(Yes)
+Yes
 
 # Code Quality
 
@@ -74,30 +74,50 @@ and
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+* **5 points** -  The README documentation is out-of-date or inaccurate in some places. Instructor can not successfully use every endpoint based on following the documentation. 
+
+- Would like to see one helpful part of API documentation which is showing sample output from an API call
+- Try to break up the blocks of text for some of the endpoints
+- The key for word types is good
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+* **60 points** - Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+* **35 points** - Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+- Good `before` and `beforeEach` in your [tests](https://github.com/lauraturk/lt-byob/blob/master/test/routes.spec.js#L14-L26), but you don't need these functions to run for your client routes, only API routes dealing with the DB
+- Be more descriptive in [test names](https://github.com/lauraturk/lt-byob/blob/master/test/routes.spec.js#L379), you can also use `describe` to group similar tests together, which also have their own titles
+- Ideally, group similar tests like [this test](https://github.com/lauraturk/lt-byob/blob/master/test/routes.spec.js#L348-L359) and [this test](https://github.com/lauraturk/lt-byob/blob/master/test/routes.spec.js#L379-L390) next to each other for better test readability
+- Overall good coverage of happy and sad paths
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+* **25 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+- The relationship between words and text snippets in your implementation is a one-to-many relationship, which is OK for BYOB, but in the future, this relationship should be a many-to-many to reduce data redundancy (since multiple text snippets can share the same word), and this should change if you use this backend in your capstone.
+- The order of elements in the [array of Promise.all](https://github.com/lauraturk/lt-byob/blob/master/db/migrations/20170709160029_initial.js#L52-L56) does not guarantee the order of execution - careful with this if the order matters
+- Promises are not [pos](https://github.com/lauraturk/lt-byob/blob/master/db/seeds/test/test_seed.js#L38), they are amazing!
+- Would want to see more response messages that are descriptive when the user requests something that is incorrect or does not exist
+- [This route](https://github.com/lauraturk/lt-byob/blob/master/test/routes.spec.js#L363) is not totally RESTful - all you want to do is POST to `/api/v1/text_samples`
+- Were you having any [CORS](https://github.com/lauraturk/lt-byob/blob/master/server.js#L18) issues?...
+- You don't want [one specific route](https://github.com/lauraturk/lt-byob/blob/master/server.js#L124) to handle query parameters - the route should look like `/api/v1/:table`, and if the user specifies query params, then handle them
+- [This is clever](https://github.com/lauraturk/lt-byob/blob/master/server.js#L138), but dangerous - you're giving access to all table in your database by [not checking the table](https://github.com/lauraturk/lt-byob/blob/master/server.js#L141) and just trusting the user
+  - In this app, it's not a big deal, but imagine if you had a users table
+- A switch statement might be better [here](https://github.com/lauraturk/lt-byob/blob/master/server.js#L256-L264) because you are checking for a set of discrete values
+- Could definitely use some refactoring/extraction in [this route](https://github.com/lauraturk/lt-byob/blob/master/server.js#L271)
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 125 / 150

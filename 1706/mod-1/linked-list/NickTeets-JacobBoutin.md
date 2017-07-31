@@ -1,6 +1,12 @@
 ## Student:
-## Evaluator:
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+Feedback given in person, general overview:
+- Great work on GitHub
+- code in a great place to refactor!
+- HTML and CSS needs polish
+- JS seemed to have them most care put into it
 
 ## Functional Expectations
 
@@ -12,49 +18,31 @@
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional
+* Proficient
 
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 

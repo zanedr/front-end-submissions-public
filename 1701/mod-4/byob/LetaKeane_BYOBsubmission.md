@@ -73,30 +73,51 @@ It might just be the adrenaline backwash after staying up very late last night, 
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**8 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+
+* I'd like a formatted example of what kind of JSON object I need to pass through for POST requests. The list of properties is nice but let's make it a little more readable. You can make a block of code by doing a line of 3 grave marks before and after the code block.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**35 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* [This](https://github.com/letakeane/faceEmotionAPI/blob/master/test/routes.spec.js#L51) is a scenario where we would also use environment variables rather than hard-coding the accurate values in. Not a huge deal in this case since the credentials aren't actually  sensitive data but just for future reference.
+
+* [Clever](https://github.com/letakeane/faceEmotionAPI/blob/master/test/routes.spec.js#L81) though I'm a little weary of adding that line for the sake of making additional assertions that depend on order. It's just one extra step that makes your testing responses just slightly different than the responses you'll be getting in development and production, and we want to keep them as similar as possible.
+
+* Your recordit for linting shows you linting your server.js file but in the future I'd also include your test files in that linting process ;)
+
+* Not sure which linter configuration you're using as your repo seems to have eslintrc and jshintrc files, I'd go remove whichever one you're not using.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**25 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+* [Nooooo :(](https://github.com/letakeane/faceEmotionAPI/blob/master/server.js#L7)
+
+* We don't want to fallback to [production](https://github.com/letakeane/faceEmotionAPI/blob/master/server.js#L4) here, development is better. I'm assuming you're doing that so you could shorten [this](https://github.com/letakeane/faceEmotionAPI/blob/master/server.js#L21-L23) conditional and not have it complain about not having a `config`. This is another instance where you would set environment variables for secret, username and password and fallback to the config values in your `.env` file.
+
+* I'd take [this](https://github.com/letakeane/faceEmotionAPI/blob/master/server.js#L56-L76) endpoint out all together, as it was only needed for getting the JWT in the first place. Doing `jwt.sign()` and console logging the value the first run of your server would have done the same trick.
+
+* [Ahhhh](https://github.com/letakeane/faceEmotionAPI/blob/master/server.js#L108)
+
+* [This](https://github.com/letakeane/faceEmotionAPI/blob/master/server.js#L111-L167) is a big, gnarly conditional. This could be refactored to loop through all the `Object.keys()` of `request.query` and just chain any of those keys that exist as where conditions. You could do that chaining with [whereIn](http://knexjs.org/#Builder-whereIn)
+
+* I wouldn't include the races/genders/ages words in the URLs for [these endpoints](https://github.com/letakeane/faceEmotionAPI/blob/master/server.js#L170-L216). If you're returning faces, end the URL at faces and use query params for the genders/ages/races.
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 128 / 150

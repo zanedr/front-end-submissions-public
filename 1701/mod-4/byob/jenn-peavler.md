@@ -7,10 +7,10 @@
 # Basics
 
 #### Link to the Github Repository for the Project
-[BYOB]('https://github.com/jennPeavler/build-your-own-backend')
+[BYOB](https://github.com/jennPeavler/build-your-own-backend)
 
 #### Link to the Deployed Application
-[Heroku]('https://build-a-backend-jenn-peavler.herokuapp.com/api/v1/countries')
+[Heroku](https://build-a-backend-jenn-peavler.herokuapp.com/api/v1/countries)
 
 
 ## Completion
@@ -18,7 +18,7 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-Yes.  I was able to write the functionality to hit all required enpoints and they are documented in the README.
+Yes.  I was able to write the functionality to hit all required endpoints and they are documented in the README.
 
 * Seeded a database with at least 2 tables and 1 relationship?
 Yes.  I seeded a table that has a list of countries.  The another table was seeded with a list of malnutrition data points.
@@ -26,7 +26,7 @@ Each data point in the second table is related to/refers to a country entry.  Ea
 several malnutrition data points.  So the tables are a one to many relationship.  One country to many malnutrition data points.
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-Yes.  10 enpoints were implemented and return appropriate status codes.
+Yes.  10 endpoints were implemented and return appropriate status codes.
 
 * Secured at least 4 endpoints with JWTs?
 Yes.  All of my POST/PATCH/DELETE requests are secured with a JWT.  That is 6 endpoints.
@@ -78,35 +78,56 @@ to refactor it.
 
 Anything else you wanna say
 
-Thank you.  I really enjoyed this project!  I look forward to putting a foward face on it!  The remaining question is just
+Thank you.  I really enjoyed this project!  I look forward to putting a forward face on it!  The remaining question is just
 the one that I discussed earlier about my circleCI branch passing in circleCI however when it is pushed to GH and merged
 to master, master branch is failing in circleCI with the error message that I slacked to you.  Thanks!
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+* **7 points** -  The README includes documentation for all available endpoints and how to use them. Instructor can easily follow the documentation for using the API.
+
+- Use some markdown formatting to help styling of formatted code or bulleted lists because there are big blocks of text that can be difficult to read
+- Would like to see one helpful part of API documentation which is showing sample output from an API call
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+* **60 points** - Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+* **30 points** - Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+- [This](https://github.com/jennPeavler/build-your-own-backend/blob/master/tests/routes.spec.js#L13-L19) is interesting, I like the idea of it, but you are calling the function every time you want to check contents of the array. One other way you could do this is sort the array by the ID value, then you know the order that the elements should be in
+- Don't forget to check for the type of response, in [this case](https://github.com/jennPeavler/build-your-own-backend/blob/master/tests/routes.spec.js#L38) JSON
+- [For this case](https://github.com/jennPeavler/build-your-own-backend/blob/master/tests/routes.spec.js#L131), we might have said you should respond with a 404 if a table is empty, but you should just return a successful response with an empty array
+- [Name your tests](https://github.com/jennPeavler/build-your-own-backend/blob/master/tests/routes.spec.js#L153) with the API route, not the function name since the function name could change and it could be only one part of that endpoint
+- Watch spelling in test file ("insesnsitive" and "enpoint")
+- You should not be sending the [primary key in a POST](https://github.com/jennPeavler/build-your-own-backend/blob/master/tests/routes.spec.js#L341) - the primary key value should be left up to the database to decide
+  - The place where you can hard code primary keys is your test seed file, but that is it - any subsequent requests made to the test database should be up to the DB to determine the primary key
+- Overall, good happy and sad path test coverage
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+* **30 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+- Using the country name as [the foreign key](https://github.com/jennPeavler/build-your-own-backend/blob/master/db/migrations/20170708090528_initial.js#L14-L15) can be dangerous because what happens if the country name changes? You would have to find all instances of that country and change them in the DB. Usually, you will always use the primary key ID as the foreign key in another table.
+- Great job refactoring your server file and putting routes into a router file, I can see the VERB-related files getting large and confusing to read in a large application, but this is a good attempt at organization
+- One place where you refactored that could be weird with more endpoints is the `getOneResource`, the `iso_code` query parameter is very specific to certain endpoints, and the `getOneResource` could be used for many endpoints
+- The nesting of your resources is  little backwards. For instance `/api/v1/countries/malnutrition_data/:name` gets the malnutrition data for a given country with a name specified
+  - What you want to do is nest the resources like: `/api/v1/countries/:name/malnutrition_data`, the `:name` in this route is known as a "slug" since it's not using the primary key ID, and then for that specific country, we get the malnutrition data
+- For the route `/malnutrition_data/:country_name/:year`, this works but is not a common practice at all. Usually, you will submit a POST to `/malnutrition_data` with the country_name and year in the body of the request
+- Careful with overriding variables after you have changed the data, [like here](https://github.com/jennPeavler/build-your-own-backend/blob/master/Server/postRequests.js#L12-L13), debugging this can be difficult because the state of the variable is changing
+- [These multi-line ternaries](https://github.com/jennPeavler/build-your-own-backend/blob/master/Server/postRequests.js#L16-L17) are notoriously hard to read for other developers and yourself down the line, get away from them after they extend beyond one line. After one line, readability drops drastically.
+- Be sure to include `catch` on [promises](https://github.com/jennPeavler/build-your-own-backend/blob/master/Server/patchRequests.js#L81) to be able to handle the error
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 127 / 150

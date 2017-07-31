@@ -81,25 +81,37 @@ Feels great to have finally done it.
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**8 points**: The README includes documentation for all available endpoints and how to use them. Instructor can follow the documentation for using the API but has to do some parsing.
+
+* It would be nice to format the write requests with the data they require in a JSON object rather than just listing the property names. This would allow you to also specify the data type for each property which can sometimes be difficult to guess.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Project has a running test suite that covers most happy and sad paths for each endpoint. Error handling has been implemented but does not cover all possible scenarios or is unhelpful for the end-user. Linter has some errors that need fixing.
+
+* Tests aren't happy
+
+* Don't hardcode [tokens](https://github.com/DBULL7/VoterData/blob/master/test/routes.spec.js#L233). This should be saved as an environment variable and accessed through `process.env`.
+
+* It would be nice to send back what voter the user was trying to get in an error message like [this](https://github.com/DBULL7/VoterData/blob/master/server/controllers/voterController.js#L42)
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* I'd file issues for comments like [this](https://github.com/DBULL7/VoterData/blob/master/server/controllers/districtController.js#L59) rather than storing them directly in your codebase
+
+* There's an ES6 shorthand for [this](https://github.com/DBULL7/VoterData/blob/master/server/controllers/districtController.js#L114-L123)
 
 
 ## Project is worth 150 points
@@ -107,4 +119,5 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 113 / 150
+

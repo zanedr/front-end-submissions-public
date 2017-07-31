@@ -1,59 +1,46 @@
 ## Student:
-## Evaluator:
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- feeling a sticky on using Github
+- need to work on comfort with GH, but making good progress with it!
+- nice solution for the read counters! NEAT!
+- Really nicely done, great teamwork
+- good job tackling some refactoring!
+- very clean HTML and CSS
+- GOOD JOB!
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-* Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient    
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
 
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
