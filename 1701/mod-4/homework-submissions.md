@@ -152,14 +152,15 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Zane Russell
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/zanedr/express-tutorial)
+* [Promise Practice Exercises](https://repl.it/JshE)
 * [CircleCI Passing Stage Build](http://imgur.com/SnYWzum)
 * [CircleCI Passing Production Build](http://imgur.com/Q9kjfRV)
 * [Heroku Pipeline](http://imgur.com/IxY3vZ4)
 * [Github Repo JetFuel - Staging Branch with validate-nlf file](https://github.com/Adamj1232/Jet-Fuel/tree/staging)
-* [JWT Tutorial]()
-* [Pattern Party]()
+* [Websockets](https://github.com/zanedr/websockets-practice)
+* [JWT Tutorial](https://github.com/zanedr/jwt-tutorial)
+* [Pattern Party](https://github.com/zanedr/pattern-party)
 
 ### Dave Hubertus
 
