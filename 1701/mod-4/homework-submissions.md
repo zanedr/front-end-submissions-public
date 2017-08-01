@@ -126,8 +126,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
 * [CircleCI & Git Hooks](https://gist.github.com/DBULL7/5d344f5432a8703902f217deba13772d)
-* [JWT Tutorial]()
-* [Pattern Party]()
+* [JWT Tutorial](https://github.com/DBULL7/jwt-tutorial)
+* [Pattern Party](https://github.com/DBULL7/pttrn-party)
 * [Websockets Chat Room](https://github.com/DBULL7/socket.io-chatroom)
 
 ### Christopher Jordan
