@@ -64,7 +64,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://gist.github.com/devthehuman/53859cabf66b88d23b283b361327f9f3)
 * [CircleCI & Git Hooks](https://gist.github.com/devthehuman/4dc0004d8ba60ec7019e2f4fedca6e76)
 * [JWT Tutorial](https://github.com/devthehuman/jwt-tutorial)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/devthehuman/pattrn-party)
 * [Web Socket Tutorial](https://github.com/devthehuman/web-socket-workshop)
 
 ### Laura Turk
